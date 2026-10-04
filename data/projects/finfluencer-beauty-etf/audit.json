@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-04",
   "target": 25000,
-  "eligible_observed_units": 5618,
-  "exported_references": 5618,
-  "remaining": 19382,
+  "eligible_observed_units": 5901,
+  "exported_references": 5901,
+  "remaining": 19099,
   "classes": {
-    "core3D": 5618
+    "core3D": 5901
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "96263c08846932d615fb719e337b4c42e8c2989bf8bce3c3eefcc65a6f634ed9",
+    "driver_sha256": "b3359dd1868dc6e3d7310d5ada691dd43eb13cff1416dcc88210be558b487729",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -40,13 +40,19 @@
       "reference-index/3d_references_04751_05000.md",
       "reference-index/3d_references_05001_05250.md",
       "reference-index/3d_references_05251_05500.md",
-      "reference-index/3d_references_05501_05618.md"
+      "reference-index/3d_references_05501_05750.md",
+      "reference-index/3d_references_05751_05901.md"
     ],
-    "unlinked_markdown_omitted": 14
+    "unlinked_markdown_omitted": 16
   },
   "exported_per_ledger": {
     "references_visual.jsonl": 207,
+    "references_visual_icons8_cutie.jsonl": 12,
     "references_visual_icons8_fuzzy.jsonl": 9,
+    "references_visual_icons8_glassy.jsonl": 10,
+    "references_visual_icons8_kindy.jsonl": 1,
+    "references_visual_icons8_sugary_animals.jsonl": 7,
+    "references_visual_icons8_sugary_botanical.jsonl": 23,
     "references_visual_iconscout_animals.jsonl": 21,
     "references_visual_iconscout_animals2.jsonl": 10,
     "references_visual_iconscout_aroma.jsonl": 11,
@@ -74,6 +80,7 @@
     "references_visual_iconscout_spa2.jsonl": 10,
     "references_visual_iconscout_store.jsonl": 2,
     "references_visual_iconscout_vanity.jsonl": 9,
+    "references_visual_meshy_cute.jsonl": 24,
     "references_visual_product_images.jsonl": 3,
     "references_visual_prompthero.jsonl": 17,
     "references_visual_prompthero_clay.jsonl": 6,
@@ -87,7 +94,7 @@
     "references_visual_stockcake_foam.jsonl": 5,
     "references_visual_stockcake_hairclip.jsonl": 1,
     "references_visual_stockcake_honey.jsonl": 14,
-    "references_visual_stockcake_lipcare.jsonl": 34,
+    "references_visual_stockcake_lipcare.jsonl": 33,
     "references_visual_stockcake_lotus.jsonl": 53,
     "references_visual_stockcake_product.jsonl": 61,
     "references_visual_stockcake_puff.jsonl": 55,
@@ -98,7 +105,7 @@
     "references_visual_stockcake_softspa.jsonl": 35,
     "references_visual_stockcake_toys.jsonl": 41,
     "references_visual_stockcake_vanity.jsonl": 13,
-    "shots_plus_3d_images.jsonl": 654,
+    "shots_plus_3d_images.jsonl": 671,
     "shots_plus_3d_studio311.jsonl": 13,
     "shots_plus_higgsfield.jsonl": 31,
     "shots_plus_motion.jsonl": 27,
@@ -111,7 +118,9 @@
     "shots_root_3d_stockcake_mcp.jsonl": 68,
     "shots_root_3d_stockcake_mcp_beauty_accessories.jsonl": 49,
     "shots_root_3d_stockcake_mcp_beauty_bloom_shapes.jsonl": 57,
-    "shots_root_3d_stockcake_mcp_beauty_care.jsonl": 129,
+    "shots_root_3d_stockcake_mcp_beauty_botanical_gems.jsonl": 42,
+    "shots_root_3d_stockcake_mcp_beauty_candy_flow.jsonl": 59,
+    "shots_root_3d_stockcake_mcp_beauty_care.jsonl": 128,
     "shots_root_3d_stockcake_mcp_beauty_careprops.jsonl": 42,
     "shots_root_3d_stockcake_mcp_beauty_charms.jsonl": 154,
     "shots_root_3d_stockcake_mcp_beauty_charms_soft.jsonl": 16,
@@ -119,7 +128,7 @@
     "shots_root_3d_stockcake_mcp_beauty_cozyroom.jsonl": 49,
     "shots_root_3d_stockcake_mcp_beauty_cozytoy.jsonl": 34,
     "shots_root_3d_stockcake_mcp_beauty_fantasy.jsonl": 59,
-    "shots_root_3d_stockcake_mcp_beauty_flower_soft.jsonl": 100,
+    "shots_root_3d_stockcake_mcp_beauty_flower_soft.jsonl": 99,
     "shots_root_3d_stockcake_mcp_beauty_fruit_toys.jsonl": 74,
     "shots_root_3d_stockcake_mcp_beauty_garden_rooms.jsonl": 48,
     "shots_root_3d_stockcake_mcp_beauty_jewels.jsonl": 67,
@@ -128,18 +137,19 @@
     "shots_root_3d_stockcake_mcp_beauty_miniature.jsonl": 21,
     "shots_root_3d_stockcake_mcp_beauty_pack_soft.jsonl": 12,
     "shots_root_3d_stockcake_mcp_beauty_pastel.jsonl": 50,
+    "shots_root_3d_stockcake_mcp_beauty_petals_toys.jsonl": 52,
     "shots_root_3d_stockcake_mcp_beauty_plush.jsonl": 46,
     "shots_root_3d_stockcake_mcp_beauty_props.jsonl": 20,
     "shots_root_3d_stockcake_mcp_beauty_round.jsonl": 53,
     "shots_root_3d_stockcake_mcp_beauty_roundcare.jsonl": 18,
     "shots_root_3d_stockcake_mcp_beauty_similar.jsonl": 3,
     "shots_root_3d_stockcake_mcp_beauty_soft.jsonl": 53,
-    "shots_root_3d_stockcake_mcp_beauty_softworld.jsonl": 106,
+    "shots_root_3d_stockcake_mcp_beauty_softworld.jsonl": 105,
     "shots_root_3d_stockcake_mcp_beauty_sweetcare.jsonl": 8,
     "shots_root_3d_stockcake_mcp_beauty_tint.jsonl": 23,
     "shots_root_3d_stockcake_mcp_beauty_vanity_soft.jsonl": 9,
     "shots_root_3d_stockcake_mcp_beauty_world.jsonl": 71,
-    "shots_root_3d_stockcake_mcp_characters.jsonl": 120,
+    "shots_root_3d_stockcake_mcp_characters.jsonl": 119,
     "shots_root_3d_stockcake_mcp_focused.jsonl": 1,
     "shots_root_3d_studios.jsonl": 8,
     "shots_root_ai_beauty.jsonl": 81,
@@ -153,7 +163,7 @@
     "shots_shuka_lexica.jsonl": 393,
     "shots_shuka_motion.jsonl": 73,
     "shots_shuka_runway.jsonl": 152,
-    "shots_shuka_spline.jsonl": 15,
+    "shots_shuka_spline.jsonl": 56,
     "shots_visual_diffuse.jsonl": 44,
     "shots_visual_faceless.jsonl": 54,
     "shots_visual_runway.jsonl": 195,
@@ -162,27 +172,27 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "a8552b5f82d773824b951dbfdd6d4ec89d0500cb8072b214550841924f3c1615",
-    "shots_master.jsonl": "9324bb24bb75ca75f10880fc98b2f0a0474efaf5b8dbe2493c54c177d4ffe9bf"
+    "shot_audit.json": "b5d67049c0e3fbd7f346e59632642a9c46a334bceb033f856a474572c26c4a05",
+    "shots_master.jsonl": "9d6af44cdb32f27dcf72f1fc85241b6d17529ff92a6b27392930598ed734f0b9"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 26743,
-    "markdown_local_or_unpublished_links_replaced": 8456
+    "local_artifacts_replaced": 28114,
+    "markdown_local_or_unpublished_links_replaced": 8789
   },
   "source_audit": {
-    "updated_local": "2026-10-04T19:04:17",
+    "updated_local": "2026-10-04T19:55:39",
     "target": 25000,
-    "eligible_observed_units": 5618,
-    "remaining": 19382,
-    "raw_rows": 16798,
-    "excluded_rows": 11180,
-    "observed_sources": 4388,
+    "eligible_observed_units": 5901,
+    "remaining": 19099,
+    "raw_rows": 17499,
+    "excluded_rows": 11598,
+    "observed_sources": 4671,
     "classes": {
-      "core3D": 5618
+      "core3D": 5901
     },
-    "historical_broad_observed_units": 8330,
+    "historical_broad_observed_units": 8613,
     "historical_broad_classes": {
-      "core3D": 5623,
+      "core3D": 5906,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -300,12 +310,12 @@
       },
       {
         "file": "shots_plus_3d_images.jsonl",
-        "raw_rows": 3326,
-        "eligible": 654,
-        "excluded": 2672,
-        "sources": 490,
+        "raw_rows": 3492,
+        "eligible": 671,
+        "excluded": 2821,
+        "sources": 507,
         "classes": {
-          "core3D": 654
+          "core3D": 671
         }
       },
       {
@@ -407,13 +417,33 @@
         }
       },
       {
+        "file": "shots_root_3d_stockcake_mcp_beauty_botanical_gems.jsonl",
+        "raw_rows": 77,
+        "eligible": 42,
+        "excluded": 35,
+        "sources": 42,
+        "classes": {
+          "core3D": 42
+        }
+      },
+      {
+        "file": "shots_root_3d_stockcake_mcp_beauty_candy_flow.jsonl",
+        "raw_rows": 73,
+        "eligible": 59,
+        "excluded": 14,
+        "sources": 59,
+        "classes": {
+          "core3D": 59
+        }
+      },
+      {
         "file": "shots_root_3d_stockcake_mcp_beauty_care.jsonl",
         "raw_rows": 186,
-        "eligible": 129,
-        "excluded": 57,
-        "sources": 129,
+        "eligible": 128,
+        "excluded": 58,
+        "sources": 128,
         "classes": {
-          "core3D": 129
+          "core3D": 128
         }
       },
       {
@@ -489,11 +519,11 @@
       {
         "file": "shots_root_3d_stockcake_mcp_beauty_flower_soft.jsonl",
         "raw_rows": 171,
-        "eligible": 100,
-        "excluded": 71,
-        "sources": 100,
+        "eligible": 99,
+        "excluded": 72,
+        "sources": 99,
         "classes": {
-          "core3D": 100
+          "core3D": 99
         }
       },
       {
@@ -577,6 +607,16 @@
         }
       },
       {
+        "file": "shots_root_3d_stockcake_mcp_beauty_petals_toys.jsonl",
+        "raw_rows": 83,
+        "eligible": 52,
+        "excluded": 31,
+        "sources": 52,
+        "classes": {
+          "core3D": 52
+        }
+      },
+      {
         "file": "shots_root_3d_stockcake_mcp_beauty_plush.jsonl",
         "raw_rows": 95,
         "eligible": 46,
@@ -639,11 +679,11 @@
       {
         "file": "shots_root_3d_stockcake_mcp_beauty_softworld.jsonl",
         "raw_rows": 301,
-        "eligible": 106,
-        "excluded": 195,
-        "sources": 106,
+        "eligible": 105,
+        "excluded": 196,
+        "sources": 105,
         "classes": {
-          "core3D": 106
+          "core3D": 105
         }
       },
       {
@@ -689,11 +729,11 @@
       {
         "file": "shots_root_3d_stockcake_mcp_characters.jsonl",
         "raw_rows": 163,
-        "eligible": 120,
-        "excluded": 43,
-        "sources": 120,
+        "eligible": 119,
+        "excluded": 44,
+        "sources": 119,
         "classes": {
-          "core3D": 120
+          "core3D": 119
         }
       },
       {
@@ -788,12 +828,12 @@
       },
       {
         "file": "shots_shuka_spline.jsonl",
-        "raw_rows": 40,
-        "eligible": 15,
-        "excluded": 25,
-        "sources": 15,
+        "raw_rows": 156,
+        "eligible": 56,
+        "excluded": 100,
+        "sources": 56,
         "classes": {
-          "core3D": 15
+          "core3D": 56
         }
       },
       {
@@ -807,6 +847,16 @@
         }
       },
       {
+        "file": "references_visual_icons8_cutie.jsonl",
+        "raw_rows": 50,
+        "eligible": 12,
+        "excluded": 38,
+        "sources": 12,
+        "classes": {
+          "core3D": 12
+        }
+      },
+      {
         "file": "references_visual_icons8_fuzzy.jsonl",
         "raw_rows": 31,
         "eligible": 9,
@@ -814,6 +864,62 @@
         "sources": 9,
         "classes": {
           "core3D": 9
+        }
+      },
+      {
+        "file": "references_visual_icons8_glassy.jsonl",
+        "raw_rows": 14,
+        "eligible": 10,
+        "excluded": 4,
+        "sources": 10,
+        "classes": {
+          "core3D": 10
+        }
+      },
+      {
+        "file": "references_visual_icons8_hygge.jsonl",
+        "raw_rows": 5,
+        "eligible": 0,
+        "excluded": 5,
+        "sources": 0,
+        "classes": {}
+      },
+      {
+        "file": "references_visual_icons8_kindy.jsonl",
+        "raw_rows": 16,
+        "eligible": 1,
+        "excluded": 15,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_visual_icons8_rooms.jsonl",
+        "raw_rows": 15,
+        "eligible": 0,
+        "excluded": 15,
+        "sources": 0,
+        "classes": {}
+      },
+      {
+        "file": "references_visual_icons8_sugary_animals.jsonl",
+        "raw_rows": 9,
+        "eligible": 7,
+        "excluded": 2,
+        "sources": 7,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_visual_icons8_sugary_botanical.jsonl",
+        "raw_rows": 27,
+        "eligible": 23,
+        "excluded": 4,
+        "sources": 23,
+        "classes": {
+          "core3D": 23
         }
       },
       {
@@ -1087,6 +1193,16 @@
         }
       },
       {
+        "file": "references_visual_meshy_cute.jsonl",
+        "raw_rows": 50,
+        "eligible": 24,
+        "excluded": 26,
+        "sources": 24,
+        "classes": {
+          "core3D": 24
+        }
+      },
+      {
         "file": "references_visual_product_images.jsonl",
         "raw_rows": 334,
         "eligible": 3,
@@ -1227,11 +1343,11 @@
       {
         "file": "references_visual_stockcake_lipcare.jsonl",
         "raw_rows": 49,
-        "eligible": 34,
-        "excluded": 15,
-        "sources": 34,
+        "eligible": 33,
+        "excluded": 16,
+        "sources": 33,
         "classes": {
-          "core3D": 34
+          "core3D": 33
         }
       },
       {
@@ -1359,7 +1475,7 @@
     ],
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
-    "traditional_or_native_3d_comparison_units": 711,
-    "directly_observed_hybrid_comparison_units": 1701
+    "traditional_or_native_3d_comparison_units": 728,
+    "directly_observed_hybrid_comparison_units": 1729
   }
 }
