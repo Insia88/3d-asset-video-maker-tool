@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "project_id": "finfluencer-beauty-etf",
+  "status": "planned_awaiting_reference_collection",
+  "generation_provider": "Higgsfield MCP",
+  "collection_gate": {
+    "audit_path": "data/projects/finfluencer-beauty-etf/audit.json",
+    "target_observed_unique_3d_units": 25000,
+    "condition": "eligible_observed_units >= target and data quality checks pass"
+  },
+  "aspect_ratio": "9:16",
+  "palette": {
+    "cream": "#F5EBDD",
+    "lavender": "#B9A1DA",
+    "mint": "#A7CDBE",
+    "peach": "#EEB4A2",
+    "wood": "#9B6D4D",
+    "sunglasses": "#292335"
+  },
+  "palette_basis": "Original production proposal; not PLUS official brand colors",
+  "shared_constraints": [
+    "Use clearly volumetric stylized 3D forms, rounded edges, and contact shadows.",
+    "Keep the subject, props, background, and lighting in one consistent stylized 3D world.",
+    "Use matte clay for the mascot and furniture, restrained gloss for lenses, and translucent glass for selected products and the basket.",
+    "Use a warm rear-side key light, stable object positions, and clear caption space.",
+    "No generated text, logos, financial numbers, or company names.",
+    "Use an original product mascot rather than copying an existing character or outfit.",
+    "The five company tokens are a visual example, not verified ETF holdings."
+  ],
+  "generation_records": [],
+  "masters": [
+    {
+      "id": "BE-M01",
+      "name": "독자 뷰티 마스코트",
+      "depends_on": [],
+      "reference_role": "single clear character identity master",
+      "prompt": "An original cute stylized 3D beauty mascot with an oversized rounded cream head inspired by a cosmetic cream jar and a tiny short body, a smooth lavender lid-shaped hat, oversized dark rounded sunglasses, tiny mint shoes, and short rounded arms and legs. Soft matte clay body, restrained glossy lenses, clearly volumetric forms and grounded contact shadows. Gentle confident expression. One single unobstructed full-body three-quarter view on a clean cream studio background. Clearly separated hands, shoes, hat, and sunglasses. Vertical composition with caption space. No text or logos.",
+      "review": ["One character in one full-body view", "Hands and feet distinct", "Hat, sunglasses, and shoes match the design", "Clear side surfaces and ground contact"],
+      "next_action_after_review": "Create a character Element using the actual completed image media ID"
+    },
+    {
+      "id": "BE-M02",
+      "name": "마스코트 각도·표정·소품",
+      "depends_on": ["BE-M01", "character_element"],
+      "reference_role": "locked identity from completed BE-M01",
+      "prompt": "Using the locked original cream-jar beauty mascot identity, present consistent front, three-quarter, side, and back views plus a small expression and accessory sheet. Preserve the exact large cream head, short rounded body, lavender lid-shaped hat, dark rounded sunglasses, mint shoes, and body proportions. Include a small rounded pouch and a cream spatula as separate accessories. One coherent stylized 3D model sheet on a clean cream background, soft warm lighting, clearly separated panels with generous spacing. No text or logos.",
+      "review": ["Same identity in every panel", "Accessories consistent in size", "No extra characters or merged limbs", "Whole sheet is one deliverable"]
+    },
+    {
+      "id": "BE-M03",
+      "name": "화장품 3종",
+      "depends_on": [],
+      "reference_role": "product design masters",
+      "prompt": "Three original cute stylized 3D cosmetic products: one rounded cream jar with a lavender lid, one short thick lipstick in a cream and peach case, and one rounded mint glass perfume bottle. Soft rounded edges, matte cream packaging, restrained translucent glass and gentle highlights. Clearly show the separate body and lid of the same cream jar in open and closed states as product variations, with consistent geometry. Readable three-quarter product view on a clean cream studio floor, warm rear-side light and contact shadows. No text or logos.",
+      "review": ["Three product designs", "Jar lid fits the same jar body", "No additional brands or labels", "Readable silhouette and material separation"]
+    },
+    {
+      "id": "BE-M04",
+      "name": "미니어처 화장대",
+      "depends_on": ["BE-M01", "character_element", "BE-M03"],
+      "reference_role": "locked character and products in one environment master",
+      "prompt": "A cute stylized 3D miniature beauty vanity room with one rounded cream vanity, one matching stool, one large oval mirror, a warm wooden floor, and a simple cream wall. Warm light enters from a window behind and to one side. Use the locked original cream-jar mascot and the three locked lavender, mint, and cream cosmetic products. Clearly readable scale contrast between the tiny mascot and larger cosmetics. Soft matte furniture, restrained glass highlights, consistent contact shadows. Calm uncluttered three-quarter vertical composition with caption space. No text or logos.",
+      "review": ["One vanity, stool, mirror and consistent window position", "Products keep locked geometry", "Warm light direction consistent", "Clear caption area"],
+      "next_action_after_review": "Create an environment reuse Element from the actual completed image"
+    },
+    {
+      "id": "BE-M05",
+      "name": "같은 화장대의 탑뷰",
+      "depends_on": ["BE-M04"],
+      "reference_role": "completed environment master as an image reference",
+      "prompt": "Show a top view of the exact locked miniature beauty vanity room. Preserve the same vanity, stool, oval mirror, warm wooden floor, window location, mascot, three cosmetic product designs, colors, object counts, and object positions from the completed room master. Change only the camera viewpoint. Maintain consistent stylized 3D depth, warm rear-side lighting and grounded contact shadows. Vertical composition with readable spacing. No text or logos.",
+      "review": ["Coordinates match the room master", "Same object counts and geometry", "Only viewpoint changes"]
+    },
+    {
+      "id": "BE-M06",
+      "name": "투명 ETF 바스켓",
+      "depends_on": [],
+      "reference_role": "basket and company-token design master",
+      "prompt": "An original cute stylized 3D transparent basket with rounded rectangular corners and one large soft handle, containing five separate small geometric company tokens with distinct readable shapes in cream, lavender, mint and peach. Each matte token remains individually visible through the thick glass shell. Clearly separate the shell and internal tokens. Soft warm studio lighting, restrained glass highlights, grounded contact shadows, clean cream floor and vertical composition. No charts, text, logos, or percentages.",
+      "review": ["Five separate tokens", "Shell and contents readable", "Consistent token scale", "No implied performance chart"]
+    },
+    {
+      "id": "BE-M07",
+      "name": "산업 역할 오브젝트",
+      "depends_on": ["BE-M03"],
+      "reference_role": "locked product style and palette",
+      "prompt": "Four original stylized 3D role objects placed on one low rounded cream platform: a rounded translucent ingredient droplet, a simple matte manufacturing module, a cosmetic brand package matching the locked product designs, and a rounded distribution box. Distinct large basic shapes with clear spacing and fixed positions, no tiny mechanical details. Soft warm light, consistent contact shadows, matte cream and lavender bodies with restrained mint glass. Vertical readable composition. No text, logos, arrows, or numbers.",
+      "review": ["Four visibly different role objects", "Palette and product family consistent", "No fabricated real factory details", "Fixed positions for later labels"]
+    },
+    {
+      "id": "BE-M08",
+      "name": "비교·위험 설명 세트",
+      "depends_on": ["BE-M06"],
+      "reference_role": "locked basket and company-token geometry",
+      "prompt": "A restrained stylized 3D comparison set using the locked transparent rounded basket and the same five company-token designs. Arrange one small rounded balance and a few separate small cost tokens beside the basket. Keep company tokens equal in scale, with some grouped to one side to show composition concentration without implying a return rate. Clean cream stage, consistent matte and glass material roles, soft warm lighting, clear spacing and contact shadows. No graphs, text, logos, percentages, or numeric labels.",
+      "review": ["Token size does not imply investment returns", "Cost objects separate from holdings", "Basket geometry matches BE-M06", "Space reserved for verified explanatory labels"]
+    }
+  ]
+}
