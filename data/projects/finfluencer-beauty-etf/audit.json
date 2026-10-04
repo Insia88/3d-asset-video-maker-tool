@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-04",
   "target": 25000,
-  "eligible_observed_units": 6474,
-  "exported_references": 6474,
-  "remaining": 18526,
+  "eligible_observed_units": 6598,
+  "exported_references": 6598,
+  "remaining": 18402,
   "classes": {
-    "core3D": 6474
+    "core3D": 6598
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "501581c81e022cef0d7234567cf2674b84309d9bc737578f0ffc336d9d1f1350",
+    "driver_sha256": "8d8055077361e71d0c782d4e133e5f62505ae3ef336b9f6c5ce7b6d95b0af7e8",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -43,15 +43,18 @@
       "reference-index/3d_references_05501_05750.md",
       "reference-index/3d_references_05751_06000.md",
       "reference-index/3d_references_06001_06250.md",
-      "reference-index/3d_references_06251_06474.md"
+      "reference-index/3d_references_06251_06500.md",
+      "reference-index/3d_references_06501_06598.md"
     ],
-    "unlinked_markdown_omitted": 19
+    "unlinked_markdown_omitted": 20
   },
   "exported_per_ledger": {
     "references_visual.jsonl": 207,
+    "references_visual_getillustrations_abstract.jsonl": 38,
     "references_visual_getillustrations_bloomie.jsonl": 47,
     "references_visual_getillustrations_ceramic.jsonl": 43,
     "references_visual_getillustrations_isometric.jsonl": 37,
+    "references_visual_getillustrations_monster.jsonl": 17,
     "references_visual_icons8_cutie.jsonl": 12,
     "references_visual_icons8_fuzzy.jsonl": 9,
     "references_visual_icons8_glassy.jsonl": 10,
@@ -114,7 +117,7 @@
     "references_visual_stockcake_softspa.jsonl": 35,
     "references_visual_stockcake_toys.jsonl": 40,
     "references_visual_stockcake_vanity.jsonl": 13,
-    "shots_plus_3d_images.jsonl": 724,
+    "shots_plus_3d_images.jsonl": 736,
     "shots_plus_3d_studio311.jsonl": 13,
     "shots_plus_higgsfield.jsonl": 31,
     "shots_plus_motion.jsonl": 27,
@@ -140,9 +143,11 @@
     "shots_root_3d_stockcake_mcp_beauty_cozyroom.jsonl": 49,
     "shots_root_3d_stockcake_mcp_beauty_cozytoy.jsonl": 34,
     "shots_root_3d_stockcake_mcp_beauty_fantasy.jsonl": 59,
+    "shots_root_3d_stockcake_mcp_beauty_feltwindow.jsonl": 33,
     "shots_root_3d_stockcake_mcp_beauty_flower_soft.jsonl": 99,
     "shots_root_3d_stockcake_mcp_beauty_fruit_toys.jsonl": 74,
     "shots_root_3d_stockcake_mcp_beauty_garden_rooms.jsonl": 47,
+    "shots_root_3d_stockcake_mcp_beauty_glowtoys.jsonl": 21,
     "shots_root_3d_stockcake_mcp_beauty_jewels.jsonl": 67,
     "shots_root_3d_stockcake_mcp_beauty_materials.jsonl": 90,
     "shots_root_3d_stockcake_mcp_beauty_micro.jsonl": 36,
@@ -174,11 +179,11 @@
     "shots_root_viral.jsonl": 1,
     "shots_shuka_3d_images.jsonl": 6,
     "shots_shuka_diffuse.jsonl": 93,
-    "shots_shuka_icons8.jsonl": 218,
+    "shots_shuka_icons8.jsonl": 220,
     "shots_shuka_lexica.jsonl": 393,
     "shots_shuka_motion.jsonl": 73,
     "shots_shuka_runway.jsonl": 152,
-    "shots_shuka_spline.jsonl": 115,
+    "shots_shuka_spline.jsonl": 116,
     "shots_visual_diffuse.jsonl": 44,
     "shots_visual_faceless.jsonl": 54,
     "shots_visual_runway.jsonl": 195,
@@ -187,28 +192,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "09f976f1c8f1fa08cae473847a72126586763e1025922ecad419e9a004653e6b",
-    "shots_master.jsonl": "0b832a56a838e716d6bac20aa728f631118095336c63af47f1e638d8ea32d1de"
+    "shot_audit.json": "f3e209709bd128e4a5dc4992479c1d51fe207e4ca6bf58eb2294dd70d60f86f5",
+    "shots_master.jsonl": "60c84630fdd277b63835ce93b9be5e7e579347811539e9ddd671335218fc4886"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 31498,
-    "markdown_local_or_unpublished_links_replaced": 9514,
+    "local_artifacts_replaced": 32388,
+    "markdown_local_or_unpublished_links_replaced": 9673,
     "private_links_withheld": 2
   },
   "source_audit": {
-    "updated_local": "2026-10-04T22:13:22",
+    "updated_local": "2026-10-04T23:37:47",
     "target": 25000,
-    "eligible_observed_units": 6474,
-    "remaining": 18526,
-    "raw_rows": 19125,
-    "excluded_rows": 12651,
-    "observed_sources": 5233,
+    "eligible_observed_units": 6598,
+    "remaining": 18402,
+    "raw_rows": 19494,
+    "excluded_rows": 12896,
+    "observed_sources": 5355,
     "classes": {
-      "core3D": 6474
+      "core3D": 6598
     },
-    "historical_broad_observed_units": 9186,
+    "historical_broad_observed_units": 9310,
     "historical_broad_classes": {
-      "core3D": 6479,
+      "core3D": 6603,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -326,12 +331,12 @@
       },
       {
         "file": "shots_plus_3d_images.jsonl",
-        "raw_rows": 3815,
-        "eligible": 724,
-        "excluded": 3091,
-        "sources": 549,
+        "raw_rows": 3880,
+        "eligible": 736,
+        "excluded": 3144,
+        "sources": 559,
         "classes": {
-          "core3D": 724
+          "core3D": 736
         }
       },
       {
@@ -563,6 +568,16 @@
         }
       },
       {
+        "file": "shots_root_3d_stockcake_mcp_beauty_feltwindow.jsonl",
+        "raw_rows": 113,
+        "eligible": 33,
+        "excluded": 80,
+        "sources": 33,
+        "classes": {
+          "core3D": 33
+        }
+      },
+      {
         "file": "shots_root_3d_stockcake_mcp_beauty_flower_soft.jsonl",
         "raw_rows": 171,
         "eligible": 99,
@@ -590,6 +605,16 @@
         "sources": 47,
         "classes": {
           "core3D": 47
+        }
+      },
+      {
+        "file": "shots_root_3d_stockcake_mcp_beauty_glowtoys.jsonl",
+        "raw_rows": 37,
+        "eligible": 21,
+        "excluded": 16,
+        "sources": 21,
+        "classes": {
+          "core3D": 21
         }
       },
       {
@@ -884,12 +909,12 @@
       },
       {
         "file": "shots_shuka_icons8.jsonl",
-        "raw_rows": 463,
-        "eligible": 218,
-        "excluded": 245,
-        "sources": 218,
+        "raw_rows": 509,
+        "eligible": 220,
+        "excluded": 289,
+        "sources": 220,
         "classes": {
-          "core3D": 218
+          "core3D": 220
         }
       },
       {
@@ -904,12 +929,12 @@
       },
       {
         "file": "shots_shuka_spline.jsonl",
-        "raw_rows": 430,
-        "eligible": 115,
-        "excluded": 315,
-        "sources": 115,
+        "raw_rows": 437,
+        "eligible": 116,
+        "excluded": 321,
+        "sources": 116,
         "classes": {
-          "core3D": 115
+          "core3D": 116
         }
       },
       {
@@ -920,6 +945,16 @@
         "sources": 5,
         "classes": {
           "core3D": 44
+        }
+      },
+      {
+        "file": "references_visual_getillustrations_abstract.jsonl",
+        "raw_rows": 76,
+        "eligible": 38,
+        "excluded": 38,
+        "sources": 38,
+        "classes": {
+          "core3D": 38
         }
       },
       {
@@ -950,6 +985,16 @@
         "sources": 37,
         "classes": {
           "core3D": 37
+        }
+      },
+      {
+        "file": "references_visual_getillustrations_monster.jsonl",
+        "raw_rows": 25,
+        "eligible": 17,
+        "excluded": 8,
+        "sources": 17,
+        "classes": {
+          "core3D": 17
         }
       },
       {
@@ -1621,7 +1666,7 @@
     ],
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
-    "traditional_or_native_3d_comparison_units": 878,
-    "directly_observed_hybrid_comparison_units": 1834
+    "traditional_or_native_3d_comparison_units": 890,
+    "directly_observed_hybrid_comparison_units": 1862
   }
 }
