@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "finfluencer-beauty-etf",
   "reference_format": "sharded_jsonl",
-  "total_references": 7370,
+  "total_references": 7833,
   "shard_count": 8,
   "max_rows_per_shard": 1000,
   "max_bytes_per_shard": 16777216,
@@ -16,44 +16,44 @@
     {
       "path": "part-00002.jsonl",
       "rows": 1000,
-      "sha256": "d25f5d7cf1de7e1e787d8a669a8b359548053d32584cf3d0a517b1749c34e2b6",
-      "bytes": 6934556
+      "sha256": "afd8eca53175c0fa4a305ec50005a131fbf918712841b75cddb11907bf8c8014",
+      "bytes": 7173274
     },
     {
       "path": "part-00003.jsonl",
       "rows": 1000,
-      "sha256": "c36912de46d0c6203b21fd1a170e83b614dc74b76e67d4481e616c0d29851d76",
-      "bytes": 4407791
+      "sha256": "bff212f75dc7e27f8710896c77374f71f3376a2598cc08393e55dc25367cf06e",
+      "bytes": 4684701
     },
     {
       "path": "part-00004.jsonl",
       "rows": 1000,
-      "sha256": "e0366c4eb9d1ba68eaff061d8ca10cfff3e77705961341710c4727f7a67e3321",
-      "bytes": 4051303
+      "sha256": "7c728435b0963fde734729c6a3ef467d0ff157240b84ceba0b46a9e284ef62bb",
+      "bytes": 4057878
     },
     {
       "path": "part-00005.jsonl",
       "rows": 1000,
-      "sha256": "f4091ac935fb1f0e969419bf46fa11ec2a7537fa8facc7846fcad05d6cd88896",
-      "bytes": 6211121
+      "sha256": "c420b251365d2803752e1ec90ac5696a66a166c308e0ca7d5f11d135cd39356b",
+      "bytes": 5961350
     },
     {
       "path": "part-00006.jsonl",
       "rows": 1000,
-      "sha256": "3fbd2c91514168f5e7ab3f5b62b58257dc5da1755bd0eb0d71169add0b76f80a",
-      "bytes": 11403811
+      "sha256": "d0da5ddb1956dee35aaf338832dc04c9ca7203b363c861cfe5338d47ee406098",
+      "bytes": 8384471
     },
     {
       "path": "part-00007.jsonl",
       "rows": 1000,
-      "sha256": "eb42e29707709b648e66b1e10662b4f1d66d2f2b58d76e43bf19387dc1892a62",
-      "bytes": 10295808
+      "sha256": "17f276e566de9a30f48f99612dc2a11d1aaab92b25952233f474724aad5fcc6f",
+      "bytes": 13050717
     },
     {
       "path": "part-00008.jsonl",
-      "rows": 370,
-      "sha256": "dd8882c59a410d009eabbfc35922fb4169e5df63be34706b2ef345d6a73d64c4",
-      "bytes": 3461336
+      "rows": 833,
+      "sha256": "c620c0d061f20b303e65c58a20b36cbe7126117f96c1badafe3dfad005437f52",
+      "bytes": 7978323
     }
   ]
 }
