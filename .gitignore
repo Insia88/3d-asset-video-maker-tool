@@ -1,0 +1,25 @@
+# Third-party research previews and generated media stay in a local cache.
+/media-cache/
+/local-evidence/
+/generated-media/
+/local-config/
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.glb
+*.gltf
+*.blend
+*.fbx
+*.obj
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.env
+.env*
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
