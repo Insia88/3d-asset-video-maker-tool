@@ -1,6 +1,6 @@
 # Higgsfield MCP 기초 에셋 세팅
 
-첫 프로젝트의 기초 에셋은 [설계 문서](research/2026-10-04/17_3D_기초에셋_설계.md)와 [프롬프트 원장](../prompts/beauty-etf/foundation.json)에 연결한다. 현재는 수집 진행 단계다. 실제 생성 작업 ID·Element ID가 있는 결과만 생성 완료로 기록한다.
+첫 프로젝트의 기초 에셋은 [설계 문서](research/2026-10-05/17_3D_기초에셋_설계.md)와 [프롬프트 원장](../prompts/beauty-etf/foundation.json)에 연결한다. 현재는 수집 진행 단계다. 실제 생성 작업 ID·Element ID가 있는 결과만 생성 완료로 기록한다.
 
 ## 실행 순서
 
