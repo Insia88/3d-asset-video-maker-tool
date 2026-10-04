@@ -12,6 +12,7 @@ PLUS KR·슈카친구들 포맷 분석, 25,000개 참고 수집, Higgsfield 에�
 - [슈카친구들·머니코믹스 A–Z 분석](docs/research/2026-10-04/02_슈카친구들_A-Z.md)
 - [고유 3D 참고 색인](docs/research/2026-10-04/36_3D_고유참고_통합색인.md)
 - [뷰티 ETF 기초 에셋 설계](docs/research/2026-10-04/17_3D_기초에셋_설계.md)
+- [보송한 질감·노을빛·창가 구도의 시각 방향](docs/beauty-etf-visual-direction.md)
 - [기초 에셋 프롬프트](prompts/beauty-etf/foundation.json)
 - [반복 작업 순서](docs/workflow.md) · [Higgsfield 세팅 순서](docs/higgsfield-foundation.md)
 
