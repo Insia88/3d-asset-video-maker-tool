@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 8089,
-  "exported_references": 8089,
-  "remaining": 16911,
+  "eligible_observed_units": 8288,
+  "exported_references": 8288,
+  "remaining": 16712,
   "classes": {
-    "core3D": 8089
+    "core3D": 8288
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "9a0e9c43e4c316d12c55773434a429b6cf3ca351b9b8094c960ac5ffbb1ebcda",
+    "driver_sha256": "4e8bfe35eab7445302ef64874ee369550787c5bf9b38e9c41d73199df82f3bf5",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -50,7 +50,8 @@
       "reference-index/3d_references_07251_07500.md",
       "reference-index/3d_references_07501_07750.md",
       "reference-index/3d_references_07751_08000.md",
-      "reference-index/3d_references_08001_08089.md"
+      "reference-index/3d_references_08001_08250.md",
+      "reference-index/3d_references_08251_08288.md"
     ],
     "unlinked_markdown_omitted": 0
   },
@@ -59,8 +60,10 @@
     "references_root_meshy_cozy206.jsonl": 99,
     "references_root_meshy_cute195.jsonl": 89,
     "references_root_meshy_elegant221.jsonl": 48,
+    "references_root_meshy_packaging225.jsonl": 3,
     "references_root_meshy_playful211.jsonl": 88,
     "references_root_meshy_plush171.jsonl": 128,
+    "references_root_meshy_plush_new231.jsonl": 104,
     "references_root_meshy_toys190.jsonl": 63,
     "references_visual.jsonl": 207,
     "references_visual_fab_security214.jsonl": 24,
@@ -83,7 +86,9 @@
     "references_visual_icons8_fuzzy.jsonl": 9,
     "references_visual_icons8_glassy.jsonl": 10,
     "references_visual_icons8_kindy.jsonl": 1,
+    "references_visual_icons8_playful233.jsonl": 8,
     "references_visual_icons8_plush.jsonl": 9,
+    "references_visual_icons8_stickle.jsonl": 13,
     "references_visual_icons8_sugary_animals.jsonl": 7,
     "references_visual_icons8_sugary_botanical.jsonl": 23,
     "references_visual_iconscout_animals.jsonl": 21,
@@ -143,7 +148,7 @@
     "references_visual_stockcake_softspa.jsonl": 35,
     "references_visual_stockcake_toys.jsonl": 40,
     "references_visual_stockcake_vanity.jsonl": 13,
-    "shots_plus_3d_images.jsonl": 997,
+    "shots_plus_3d_images.jsonl": 1048,
     "shots_plus_3d_studio311.jsonl": 13,
     "shots_plus_higgsfield.jsonl": 31,
     "shots_plus_motion.jsonl": 27,
@@ -212,7 +217,7 @@
     "shots_shuka_diffuse.jsonl": 93,
     "shots_shuka_icons8.jsonl": 251,
     "shots_shuka_lexica.jsonl": 393,
-    "shots_shuka_lummi.jsonl": 78,
+    "shots_shuka_lummi.jsonl": 98,
     "shots_shuka_motion.jsonl": 73,
     "shots_shuka_runway.jsonl": 152,
     "shots_shuka_spline.jsonl": 119,
@@ -224,28 +229,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "920c584ca001cd15d47071e97ef4a92aa32c6a8780477e642ae533f92d567c80",
-    "shots_master.jsonl": "0486301824198a341f1440355bb3d5d6f7d1c42bdf46f018d8a5ab4781b9574f"
+    "shot_audit.json": "a5f32cdebff4e684c91d835f1d458faa2ce8035cc5acaa774254776e70a0b993",
+    "shots_master.jsonl": "5430bf055c05b06279e98d1d0530b5a7e3d1698e093e239183243c4f2bc725ee"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 42352,
-    "markdown_local_or_unpublished_links_replaced": 11830,
+    "local_artifacts_replaced": 43557,
+    "markdown_local_or_unpublished_links_replaced": 12181,
     "private_links_withheld": 14
   },
   "source_audit": {
-    "updated_local": "2026-10-05T04:40:26",
+    "updated_local": "2026-10-05T06:17:56",
     "target": 25000,
-    "eligible_observed_units": 8089,
-    "remaining": 16911,
-    "raw_rows": 24749,
-    "excluded_rows": 16660,
-    "observed_sources": 6677,
+    "eligible_observed_units": 8288,
+    "remaining": 16712,
+    "raw_rows": 25442,
+    "excluded_rows": 17154,
+    "observed_sources": 6837,
     "classes": {
-      "core3D": 8089
+      "core3D": 8288
     },
-    "historical_broad_observed_units": 10801,
+    "historical_broad_observed_units": 11000,
     "historical_broad_classes": {
-      "core3D": 8094,
+      "core3D": 8293,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -363,12 +368,12 @@
       },
       {
         "file": "shots_plus_3d_images.jsonl",
-        "raw_rows": 4835,
-        "eligible": 997,
-        "excluded": 3838,
-        "sources": 651,
+        "raw_rows": 4977,
+        "eligible": 1048,
+        "excluded": 3929,
+        "sources": 663,
         "classes": {
-          "core3D": 997
+          "core3D": 1048
         }
       },
       {
@@ -1011,12 +1016,12 @@
       },
       {
         "file": "shots_shuka_lummi.jsonl",
-        "raw_rows": 965,
-        "eligible": 78,
-        "excluded": 887,
-        "sources": 78,
+        "raw_rows": 1155,
+        "eligible": 98,
+        "excluded": 1057,
+        "sources": 98,
         "classes": {
-          "core3D": 78
+          "core3D": 98
         }
       },
       {
@@ -1080,6 +1085,16 @@
         }
       },
       {
+        "file": "references_root_meshy_packaging225.jsonl",
+        "raw_rows": 48,
+        "eligible": 3,
+        "excluded": 45,
+        "sources": 3,
+        "classes": {
+          "core3D": 3
+        }
+      },
+      {
         "file": "references_root_meshy_playful211.jsonl",
         "raw_rows": 219,
         "eligible": 88,
@@ -1097,6 +1112,16 @@
         "sources": 128,
         "classes": {
           "core3D": 128
+        }
+      },
+      {
+        "file": "references_root_meshy_plush_new231.jsonl",
+        "raw_rows": 207,
+        "eligible": 104,
+        "excluded": 103,
+        "sources": 104,
+        "classes": {
+          "core3D": 104
         }
       },
       {
@@ -1318,6 +1343,16 @@
         }
       },
       {
+        "file": "references_visual_icons8_playful233.jsonl",
+        "raw_rows": 62,
+        "eligible": 8,
+        "excluded": 54,
+        "sources": 8,
+        "classes": {
+          "core3D": 8
+        }
+      },
+      {
         "file": "references_visual_icons8_plush.jsonl",
         "raw_rows": 98,
         "eligible": 9,
@@ -1334,6 +1369,16 @@
         "excluded": 15,
         "sources": 0,
         "classes": {}
+      },
+      {
+        "file": "references_visual_icons8_stickle.jsonl",
+        "raw_rows": 44,
+        "eligible": 13,
+        "excluded": 31,
+        "sources": 13,
+        "classes": {
+          "core3D": 13
+        }
       },
       {
         "file": "references_visual_icons8_sugary_animals.jsonl",
@@ -1958,7 +2003,7 @@
     ],
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
-    "traditional_or_native_3d_comparison_units": 1174,
-    "directly_observed_hybrid_comparison_units": 2172
+    "traditional_or_native_3d_comparison_units": 1225,
+    "directly_observed_hybrid_comparison_units": 2191
   }
 }
