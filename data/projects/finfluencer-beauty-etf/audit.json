@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 7370,
-  "exported_references": 7370,
-  "remaining": 17630,
+  "eligible_observed_units": 7833,
+  "exported_references": 7833,
+  "remaining": 17167,
   "classes": {
-    "core3D": 7370
+    "core3D": 7833
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "72303716c8c30265b62f27e26a7376aa8280c92885c610352dcd5f451306f310",
+    "driver_sha256": "5a3895df4c177a7d96a4eb3680cae231b752b450f535cc6896b1659e2618cd85",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -47,22 +47,30 @@
       "reference-index/3d_references_06501_06750.md",
       "reference-index/3d_references_06751_07000.md",
       "reference-index/3d_references_07001_07250.md",
-      "reference-index/3d_references_07251_07370.md"
+      "reference-index/3d_references_07251_07500.md",
+      "reference-index/3d_references_07501_07750.md",
+      "reference-index/3d_references_07751_07833.md"
     ],
     "unlinked_markdown_omitted": 0
   },
   "exported_per_ledger": {
     "references_root_meshy_beauty185.jsonl": 27,
+    "references_root_meshy_cozy206.jsonl": 99,
+    "references_root_meshy_cute195.jsonl": 89,
     "references_root_meshy_plush171.jsonl": 128,
+    "references_root_meshy_toys190.jsonl": 63,
     "references_visual.jsonl": 207,
     "references_visual_getillustrations_abstract.jsonl": 38,
     "references_visual_getillustrations_bloomie.jsonl": 47,
     "references_visual_getillustrations_ceramic.jsonl": 43,
     "references_visual_getillustrations_ceramic2.jsonl": 29,
+    "references_visual_getillustrations_claybusiness.jsonl": 29,
     "references_visual_getillustrations_clayfest.jsonl": 37,
+    "references_visual_getillustrations_claymascot.jsonl": 8,
     "references_visual_getillustrations_halftone1.jsonl": 67,
     "references_visual_getillustrations_halftone2.jsonl": 71,
     "references_visual_getillustrations_ilcons23.jsonl": 51,
+    "references_visual_getillustrations_inkdex1.jsonl": 29,
     "references_visual_getillustrations_isometric.jsonl": 37,
     "references_visual_getillustrations_monster.jsonl": 17,
     "references_visual_getillustrations_zima.jsonl": 26,
@@ -111,6 +119,7 @@
     "references_visual_realisticicon_beauty.jsonl": 37,
     "references_visual_scenario.jsonl": 11,
     "references_visual_scenario_sketch.jsonl": 2,
+    "references_visual_sketchfab_cozy.jsonl": 23,
     "references_visual_stockcake.jsonl": 117,
     "references_visual_stockcake_bath.jsonl": 53,
     "references_visual_stockcake_cleansing.jsonl": 29,
@@ -129,7 +138,7 @@
     "references_visual_stockcake_softspa.jsonl": 35,
     "references_visual_stockcake_toys.jsonl": 40,
     "references_visual_stockcake_vanity.jsonl": 13,
-    "shots_plus_3d_images.jsonl": 835,
+    "shots_plus_3d_images.jsonl": 936,
     "shots_plus_3d_studio311.jsonl": 13,
     "shots_plus_higgsfield.jsonl": 31,
     "shots_plus_motion.jsonl": 27,
@@ -150,8 +159,8 @@
     "shots_root_3d_stockcake_mcp_beauty_candy_flow.jsonl": 58,
     "shots_root_3d_stockcake_mcp_beauty_care.jsonl": 126,
     "shots_root_3d_stockcake_mcp_beauty_careglow.jsonl": 9,
-    "shots_root_3d_stockcake_mcp_beauty_careprops.jsonl": 42,
-    "shots_root_3d_stockcake_mcp_beauty_charms.jsonl": 154,
+    "shots_root_3d_stockcake_mcp_beauty_careprops.jsonl": 41,
+    "shots_root_3d_stockcake_mcp_beauty_charms.jsonl": 153,
     "shots_root_3d_stockcake_mcp_beauty_charms_soft.jsonl": 16,
     "shots_root_3d_stockcake_mcp_beauty_clay_render.jsonl": 20,
     "shots_root_3d_stockcake_mcp_beauty_cozyroom.jsonl": 49,
@@ -198,7 +207,7 @@
     "shots_shuka_diffuse.jsonl": 93,
     "shots_shuka_icons8.jsonl": 251,
     "shots_shuka_lexica.jsonl": 393,
-    "shots_shuka_lummi.jsonl": 28,
+    "shots_shuka_lummi.jsonl": 52,
     "shots_shuka_motion.jsonl": 73,
     "shots_shuka_runway.jsonl": 152,
     "shots_shuka_spline.jsonl": 119,
@@ -210,28 +219,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "f2b05991abdb7ce9b9bf3a5ae4d90ed63039f705e6fe71d82440c892f231a9c4",
-    "shots_master.jsonl": "2f2c4ac7c3c3ada531ea250e1734301dc52fb6c9bdb5445327946f552cfd0740"
+    "shot_audit.json": "cedd795e46641e192fe4687d2fa4e96133202681f87d8140aef9b1db971e6150",
+    "shots_master.jsonl": "321b892bc3cb538d9d2c7fda2f029b0df0a6d6e2a50f52b4c8af8e060264e6b0"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 37789,
-    "markdown_local_or_unpublished_links_replaced": 10654,
-    "private_links_withheld": 12
+    "local_artifacts_replaced": 40779,
+    "markdown_local_or_unpublished_links_replaced": 11339,
+    "private_links_withheld": 14
   },
   "source_audit": {
-    "updated_local": "2026-10-05T02:11:40",
+    "updated_local": "2026-10-05T03:44:51",
     "target": 25000,
-    "eligible_observed_units": 7370,
-    "remaining": 17630,
-    "raw_rows": 22098,
-    "excluded_rows": 14728,
-    "observed_sources": 6062,
+    "eligible_observed_units": 7833,
+    "remaining": 17167,
+    "raw_rows": 23644,
+    "excluded_rows": 15811,
+    "observed_sources": 6458,
     "classes": {
-      "core3D": 7370
+      "core3D": 7833
     },
-    "historical_broad_observed_units": 10082,
+    "historical_broad_observed_units": 10545,
     "historical_broad_classes": {
-      "core3D": 7375,
+      "core3D": 7838,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -349,12 +358,12 @@
       },
       {
         "file": "shots_plus_3d_images.jsonl",
-        "raw_rows": 4342,
-        "eligible": 835,
-        "excluded": 3507,
-        "sources": 593,
+        "raw_rows": 4640,
+        "eligible": 936,
+        "excluded": 3704,
+        "sources": 627,
         "classes": {
-          "core3D": 835
+          "core3D": 936
         }
       },
       {
@@ -538,21 +547,21 @@
       {
         "file": "shots_root_3d_stockcake_mcp_beauty_careprops.jsonl",
         "raw_rows": 147,
-        "eligible": 42,
-        "excluded": 105,
-        "sources": 42,
+        "eligible": 41,
+        "excluded": 106,
+        "sources": 41,
         "classes": {
-          "core3D": 42
+          "core3D": 41
         }
       },
       {
         "file": "shots_root_3d_stockcake_mcp_beauty_charms.jsonl",
         "raw_rows": 232,
-        "eligible": 154,
-        "excluded": 78,
-        "sources": 154,
+        "eligible": 153,
+        "excluded": 79,
+        "sources": 153,
         "classes": {
-          "core3D": 154
+          "core3D": 153
         }
       },
       {
@@ -997,12 +1006,12 @@
       },
       {
         "file": "shots_shuka_lummi.jsonl",
-        "raw_rows": 299,
-        "eligible": 28,
-        "excluded": 271,
-        "sources": 28,
+        "raw_rows": 701,
+        "eligible": 52,
+        "excluded": 649,
+        "sources": 52,
         "classes": {
-          "core3D": 28
+          "core3D": 52
         }
       },
       {
@@ -1036,6 +1045,26 @@
         }
       },
       {
+        "file": "references_root_meshy_cozy206.jsonl",
+        "raw_rows": 229,
+        "eligible": 99,
+        "excluded": 130,
+        "sources": 99,
+        "classes": {
+          "core3D": 99
+        }
+      },
+      {
+        "file": "references_root_meshy_cute195.jsonl",
+        "raw_rows": 166,
+        "eligible": 89,
+        "excluded": 77,
+        "sources": 89,
+        "classes": {
+          "core3D": 89
+        }
+      },
+      {
         "file": "references_root_meshy_plush171.jsonl",
         "raw_rows": 261,
         "eligible": 128,
@@ -1043,6 +1072,16 @@
         "sources": 128,
         "classes": {
           "core3D": 128
+        }
+      },
+      {
+        "file": "references_root_meshy_toys190.jsonl",
+        "raw_rows": 210,
+        "eligible": 63,
+        "excluded": 147,
+        "sources": 63,
+        "classes": {
+          "core3D": 63
         }
       },
       {
@@ -1086,6 +1125,16 @@
         }
       },
       {
+        "file": "references_visual_getillustrations_claybusiness.jsonl",
+        "raw_rows": 100,
+        "eligible": 29,
+        "excluded": 71,
+        "sources": 29,
+        "classes": {
+          "core3D": 29
+        }
+      },
+      {
         "file": "references_visual_getillustrations_clayfest.jsonl",
         "raw_rows": 53,
         "eligible": 37,
@@ -1093,6 +1142,16 @@
         "sources": 37,
         "classes": {
           "core3D": 37
+        }
+      },
+      {
+        "file": "references_visual_getillustrations_claymascot.jsonl",
+        "raw_rows": 42,
+        "eligible": 8,
+        "excluded": 34,
+        "sources": 8,
+        "classes": {
+          "core3D": 8
         }
       },
       {
@@ -1123,6 +1182,16 @@
         "sources": 51,
         "classes": {
           "core3D": 51
+        }
+      },
+      {
+        "file": "references_visual_getillustrations_inkdex1.jsonl",
+        "raw_rows": 73,
+        "eligible": 29,
+        "excluded": 44,
+        "sources": 29,
+        "classes": {
+          "core3D": 29
         }
       },
       {
@@ -1622,6 +1691,16 @@
         }
       },
       {
+        "file": "references_visual_sketchfab_cozy.jsonl",
+        "raw_rows": 26,
+        "eligible": 23,
+        "excluded": 3,
+        "sources": 23,
+        "classes": {
+          "core3D": 23
+        }
+      },
+      {
         "file": "references_visual_stockcake.jsonl",
         "raw_rows": 164,
         "eligible": 117,
@@ -1834,7 +1913,7 @@
     ],
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
-    "traditional_or_native_3d_comparison_units": 989,
-    "directly_observed_hybrid_comparison_units": 2065
+    "traditional_or_native_3d_comparison_units": 1113,
+    "directly_observed_hybrid_comparison_units": 2120
   }
 }
