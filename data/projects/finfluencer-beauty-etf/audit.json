@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 7833,
-  "exported_references": 7833,
-  "remaining": 17167,
+  "eligible_observed_units": 7976,
+  "exported_references": 7976,
+  "remaining": 17024,
   "classes": {
-    "core3D": 7833
+    "core3D": 7976
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "5a3895df4c177a7d96a4eb3680cae231b752b450f535cc6896b1659e2618cd85",
+    "driver_sha256": "81fd90d060f7e1c83343b940ab7a4884ae7774950ab12926667d364346aa2e3a",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -49,7 +49,7 @@
       "reference-index/3d_references_07001_07250.md",
       "reference-index/3d_references_07251_07500.md",
       "reference-index/3d_references_07501_07750.md",
-      "reference-index/3d_references_07751_07833.md"
+      "reference-index/3d_references_07751_07976.md"
     ],
     "unlinked_markdown_omitted": 0
   },
@@ -57,6 +57,7 @@
     "references_root_meshy_beauty185.jsonl": 27,
     "references_root_meshy_cozy206.jsonl": 99,
     "references_root_meshy_cute195.jsonl": 89,
+    "references_root_meshy_playful211.jsonl": 88,
     "references_root_meshy_plush171.jsonl": 128,
     "references_root_meshy_toys190.jsonl": 63,
     "references_visual.jsonl": 207,
@@ -79,6 +80,7 @@
     "references_visual_icons8_fuzzy.jsonl": 9,
     "references_visual_icons8_glassy.jsonl": 10,
     "references_visual_icons8_kindy.jsonl": 1,
+    "references_visual_icons8_plush.jsonl": 9,
     "references_visual_icons8_sugary_animals.jsonl": 7,
     "references_visual_icons8_sugary_botanical.jsonl": 23,
     "references_visual_iconscout_animals.jsonl": 21,
@@ -138,7 +140,7 @@
     "references_visual_stockcake_softspa.jsonl": 35,
     "references_visual_stockcake_toys.jsonl": 40,
     "references_visual_stockcake_vanity.jsonl": 13,
-    "shots_plus_3d_images.jsonl": 936,
+    "shots_plus_3d_images.jsonl": 969,
     "shots_plus_3d_studio311.jsonl": 13,
     "shots_plus_higgsfield.jsonl": 31,
     "shots_plus_motion.jsonl": 27,
@@ -207,7 +209,7 @@
     "shots_shuka_diffuse.jsonl": 93,
     "shots_shuka_icons8.jsonl": 251,
     "shots_shuka_lexica.jsonl": 393,
-    "shots_shuka_lummi.jsonl": 52,
+    "shots_shuka_lummi.jsonl": 65,
     "shots_shuka_motion.jsonl": 73,
     "shots_shuka_runway.jsonl": 152,
     "shots_shuka_spline.jsonl": 119,
@@ -219,28 +221,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "cedd795e46641e192fe4687d2fa4e96133202681f87d8140aef9b1db971e6150",
-    "shots_master.jsonl": "321b892bc3cb538d9d2c7fda2f029b0df0a6d6e2a50f52b4c8af8e060264e6b0"
+    "shot_audit.json": "126614f94780d5cc7321b5a432c3ebe0e0647b0260b41b837641a8b47dbbf74e",
+    "shots_master.jsonl": "ef029992555ab65d07970d3c71bc4d04394df0ffdf8ccea785ffd0f56c9362a3"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 40779,
-    "markdown_local_or_unpublished_links_replaced": 11339,
+    "local_artifacts_replaced": 41595,
+    "markdown_local_or_unpublished_links_replaced": 11574,
     "private_links_withheld": 14
   },
   "source_audit": {
-    "updated_local": "2026-10-05T03:44:51",
+    "updated_local": "2026-10-05T04:12:19",
     "target": 25000,
-    "eligible_observed_units": 7833,
-    "remaining": 17167,
-    "raw_rows": 23644,
-    "excluded_rows": 15811,
-    "observed_sources": 6458,
+    "eligible_observed_units": 7976,
+    "remaining": 17024,
+    "raw_rows": 24181,
+    "excluded_rows": 16205,
+    "observed_sources": 6579,
     "classes": {
-      "core3D": 7833
+      "core3D": 7976
     },
-    "historical_broad_observed_units": 10545,
+    "historical_broad_observed_units": 10688,
     "historical_broad_classes": {
-      "core3D": 7838,
+      "core3D": 7981,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -358,12 +360,12 @@
       },
       {
         "file": "shots_plus_3d_images.jsonl",
-        "raw_rows": 4640,
-        "eligible": 936,
-        "excluded": 3704,
-        "sources": 627,
+        "raw_rows": 4713,
+        "eligible": 969,
+        "excluded": 3744,
+        "sources": 638,
         "classes": {
-          "core3D": 936
+          "core3D": 969
         }
       },
       {
@@ -1006,12 +1008,12 @@
       },
       {
         "file": "shots_shuka_lummi.jsonl",
-        "raw_rows": 701,
-        "eligible": 52,
-        "excluded": 649,
-        "sources": 52,
+        "raw_rows": 848,
+        "eligible": 65,
+        "excluded": 783,
+        "sources": 65,
         "classes": {
-          "core3D": 52
+          "core3D": 65
         }
       },
       {
@@ -1062,6 +1064,16 @@
         "sources": 89,
         "classes": {
           "core3D": 89
+        }
+      },
+      {
+        "file": "references_root_meshy_playful211.jsonl",
+        "raw_rows": 219,
+        "eligible": 88,
+        "excluded": 131,
+        "sources": 88,
+        "classes": {
+          "core3D": 88
         }
       },
       {
@@ -1280,6 +1292,16 @@
         "sources": 1,
         "classes": {
           "core3D": 1
+        }
+      },
+      {
+        "file": "references_visual_icons8_plush.jsonl",
+        "raw_rows": 98,
+        "eligible": 9,
+        "excluded": 89,
+        "sources": 9,
+        "classes": {
+          "core3D": 9
         }
       },
       {
@@ -1913,7 +1935,7 @@
     ],
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
-    "traditional_or_native_3d_comparison_units": 1113,
-    "directly_observed_hybrid_comparison_units": 2120
+    "traditional_or_native_3d_comparison_units": 1146,
+    "directly_observed_hybrid_comparison_units": 2132
   }
 }
