@@ -7,11 +7,11 @@ PLUS KR·슈카친구들 포맷 분석, 25,000개 참고 수집, Higgsfield 에�
 ## 바로 보기
 
 - [진행 현황과 실제 완료 수](data/projects/finfluencer-beauty-etf/audit.json)
-- [채널 포맷·3D 조사 종합](docs/research/2026-10-04/00_포맷분석_종합.md)
-- [PLUS KR A–Z 분석](docs/research/2026-10-04/01_PLUS_KR_A-Z.md)
-- [슈카친구들·머니코믹스 A–Z 분석](docs/research/2026-10-04/02_슈카친구들_A-Z.md)
-- [고유 3D 참고 색인](docs/research/2026-10-04/36_3D_고유참고_통합색인.md)
-- [뷰티 ETF 기초 에셋 설계](docs/research/2026-10-04/17_3D_기초에셋_설계.md)
+- [채널 포맷·3D 조사 종합](docs/research/2026-10-05/00_포맷분석_종합.md)
+- [PLUS KR A–Z 분석](docs/research/2026-10-05/01_PLUS_KR_A-Z.md)
+- [슈카친구들·머니코믹스 A–Z 분석](docs/research/2026-10-05/02_슈카친구들_A-Z.md)
+- [고유 3D 참고 색인](docs/research/2026-10-05/36_3D_고유참고_통합색인.md)
+- [뷰티 ETF 기초 에셋 설계](docs/research/2026-10-05/17_3D_기초에셋_설계.md)
 - [보송한 질감·노을빛·창가 구도의 시각 방향](docs/beauty-etf-visual-direction.md)
 - [기초 에셋 프롬프트](prompts/beauty-etf/foundation.json)
 - [반복 작업 순서](docs/workflow.md) · [Higgsfield 세팅 순서](docs/higgsfield-foundation.md)
@@ -32,7 +32,7 @@ docs/
   higgsfield-foundation.md      마스터·Element·파생 이미지 순서
   library-schema.md            원장 필드와 집계 조건
   decisions.md                 채택한 범위와 변경 규칙
-  research/2026-10-04/          채널 A–Z와 실제 3D 관찰 보고서
+  research/2026-10-05/          최신 채널 A–Z와 실제 3D 관찰 보고서
 data/projects/finfluencer-beauty-etf/
   references/index.json        원장 묶음의 개수·경로·해시
   references/part-*.jsonl       전역 중복 제거 후 선정된 참고 원장
@@ -51,7 +51,7 @@ tools/
 Python 3에서 실행합니다. 로컬 조사 폴더의 최신 감사가 끝난 뒤 가져오며, 실제 관찰·선정된 원장만 완료 수에 반영합니다.
 
 ```sh
-python tools/import_research.py --source /path/to/research --destination . --project finfluencer-beauty-etf --date 2026-10-04
+python tools/import_research.py --source /path/to/research --destination . --project finfluencer-beauty-etf --date 2026-10-05
 python tools/validate_library.py --root . --project finfluencer-beauty-etf
 ```
 
