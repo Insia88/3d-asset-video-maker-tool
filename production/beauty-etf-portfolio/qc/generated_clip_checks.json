@@ -20,7 +20,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 302,
@@ -42,7 +42,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 303,
@@ -64,7 +64,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 304,
@@ -86,7 +86,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 305,
@@ -108,7 +108,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 306,
@@ -130,7 +130,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 307,
@@ -152,7 +152,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     },
     {
       "index": 308,
@@ -174,7 +174,7 @@
       ],
       "full_decode_exit": 0,
       "observed_frames": 12,
-      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+      "method": "Full technical decode plus primary reviewer visual QC of 2fps contact frames; not full continuous motion playback."
     }
   ],
   "total_direct_timed_sample_frames": 96,
