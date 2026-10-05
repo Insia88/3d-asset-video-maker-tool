@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 10177,
-  "exported_references": 10177,
-  "remaining": 14823,
+  "eligible_observed_units": 10210,
+  "exported_references": 10210,
+  "remaining": 14790,
   "classes": {
-    "core3D": 10177
+    "core3D": 10210
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "832cc7a74453bfcfb32f05774621b77b904cce9ef37c316966a76b9a893f53b3",
+    "driver_sha256": "ae47f585f373c7eb85e71e4bf6b391d8bf5110583afabc666323efcea65fd023",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -58,9 +58,9 @@
       "reference-index/3d_references_09251_09500.md",
       "reference-index/3d_references_09501_09750.md",
       "reference-index/3d_references_09751_10000.md",
-      "reference-index/3d_references_10001_10177.md"
+      "reference-index/3d_references_10001_10210.md"
     ],
-    "unlinked_markdown_omitted": 2
+    "unlinked_markdown_omitted": 3
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
@@ -81,6 +81,12 @@
     "references_external_reviewF36B.jsonl": 5,
     "references_external_reviewF36C42.jsonl": 10,
     "references_external_reviewF37A.jsonl": 7,
+    "references_external_reviewF38B.jsonl": 5,
+    "references_external_reviewF38C44.jsonl": 10,
+    "references_external_reviewF39A.jsonl": 7,
+    "references_external_reviewF40A.jsonl": 6,
+    "references_external_reviewF40B.jsonl": 1,
+    "references_external_reviewF40C39.jsonl": 4,
     "references_root_meshy_beauty185.jsonl": 27,
     "references_root_meshy_collectible248.jsonl": 85,
     "references_root_meshy_cozy206.jsonl": 99,
@@ -283,28 +289,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "65ae0d8d7ecdd88d8c17a4a0a861e5675a68d0ca800885f410f5ed908a8f98fe",
-    "shots_master.jsonl": "940b63abd2cea5ae3c97b5c2be691e9889d9128d4fc86d31ad37d1bc3cb32153"
+    "shot_audit.json": "de825a21d97c1f58e1f6cf3dda11bc4ac571dbac36135172ea66f4e2a3e28189",
+    "shots_master.jsonl": "a68dea562593fb47ab2ada8311058b3c0d86c72ac8fd78ebafc78d66a5776bba"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 59566,
-    "markdown_local_or_unpublished_links_replaced": 15533,
+    "local_artifacts_replaced": 59914,
+    "markdown_local_or_unpublished_links_replaced": 15566,
     "private_links_withheld": 25
   },
   "source_audit": {
-    "updated_local": "2026-10-06T04:42:05",
+    "updated_local": "2026-10-06T06:19:18",
     "target": 25000,
-    "eligible_observed_units": 10177,
-    "remaining": 14823,
-    "raw_rows": 32216,
-    "excluded_rows": 22039,
-    "observed_sources": 8568,
+    "eligible_observed_units": 10210,
+    "remaining": 14790,
+    "raw_rows": 32428,
+    "excluded_rows": 22218,
+    "observed_sources": 8599,
     "classes": {
-      "core3D": 10177
+      "core3D": 10210
     },
-    "historical_broad_observed_units": 12889,
+    "historical_broad_observed_units": 12922,
     "historical_broad_classes": {
-      "core3D": 10182,
+      "core3D": 10215,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -1302,6 +1308,66 @@
         "sources": 4,
         "classes": {
           "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF38B.jsonl",
+        "raw_rows": 31,
+        "eligible": 5,
+        "excluded": 26,
+        "sources": 5,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF38C44.jsonl",
+        "raw_rows": 44,
+        "eligible": 10,
+        "excluded": 34,
+        "sources": 10,
+        "classes": {
+          "core3D": 10
+        }
+      },
+      {
+        "file": "references_external_reviewF39A.jsonl",
+        "raw_rows": 45,
+        "eligible": 7,
+        "excluded": 38,
+        "sources": 5,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF40A.jsonl",
+        "raw_rows": 41,
+        "eligible": 6,
+        "excluded": 35,
+        "sources": 6,
+        "classes": {
+          "core3D": 6
+        }
+      },
+      {
+        "file": "references_external_reviewF40B.jsonl",
+        "raw_rows": 12,
+        "eligible": 1,
+        "excluded": 11,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF40C39.jsonl",
+        "raw_rows": 39,
+        "eligible": 4,
+        "excluded": 35,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
         }
       },
       {
