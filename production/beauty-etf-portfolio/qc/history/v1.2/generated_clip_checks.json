@@ -1,0 +1,482 @@
+{
+  "actual_independently_observed_clips": 13,
+  "actual_independently_observed_decoded_frames": 39,
+  "clips": [
+    {
+      "clip_index": 1,
+      "asset": "BE-S01-consumer-hook",
+      "original_sha256": "7bca89086726d5faa996cdbdb940d8a4e637f8453ce074722a55807991813e54",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_with_trim",
+        "suggested_trim": {
+          "from": 0,
+          "to": 3.5,
+          "status": "proposed_between_sampled_frames_not_continuous_playback_verified"
+        },
+        "frames_notes": [
+          "1초: 모아 전신과 크림·립스틱·향수·민트색 빈 휴대폰 화면이 보임.",
+          "4초: 카메라 접근으로 모아·크림·휴대폰·립스틱이 커짐. 향수는 오른쪽 밖으로 잘림.",
+          "8초: 크림/휴대폰 근접과 모아 얼굴 부분 구도. 세 제품 전체와 전신 장면으로는 불가."
+        ],
+        "limits": "표본 1·4·8초만 직접 관찰. 다른 프레임의 손/제품 안정성은 최종 재생 검수 필요."
+      }
+    },
+    {
+      "clip_index": 4,
+      "asset": "BE-S02-beauty-market-world",
+      "original_sha256": "8989417b5f4f81d2520d286f3399e737a8f347150b74d34f14a2f87f8d053987",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_candidate",
+        "suggested_trim": {
+          "from": 1,
+          "to": 8,
+          "status": "candidate_range_based_on_three_samples; full_playback_required"
+        },
+        "frames_notes": [
+          "1초: 기존 라벤더 작업실·민트공장·피치매장·중앙제품·길과 뒤모습 모아가 보임. 큰 독립 글자 없음.",
+          "4초: 같은 마을 큰 구조와 모아가 유지. 상부 빈 공간 유지.",
+          "8초: 카메라가 높아진 구도에서 같은 3건물·중앙3제품·길·모아 유지. 새 건물이 생긴 명백한 차이는 없음."
+        ],
+        "limits": "수치 설명 구간은 별도 편집 카메라 고정/near-static을 적용. 세 표본만으로 중간 모든 프레임의 안정성을 확정하지 않음."
+      }
+    },
+    {
+      "clip_index": 5,
+      "asset": "BE-S03-brand-atelier",
+      "original_sha256": "3bde5df69ed74af89073752a23832624fc2648d83ac134c84e72e09aae8b67b1",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "reject_generated_typography",
+        "suggested_trim": null,
+        "frames_notes": [
+          "1초: 원본 빈 벽 상부에 큰 임의 제목 'Moa Moa / Colre Coiffie' 및 작은 영문층이 생김. 모아와3제품은 보임.",
+          "4초: 같은 큰 글자가 남음. 팔은 통 근처에 놓임.",
+          "8초: 같은 글자 유지. 모아 일부가 왼쪽 경계로 잘림;3제품은 보임."
+        ],
+        "alternative": "승인 S03 PNG로 브랜드 작업실을 유지.",
+        "limits": "임의 글자를 실제 브랜드/제품명/원작 제목으로 사용하지 않음. 팔 움직임 전구간 또는 실제 영상 재생을 확인한 것은 아님."
+      }
+    },
+    {
+      "clip_index": 6,
+      "asset": "BE-S05-distribution",
+      "original_sha256": "e6bd1f687868b737e7c78e0545394441689c901bbdce5aa1493d7d291c09bb20",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "reject_generated_typography_and_box_change",
+        "suggested_trim": null,
+        "frames_notes": [
+          "1초: 상부에 임의 'EhetioVINPloadt' 글자가 있음. 두 높이 목재 받침은 원본에도 있어 신규 발명으로 판정하지 않음.",
+          "4초: 앞 목재 받침에 큰 닫힌 상자. 원본의 열린 피치상자·3제품 접촉 장면과 다름.",
+          "8초: 같은 임의 글자·큰 닫힌 상자 유지. 모아·밴·선반은 보임."
+        ],
+        "alternative": "승인 S05 PNG 사용.",
+        "limits": "받침 자체를 신규 소품으로 단정하지 않음. 상자 모션 전 프레임/툴/물리엔진 미검증."
+      }
+    },
+    {
+      "clip_index": 7,
+      "asset": "BE-S06-retail-digital expected; delivered shop close-up",
+      "original_sha256": "082c9eb603f7153e27351015aa4c1624403e27d47715bd6485442af010d5f706",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "limited_shelf_insert_only",
+        "suggested_trim": {
+          "from": 0,
+          "to": 4,
+          "status": "proposed_between_sampled_frames_not_continuous_playback_verified"
+        },
+        "frames_notes": [
+          "1초: 보라 아치의 상·하 선반, 상단 크림통, 하단 립스틱/캡·크림통이 보임. 모아는 오른쪽 경계 밖/부분.",
+          "4초: 같은 선반, 오른쪽 모아의 팔/얼굴 일부. 휴대폰은 보이지 않음.",
+          "8초: 하단 크림통이 선반 위에서 떠 있고 모아 팔끝 가까이에 있음. 제품 수가 새로 늘었다고 확정할 수는 없음."
+        ],
+        "limits": "휴대폰 및 화면 속 3제품이 3표본 모두 보이지 않아 phone content 유지/빈화면/새 UI 확인은 미검증. 8초는 떠 있는 통 동작으로 fixed-props 장면 사용 제외."
+      }
+    },
+    {
+      "clip_index": 8,
+      "asset": "BE-S09-shared-sector-risk",
+      "original_sha256": "971eecdff105e16374276d3e3725b89e5595e8e539a4bbd916eb5c4d75628792",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "reject_generated_overlay_text",
+        "suggested_trim": null,
+        "frames_notes": [
+          "1초: 전체 구름·바구니 5블록·모아는 보이나 화면 상단에 원본 없는 긴 영문 문단이 들어감.",
+          "4초: 구름은 부풀린 큰 구조로 유지되고, 영문 문단도 계속 보임.",
+          "8초: 구름/바구니/모아 관계는 유지. 상단 영문 문단이 남아 무문자 승인 원본 조건 위반."
+        ],
+        "alternative": "승인 S09 PNG 사용 우선. 전체 영문 문단이 붙은 결과는 자막 배경으로 사용하지 않음.",
+        "limits": "영문 내용 전체를 번역하거나 생성 목적을 추정하지 않음. 3표본 모두 있는 독립 2D 문단층을 실제 확인."
+      }
+    },
+    {
+      "clip_index": 9,
+      "asset": "BE-S10-investor-ending",
+      "original_sha256": "f858c7d2ea3c5e5588770b84f46dbb5068bf2cff7d1a12f610f1e9ff3a57f406",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_with_crop_selection",
+        "suggested_trim": {
+          "from": 5,
+          "to": 9,
+          "status": "proposed_8s_whole_good_other_points_not_continuous_playback_verified"
+        },
+        "frames_notes": [
+          "1초: 모아 옆으로 뻗은 팔과 큰 빈 카드 3장이 보임. 좌측 제품과 우측 바구니는 경계에 일부만 보임.",
+          "4초: 모아 팔끝이 카드 앞/가장자리 부근에 놓인 3D 관계. 카드가 변형되거나 팔이 길게 늘어난 명백한 오류는 이 표본에서 보이지 않음.",
+          "8초: 후진해 모아 전신·3카드·크림/립스틱·바구니 관계가 더 넓게 보임. 카드 하부 일부는 모아 머리에 가림."
+        ],
+        "alternative": "카드 접촉 인서트는 1–4초 참고 가능; 엔딩 전체는 8초 부근부터 확인 후 선택.",
+        "limits": "실제 손가락/접촉 전체 모션·전 프레임 안정성은 표본 관찰만으로 확정하지 않음. 카드 상단에 후편집 문구 배치."
+      }
+    },
+    {
+      "clip_index": 10,
+      "asset": "BE-M04",
+      "original_sha256": "7a50e0ae4408321a641740ca041146ac8b774e9047aefc8b5339a240351088d5",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_with_trim",
+        "suggested_trim": {
+          "from": 0,
+          "to": 3.5,
+          "status": "proposed_between_sampled_frames_not_continuous_playback_verified"
+        },
+        "frames_notes": [
+          "1초: 창가·모아 전신·크림통/립스틱/향수 전체가 보이는 승인 화장대 세계.",
+          "4초: 모아와 제품에 접근. 향수 오른쪽이 화면 경계에 일부 잘림.",
+          "8초: 크림·립스틱 근접, 모아 얼굴/몸 및 향수 일부가 화면 밖. 전 제품 전체 장면 아님."
+        ],
+        "limits": "0–3.5초 제안은 실제 1초 전체와 4초 crop을 근거로 한 보수 편집안. 구간 전체 연속 재생은 이 검수에 포함되지 않았다."
+      }
+    },
+    {
+      "clip_index": 11,
+      "asset": "BE-M03",
+      "original_sha256": "26a6fddec2b9cdfa26fea22b312a517ceaca6f1bb410d3b24c3469ade9740120",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_with_crop_selection",
+        "suggested_trim": {
+          "from": 6,
+          "to": 9,
+          "status": "proposed_8s_three_product_whole; full_range_not_observed"
+        },
+        "frames_notes": [
+          "1초: 크림통/뚜껑·립스틱/분리캡 근접, 향수는 화면 밖. 새 pump 없음.",
+          "4초: 크림통·립스틱·향수 외피 일부가 오른쪽에 보임. 원본3종 제품 기본형과 대응.",
+          "8초: 크림통/뚜껑·립스틱/캡·향수/구형캡이 모두 보이는 접촉 구도. 새 pump 없음."
+        ],
+        "alternative": "제품 표면 인서트는1–4초 가능. 세 제품 전체 설명은8초 부근 선택.",
+        "limits": "3종이 세 표본 모두 완전히 노출된 것은 아님. 표본 사이 제품 기하/손잡이 변화 전구간 재생검수는 별도."
+      }
+    },
+    {
+      "clip_index": 12,
+      "asset": "BE-M06",
+      "original_sha256": "8f7891d4adecee89c736194d791b3509d220dceb1de2f13c618543e70e2391cb",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_with_crop_selection",
+        "suggested_trim": {
+          "from": 1,
+          "to": 4,
+          "status": "three_sample_based_candidate_full_handle"
+        },
+        "frames_notes": [
+          "1초: 투명바구니·손잡이전체·크림블록/민트원통/피치아치/라벤더낮은원통/베이지계단 정확5기본형.",
+          "4초: 같은5형태와 투명테·손잡이 관계, 큰 독립 문구 없음.",
+          "8초: 가까워져 손잡이 오른쪽끝이 경계에 닿아 일부crop.5토큰 기본형은 보임."
+        ],
+        "alternative": "5토큰 근접은4–8초 후보. 전체손잡이 필요시1–4초 우선.",
+        "limits": "전체구간재생/모핑전프레임검증0.정확5기본형은실제3표본에서확인,손잡이전체는후반crop주의."
+      }
+    },
+    {
+      "clip_index": 13,
+      "asset": "BE-S03-brand-atelier",
+      "original_sha256": "75d4ee6e8077d7214381948f525d827f2d38a564ddef395f84dd95c7b3b94c42",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_three_sample_based_trim_candidate",
+        "suggested_trim": [
+          1,
+          4
+        ],
+        "notes": [
+          "1·4·8초에서 독립 임의타이포가 보이지 않음.",
+          "크림통·립스틱·향수 정확 3종과 Moa·책상·선반·스툴 관계 유지.",
+          "8초 접근으로 좌측 램프/우측 세트의 일부가 경계로 잘려 전체공간 우선 구간은 1–4초."
+        ]
+      }
+    },
+    {
+      "clip_index": 14,
+      "asset": "BE-S05-distribution",
+      "original_sha256": "6afad517a7cc03d0c19e73dfba144c6c5a44a3847126457ddd4277706ff225cc",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_three_sample_based_trim_candidate",
+        "suggested_trim": [
+          1,
+          4
+        ],
+        "notes": [
+          "원본 두 높이 목재 받침과 열린 피치색 상자 속 3종 제품 유지.",
+          "선반·Moa·차량 관계가 유지되고 V6의 큰 임의문자/닫힌 큰 상자 변형이 보이지 않음.",
+          "미세 카메라 접근은 표본에서 확인. 선반/차량 끝의 crop을 제한해 1–4초 전체 장면 후보."
+        ]
+      }
+    },
+    {
+      "clip_index": 15,
+      "asset": "BE-S09-shared-sector-risk",
+      "original_sha256": "b15f365c89dca920e57e7c6ba9738e71807dcb76a3781345ed5faa4cfe614419",
+      "video_format": {
+        "dimensions": [
+          1080,
+          1920
+        ],
+        "fps": 24,
+        "duration_seconds": 10.042,
+        "video_codec": "HEVC Main10",
+        "video_frames": 241,
+        "audio_streams": 0
+      },
+      "directly_observed_sample_pts_seconds": [
+        1,
+        4,
+        8
+      ],
+      "directly_observed_samples": 3,
+      "full_playback_observed": false,
+      "verdict": {
+        "decision": "usable_three_sample_based_trim_candidate",
+        "suggested_trim": [
+          1,
+          4
+        ],
+        "notes": [
+          "1·4·8초에서 독립 긴 영문 문단이 보이지 않음.",
+          "라벤더 보송 구름, 투명 바구니와 손잡이, 크림블록·민트원통·피치아치·라벤더낮은원통·베이지계단 정확5기본형 유지.",
+          "8초 접근 시 구름 상단과 손잡이 왼쪽 끝이 잘리므로 전체 구름/바구니가 필요한 구간은 1–4초 후보."
+        ]
+      }
+    }
+  ],
+  "reported_only_V2_V3": {
+    "reporter": "primary production reviewer",
+    "independently_observed_here": false,
+    "format": "1080x1920/24fps/10.042s/no_audio",
+    "V3_limit": "8초 카메라 접근으로Moa왼쪽crop. 전체 얼굴은0–5초 후보."
+  },
+  "trim_ranges_are_sample_based_candidates_not_full_continuity_verification": true
+}

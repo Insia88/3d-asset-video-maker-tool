@@ -1,0 +1,67 @@
+[
+  {
+    "id": "SRC01",
+    "claim": "세계 핵심 뷰티 시장의 2030년까지 연평균 약 5% 성장 전망",
+    "type": "publisher forecast",
+    "publisher": "McKinsey",
+    "title": "From aisle to algorithm",
+    "published": "2026-06-18",
+    "forecast_period": "2025–2030",
+    "scope": "세계 스킨케어·헤어케어·색조·향수; 명목가격, 환율은 2025년 수준 고정",
+    "url": "https://www.mckinsey.com/industries/consumer-packaged-goods/our-insights/state-of-beauty",
+    "fresh_read": "2026-10-06",
+    "limits": "자체 시장 전망이며 매년 정확한 성장·개별 기업 실적·ETF 수익률을 보장하지 않는다."
+  },
+  {
+    "id": "SRC02",
+    "claim": "ETF의 자산 묶음·거래소 거래·비용·손실 가능성",
+    "type": "general investment education",
+    "publisher": "Investor.gov / SEC",
+    "title": "Exchange-Traded Funds (ETFs)",
+    "url": "https://www.investor.gov/introduction-investing/investing-basics/investment-products/mutual-funds-and-exchange-traded-2",
+    "fresh_read": "2026-10-05",
+    "limits": "일반 구조만 참고하며 미국 등록요건·세제·보험 설명을 한국에 적용하지 않는다. 모든 ETF를 지수추종형으로 정의하지 않는다."
+  },
+  {
+    "id": "SRC03",
+    "claim": "같은 산업에 좁게 집중된 ETF가 충분한 분산을 제공하지 못할 수 있음",
+    "type": "general investment education",
+    "publisher": "Investor.gov / SEC",
+    "title": "Asset Allocation and Diversification",
+    "url": "https://www.investor.gov/introduction-investing/getting-started/asset-allocation",
+    "fresh_read": "2026-10-05",
+    "limits": "개별 기업 분산과 산업 분산을 구분하며 상품별 안전성이나 성과를 평가한 자료가 아니다."
+  },
+  {
+    "id": "CALC01",
+    "claim": "100 × 1.05^5 = 127.62815625 ≈ 128",
+    "type": "reproducible hypothetical calculation",
+    "assumption": "시장 규모 가상 지수 시작 100, 연 5%, 5년",
+    "result": 127.62815625000003,
+    "not_claimed": "실제 시장 측정값·ETF 수익률·투자 계좌 잔액·수익 보장"
+  },
+  {
+    "id": "SRC04",
+    "claim": "2025년 한국 화장품 수출액 세계 2위, 약 114억 달러, 전년 대비 11.8% 증가",
+    "type": "official government export statistics",
+    "publisher": "식품의약품안전처",
+    "title": "2025년 전 세계 화장품 수출 2위 달성",
+    "published": "2026-05-28",
+    "measurement_year": 2025,
+    "url": "https://www.mfds.go.kr/brd/m_1256/view.do?seq=23",
+    "fresh_read": "2026-10-06",
+    "discovery": "Google search restricted to the government domain, followed by direct reading of the official article.",
+    "limits": "수출액 순위이며 세계 소비시장 규모나 시장 점유율 순위가 아니다."
+  },
+  {
+    "id": "SRC05",
+    "claim": "한국 뷰티 관련 기업을 담은 ETF가 실제 상장되어 있다.",
+    "type": "issuer product listing information",
+    "publisher": "NH-Amundi / HANARO ETF",
+    "url": "https://www.hanaroetf.com/fund/9DBA2CEA9F3E4C36",
+    "listed": "2024-07-16",
+    "fresh_read": "2026-10-06",
+    "discovery": "Google search restricted to the issuer domain, followed by direct reading of its product page.",
+    "limits": "상품명과 종목·비중·수익률은 영상에 표시하지 않는다. 최근 처음 투자 가능해졌다는 주장은 하지 않는다."
+  }
+]

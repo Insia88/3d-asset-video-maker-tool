@@ -1,0 +1,38 @@
+{
+  "script_version": "v4",
+  "fps": 30,
+  "duration_seconds": 180,
+  "total_frames": 5400,
+  "cuts": 105,
+  "caption_groups": 40,
+  "files": [
+    {
+      "path": "script/cutlist.json",
+      "bytes": 118854,
+      "sha256": "ff1edec9ea8fa6a5b74bbf32ec0aa996c1f278acc159121589e014889fd0d42b"
+    },
+    {
+      "path": "script/captions.json",
+      "bytes": 13423,
+      "sha256": "a78bcbc4deaa39d6729c9184dfa9ddf63adefa248fc54e2205acf5b95efd9400"
+    },
+    {
+      "path": "script/captions.md",
+      "bytes": 6341,
+      "sha256": "d0b247214b7c9c3961ad4430b20ea9820ec9d13d1fe5267c33479a59df869180"
+    },
+    {
+      "path": "script/main_captions.srt",
+      "bytes": 3730,
+      "sha256": "dc294ffc22e9dc009e878d84219c216cc5a0d39081ea3a175c902c07e0018d40"
+    }
+  ],
+  "canonical_caption_json_sha256": "a78bcbc4deaa39d6729c9184dfa9ddf63adefa248fc54e2205acf5b95efd9400",
+  "private_native_production_plan_sha256": "6bb2f7eaa5a4b871418c5ecec6b98f14140447c3d28e82cfbfa574245b35f26a",
+  "public_cutlist_sanitized": true,
+  "previous_versions": [
+    "history/v2/frozen_manifest.json",
+    "history/v3/frozen_manifest.json"
+  ],
+  "historical_manifest_paths": "Paths in historical manifests refer to the script directory of their original version."
+}

@@ -1,0 +1,143 @@
+{
+  "approved_count": 15,
+  "production_assets_add_collected_references": 0,
+  "assets": [
+    {
+      "id": "BE-M01",
+      "logical_filename": "BE-M01-moa-master.png",
+      "sha256": "4df72ddfd79fefe47ade8f0108aa45a22570118a816908479dee72faccacdf1f",
+      "dimensions": [
+        1744,
+        2336
+      ]
+    },
+    {
+      "id": "BE-M02",
+      "logical_filename": "BE-M02-moa-turnaround.png",
+      "sha256": "07e52d1b82f0db6a199a2eef64945f473090975c2e00fefd264e3f11ac13b512",
+      "dimensions": [
+        2688,
+        1520
+      ]
+    },
+    {
+      "id": "BE-M03",
+      "logical_filename": "BE-M03-cosmetics-master.png",
+      "sha256": "245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9",
+      "dimensions": [
+        2336,
+        1744
+      ]
+    },
+    {
+      "id": "BE-M04",
+      "logical_filename": "BE-M04-vanity-scene.png",
+      "sha256": "1998cc9f94ffd301a588f8fe44e35f913c9f70a3612a63e6f5d27c7aaab9c7ce",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-M06",
+      "logical_filename": "BE-M06-etf-basket-master.png",
+      "sha256": "376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b",
+      "dimensions": [
+        2336,
+        1744
+      ]
+    },
+    {
+      "id": "BE-S01-consumer-hook",
+      "logical_filename": "BE-S01-consumer-hook.png",
+      "sha256": "a17634f71bc515fa9ba3bc1d914adc2d4a4dc58f96522d314b130426ae0e01c8",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S02-beauty-market-world",
+      "logical_filename": "BE-S02-beauty-market-world.png",
+      "sha256": "1962aa915db9132d0062b41516c0bb3416caf081c600e49bfd1ef4c217a0f22c",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S03-brand-atelier",
+      "logical_filename": "BE-S03-brand-atelier.png",
+      "sha256": "b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S04-odm-factory",
+      "logical_filename": "BE-S04-odm-factory.png",
+      "sha256": "37e96e12659312f29ede330796bacc8beafb4fd45aceb4eae79ab91da1a18819",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S05-distribution",
+      "logical_filename": "BE-S05-distribution.png",
+      "sha256": "29282d27ef210ec502c37818134d34bafc26a1a7b30739ed365e44ab079766b1",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S06-retail-digital",
+      "logical_filename": "BE-S06-retail-digital.png",
+      "sha256": "1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S08-etf-basket-guide",
+      "logical_filename": "BE-S08-etf-basket-guide.png",
+      "sha256": "167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S09-shared-sector-risk",
+      "logical_filename": "BE-S09-shared-sector-risk.png",
+      "sha256": "3cd8086a5297590e86ee06815d31d793d8699030ccf3d8cb9f5400aa2b7df69f",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S10-investor-ending",
+      "logical_filename": "BE-S10-investor-ending.png",
+      "sha256": "29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2",
+      "dimensions": [
+        1520,
+        2688
+      ]
+    },
+    {
+      "id": "BE-S07-value-chain-modules-v2",
+      "logical_filename": "BE-S07-value-chain-modules-v2.png",
+      "sha256": "3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42",
+      "dimensions": [
+        2688,
+        1520
+      ]
+    }
+  ],
+  "downloaded_binaries_in_repository": false,
+  "geometry_materials_palette_preserved": true
+}

@@ -1,0 +1,23 @@
+{
+  "files_checked": 25,
+  "caption_revision": "v3",
+  "json_parse_errors": 0,
+  "relative_link_errors": 0,
+  "frozen_files_exact_byte_sha_matches": 3,
+  "v2_original_script_sha_preserved": true,
+  "v3_SRT_matches_38_main_caption_texts": true,
+  "cut_count": 66,
+  "caption_groups": 38,
+  "duration_seconds": 180,
+  "binary_media_files": 0,
+  "private_path_account_media_url_scan_errors": [],
+  "research_reference_count_change": 0,
+  "commit_performed": false,
+  "push_performed": false,
+  "frozen_file_git_eol_conversion_disabled": true,
+  "independent_AE_v3_native_frames_observed": 6,
+  "independent_AE_v3_encoded_preview_frames_observed": 9,
+  "independent_final_movie_encoded_frames_observed": 0,
+  "final_v1_2_producer_native_group_samples": 38,
+  "final_v1_2_producer_encoded_samples": 10
+}

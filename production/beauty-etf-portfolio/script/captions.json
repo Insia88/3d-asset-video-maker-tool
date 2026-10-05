@@ -1,0 +1,409 @@
+{
+  "caption_revision": "v4-beauty-export-and-etf-written-korean",
+  "fps": 30,
+  "duration_seconds": 180,
+  "caption_group_count": 40,
+  "narration": false,
+  "groups": [
+    {
+      "id": "G01",
+      "at": 0.0,
+      "duration": 3.0,
+      "at_frame": 0,
+      "duration_frames": 90,
+      "end_frame_exclusive": 90,
+      "text": "화장품의 취향에서\n투자 이야기가 시작된다.",
+      "footer": ""
+    },
+    {
+      "id": "G02",
+      "at": 3.0,
+      "duration": 3.5,
+      "at_frame": 90,
+      "duration_frames": 105,
+      "end_frame_exclusive": 195,
+      "text": "익숙한 화장품 뒤에는\n여러 기업이 있다.",
+      "footer": ""
+    },
+    {
+      "id": "G03",
+      "at": 6.5,
+      "duration": 3.5,
+      "at_frame": 195,
+      "duration_frames": 105,
+      "end_frame_exclusive": 300,
+      "text": "좋아하는 제품을 따라가면\n기업과 산업도 보인다.",
+      "footer": ""
+    },
+    {
+      "id": "G04",
+      "at": 10.0,
+      "duration": 3.0,
+      "at_frame": 300,
+      "duration_frames": 90,
+      "end_frame_exclusive": 390,
+      "text": "취향을 출발점으로\n산업을 살펴본다.",
+      "footer": ""
+    },
+    {
+      "id": "G05",
+      "at": 13.0,
+      "duration": 5.0,
+      "at_frame": 390,
+      "duration_frames": 150,
+      "end_frame_exclusive": 540,
+      "text": "산업을 이해하면\n투자를 바라보는 시야도 넓어진다.",
+      "footer": ""
+    },
+    {
+      "id": "G06",
+      "at": 18,
+      "duration": 3,
+      "at_frame": 540,
+      "duration_frames": 90,
+      "end_frame_exclusive": 630,
+      "text": "한국 뷰티가 세계 시장으로\n이어지는 모습을 살펴본다.",
+      "footer": "미니어처는 산업을 설명하는 개념 장면이다."
+    },
+    {
+      "id": "G06K",
+      "at": 21,
+      "duration": 4.5,
+      "at_frame": 630,
+      "duration_frames": 135,
+      "end_frame_exclusive": 765,
+      "text": "한국은 세계 2위\n화장품 수출국이다.",
+      "footer": "2025년 화장품 수출액 기준 · 식약처(2026.05.28)"
+    },
+    {
+      "id": "G06X",
+      "at": 25.5,
+      "duration": 3.5,
+      "at_frame": 765,
+      "duration_frames": 105,
+      "end_frame_exclusive": 870,
+      "text": "같은 해 화장품 수출액은\n약 114억 달러다.",
+      "footer": "식품의약품안전처, 2026.05.28 · 2025년 수출액"
+    },
+    {
+      "id": "G07",
+      "at": 29,
+      "duration": 3.5,
+      "at_frame": 870,
+      "duration_frames": 105,
+      "end_frame_exclusive": 975,
+      "text": "세계 뷰티 시장의\n성장 전망도 살펴본다.",
+      "footer": "McKinsey, 2026.06 · 전망 2025–2030\n스킨·헤어·색조·향수의 세계 시장"
+    },
+    {
+      "id": "G08",
+      "at": 32.5,
+      "duration": 5,
+      "at_frame": 975,
+      "duration_frames": 150,
+      "end_frame_exclusive": 1125,
+      "text": "2030년까지 연평균\n약 5% 성장할 것으로 전망된다.",
+      "footer": "McKinsey, 2026.06 · 전망 2025–2030\n스킨·헤어·색조·향수의 세계 시장"
+    },
+    {
+      "id": "G09",
+      "at": 37.5,
+      "duration": 3,
+      "at_frame": 1125,
+      "duration_frames": 90,
+      "end_frame_exclusive": 1215,
+      "text": "CAGR은 복리로 계산한\n연평균 성장률이다.",
+      "footer": "McKinsey, 2026.06 · 전망 2025–2030\n스킨·헤어·색조·향수의 세계 시장\n매년 같은 성장률을 보장하지는 않는다."
+    },
+    {
+      "id": "G10",
+      "at": 40.5,
+      "duration": 3,
+      "at_frame": 1215,
+      "duration_frames": 90,
+      "end_frame_exclusive": 1305,
+      "text": "시장 규모를\n100으로 가정한다.",
+      "footer": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다."
+    },
+    {
+      "id": "G11",
+      "at": 43.5,
+      "duration": 3.5,
+      "at_frame": 1305,
+      "duration_frames": 105,
+      "end_frame_exclusive": 1410,
+      "text": "연 5%씩 성장한다면,\n5년 뒤 약 128이 된다.",
+      "footer": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다."
+    },
+    {
+      "id": "G12",
+      "at": 47,
+      "duration": 3,
+      "at_frame": 1410,
+      "duration_frames": 90,
+      "end_frame_exclusive": 1500,
+      "text": "이는 ETF 수익률을\n의미하지 않는다.",
+      "footer": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다."
+    },
+    {
+      "id": "G13",
+      "at": 50.0,
+      "duration": 4.3,
+      "at_frame": 1500,
+      "duration_frames": 129,
+      "end_frame_exclusive": 1629,
+      "text": "크림 하나가 오기까지\n여러 사업이 함께 움직인다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G14",
+      "at": 54.3,
+      "duration": 3.5,
+      "at_frame": 1629,
+      "duration_frames": 105,
+      "end_frame_exclusive": 1734,
+      "text": "브랜드는 제품과\n사용 경험을 기획한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G15",
+      "at": 57.8,
+      "duration": 6.5,
+      "at_frame": 1734,
+      "duration_frames": 195,
+      "end_frame_exclusive": 1929,
+      "text": "제조 기업은 제품을\n개발하고 생산한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G16",
+      "at": 64.3,
+      "duration": 6.5,
+      "at_frame": 1929,
+      "duration_frames": 195,
+      "end_frame_exclusive": 2124,
+      "text": "유통은 제품을\n소비자에게 전달한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G17",
+      "at": 70.8,
+      "duration": 3.5,
+      "at_frame": 2124,
+      "duration_frames": 105,
+      "end_frame_exclusive": 2229,
+      "text": "용기와 포장은\n제품을 담고 보호한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G18",
+      "at": 74.3,
+      "duration": 3.7,
+      "at_frame": 2229,
+      "duration_frames": 111,
+      "end_frame_exclusive": 2340,
+      "text": "이 사업들이 이어져\n뷰티 산업을 움직인다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G19",
+      "at": 78.0,
+      "duration": 4.5,
+      "at_frame": 2340,
+      "duration_frames": 135,
+      "end_frame_exclusive": 2475,
+      "text": "이 산업의 관련 기업에\nETF로 투자할 수도 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G20",
+      "at": 82.5,
+      "duration": 3.5,
+      "at_frame": 2475,
+      "duration_frames": 105,
+      "end_frame_exclusive": 2580,
+      "text": "ETF는 여러 투자자의\n자금을 모으는 펀드다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G21",
+      "at": 86.0,
+      "duration": 3.5,
+      "at_frame": 2580,
+      "duration_frames": 105,
+      "end_frame_exclusive": 2685,
+      "text": "그 자금으로 주식 등의\n자산에 투자한다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G22",
+      "at": 89.5,
+      "duration": 7.0,
+      "at_frame": 2685,
+      "duration_frames": 210,
+      "end_frame_exclusive": 2895,
+      "text": "이 ETF를 거래소에서\n주식처럼 사고팔 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G23",
+      "at": 96.5,
+      "duration": 3.5,
+      "at_frame": 2895,
+      "duration_frames": 105,
+      "end_frame_exclusive": 3000,
+      "text": "그중 뷰티 ETF는\n뷰티 관련 기업에 투자한다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G24",
+      "at": 100.0,
+      "duration": 7.0,
+      "at_frame": 3000,
+      "duration_frames": 210,
+      "end_frame_exclusive": 3210,
+      "text": "다만 어떤 사업을 담는지는\n상품에 따라 다르다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G25",
+      "at": 107.0,
+      "duration": 7.0,
+      "at_frame": 3210,
+      "duration_frames": 210,
+      "end_frame_exclusive": 3420,
+      "text": "앞서 본 사업이\n모두 담기는 것은 아니다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G26",
+      "at": 114.0,
+      "duration": 4.0,
+      "at_frame": 3420,
+      "duration_frames": 120,
+      "end_frame_exclusive": 3540,
+      "text": "같은 테마라도\n구성과 운용 방식은 다를 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G27",
+      "at": 118.0,
+      "duration": 4.3,
+      "at_frame": 3540,
+      "duration_frames": 129,
+      "end_frame_exclusive": 3669,
+      "text": "여러 기업을 담았다고\n위험이 사라지지는 않는다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G28",
+      "at": 122.3,
+      "duration": 7.0,
+      "at_frame": 3669,
+      "duration_frames": 210,
+      "end_frame_exclusive": 3879,
+      "text": "일부 기업에 얼마나\n집중되어 있는지도 살펴야 한다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G29",
+      "at": 129.3,
+      "duration": 7.0,
+      "at_frame": 3879,
+      "duration_frames": 210,
+      "end_frame_exclusive": 4089,
+      "text": "같은 산업의 변화가\n여러 기업에 영향을 줄 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G30",
+      "at": 136.3,
+      "duration": 7.0,
+      "at_frame": 4089,
+      "duration_frames": 210,
+      "end_frame_exclusive": 4299,
+      "text": "시장 성장과 기업 이익,\n주가는 다르게 움직일 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G31",
+      "at": 143.3,
+      "duration": 3.5,
+      "at_frame": 4299,
+      "duration_frames": 105,
+      "end_frame_exclusive": 4404,
+      "text": "ETF에서도\n원금 손실이 발생할 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G32",
+      "at": 146.8,
+      "duration": 5.2,
+      "at_frame": 4404,
+      "duration_frames": 156,
+      "end_frame_exclusive": 4560,
+      "text": "투자에 드는 비용 역시\n최종 결과에 영향을 준다.",
+      "footer": "보수·기타 비용·매매수수료를 함께 확인한다."
+    },
+    {
+      "id": "G33",
+      "at": 152.0,
+      "duration": 4.5,
+      "at_frame": 4560,
+      "duration_frames": 135,
+      "end_frame_exclusive": 4695,
+      "text": "ETF를 고를 때는\n세 가지 기준을 살펴본다.",
+      "footer": ""
+    },
+    {
+      "id": "G34",
+      "at": 156.5,
+      "duration": 3.5,
+      "at_frame": 4695,
+      "duration_frames": 105,
+      "end_frame_exclusive": 4800,
+      "text": "어떤 기업과 사업을\n담고 있는지 확인한다.",
+      "footer": ""
+    },
+    {
+      "id": "G35",
+      "at": 160.0,
+      "duration": 3.5,
+      "at_frame": 4800,
+      "duration_frames": 105,
+      "end_frame_exclusive": 4905,
+      "text": "일부 기업에 얼마나\n집중되어 있는지 살펴본다.",
+      "footer": ""
+    },
+    {
+      "id": "G36",
+      "at": 163.5,
+      "duration": 7.0,
+      "at_frame": 4905,
+      "duration_frames": 210,
+      "end_frame_exclusive": 5115,
+      "text": "비용과 위험도\n함께 비교해 판단한다.",
+      "footer": "보수·기타 비용·매매수수료를 함께 확인한다."
+    },
+    {
+      "id": "G37",
+      "at": 170.5,
+      "duration": 3.5,
+      "at_frame": 5115,
+      "duration_frames": 105,
+      "end_frame_exclusive": 5220,
+      "text": "이를 투자설명서와\n최신 구성 자료로 확인한다.",
+      "footer": "원금 손실이 발생할 수 있다.\n시장 전망이 투자 수익률을 보장하지는 않는다."
+    },
+    {
+      "id": "G38",
+      "at": 174.0,
+      "duration": 6.0,
+      "at_frame": 5220,
+      "duration_frames": 180,
+      "end_frame_exclusive": 5400,
+      "text": "취향에서 출발하되,\n구성과 위험을 살펴 판단한다.",
+      "footer": "원금 손실이 발생할 수 있다.\n시장 전망이 투자 수익률을 보장하지는 않는다."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "title": "Moa Felt Garden",
+  "wav_bytes": 34560078,
+  "wav_sha256": "d7393f8284377445d9542d6dfcfa8c5c957d81f5f5c3ff1051bca6380ad2fa76",
+  "mp3_bytes": 7201965,
+  "mp3_sha256": "35c64ca7164ceb6daf5dd186eb9f20a95f1cfb086dfdca9c862723943a7dd865",
+  "duration_seconds": 180,
+  "sample_rate": 48000,
+  "channels": 2,
+  "bpm": 116,
+  "local_hash_verified": true,
+  "loudness_LUFS": -19.2,
+  "true_peak_dBTP": -5.32,
+  "LRA_LU": 6.7,
+  "external_audio_inputs": 0,
+  "voices": 0,
+  "vocals": 0,
+  "full_listening_review": false,
+  "technical_measurement_complete": true
+}

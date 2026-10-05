@@ -1,0 +1,51 @@
+{
+  "version": "v4",
+  "body": {
+    "font_family": "Noto Sans KR",
+    "font_weight": 700,
+    "font_size_px": 56,
+    "box": {
+      "x": 108,
+      "y": 96,
+      "width": 864,
+      "height": 180
+    }
+  },
+  "footer": {
+    "font_size_px": 28,
+    "width_px": 896
+  },
+  "rank_hero": {
+    "at": 21,
+    "duration": 4.5,
+    "native_parts": [
+      "한국은 세계",
+      "2위",
+      "화장품 수출국이다."
+    ],
+    "rank_font_size_px": 120,
+    "source_mask": {
+      "x": 0,
+      "y": 0,
+      "width": 1080,
+      "height": 400,
+      "opaque": true,
+      "fill": "#F5EBDD"
+    },
+    "source_interval": [
+      3.5,
+      5.7
+    ],
+    "scope": "2025년 화장품 수출액 기준"
+  },
+  "hypothetical_index": {
+    "at": 40.5,
+    "duration": 9.5,
+    "from": 100,
+    "to": 127.62815625,
+    "round_display": 128,
+    "not_etf_return": true
+  },
+  "captions_persist_across_cuts": true,
+  "no_caption_restart_per_cut": true
+}

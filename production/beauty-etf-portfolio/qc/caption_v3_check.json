@@ -1,0 +1,443 @@
+{
+  "source_caption_revision": "caption-v3",
+  "source_script_sha256": "b63ebb18827d26d41953c2c2c4aec725423f97e0312aedc0d3a69a75c45dcd84",
+  "all_38_body_and_footer_text_directly_read": true,
+  "natural_written_Korean_and_word_spacing": true,
+  "financial_sources_and_timing_equal_to_v2": true,
+  "font_measurement_px": 52,
+  "maximum_line_width_px": 717.0,
+  "maximum_character_count_per_effective_second": 6.832,
+  "groups": [
+    {
+      "id": "G01",
+      "width52": [
+        395.0,
+        514.0
+      ],
+      "cps": 6.628,
+      "chars": 19,
+      "duration": 3.0,
+      "lines": 2
+    },
+    {
+      "id": "G02",
+      "width52": [
+        454.0,
+        370.0
+      ],
+      "cps": 5.05,
+      "chars": 17,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G03",
+      "width52": [
+        550.0,
+        466.0
+      ],
+      "cps": 6.238,
+      "chars": 21,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G04",
+      "width52": [
+        395.0,
+        359.0
+      ],
+      "cps": 5.581,
+      "chars": 16,
+      "duration": 3.0,
+      "lines": 2
+    },
+    {
+      "id": "G05",
+      "width52": [
+        347.0,
+        717.0
+      ],
+      "cps": 4.521,
+      "chars": 22,
+      "duration": 5.0,
+      "lines": 2
+    },
+    {
+      "id": "G06",
+      "width52": [
+        358.0,
+        466.0
+      ],
+      "cps": 3.893,
+      "chars": 17,
+      "duration": 4.5,
+      "lines": 2
+    },
+    {
+      "id": "G07",
+      "width52": [
+        423.0,
+        589.0
+      ],
+      "cps": 6.832,
+      "chars": 23,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G08",
+      "width52": [
+        407.0,
+        656.0
+      ],
+      "cps": 3.495,
+      "chars": 24,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G09",
+      "width52": [
+        533.0,
+        562.0
+      ],
+      "cps": 3.495,
+      "chars": 24,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G10",
+      "width52": [
+        251.0,
+        392.0
+      ],
+      "cps": 4.455,
+      "chars": 15,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G11",
+      "width52": [
+        442.0,
+        452.0
+      ],
+      "cps": 6.238,
+      "chars": 21,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G12",
+      "width52": [
+        397.0,
+        359.0
+      ],
+      "cps": 5.93,
+      "chars": 17,
+      "duration": 3.0,
+      "lines": 2
+    },
+    {
+      "id": "G13",
+      "width52": [
+        454.0,
+        573.0
+      ],
+      "cps": 5.04,
+      "chars": 21,
+      "duration": 4.3,
+      "lines": 2
+    },
+    {
+      "id": "G14",
+      "width52": [
+        347.0,
+        466.0
+      ],
+      "cps": 5.05,
+      "chars": 17,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G15",
+      "width52": [
+        406.0,
+        407.0
+      ],
+      "cps": 2.67,
+      "chars": 17,
+      "duration": 6.5,
+      "lines": 2
+    },
+    {
+      "id": "G16",
+      "width52": [
+        299.0,
+        455.0
+      ],
+      "cps": 2.513,
+      "chars": 16,
+      "duration": 6.5,
+      "lines": 2
+    },
+    {
+      "id": "G17",
+      "width52": [
+        299.0,
+        466.0
+      ],
+      "cps": 4.752,
+      "chars": 16,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G18",
+      "width52": [
+        406.0,
+        466.0
+      ],
+      "cps": 5.047,
+      "chars": 18,
+      "duration": 3.7,
+      "lines": 2
+    },
+    {
+      "id": "G19",
+      "width52": [
+        561.0,
+        468.0
+      ],
+      "cps": 5.038,
+      "chars": 22,
+      "duration": 4.5,
+      "lines": 2
+    },
+    {
+      "id": "G20",
+      "width52": [
+        445.0,
+        466.0
+      ],
+      "cps": 5.941,
+      "chars": 20,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G21",
+      "width52": [
+        465.0,
+        359.0
+      ],
+      "cps": 5.05,
+      "chars": 17,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G22",
+      "width52": [
+        445.0,
+        525.0
+      ],
+      "cps": 3.058,
+      "chars": 21,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G23",
+      "width52": [
+        349.0,
+        573.0
+      ],
+      "cps": 5.941,
+      "chars": 20,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G24",
+      "width52": [
+        561.0,
+        418.0
+      ],
+      "cps": 2.913,
+      "chars": 20,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G25",
+      "width52": [
+        310.0,
+        525.0
+      ],
+      "cps": 2.476,
+      "chars": 17,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G26",
+      "width52": [
+        299.0,
+        691.0
+      ],
+      "cps": 5.172,
+      "chars": 20,
+      "duration": 4.0,
+      "lines": 2
+    },
+    {
+      "id": "G27",
+      "width52": [
+        454.0,
+        562.0
+      ],
+      "cps": 5.04,
+      "chars": 21,
+      "duration": 4.3,
+      "lines": 2
+    },
+    {
+      "id": "G28",
+      "width52": [
+        406.0,
+        669.0
+      ],
+      "cps": 3.204,
+      "chars": 22,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G29",
+      "width52": [
+        406.0,
+        643.0
+      ],
+      "cps": 3.058,
+      "chars": 21,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G30",
+      "width52": [
+        477.0,
+        632.0
+      ],
+      "cps": 3.35,
+      "chars": 23,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G31",
+      "width52": [
+        231.0,
+        584.0
+      ],
+      "cps": 5.347,
+      "chars": 18,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G32",
+      "width52": [
+        465.0,
+        525.0
+      ],
+      "cps": 3.947,
+      "chars": 20,
+      "duration": 5.2,
+      "lines": 2
+    },
+    {
+      "id": "G33",
+      "width52": [
+        349.0,
+        525.0
+      ],
+      "cps": 4.351,
+      "chars": 19,
+      "duration": 4.5,
+      "lines": 2
+    },
+    {
+      "id": "G34",
+      "width52": [
+        406.0,
+        466.0
+      ],
+      "cps": 5.347,
+      "chars": 18,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G35",
+      "width52": [
+        406.0,
+        562.0
+      ],
+      "cps": 5.941,
+      "chars": 20,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G36",
+      "width52": [
+        299.0,
+        466.0
+      ],
+      "cps": 2.33,
+      "chars": 16,
+      "duration": 7.0,
+      "lines": 2
+    },
+    {
+      "id": "G37",
+      "width52": [
+        395.0,
+        573.0
+      ],
+      "cps": 5.941,
+      "chars": 20,
+      "duration": 3.5,
+      "lines": 2
+    },
+    {
+      "id": "G38",
+      "width52": [
+        407.0,
+        621.0
+      ],
+      "cps": 3.75,
+      "chars": 22,
+      "duration": 6.0,
+      "lines": 2
+    }
+  ],
+  "reading_speed_measurement_is_design_heuristic_not_all_viewers": true,
+  "independent_AE_v3_native_frames_observed": 6,
+  "independent_AE_v3_encoded_preview_frames_observed": 9,
+  "independent_final_v1_2_encoded_movie_frames_observed": 0,
+  "final_v1_2_producer_review": {
+    "native_midpoint_frames": 38,
+    "encoded_sample_frames": 10,
+    "full_technical_decode_exit_code": 0,
+    "full_continuous_viewing_claim": false
+  },
+  "rendered_priority_caption_font_px": 56,
+  "rendered_priority_maximum_line_width_px": 777.578125,
+  "rendered_caption_box_width_px": 864
+}

@@ -1,0 +1,142 @@
+{
+  "asset": "beauty-etf-bright-funk-132bpm-180s",
+  "composition": {
+    "method": "이 프로젝트를 위해 새로 작성한 원곡의 음표·리듬 이벤트를 샘플 악기로 렌더링했다.",
+    "existing_recording_retimed_or_reused": false,
+    "artist_or_existing_song_reference": false,
+    "music_model_generation": false,
+    "bpm": 132,
+    "meter": "4/4",
+    "first_beat_seconds": 0,
+    "editing_duration_seconds": 180,
+    "note_on_events": 4864,
+    "vocals": false,
+    "narration": false
+  },
+  "rendering": {
+    "synthesizer": "FluidSynth",
+    "synthesizer_primary_source": "https://www.fluidsynth.org/",
+    "instrument_bank": "GeneralUser GS",
+    "bank_version": "2.0.3",
+    "bank_creator": "S. Christian Collins",
+    "bank_sha256": "9575028c7a1f589f5770fccc8cff2734566af40cd26ed836944e9a5152688cfe",
+    "instrument_palette": [
+      "drums and percussion",
+      "finger bass",
+      "muted guitar",
+      "short electric piano",
+      "marimba",
+      "clavinet",
+      "glockenspiel",
+      "woodblock"
+    ]
+  },
+  "license": {
+    "name": "GeneralUser GS License",
+    "version": "2.0",
+    "primary_url": "https://github.com/mrbumpy409/GeneralUser-GS/blob/main/documentation/LICENSE.txt",
+    "creator_site": "https://www.schristiancollins.com/",
+    "document_file": "GeneralUser-GS-LICENSE.txt",
+    "document_sha256": "7b32efefdf95ce38a043799f0659853ddc00fbaa14d8c50f0aca16b9b8b405be",
+    "permitted_use_summary": "제작자가 개인 및 상업적 음악 제작에 사용할 수 있도록 허용한다.",
+    "provenance_limit": "일부 음색은 오래된 무료 SoundFont에서 이어받았으며, 제작자는 모든 샘플의 최초 출처를 완전히 확인하지 못했다고 명시한다.",
+    "all_individual_sample_origins_independently_verified": false,
+    "absolute_rights_clearance_claim": false,
+    "soundfont_bank_redistributed": false
+  },
+  "files": [
+    {
+      "file": "beauty-etf-bright-funk-132bpm-180s.wav",
+      "bytes": 51840102,
+      "sha256": "8f7657d518b7767a639a67e670c7dd7ab690732beb44979183b25aa8c1f80d56",
+      "codec": "PCM signed 24-bit little-endian",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "duration_seconds": 180,
+      "measured_integrated_lufs": -16.01,
+      "measured_true_peak_dbtp": -1.19,
+      "in_source_zip": true
+    },
+    {
+      "file": "beauty-etf-bright-funk-132bpm-180s.mp3",
+      "bytes": 5761581,
+      "sha256": "52344c1e1a257c0b48d6919ddeb406e3f08e1135d78d6e86685a629c5bd171ec",
+      "codec": "MP3",
+      "sample_rate_hz": 48000,
+      "channels": 2,
+      "bitrate_bps": 256000,
+      "container_duration_seconds": 180.024,
+      "editing_trim_seconds": 180,
+      "measured_integrated_lufs": -16.41,
+      "measured_true_peak_dbtp": -1.47,
+      "in_source_zip": false
+    },
+    {
+      "file": "beauty-etf-bright-original-132bpm.mid",
+      "bytes": 39110,
+      "sha256": "abc31a60ddbf827ae396ced68ac6e410a0f757b5ddfd174ab4dd54a01b568efd",
+      "contains": "음표·길이·악기·템포·음량·팬 편집 정보",
+      "in_source_zip": false
+    },
+    {
+      "file": "beauty-etf-bright-score-source.zip",
+      "bytes": 53473649,
+      "sha256": "d7a6ec8425583c75fbce3147e88f109378754e7878dc7f36af121987008cb39d",
+      "member_count": 13,
+      "content_files": 12,
+      "receipt_files": 1,
+      "crc_verified": true,
+      "all_member_hashes_verified": true,
+      "contains": "180초 WAV, 18초 비교 MP3 두 종, 음표·박자 자료, 렌더 스크립트와 음색 라이선스"
+    }
+  ],
+  "sections": [
+    {
+      "at": 0,
+      "end": 18,
+      "arrangement": "처음부터 드럼·베이스·뮤트 기타와 짧은 마림바 후크를 시작한다."
+    },
+    {
+      "at": 18,
+      "end": 50,
+      "arrangement": "수출 실적과 시장 수치를 읽는 동안 주선율의 밀도를 낮춘다."
+    },
+    {
+      "at": 50,
+      "end": 78,
+      "arrangement": "사업의 연결을 따라 클라비넷과 말렛 악기의 짧은 응답 구절을 더한다."
+    },
+    {
+      "at": 78,
+      "end": 118,
+      "arrangement": "ETF 바구니 설명에 주요 후크와 베이스 응답을 이어 간다."
+    },
+    {
+      "at": 118,
+      "end": 152,
+      "arrangement": "위험을 설명할 때 짧은 브레이크와 가벼운 당김음을 둔다."
+    },
+    {
+      "at": 152,
+      "end": 180,
+      "arrangement": "주요 후크가 돌아오고 짧은 종결 악센트와 페이드로 마무리한다."
+    }
+  ],
+  "verification": {
+    "source_file_hashes_verified": true,
+    "wav_and_mp3_full_decode_errors": 0,
+    "whole_track_listening_performed": false,
+    "short_proof_listening_performed": false,
+    "subjective_brightness_buzz_or_monotony_pass_claimed": false,
+    "technical_measurements_are_not_listening_judgment": true,
+    "wav_loudness_method": {
+      "analyzer": "FFmpeg loudnorm",
+      "measurement_record_filename": "music_receipt.json",
+      "delivered_wav_fields": {
+        "input_i": -16.01,
+        "input_tp": -1.19
+      },
+      "field_meaning": "input_* is analysis of the delivered WAV; output_* describes an additional normalization sent to a null output and does not describe the delivered bytes."
+    }
+  }
+}
