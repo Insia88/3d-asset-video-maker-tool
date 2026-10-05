@@ -1,0 +1,4587 @@
+{
+  "version": "v4",
+  "fps": 30,
+  "duration": 180,
+  "total_frames": 5400,
+  "edit_cut_count": 105,
+  "caption_group_count": 40,
+  "narration": false,
+  "caption_groups": [
+    {
+      "id": "G01",
+      "at": 0.0,
+      "duration": 3.0,
+      "at_frame": 0,
+      "duration_frames": 90,
+      "end_frame_exclusive": 90,
+      "text": "화장품의 취향에서\n투자 이야기가 시작된다.",
+      "footer": ""
+    },
+    {
+      "id": "G02",
+      "at": 3.0,
+      "duration": 3.5,
+      "at_frame": 90,
+      "duration_frames": 105,
+      "end_frame_exclusive": 195,
+      "text": "익숙한 화장품 뒤에는\n여러 기업이 있다.",
+      "footer": ""
+    },
+    {
+      "id": "G03",
+      "at": 6.5,
+      "duration": 3.5,
+      "at_frame": 195,
+      "duration_frames": 105,
+      "end_frame_exclusive": 300,
+      "text": "좋아하는 제품을 따라가면\n기업과 산업도 보인다.",
+      "footer": ""
+    },
+    {
+      "id": "G04",
+      "at": 10.0,
+      "duration": 3.0,
+      "at_frame": 300,
+      "duration_frames": 90,
+      "end_frame_exclusive": 390,
+      "text": "취향을 출발점으로\n산업을 살펴본다.",
+      "footer": ""
+    },
+    {
+      "id": "G05",
+      "at": 13.0,
+      "duration": 5.0,
+      "at_frame": 390,
+      "duration_frames": 150,
+      "end_frame_exclusive": 540,
+      "text": "산업을 이해하면\n투자를 바라보는 시야도 넓어진다.",
+      "footer": ""
+    },
+    {
+      "id": "G06",
+      "at": 18,
+      "duration": 3,
+      "at_frame": 540,
+      "duration_frames": 90,
+      "end_frame_exclusive": 630,
+      "text": "한국 뷰티가 세계 시장으로\n이어지는 모습을 살펴본다.",
+      "footer": "미니어처는 산업을 설명하는 개념 장면이다."
+    },
+    {
+      "id": "G06K",
+      "at": 21,
+      "duration": 4.5,
+      "at_frame": 630,
+      "duration_frames": 135,
+      "end_frame_exclusive": 765,
+      "text": "한국은 세계 2위\n화장품 수출국이다.",
+      "footer": "2025년 화장품 수출액 기준 · 식약처(2026.05.28)"
+    },
+    {
+      "id": "G06X",
+      "at": 25.5,
+      "duration": 3.5,
+      "at_frame": 765,
+      "duration_frames": 105,
+      "end_frame_exclusive": 870,
+      "text": "같은 해 화장품 수출액은\n약 114억 달러다.",
+      "footer": "식품의약품안전처, 2026.05.28 · 2025년 수출액"
+    },
+    {
+      "id": "G07",
+      "at": 29,
+      "duration": 3.5,
+      "at_frame": 870,
+      "duration_frames": 105,
+      "end_frame_exclusive": 975,
+      "text": "세계 뷰티 시장의\n성장 전망도 살펴본다.",
+      "footer": "McKinsey, 2026.06 · 전망 2025–2030\n스킨·헤어·색조·향수의 세계 시장"
+    },
+    {
+      "id": "G08",
+      "at": 32.5,
+      "duration": 5,
+      "at_frame": 975,
+      "duration_frames": 150,
+      "end_frame_exclusive": 1125,
+      "text": "2030년까지 연평균\n약 5% 성장할 것으로 전망된다.",
+      "footer": "McKinsey, 2026.06 · 전망 2025–2030\n스킨·헤어·색조·향수의 세계 시장"
+    },
+    {
+      "id": "G09",
+      "at": 37.5,
+      "duration": 3,
+      "at_frame": 1125,
+      "duration_frames": 90,
+      "end_frame_exclusive": 1215,
+      "text": "CAGR은 복리로 계산한\n연평균 성장률이다.",
+      "footer": "McKinsey, 2026.06 · 전망 2025–2030\n스킨·헤어·색조·향수의 세계 시장\n매년 같은 성장률을 보장하지는 않는다."
+    },
+    {
+      "id": "G10",
+      "at": 40.5,
+      "duration": 3,
+      "at_frame": 1215,
+      "duration_frames": 90,
+      "end_frame_exclusive": 1305,
+      "text": "시장 규모를\n100으로 가정한다.",
+      "footer": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다."
+    },
+    {
+      "id": "G11",
+      "at": 43.5,
+      "duration": 3.5,
+      "at_frame": 1305,
+      "duration_frames": 105,
+      "end_frame_exclusive": 1410,
+      "text": "연 5%씩 성장한다면,\n5년 뒤 약 128이 된다.",
+      "footer": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다."
+    },
+    {
+      "id": "G12",
+      "at": 47,
+      "duration": 3,
+      "at_frame": 1410,
+      "duration_frames": 90,
+      "end_frame_exclusive": 1500,
+      "text": "이는 ETF 수익률을\n의미하지 않는다.",
+      "footer": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다."
+    },
+    {
+      "id": "G13",
+      "at": 50.0,
+      "duration": 4.3,
+      "at_frame": 1500,
+      "duration_frames": 129,
+      "end_frame_exclusive": 1629,
+      "text": "크림 하나가 오기까지\n여러 사업이 함께 움직인다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G14",
+      "at": 54.3,
+      "duration": 3.5,
+      "at_frame": 1629,
+      "duration_frames": 105,
+      "end_frame_exclusive": 1734,
+      "text": "브랜드는 제품과\n사용 경험을 기획한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G15",
+      "at": 57.8,
+      "duration": 6.5,
+      "at_frame": 1734,
+      "duration_frames": 195,
+      "end_frame_exclusive": 1929,
+      "text": "제조 기업은 제품을\n개발하고 생산한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G16",
+      "at": 64.3,
+      "duration": 6.5,
+      "at_frame": 1929,
+      "duration_frames": 195,
+      "end_frame_exclusive": 2124,
+      "text": "유통은 제품을\n소비자에게 전달한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G17",
+      "at": 70.8,
+      "duration": 3.5,
+      "at_frame": 2124,
+      "duration_frames": 105,
+      "end_frame_exclusive": 2229,
+      "text": "용기와 포장은\n제품을 담고 보호한다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G18",
+      "at": 74.3,
+      "duration": 3.7,
+      "at_frame": 2229,
+      "duration_frames": 111,
+      "end_frame_exclusive": 2340,
+      "text": "이 사업들이 이어져\n뷰티 산업을 움직인다.",
+      "footer": "사업 간 연결을 설명하기 위한 역할 예시다."
+    },
+    {
+      "id": "G19",
+      "at": 78.0,
+      "duration": 4.5,
+      "at_frame": 2340,
+      "duration_frames": 135,
+      "end_frame_exclusive": 2475,
+      "text": "이 산업의 관련 기업에\nETF로 투자할 수도 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G20",
+      "at": 82.5,
+      "duration": 3.5,
+      "at_frame": 2475,
+      "duration_frames": 105,
+      "end_frame_exclusive": 2580,
+      "text": "ETF는 여러 투자자의\n자금을 모으는 펀드다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G21",
+      "at": 86.0,
+      "duration": 3.5,
+      "at_frame": 2580,
+      "duration_frames": 105,
+      "end_frame_exclusive": 2685,
+      "text": "그 자금으로 주식 등의\n자산에 투자한다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G22",
+      "at": 89.5,
+      "duration": 7.0,
+      "at_frame": 2685,
+      "duration_frames": 210,
+      "end_frame_exclusive": 2895,
+      "text": "이 ETF를 거래소에서\n주식처럼 사고팔 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G23",
+      "at": 96.5,
+      "duration": 3.5,
+      "at_frame": 2895,
+      "duration_frames": 105,
+      "end_frame_exclusive": 3000,
+      "text": "그중 뷰티 ETF는\n뷰티 관련 기업에 투자한다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G24",
+      "at": 100.0,
+      "duration": 7.0,
+      "at_frame": 3000,
+      "duration_frames": 210,
+      "end_frame_exclusive": 3210,
+      "text": "다만 어떤 사업을 담는지는\n상품에 따라 다르다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G25",
+      "at": 107.0,
+      "duration": 7.0,
+      "at_frame": 3210,
+      "duration_frames": 210,
+      "end_frame_exclusive": 3420,
+      "text": "앞서 본 사업이\n모두 담기는 것은 아니다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G26",
+      "at": 114.0,
+      "duration": 4.0,
+      "at_frame": 3420,
+      "duration_frames": 120,
+      "end_frame_exclusive": 3540,
+      "text": "같은 테마라도\n구성과 운용 방식은 다를 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G27",
+      "at": 118.0,
+      "duration": 4.3,
+      "at_frame": 3540,
+      "duration_frames": 129,
+      "end_frame_exclusive": 3669,
+      "text": "여러 기업을 담았다고\n위험이 사라지지는 않는다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G28",
+      "at": 122.3,
+      "duration": 7.0,
+      "at_frame": 3669,
+      "duration_frames": 210,
+      "end_frame_exclusive": 3879,
+      "text": "일부 기업에 얼마나\n집중되어 있는지도 살펴야 한다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G29",
+      "at": 129.3,
+      "duration": 7.0,
+      "at_frame": 3879,
+      "duration_frames": 210,
+      "end_frame_exclusive": 4089,
+      "text": "같은 산업의 변화가\n여러 기업에 영향을 줄 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G30",
+      "at": 136.3,
+      "duration": 7.0,
+      "at_frame": 4089,
+      "duration_frames": 210,
+      "end_frame_exclusive": 4299,
+      "text": "시장 성장과 기업 이익,\n주가는 다르게 움직일 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G31",
+      "at": 143.3,
+      "duration": 3.5,
+      "at_frame": 4299,
+      "duration_frames": 105,
+      "end_frame_exclusive": 4404,
+      "text": "ETF에서도\n원금 손실이 발생할 수 있다.",
+      "footer": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다."
+    },
+    {
+      "id": "G32",
+      "at": 146.8,
+      "duration": 5.2,
+      "at_frame": 4404,
+      "duration_frames": 156,
+      "end_frame_exclusive": 4560,
+      "text": "투자에 드는 비용 역시\n최종 결과에 영향을 준다.",
+      "footer": "보수·기타 비용·매매수수료를 함께 확인한다."
+    },
+    {
+      "id": "G33",
+      "at": 152.0,
+      "duration": 4.5,
+      "at_frame": 4560,
+      "duration_frames": 135,
+      "end_frame_exclusive": 4695,
+      "text": "ETF를 고를 때는\n세 가지 기준을 살펴본다.",
+      "footer": ""
+    },
+    {
+      "id": "G34",
+      "at": 156.5,
+      "duration": 3.5,
+      "at_frame": 4695,
+      "duration_frames": 105,
+      "end_frame_exclusive": 4800,
+      "text": "어떤 기업과 사업을\n담고 있는지 확인한다.",
+      "footer": ""
+    },
+    {
+      "id": "G35",
+      "at": 160.0,
+      "duration": 3.5,
+      "at_frame": 4800,
+      "duration_frames": 105,
+      "end_frame_exclusive": 4905,
+      "text": "일부 기업에 얼마나\n집중되어 있는지 살펴본다.",
+      "footer": ""
+    },
+    {
+      "id": "G36",
+      "at": 163.5,
+      "duration": 7.0,
+      "at_frame": 4905,
+      "duration_frames": 210,
+      "end_frame_exclusive": 5115,
+      "text": "비용과 위험도\n함께 비교해 판단한다.",
+      "footer": "보수·기타 비용·매매수수료를 함께 확인한다."
+    },
+    {
+      "id": "G37",
+      "at": 170.5,
+      "duration": 3.5,
+      "at_frame": 5115,
+      "duration_frames": 105,
+      "end_frame_exclusive": 5220,
+      "text": "이를 투자설명서와\n최신 구성 자료로 확인한다.",
+      "footer": "원금 손실이 발생할 수 있다.\n시장 전망이 투자 수익률을 보장하지는 않는다."
+    },
+    {
+      "id": "G38",
+      "at": 174.0,
+      "duration": 6.0,
+      "at_frame": 5220,
+      "duration_frames": 180,
+      "end_frame_exclusive": 5400,
+      "text": "취향에서 출발하되,\n구성과 위험을 살펴 판단한다.",
+      "footer": "원금 손실이 발생할 수 있다.\n시장 전망이 투자 수익률을 보장하지는 않는다."
+    }
+  ],
+  "cuts": [
+    {
+      "edit_cut": 1,
+      "at": 0.0,
+      "duration": 0.6,
+      "at_frame": 0,
+      "duration_frames": 18,
+      "end_frame_exclusive": 18,
+      "asset_id": "BE-M03",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 301,
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 0.95,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "product_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G01",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 2,
+      "at": 0.6,
+      "duration": 0.8,
+      "at_frame": 18,
+      "duration_frames": 24,
+      "end_frame_exclusive": 42,
+      "asset_id": "BE-S01-consumer-hook",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 302,
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 1.15,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "hook_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G01",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 3,
+      "at": 1.4,
+      "duration": 1.6,
+      "at_frame": 42,
+      "duration_frames": 48,
+      "end_frame_exclusive": 90,
+      "asset_id": "BE-M04",
+      "source_kind": "video",
+      "source_video_index": 10,
+      "source_in_seconds": 1.2,
+      "source_out_seconds": 2.8,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "vanity_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G01",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 4,
+      "at": 3.0,
+      "duration": 1.3,
+      "at_frame": 90,
+      "duration_frames": 39,
+      "end_frame_exclusive": 129,
+      "asset_id": "BE-M03",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 301,
+      "source_in_seconds": 2.4,
+      "source_out_seconds": 3.7,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "product_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G02",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 5,
+      "at": 4.3,
+      "duration": 2.2,
+      "at_frame": 129,
+      "duration_frames": 66,
+      "end_frame_exclusive": 195,
+      "asset_id": "BE-S01-consumer-hook",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 302,
+      "source_in_seconds": 2.2,
+      "source_out_seconds": 4.4,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "hook_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G02",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 6,
+      "at": 6.5,
+      "duration": 1.3,
+      "at_frame": 195,
+      "duration_frames": 39,
+      "end_frame_exclusive": 234,
+      "asset_id": "BE-S01-consumer-hook",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "hook_hands",
+      "crop_roi_normalized": [
+        0.1,
+        0.29,
+        0.88,
+        0.44
+      ],
+      "artifact_mask": null,
+      "caption_group": "G03",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 7,
+      "at": 7.8,
+      "duration": 2.2,
+      "at_frame": 234,
+      "duration_frames": 66,
+      "end_frame_exclusive": 300,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G03",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 8,
+      "at": 10.0,
+      "duration": 1.1,
+      "at_frame": 300,
+      "duration_frames": 33,
+      "end_frame_exclusive": 333,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "perfume_detail",
+      "crop_roi_normalized": [
+        0.62,
+        0.2,
+        0.37,
+        0.65
+      ],
+      "artifact_mask": null,
+      "caption_group": "G04",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 9,
+      "at": 11.1,
+      "duration": 1.9,
+      "at_frame": 333,
+      "duration_frames": 57,
+      "end_frame_exclusive": 390,
+      "asset_id": "BE-S03-brand-atelier",
+      "source_kind": "video",
+      "source_video_index": 13,
+      "source_in_seconds": 1.1,
+      "source_out_seconds": 3.0,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "brand_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G04",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 10,
+      "at": 13.0,
+      "duration": 1.3,
+      "at_frame": 390,
+      "duration_frames": 39,
+      "end_frame_exclusive": 429,
+      "asset_id": "BE-S01-consumer-hook",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 302,
+      "source_in_seconds": 4.4,
+      "source_out_seconds": 5.7,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "hook_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G05",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 11,
+      "at": 14.3,
+      "duration": 1.2,
+      "at_frame": 429,
+      "duration_frames": 36,
+      "end_frame_exclusive": 465,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "perfume_detail",
+      "crop_roi_normalized": [
+        0.62,
+        0.2,
+        0.37,
+        0.65
+      ],
+      "artifact_mask": null,
+      "caption_group": "G05",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 12,
+      "at": 15.5,
+      "duration": 2.5,
+      "at_frame": 465,
+      "duration_frames": 75,
+      "end_frame_exclusive": 540,
+      "asset_id": "BE-S02-beauty-market-world",
+      "source_kind": "video",
+      "source_video_index": 4,
+      "source_in_seconds": 1.0,
+      "source_out_seconds": 3.5,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "market_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G05",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 13,
+      "at": 18,
+      "duration": 2.0,
+      "at_frame": 540,
+      "duration_frames": 60,
+      "end_frame_exclusive": 600,
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 305,
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 2.35,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "aerial_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G06",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 14,
+      "at": 20.0,
+      "duration": 1.0,
+      "at_frame": 600,
+      "duration_frames": 30,
+      "end_frame_exclusive": 630,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G06",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 15,
+      "at": 21,
+      "duration": 2.2,
+      "at_frame": 630,
+      "duration_frames": 66,
+      "end_frame_exclusive": 696,
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 305,
+      "source_in_seconds": 3.5,
+      "source_out_seconds": 5.7,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "aerial_rank_masked",
+      "crop_roi_normalized": null,
+      "artifact_mask": {
+        "x": 0,
+        "y": 0,
+        "width": 1080,
+        "height": 400,
+        "opacity": 1,
+        "fill": "#F5EBDD",
+        "z_order": "above_source_below_native_captions",
+        "required": true,
+        "encoded_readback_required": true
+      },
+      "caption_group": "G06K",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 16,
+      "at": 23.2,
+      "duration": 2.3,
+      "at_frame": 696,
+      "duration_frames": 69,
+      "end_frame_exclusive": 765,
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "source_kind": "root_verified_generated_keyimage",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "campus_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G06K",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 17,
+      "at": 25.5,
+      "duration": 3.5,
+      "at_frame": 765,
+      "duration_frames": 105,
+      "end_frame_exclusive": 870,
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 306,
+      "source_in_seconds": 1.5,
+      "source_out_seconds": 5.0,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "globe_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G06X",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 18,
+      "at": 29,
+      "duration": 1.5,
+      "at_frame": 870,
+      "duration_frames": 45,
+      "end_frame_exclusive": 915,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "cream_detail",
+      "crop_roi_normalized": [
+        0.02,
+        0.3,
+        0.37,
+        0.5
+      ],
+      "artifact_mask": null,
+      "caption_group": "G07",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 19,
+      "at": 30.5,
+      "duration": 2.0,
+      "at_frame": 915,
+      "duration_frames": 60,
+      "end_frame_exclusive": 975,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "perfume_detail",
+      "crop_roi_normalized": [
+        0.62,
+        0.2,
+        0.37,
+        0.65
+      ],
+      "artifact_mask": null,
+      "caption_group": "G07",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 20,
+      "at": 32.5,
+      "duration": 1.2,
+      "at_frame": 975,
+      "duration_frames": 36,
+      "end_frame_exclusive": 1011,
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "source_kind": "root_verified_generated_keyimage",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "globe_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G08",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 21,
+      "at": 33.7,
+      "duration": 1.8,
+      "at_frame": 1011,
+      "duration_frames": 54,
+      "end_frame_exclusive": 1065,
+      "asset_id": "BE-S03-brand-atelier",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "brand_desk",
+      "crop_roi_normalized": [
+        0.29,
+        0.41,
+        0.68,
+        0.42
+      ],
+      "artifact_mask": null,
+      "caption_group": "G08",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 22,
+      "at": 35.5,
+      "duration": 2.0,
+      "at_frame": 1065,
+      "duration_frames": 60,
+      "end_frame_exclusive": 1125,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G08",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 23,
+      "at": 37.5,
+      "duration": 1.3,
+      "at_frame": 1125,
+      "duration_frames": 39,
+      "end_frame_exclusive": 1164,
+      "asset_id": "BE-S02-beauty-market-world",
+      "source_kind": "video",
+      "source_video_index": 4,
+      "source_in_seconds": 4.0,
+      "source_out_seconds": 5.3,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "market_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G09",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 24,
+      "at": 38.8,
+      "duration": 1.7,
+      "at_frame": 1164,
+      "duration_frames": 51,
+      "end_frame_exclusive": 1215,
+      "asset_id": "BE-M03",
+      "source_kind": "video",
+      "source_video_index": 11,
+      "source_in_seconds": 6.3,
+      "source_out_seconds": 8.0,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G09",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 25,
+      "at": 40.5,
+      "duration": 1.2,
+      "at_frame": 1215,
+      "duration_frames": 36,
+      "end_frame_exclusive": 1251,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G10",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 26,
+      "at": 41.7,
+      "duration": 1.8,
+      "at_frame": 1251,
+      "duration_frames": 54,
+      "end_frame_exclusive": 1305,
+      "asset_id": "BE-S02-beauty-market-world",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "market_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G10",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 27,
+      "at": 43.5,
+      "duration": 1.5,
+      "at_frame": 1305,
+      "duration_frames": 45,
+      "end_frame_exclusive": 1350,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G11",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 28,
+      "at": 45.0,
+      "duration": 2.0,
+      "at_frame": 1350,
+      "duration_frames": 60,
+      "end_frame_exclusive": 1410,
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "source_kind": "root_verified_generated_keyimage",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "globe_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G11",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 29,
+      "at": 47,
+      "duration": 1.2,
+      "at_frame": 1410,
+      "duration_frames": 36,
+      "end_frame_exclusive": 1446,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "video",
+      "source_video_index": 3,
+      "source_in_seconds": 1.0,
+      "source_out_seconds": 2.2,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G12",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 30,
+      "at": 48.2,
+      "duration": 1.8,
+      "at_frame": 1446,
+      "duration_frames": 54,
+      "end_frame_exclusive": 1500,
+      "asset_id": "BE-M04",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "vanity_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G12",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 31,
+      "at": 50.0,
+      "duration": 0.8,
+      "at_frame": 1500,
+      "duration_frames": 24,
+      "end_frame_exclusive": 1524,
+      "asset_id": "BE-M03",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 301,
+      "source_in_seconds": 3.7,
+      "source_out_seconds": 4.5,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "product_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G13",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 32,
+      "at": 50.8,
+      "duration": 1.2,
+      "at_frame": 1524,
+      "duration_frames": 36,
+      "end_frame_exclusive": 1560,
+      "asset_id": "BE-S03-brand-atelier",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "brand_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G13",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 33,
+      "at": 52.0,
+      "duration": 2.3,
+      "at_frame": 1560,
+      "duration_frames": 69,
+      "end_frame_exclusive": 1629,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "modules_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G13",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 34,
+      "at": 54.3,
+      "duration": 1.2,
+      "at_frame": 1629,
+      "duration_frames": 36,
+      "end_frame_exclusive": 1665,
+      "asset_id": "BE-S03-brand-atelier",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "brand_desk",
+      "crop_roi_normalized": [
+        0.29,
+        0.41,
+        0.68,
+        0.42
+      ],
+      "artifact_mask": null,
+      "caption_group": "G14",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 35,
+      "at": 55.5,
+      "duration": 2.3,
+      "at_frame": 1665,
+      "duration_frames": 69,
+      "end_frame_exclusive": 1734,
+      "asset_id": "BE-S03-brand-atelier",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "brand_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G14",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 36,
+      "at": 57.8,
+      "duration": 1.4,
+      "at_frame": 1734,
+      "duration_frames": 42,
+      "end_frame_exclusive": 1776,
+      "asset_id": "BE-S04-odm-factory",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 303,
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 1.75,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "factory_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G15",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 37,
+      "at": 59.2,
+      "duration": 1.5,
+      "at_frame": 1776,
+      "duration_frames": 45,
+      "end_frame_exclusive": 1821,
+      "asset_id": "BE-S04-odm-factory",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "factory_nozzle",
+      "crop_roi_normalized": [
+        0.1,
+        0.3,
+        0.67,
+        0.45
+      ],
+      "artifact_mask": null,
+      "caption_group": "G15",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 38,
+      "at": 60.7,
+      "duration": 1.3,
+      "at_frame": 1821,
+      "duration_frames": 39,
+      "end_frame_exclusive": 1860,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G15",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 39,
+      "at": 62.0,
+      "duration": 2.3,
+      "at_frame": 1860,
+      "duration_frames": 69,
+      "end_frame_exclusive": 1929,
+      "asset_id": "BE-S04-odm-factory",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 303,
+      "source_in_seconds": 2.9,
+      "source_out_seconds": 5.2,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "factory_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G15",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 40,
+      "at": 64.3,
+      "duration": 1.5,
+      "at_frame": 1929,
+      "duration_frames": 45,
+      "end_frame_exclusive": 1974,
+      "asset_id": "BE-S05-distribution",
+      "source_kind": "video",
+      "source_video_index": 14,
+      "source_in_seconds": 1.0,
+      "source_out_seconds": 2.5,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "distribution_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G16",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 41,
+      "at": 65.8,
+      "duration": 1.5,
+      "at_frame": 1974,
+      "duration_frames": 45,
+      "end_frame_exclusive": 2019,
+      "asset_id": "BE-S05-distribution",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "distribution_box",
+      "crop_roi_normalized": [
+        0.03,
+        0.31,
+        0.67,
+        0.48
+      ],
+      "artifact_mask": null,
+      "caption_group": "G16",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 42,
+      "at": 67.3,
+      "duration": 1.3,
+      "at_frame": 2019,
+      "duration_frames": 39,
+      "end_frame_exclusive": 2058,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "video",
+      "source_video_index": 7,
+      "source_in_seconds": 1.0,
+      "source_out_seconds": 2.3,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_shelf",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G16",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 43,
+      "at": 68.6,
+      "duration": 2.2,
+      "at_frame": 2058,
+      "duration_frames": 66,
+      "end_frame_exclusive": 2124,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G16",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 44,
+      "at": 70.8,
+      "duration": 1.1,
+      "at_frame": 2124,
+      "duration_frames": 33,
+      "end_frame_exclusive": 2157,
+      "asset_id": "BE-M03",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 301,
+      "source_in_seconds": 4.5,
+      "source_out_seconds": 5.6,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "product_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G17",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 45,
+      "at": 71.9,
+      "duration": 2.4,
+      "at_frame": 2157,
+      "duration_frames": 72,
+      "end_frame_exclusive": 2229,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "cream_detail",
+      "crop_roi_normalized": [
+        0.02,
+        0.3,
+        0.37,
+        0.5
+      ],
+      "artifact_mask": null,
+      "caption_group": "G17",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 46,
+      "at": 74.3,
+      "duration": 1.0,
+      "at_frame": 2229,
+      "duration_frames": 30,
+      "end_frame_exclusive": 2259,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_brand",
+      "crop_roi_normalized": [
+        0,
+        0.1,
+        0.35,
+        0.8
+      ],
+      "artifact_mask": null,
+      "caption_group": "G18",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 47,
+      "at": 75.3,
+      "duration": 1.2,
+      "at_frame": 2259,
+      "duration_frames": 36,
+      "end_frame_exclusive": 2295,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_factory",
+      "crop_roi_normalized": [
+        0.32,
+        0.04,
+        0.35,
+        0.9
+      ],
+      "artifact_mask": null,
+      "caption_group": "G18",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 48,
+      "at": 76.5,
+      "duration": 1.5,
+      "at_frame": 2295,
+      "duration_frames": 45,
+      "end_frame_exclusive": 2340,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_distribution",
+      "crop_roi_normalized": [
+        0.65,
+        0.1,
+        0.35,
+        0.8
+      ],
+      "artifact_mask": null,
+      "caption_group": "G18",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 49,
+      "at": 78.0,
+      "duration": 1.0,
+      "at_frame": 2340,
+      "duration_frames": 30,
+      "end_frame_exclusive": 2370,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "modules_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G19",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 50,
+      "at": 79.0,
+      "duration": 1.0,
+      "at_frame": 2370,
+      "duration_frames": 30,
+      "end_frame_exclusive": 2400,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G19",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 51,
+      "at": 80.0,
+      "duration": 2.5,
+      "at_frame": 2400,
+      "duration_frames": 75,
+      "end_frame_exclusive": 2475,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "video",
+      "source_video_index": 3,
+      "source_in_seconds": 2.2,
+      "source_out_seconds": 4.7,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G19",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "shape_match_hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 52,
+      "at": 82.5,
+      "duration": 1.5,
+      "at_frame": 2475,
+      "duration_frames": 45,
+      "end_frame_exclusive": 2520,
+      "asset_id": "BE-M06",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 304,
+      "source_in_seconds": 0.35,
+      "source_out_seconds": 1.85,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G20",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 53,
+      "at": 84.0,
+      "duration": 2.0,
+      "at_frame": 2520,
+      "duration_frames": 60,
+      "end_frame_exclusive": 2580,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_hands",
+      "crop_roi_normalized": [
+        0.08,
+        0.36,
+        0.9,
+        0.43
+      ],
+      "artifact_mask": null,
+      "caption_group": "G20",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 54,
+      "at": 86.0,
+      "duration": 1.5,
+      "at_frame": 2580,
+      "duration_frames": 45,
+      "end_frame_exclusive": 2625,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_rim",
+      "crop_roi_normalized": [
+        0.01,
+        0.3,
+        0.97,
+        0.56
+      ],
+      "artifact_mask": null,
+      "caption_group": "G21",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 55,
+      "at": 87.5,
+      "duration": 2.0,
+      "at_frame": 2625,
+      "duration_frames": 60,
+      "end_frame_exclusive": 2685,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G21",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 56,
+      "at": 89.5,
+      "duration": 1.5,
+      "at_frame": 2685,
+      "duration_frames": 45,
+      "end_frame_exclusive": 2730,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_phone",
+      "crop_roi_normalized": [
+        0.62,
+        0.33,
+        0.37,
+        0.43
+      ],
+      "artifact_mask": null,
+      "caption_group": "G22",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 57,
+      "at": 91.0,
+      "duration": 1.5,
+      "at_frame": 2730,
+      "duration_frames": 45,
+      "end_frame_exclusive": 2775,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "video",
+      "source_video_index": 7,
+      "source_in_seconds": 2.3,
+      "source_out_seconds": 3.8,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_shelf",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G22",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 58,
+      "at": 92.5,
+      "duration": 0.9,
+      "at_frame": 2775,
+      "duration_frames": 27,
+      "end_frame_exclusive": 2802,
+      "asset_id": "BE-M06",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 304,
+      "source_in_seconds": 1.85,
+      "source_out_seconds": 2.75,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G22",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 59,
+      "at": 93.4,
+      "duration": 3.1,
+      "at_frame": 2802,
+      "duration_frames": 93,
+      "end_frame_exclusive": 2895,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G22",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 60,
+      "at": 96.5,
+      "duration": 1.3,
+      "at_frame": 2895,
+      "duration_frames": 39,
+      "end_frame_exclusive": 2934,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G23",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 61,
+      "at": 97.8,
+      "duration": 2.2,
+      "at_frame": 2934,
+      "duration_frames": 66,
+      "end_frame_exclusive": 3000,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G23",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 62,
+      "at": 100.0,
+      "duration": 1.5,
+      "at_frame": 3000,
+      "duration_frames": 45,
+      "end_frame_exclusive": 3045,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_brand",
+      "crop_roi_normalized": [
+        0,
+        0.1,
+        0.35,
+        0.8
+      ],
+      "artifact_mask": null,
+      "caption_group": "G24",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 63,
+      "at": 101.5,
+      "duration": 1.5,
+      "at_frame": 3045,
+      "duration_frames": 45,
+      "end_frame_exclusive": 3090,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_factory",
+      "crop_roi_normalized": [
+        0.32,
+        0.04,
+        0.35,
+        0.9
+      ],
+      "artifact_mask": null,
+      "caption_group": "G24",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 64,
+      "at": 103.0,
+      "duration": 1.5,
+      "at_frame": 3090,
+      "duration_frames": 45,
+      "end_frame_exclusive": 3135,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_distribution",
+      "crop_roi_normalized": [
+        0.65,
+        0.1,
+        0.35,
+        0.8
+      ],
+      "artifact_mask": null,
+      "caption_group": "G24",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 65,
+      "at": 104.5,
+      "duration": 2.5,
+      "at_frame": 3135,
+      "duration_frames": 75,
+      "end_frame_exclusive": 3210,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G24",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 66,
+      "at": 107.0,
+      "duration": 1.4,
+      "at_frame": 3210,
+      "duration_frames": 42,
+      "end_frame_exclusive": 3252,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "modules_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G25",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 67,
+      "at": 108.4,
+      "duration": 1.5,
+      "at_frame": 3252,
+      "duration_frames": 45,
+      "end_frame_exclusive": 3297,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "cream_detail",
+      "crop_roi_normalized": [
+        0.02,
+        0.3,
+        0.37,
+        0.5
+      ],
+      "artifact_mask": null,
+      "caption_group": "G25",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 68,
+      "at": 109.9,
+      "duration": 1.6,
+      "at_frame": 3297,
+      "duration_frames": 48,
+      "end_frame_exclusive": 3345,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_phone",
+      "crop_roi_normalized": [
+        0.62,
+        0.33,
+        0.37,
+        0.43
+      ],
+      "artifact_mask": null,
+      "caption_group": "G25",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 69,
+      "at": 111.5,
+      "duration": 1.2,
+      "at_frame": 3345,
+      "duration_frames": 36,
+      "end_frame_exclusive": 3381,
+      "asset_id": "BE-M06",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 304,
+      "source_in_seconds": 4.4,
+      "source_out_seconds": 5.6,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G25",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 70,
+      "at": 112.7,
+      "duration": 1.3,
+      "at_frame": 3381,
+      "duration_frames": 39,
+      "end_frame_exclusive": 3420,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G25",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 71,
+      "at": 114.0,
+      "duration": 1.2,
+      "at_frame": 3420,
+      "duration_frames": 36,
+      "end_frame_exclusive": 3456,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_cards",
+      "crop_roi_normalized": [
+        0.05,
+        0.27,
+        0.86,
+        0.36
+      ],
+      "artifact_mask": null,
+      "caption_group": "G26",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 72,
+      "at": 115.2,
+      "duration": 1.4,
+      "at_frame": 3456,
+      "duration_frames": 42,
+      "end_frame_exclusive": 3498,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G26",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 73,
+      "at": 116.6,
+      "duration": 1.4,
+      "at_frame": 3498,
+      "duration_frames": 42,
+      "end_frame_exclusive": 3540,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "video",
+      "source_video_index": 9,
+      "source_in_seconds": 1.0,
+      "source_out_seconds": 2.4,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_touch",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G26",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 74,
+      "at": 118.0,
+      "duration": 1.5,
+      "at_frame": 3540,
+      "duration_frames": 45,
+      "end_frame_exclusive": 3585,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G27",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 75,
+      "at": 119.5,
+      "duration": 1.0,
+      "at_frame": 3585,
+      "duration_frames": 30,
+      "end_frame_exclusive": 3615,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G27",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 76,
+      "at": 120.5,
+      "duration": 1.8,
+      "at_frame": 3615,
+      "duration_frames": 54,
+      "end_frame_exclusive": 3669,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "video",
+      "source_video_index": 15,
+      "source_in_seconds": 1.0,
+      "source_out_seconds": 2.8,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G27",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 77,
+      "at": 122.3,
+      "duration": 1.5,
+      "at_frame": 3669,
+      "duration_frames": 45,
+      "end_frame_exclusive": 3714,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G28",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 78,
+      "at": 123.8,
+      "duration": 2.0,
+      "at_frame": 3714,
+      "duration_frames": 60,
+      "end_frame_exclusive": 3774,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_hands",
+      "crop_roi_normalized": [
+        0.08,
+        0.36,
+        0.9,
+        0.43
+      ],
+      "artifact_mask": null,
+      "caption_group": "G28",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 79,
+      "at": 125.8,
+      "duration": 3.5,
+      "at_frame": 3774,
+      "duration_frames": 105,
+      "end_frame_exclusive": 3879,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_rim",
+      "crop_roi_normalized": [
+        0.01,
+        0.3,
+        0.97,
+        0.56
+      ],
+      "artifact_mask": null,
+      "caption_group": "G28",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 80,
+      "at": 129.3,
+      "duration": 1.4,
+      "at_frame": 3879,
+      "duration_frames": 42,
+      "end_frame_exclusive": 3921,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 307,
+      "source_in_seconds": 0.4,
+      "source_out_seconds": 1.8,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_action",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G29",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 81,
+      "at": 130.7,
+      "duration": 1.2,
+      "at_frame": 3921,
+      "duration_frames": 36,
+      "end_frame_exclusive": 3957,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 307,
+      "source_in_seconds": 1.8,
+      "source_out_seconds": 3.0,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_action",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G29",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 82,
+      "at": 131.9,
+      "duration": 2.2,
+      "at_frame": 3957,
+      "duration_frames": 66,
+      "end_frame_exclusive": 4023,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "modules_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G29",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 83,
+      "at": 134.1,
+      "duration": 2.2,
+      "at_frame": 4023,
+      "duration_frames": 66,
+      "end_frame_exclusive": 4089,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 307,
+      "source_in_seconds": 3.0,
+      "source_out_seconds": 5.2,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_action",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G29",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 84,
+      "at": 136.3,
+      "duration": 1.3,
+      "at_frame": 4089,
+      "duration_frames": 39,
+      "end_frame_exclusive": 4128,
+      "asset_id": "BE-S02-beauty-market-world",
+      "source_kind": "video",
+      "source_video_index": 4,
+      "source_in_seconds": 5.5,
+      "source_out_seconds": 6.8,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "market_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G30",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 85,
+      "at": 137.6,
+      "duration": 1.1,
+      "at_frame": 4128,
+      "duration_frames": 33,
+      "end_frame_exclusive": 4161,
+      "asset_id": "BE-S04-odm-factory",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 303,
+      "source_in_seconds": 1.75,
+      "source_out_seconds": 2.85,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "factory_action_root",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G30",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 86,
+      "at": 138.7,
+      "duration": 1.6,
+      "at_frame": 4161,
+      "duration_frames": 48,
+      "end_frame_exclusive": 4209,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G30",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 87,
+      "at": 140.3,
+      "duration": 3.0,
+      "at_frame": 4209,
+      "duration_frames": 90,
+      "end_frame_exclusive": 4299,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_basket",
+      "crop_roi_normalized": [
+        0.0,
+        0.45,
+        0.66,
+        0.35
+      ],
+      "artifact_mask": null,
+      "caption_group": "G30",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 88,
+      "at": 143.3,
+      "duration": 1.5,
+      "at_frame": 4299,
+      "duration_frames": 45,
+      "end_frame_exclusive": 4344,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_basket",
+      "crop_roi_normalized": [
+        0.0,
+        0.45,
+        0.66,
+        0.35
+      ],
+      "artifact_mask": null,
+      "caption_group": "G31",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 89,
+      "at": 144.8,
+      "duration": 2.0,
+      "at_frame": 4344,
+      "duration_frames": 60,
+      "end_frame_exclusive": 4404,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_cards",
+      "crop_roi_normalized": [
+        0.05,
+        0.27,
+        0.86,
+        0.36
+      ],
+      "artifact_mask": null,
+      "caption_group": "G31",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 90,
+      "at": 146.8,
+      "duration": 1.5,
+      "at_frame": 4404,
+      "duration_frames": 45,
+      "end_frame_exclusive": 4449,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_cards",
+      "crop_roi_normalized": [
+        0.05,
+        0.27,
+        0.86,
+        0.36
+      ],
+      "artifact_mask": null,
+      "caption_group": "G32",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 91,
+      "at": 148.3,
+      "duration": 1.4,
+      "at_frame": 4449,
+      "duration_frames": 42,
+      "end_frame_exclusive": 4491,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G32",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 92,
+      "at": 149.7,
+      "duration": 2.3,
+      "at_frame": 4491,
+      "duration_frames": 69,
+      "end_frame_exclusive": 4560,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "video",
+      "source_video_index": 9,
+      "source_in_seconds": 5.0,
+      "source_out_seconds": 7.3,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G32",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 93,
+      "at": 152.0,
+      "duration": 1.4,
+      "at_frame": 4560,
+      "duration_frames": 42,
+      "end_frame_exclusive": 4602,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "video",
+      "source_video_index": 9,
+      "source_in_seconds": 7.3,
+      "source_out_seconds": 8.7,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_video",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G33",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 94,
+      "at": 153.4,
+      "duration": 1.1,
+      "at_frame": 4602,
+      "duration_frames": 33,
+      "end_frame_exclusive": 4635,
+      "asset_id": "BE-M03",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "products_all",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G33",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 95,
+      "at": 154.5,
+      "duration": 2.0,
+      "at_frame": 4635,
+      "duration_frames": 60,
+      "end_frame_exclusive": 4695,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "modules_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G33",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 96,
+      "at": 156.5,
+      "duration": 1.2,
+      "at_frame": 4695,
+      "duration_frames": 36,
+      "end_frame_exclusive": 4731,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "module_factory",
+      "crop_roi_normalized": [
+        0.32,
+        0.04,
+        0.35,
+        0.9
+      ],
+      "artifact_mask": null,
+      "caption_group": "G34",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 97,
+      "at": 157.7,
+      "duration": 2.3,
+      "at_frame": 4731,
+      "duration_frames": 69,
+      "end_frame_exclusive": 4800,
+      "asset_id": "BE-S03-brand-atelier",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "brand_desk",
+      "crop_roi_normalized": [
+        0.29,
+        0.41,
+        0.68,
+        0.42
+      ],
+      "artifact_mask": null,
+      "caption_group": "G34",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 98,
+      "at": 160.0,
+      "duration": 1.4,
+      "at_frame": 4800,
+      "duration_frames": 42,
+      "end_frame_exclusive": 4842,
+      "asset_id": "BE-M06",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "basket_rim",
+      "crop_roi_normalized": [
+        0.01,
+        0.3,
+        0.97,
+        0.56
+      ],
+      "artifact_mask": null,
+      "caption_group": "G35",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 99,
+      "at": 161.4,
+      "duration": 2.1,
+      "at_frame": 4842,
+      "duration_frames": 63,
+      "end_frame_exclusive": 4905,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "guide_whole_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G35",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 100,
+      "at": 163.5,
+      "duration": 1.5,
+      "at_frame": 4905,
+      "duration_frames": 45,
+      "end_frame_exclusive": 4950,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_cards",
+      "crop_roi_normalized": [
+        0.05,
+        0.27,
+        0.86,
+        0.36
+      ],
+      "artifact_mask": null,
+      "caption_group": "G36",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 101,
+      "at": 165.0,
+      "duration": 1.5,
+      "at_frame": 4950,
+      "duration_frames": 45,
+      "end_frame_exclusive": 4995,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "risk_cloud",
+      "crop_roi_normalized": [
+        0.06,
+        0.1,
+        0.88,
+        0.35
+      ],
+      "artifact_mask": null,
+      "caption_group": "G36",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 102,
+      "at": 166.5,
+      "duration": 4.0,
+      "at_frame": 4995,
+      "duration_frames": 120,
+      "end_frame_exclusive": 5115,
+      "asset_id": "BE-M04",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "vanity_still",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G36",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 103,
+      "at": 170.5,
+      "duration": 2.0,
+      "at_frame": 5115,
+      "duration_frames": 60,
+      "end_frame_exclusive": 5175,
+      "asset_id": "BE-S06-retail-digital",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "retail_full",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G37",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 104,
+      "at": 172.5,
+      "duration": 1.5,
+      "at_frame": 5175,
+      "duration_frames": 45,
+      "end_frame_exclusive": 5220,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "approved_still",
+      "source_video_index": null,
+      "source_in_seconds": null,
+      "source_out_seconds": null,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_cards",
+      "crop_roi_normalized": [
+        0.05,
+        0.27,
+        0.86,
+        0.36
+      ],
+      "artifact_mask": null,
+      "caption_group": "G37",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    },
+    {
+      "edit_cut": 105,
+      "at": 174.0,
+      "duration": 6.0,
+      "at_frame": 5220,
+      "duration_frames": 180,
+      "end_frame_exclusive": 5400,
+      "asset_id": "BE-S10-investor-ending",
+      "source_kind": "root_completed_generated_video",
+      "source_video_index": 308,
+      "source_in_seconds": 0.0,
+      "source_out_seconds": 6.0,
+      "playback_rate": 1,
+      "loop": false,
+      "reverse": false,
+      "framing_profile": "ending_action",
+      "crop_roi_normalized": null,
+      "artifact_mask": null,
+      "caption_group": "G38",
+      "caption_box": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "footer_box": {
+        "x": 108,
+        "y": 1644,
+        "width": 864,
+        "height": 156
+      },
+      "transition_in": {
+        "kind": "hard_cut",
+        "duration_frames": 0,
+        "caption_unaffected": true
+      },
+      "camera_animation": "none"
+    }
+  ],
+  "production_plan_sha256": "6bb2f7eaa5a4b871418c5ecec6b98f14140447c3d28e82cfbfa574245b35f26a",
+  "source_interval_overlaps": 0,
+  "research_reference_count_delta": 0,
+  "geography": "K201/K202 are illustrative 3D industry scenes, not precise geographic maps."
+}
