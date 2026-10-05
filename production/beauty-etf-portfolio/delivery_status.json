@@ -12,8 +12,7 @@
     "fps": 30,
     "frames": 5400,
     "codec": "h264",
-    "confirmed_higgsfield_media_id": "882ebd3d-9330-419e-be7d-bc2052764222",
-    "confirmed_higgsfield_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HynRAi5fJ0zfb2KoWwJyGpuuWr/882ebd3d-9330-419e-be7d-bc2052764222.mp4"
+    "confirmed_higgsfield_media_id": "882ebd3d-9330-419e-be7d-bc2052764222"
   },
   "change": {
     "original_visual_cuts": 105,
@@ -61,14 +60,14 @@
   },
   "editable_source": {
     "file": "beauty-etf-smooth-v5-editable.zip",
-    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HynRAi5fJ0zfb2KoWwJyGpuuWr/b62fbc03-2f77-4f7a-ab3a-45d7f69955c7.zip",
+    "url": "https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view",
     "bytes": 410483374,
     "sha256": "226a6d9204253aa9577e285b00662ae7af559a0ad1b7d6dba2142d37339e4c35",
     "drive_url": "https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view"
   },
   "final_native_preview": {
     "file": "beauty-etf-smooth-v5-final-preview.zip",
-    "url": "https://d2ol7oe51mr4n9.cloudfront.net/user_3HynRAi5fJ0zfb2KoWwJyGpuuWr/5e47cd44-efe5-4e2a-8d2d-62c18e11f3bd.zip",
+    "url": "https://drive.google.com/file/d/1VIAXaLbM4PEB1gQ4ncmd8YSQ-yJlmLDB/view",
     "bytes": 3699206,
     "sha256": "35ec54938b1b9170041985f5c2ba056a7d31ef6fcef311a3605cb973b3c3e016",
     "drive_url": "https://drive.google.com/file/d/1VIAXaLbM4PEB1gQ4ncmd8YSQ-yJlmLDB/view"
@@ -143,5 +142,7 @@
     "sha256": "eacc2173d5d950727919ac909c00aee843dc0bd1408994e6c3d07c9f26b0fa81",
     "payload_members": 170,
     "CRC_all_SHA_pass": true
-  }
+  },
+  "historical_source_commit": "181223f7849ed9ae372aba06d8d5921690808ce3",
+  "historical_relative_links_relocated": true
 }
