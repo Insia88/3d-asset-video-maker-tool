@@ -17,7 +17,7 @@ PLUS KR·슈카친구들 포맷 분석, 25,000개 참고 수집, Higgsfield 에�
 - [보송한 질감·노을빛·창가 구도의 시각 방향](docs/beauty-etf-visual-direction.md)
 - [현재 제작 방향: 특정 상품 없이 뷰티 ETF 개념 설명](docs/beauty-etf-current-direction.md)
 - [기초 에셋 프롬프트](prompts/beauty-etf/foundation.json)
-- [완성 포트폴리오 v1.3 · 180초 · 105컷 · 132BPM](production/beauty-etf-portfolio/README.md)
+- [완성 포트폴리오 v1.4 · 180초 · 9:16 화면 채움 · 132BPM](production/beauty-etf-portfolio/README.md)
 - [예인 · 란 공유용 영상 기획안 · 8페이지](https://docs.google.com/document/d/1a1AHSuMrylfhS2jx9jOgBu2UurlWVNwJkBV3mwmj2ro)
 - [생성된 기초 이미지 5종과 사용 기준](docs/production/beauty-etf-foundation/에셋_사용안내.md)
 - [추가 장면 10종·금융 근거·Drive 원본](docs/production/beauty-etf-expansion/README.md)
