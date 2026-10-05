@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "finfluencer-beauty-etf",
   "reference_format": "sharded_jsonl",
-  "total_references": 9301,
+  "total_references": 9726,
   "shard_count": 10,
   "max_rows_per_shard": 1000,
   "max_bytes_per_shard": 16777216,
@@ -16,56 +16,56 @@
     {
       "path": "part-00002.jsonl",
       "rows": 1000,
-      "sha256": "28361262a16490bdd3a218903a894353ea8ace17c964bdeedfc7d44ad8fc6f1b",
-      "bytes": 7457866
+      "sha256": "3ed549d9fbb12271032db4f1196443d72eca0c77f6770f85275ea390dc8eaae4",
+      "bytes": 7458432
     },
     {
       "path": "part-00003.jsonl",
       "rows": 1000,
-      "sha256": "e69fa4c9c31aa43932dccbf2cdd1b5c7b06d8549abcb9f9aacf6824b2bd8baab",
-      "bytes": 6015791
+      "sha256": "208eda9bb6c73bd53d818b1f16781f60e3e2c020fe73d637bf7847c0a56426f6",
+      "bytes": 6391249
     },
     {
       "path": "part-00004.jsonl",
       "rows": 1000,
-      "sha256": "bce7a1c5eeeeda21b1fd86644847c0c358bfb97996f2ad47ca32ba279126d890",
-      "bytes": 4001244
+      "sha256": "efe1e3ec665dc597a0c981791fccaa21340d06860ab978c384ba98a6f1a7fa3e",
+      "bytes": 3990214
     },
     {
       "path": "part-00005.jsonl",
       "rows": 1000,
-      "sha256": "a41f8122bdba8eeb17b3f23fc699a54c7f86e4008c97e5428480a0bce56e4173",
-      "bytes": 4982918
+      "sha256": "cbb6e2db5f0e60893d179c579d73763a897727ab1bf0ca3886ec230cee2fffe2",
+      "bytes": 4884757
     },
     {
       "path": "part-00006.jsonl",
       "rows": 1000,
-      "sha256": "62d990efb3f875cfeac34a2d46a065949edd7a92be70df16dcd26e099f1db3fb",
-      "bytes": 9591228
+      "sha256": "8c4a4fa53260fb2044b5421351b76cd8dc86b004d648cc7f6669be4e773586ec",
+      "bytes": 9877885
     },
     {
       "path": "part-00007.jsonl",
       "rows": 1000,
-      "sha256": "52922572d2e7fc3f6927f9f581b052868299f9fdb474da4eabaa1b3b981e6cee",
-      "bytes": 7631420
+      "sha256": "8b8aa571dfb86dca378eb62bc3d54398ce8b37344027ab3346454f056ff15ddd",
+      "bytes": 7914219
     },
     {
       "path": "part-00008.jsonl",
       "rows": 1000,
-      "sha256": "f97a4562c41be8216472769527d51c83fe8157fa8669c4155e4b6c34b5180627",
-      "bytes": 14134141
+      "sha256": "2043577b598b4ad316b42f2d9951d779e505f5b9b07698e452ced8f9537d8a47",
+      "bytes": 12954802
     },
     {
       "path": "part-00009.jsonl",
       "rows": 1000,
-      "sha256": "0b46cdf2280ed0efa704018a7cb8212c1739ab3c0254b52a256a5cd24359da01",
-      "bytes": 9925837
+      "sha256": "460d2b0383e34292ea12d25cb99aedac8801d3b2282d35112fae8a662c7c4e2f",
+      "bytes": 12221501
     },
     {
       "path": "part-00010.jsonl",
-      "rows": 301,
-      "sha256": "5d00a31d491128913dfe4d86c0a8145aa0396c004294d3a45ecccaad1466a927",
-      "bytes": 2811977
+      "rows": 726,
+      "sha256": "fe865f594a48ab880dc42bf46129ba2cbc3075f456c0473a8acd2d28628dd6ff",
+      "bytes": 6887266
     }
   ]
 }
