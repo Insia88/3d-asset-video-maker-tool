@@ -1,0 +1,29 @@
+{
+  "script_version": "2026-10-05 no-narration final script v2",
+  "fps": 30,
+  "duration_seconds": 180,
+  "total_frames": 5400,
+  "cuts": 66,
+  "caption_groups": 38,
+  "files": [
+    {
+      "path": "script/cutlist.json",
+      "bytes": 102911,
+      "sha256": "8776d8a00eee8de597b64ebecf6e14c25eefd14a16d17bcae997a6a0346befc9",
+      "byte_identical_to_frozen_source": true
+    },
+    {
+      "path": "script/captions.md",
+      "bytes": 18982,
+      "sha256": "c2837eb78ebdbe4aae7b2255200238605bf54655182cf39cca8be7cfe0e19675",
+      "byte_identical_to_frozen_source": true
+    },
+    {
+      "path": "script/main_captions.srt",
+      "bytes": 3243,
+      "sha256": "74d7ab8784e1f131b23a21a813b5d4d0b14e8a55c710998b25ade8dc2c0fc6b5",
+      "byte_identical_to_frozen_source": true
+    }
+  ],
+  "render_layout_overrides_are_separate": true
+}
