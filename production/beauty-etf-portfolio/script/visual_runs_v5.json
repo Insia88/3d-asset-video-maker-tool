@@ -1,0 +1,4032 @@
+{
+  "original_project_sha256": "e9f584cafc1548afced3a4a096818e3de05cdc514231a849304de1affd80971d",
+  "original_visual_cuts": 105,
+  "revised_visual_runs": 93,
+  "same_asset_continuous_runs": 9,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "fps": 30,
+  "duration": 180,
+  "audio_and_native_caption_tracks_unchanged": true,
+  "nonvisual_tracks_sha256": "87019956adad143d94cb0ab63ea2d17afb7b414ad39bb9883cf23760fd100221",
+  "all_visual_runs_full_canvas": true,
+  "all_source_positions_clamped": true,
+  "source_timebase_unchanged": true,
+  "no_frame_interpolation": true,
+  "research_reference_count_delta": 0,
+  "runs": [
+    {
+      "run": 1,
+      "original_cuts": [
+        1
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "3a4138f9-b995-198d-273a-23e247ce1804",
+      "native_source_uri": "fs:media/3a4138f9b995198d273a23e247ce18043dc53320dde463f1b99e1cf00078a09d.mp4",
+      "video": true,
+      "at": 0.0,
+      "duration": 0.6,
+      "nominal_at": 0,
+      "nominal_end": 0.6,
+      "transition_seconds": 0.0,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 2,
+      "original_cuts": [
+        2
+      ],
+      "asset_id": "BE-S01-consumer-hook",
+      "native_asset_id": "4936868a-c44a-cd74-802d-e49e64ad3e9e",
+      "native_source_uri": "fs:media/4936868ac44acd74802de49e64ad3e9e3fcbef9afc31049104ba9b89562ed6bf.mp4",
+      "video": true,
+      "at": 0.4666666666666667,
+      "duration": 0.9333333333333332,
+      "nominal_at": 0.6,
+      "nominal_end": 1.4,
+      "transition_seconds": 0.13333333333333333,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 3,
+      "original_cuts": [
+        3
+      ],
+      "asset_id": "BE-M04",
+      "native_asset_id": "7a50e0ae-4408-321a-6417-40ca041146ac",
+      "native_source_uri": "fs:media/7a50e0ae4408321a641740ca041146ac8b774e9047aefc8b5339a240351088d5.mp4",
+      "video": true,
+      "at": 1.2333333333333332,
+      "duration": 1.7666666666666668,
+      "nominal_at": 1.4,
+      "nominal_end": 3.0,
+      "transition_seconds": 0.16666666666666666,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 4,
+      "original_cuts": [
+        4
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "3a4138f9-b995-198d-273a-23e247ce1804",
+      "native_source_uri": "fs:media/3a4138f9b995198d273a23e247ce18043dc53320dde463f1b99e1cf00078a09d.mp4",
+      "video": true,
+      "at": 2.8,
+      "duration": 1.4999999999999998,
+      "nominal_at": 3,
+      "nominal_end": 4.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 5,
+      "original_cuts": [
+        5
+      ],
+      "asset_id": "BE-S01-consumer-hook",
+      "native_asset_id": "4936868a-c44a-cd74-802d-e49e64ad3e9e",
+      "native_source_uri": "fs:media/4936868ac44acd74802de49e64ad3e9e3fcbef9afc31049104ba9b89562ed6bf.mp4",
+      "video": true,
+      "at": 4.1,
+      "duration": 2.4000000000000004,
+      "nominal_at": 4.3,
+      "nominal_end": 6.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 6,
+      "original_cuts": [
+        6
+      ],
+      "asset_id": "BE-S01-consumer-hook",
+      "native_asset_id": "a17634f7-1bc5-15fa-9ba3-bc1d914adc2d",
+      "native_source_uri": "fs:media/a17634f71bc515fa9ba3bc1d914adc2d4a4dc58f96522d314b130426ae0e01c8.png",
+      "video": false,
+      "at": 6.3,
+      "duration": 1.4999999999999998,
+      "nominal_at": 6.5,
+      "nominal_end": 7.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 7,
+      "original_cuts": [
+        7
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "1cc5b53e-567d-090d-45e2-19ca60bf62c6",
+      "native_source_uri": "fs:media/1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a.png",
+      "video": false,
+      "at": 7.6,
+      "duration": 2.4000000000000004,
+      "nominal_at": 7.8,
+      "nominal_end": 10.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 8,
+      "original_cuts": [
+        8
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 9.8,
+      "duration": 1.2999999999999996,
+      "nominal_at": 10,
+      "nominal_end": 11.1,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.8049999999999999,
+        0.525
+      ],
+      "focus_end": [
+        0.8049999999999999,
+        0.525
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -1556.0366972477063,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        -1538.0366972477063,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 9,
+      "original_cuts": [
+        9
+      ],
+      "asset_id": "BE-S03-brand-atelier",
+      "native_asset_id": "75d4ee6e-8077-d721-4381-948f525d827f",
+      "native_source_uri": "fs:media/75d4ee6e8077d7214381948f525d827f2d38a564ddef395f84dd95c7b3b94c42.mp4",
+      "video": true,
+      "at": 10.9,
+      "duration": 2.1000000000000005,
+      "nominal_at": 11.1,
+      "nominal_end": 13.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 10,
+      "original_cuts": [
+        10
+      ],
+      "asset_id": "BE-S01-consumer-hook",
+      "native_asset_id": "4936868a-c44a-cd74-802d-e49e64ad3e9e",
+      "native_source_uri": "fs:media/4936868ac44acd74802de49e64ad3e9e3fcbef9afc31049104ba9b89562ed6bf.mp4",
+      "video": true,
+      "at": 12.8,
+      "duration": 1.5000000000000007,
+      "nominal_at": 13,
+      "nominal_end": 14.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 11,
+      "original_cuts": [
+        11
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 14.100000000000001,
+      "duration": 1.3999999999999992,
+      "nominal_at": 14.3,
+      "nominal_end": 15.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.8049999999999999,
+        0.525
+      ],
+      "focus_end": [
+        0.8049999999999999,
+        0.525
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -1556.0366972477063,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        -1538.0366972477063,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 12,
+      "original_cuts": [
+        12
+      ],
+      "asset_id": "BE-S02-beauty-market-world",
+      "native_asset_id": "8989417b-5f4f-81d2-520d-286f3399e737",
+      "native_source_uri": "fs:media/8989417b5f4f81d2520d286f3399e737a8f347150b74d34f14a2f87f8d053987.mp4",
+      "video": true,
+      "at": 15.3,
+      "duration": 2.7,
+      "nominal_at": 15.5,
+      "nominal_end": 18.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 13,
+      "original_cuts": [
+        13
+      ],
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "native_asset_id": "96e7ee6a-e7ad-074f-053b-21f87d88a7e9",
+      "native_source_uri": "fs:media/96e7ee6ae7ad074f053b21f87d88a7e992857ac896744970a2c6398e2cc0b76a.mp4",
+      "video": true,
+      "at": 17.8,
+      "duration": 2.2,
+      "nominal_at": 18,
+      "nominal_end": 20,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 14,
+      "original_cuts": [
+        14
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 19.8,
+      "duration": 1.2,
+      "nominal_at": 20,
+      "nominal_end": 21,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 15,
+      "original_cuts": [
+        15
+      ],
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "native_asset_id": "96e7ee6a-e7ad-074f-053b-21f87d88a7e9",
+      "native_source_uri": "fs:media/96e7ee6ae7ad074f053b21f87d88a7e992857ac896744970a2c6398e2cc0b76a.mp4",
+      "video": true,
+      "at": 20.8,
+      "duration": 2.3999999999999995,
+      "nominal_at": 21,
+      "nominal_end": 23.2,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 16,
+      "original_cuts": [
+        16
+      ],
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "native_asset_id": "fe3ae808-8807-c909-fdf3-903b1a14fc6a",
+      "native_source_uri": "fs:media/fe3ae8088807c909fdf3903b1a14fc6a8cb45b594fd33635872fd4fab73ceff9.png",
+      "video": false,
+      "at": 23.0,
+      "duration": 2.500000000000001,
+      "nominal_at": 23.2,
+      "nominal_end": 25.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 17,
+      "original_cuts": [
+        17
+      ],
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "native_asset_id": "5dce2a3e-039d-5ec2-ca05-17ea9629ea7f",
+      "native_source_uri": "fs:media/5dce2a3e039d5ec2ca0517ea9629ea7fa38f64e4d5e7f4b4020f273198ea1850.mp4",
+      "video": true,
+      "at": 25.3,
+      "duration": 3.7,
+      "nominal_at": 25.5,
+      "nominal_end": 29.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 18,
+      "original_cuts": [
+        18,
+        19
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 28.8,
+      "duration": 3.7,
+      "nominal_at": 29,
+      "nominal_end": 32.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.205,
+        0.55
+      ],
+      "focus_end": [
+        0.8049999999999999,
+        0.525
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -0.3875229357797707,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        -1556.0366972477063,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 19,
+      "original_cuts": [
+        20
+      ],
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "native_asset_id": "3135179c-a0a6-d1ca-021c-916ed3766e54",
+      "native_source_uri": "fs:media/3135179ca0a6d1ca021c916ed3766e54eed64e734b3ff4ad0f22a84df6565a12.png",
+      "video": false,
+      "at": 32.3,
+      "duration": 1.4000000000000028,
+      "nominal_at": 32.5,
+      "nominal_end": 33.7,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 20,
+      "original_cuts": [
+        21
+      ],
+      "asset_id": "BE-S03-brand-atelier",
+      "native_asset_id": "b9adf1b3-6747-c208-9006-cac529b9d3c0",
+      "native_source_uri": "fs:media/b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5.png",
+      "video": false,
+      "at": 33.5,
+      "duration": 1.9999999999999971,
+      "nominal_at": 33.7,
+      "nominal_end": 35.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 21,
+      "original_cuts": [
+        22
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 35.3,
+      "duration": 2.2,
+      "nominal_at": 35.5,
+      "nominal_end": 37.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 22,
+      "original_cuts": [
+        23
+      ],
+      "asset_id": "BE-S02-beauty-market-world",
+      "native_asset_id": "8989417b-5f4f-81d2-520d-286f3399e737",
+      "native_source_uri": "fs:media/8989417b5f4f81d2520d286f3399e737a8f347150b74d34f14a2f87f8d053987.mp4",
+      "video": true,
+      "at": 37.3,
+      "duration": 1.4999999999999971,
+      "nominal_at": 37.5,
+      "nominal_end": 38.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 23,
+      "original_cuts": [
+        24
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "26a6fdde-c2b9-cdfa-26fe-a22b312a517c",
+      "native_source_uri": "fs:media/26a6fddec2b9cdfa26fea22b312a517ceaca6f1bb410d3b24c3469ade9740120.mp4",
+      "video": true,
+      "at": 38.599999999999994,
+      "duration": 1.9000000000000028,
+      "nominal_at": 38.8,
+      "nominal_end": 40.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 24,
+      "original_cuts": [
+        25
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 40.3,
+      "duration": 1.4000000000000028,
+      "nominal_at": 40.5,
+      "nominal_end": 41.7,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 25,
+      "original_cuts": [
+        26
+      ],
+      "asset_id": "BE-S02-beauty-market-world",
+      "native_asset_id": "1962aa91-5db9-132d-0062-b41516c0bb34",
+      "native_source_uri": "fs:media/1962aa915db9132d0062b41516c0bb3416caf081c600e49bfd1ef4c217a0f22c.png",
+      "video": false,
+      "at": 41.5,
+      "duration": 1.9999999999999971,
+      "nominal_at": 41.7,
+      "nominal_end": 43.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 26,
+      "original_cuts": [
+        27
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 43.3,
+      "duration": 1.7,
+      "nominal_at": 43.5,
+      "nominal_end": 45.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 27,
+      "original_cuts": [
+        28
+      ],
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "native_asset_id": "3135179c-a0a6-d1ca-021c-916ed3766e54",
+      "native_source_uri": "fs:media/3135179ca0a6d1ca021c916ed3766e54eed64e734b3ff4ad0f22a84df6565a12.png",
+      "video": false,
+      "at": 44.8,
+      "duration": 2.2,
+      "nominal_at": 45,
+      "nominal_end": 47,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 28,
+      "original_cuts": [
+        29
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "1ba2c20c-0697-4356-f0f6-9725d8bd36b3",
+      "native_source_uri": "fs:media/1ba2c20c06974356f0f69725d8bd36b31b0337830f8339272320551ec7783220.mp4",
+      "video": true,
+      "at": 46.8,
+      "duration": 1.4000000000000028,
+      "nominal_at": 47,
+      "nominal_end": 48.2,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 29,
+      "original_cuts": [
+        30
+      ],
+      "asset_id": "BE-M04",
+      "native_asset_id": "1998cc9f-94ff-d301-a588-f8fe44e35f91",
+      "native_source_uri": "fs:media/1998cc9f94ffd301a588f8fe44e35f913c9f70a3612a63e6f5d27c7aaab9c7ce.png",
+      "video": false,
+      "at": 48.0,
+      "duration": 1.9999999999999971,
+      "nominal_at": 48.2,
+      "nominal_end": 50.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 30,
+      "original_cuts": [
+        31
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "3a4138f9-b995-198d-273a-23e247ce1804",
+      "native_source_uri": "fs:media/3a4138f9b995198d273a23e247ce18043dc53320dde463f1b99e1cf00078a09d.mp4",
+      "video": true,
+      "at": 49.833333333333336,
+      "duration": 0.9666666666666638,
+      "nominal_at": 50,
+      "nominal_end": 50.8,
+      "transition_seconds": 0.16666666666666666,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 31,
+      "original_cuts": [
+        32
+      ],
+      "asset_id": "BE-S03-brand-atelier",
+      "native_asset_id": "b9adf1b3-6747-c208-9006-cac529b9d3c0",
+      "native_source_uri": "fs:media/b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5.png",
+      "video": false,
+      "at": 50.63333333333333,
+      "duration": 1.3666666666666696,
+      "nominal_at": 50.8,
+      "nominal_end": 52.0,
+      "transition_seconds": 0.16666666666666666,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 32,
+      "original_cuts": [
+        33
+      ],
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "native_asset_id": "3e675303-77d4-ec88-c8c5-02f1b934aa4c",
+      "native_source_uri": "fs:media/3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42.png",
+      "video": false,
+      "at": 51.8,
+      "duration": 2.4999999999999973,
+      "nominal_at": 52,
+      "nominal_end": 54.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2688,
+        1520
+      ],
+      "source_scale": 1.294736842105263,
+      "focus_start": [
+        0.21,
+        0.5
+      ],
+      "focus_end": [
+        0.79,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -190.85305263157886,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -1490.8530526315776,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 33,
+      "original_cuts": [
+        34,
+        35
+      ],
+      "asset_id": "BE-S03-brand-atelier",
+      "native_asset_id": "b9adf1b3-6747-c208-9006-cac529b9d3c0",
+      "native_source_uri": "fs:media/b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5.png",
+      "video": false,
+      "at": 54.099999999999994,
+      "duration": 3.7,
+      "nominal_at": 54.3,
+      "nominal_end": 57.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 34,
+      "original_cuts": [
+        36
+      ],
+      "asset_id": "BE-S04-odm-factory",
+      "native_asset_id": "02ba58e0-eb0d-11ec-8fe1-cdedd4db0830",
+      "native_source_uri": "fs:media/02ba58e0eb0d11ec8fe1cdedd4db08308a4d96a8fccc37ba4023e783a42fe96d.mp4",
+      "video": true,
+      "at": 57.599999999999994,
+      "duration": 1.5999999999999985,
+      "nominal_at": 57.8,
+      "nominal_end": 59.199999999999996,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 35,
+      "original_cuts": [
+        37
+      ],
+      "asset_id": "BE-S04-odm-factory",
+      "native_asset_id": "37e96e12-6593-12f2-9ede-330796bacc8b",
+      "native_source_uri": "fs:media/37e96e12659312f29ede330796bacc8beafb4fd45aceb4eae79ab91da1a18819.png",
+      "video": false,
+      "at": 59.0,
+      "duration": 1.7,
+      "nominal_at": 59.2,
+      "nominal_end": 60.7,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 36,
+      "original_cuts": [
+        38
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 60.5,
+      "duration": 1.4999999999999971,
+      "nominal_at": 60.7,
+      "nominal_end": 62.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 37,
+      "original_cuts": [
+        39
+      ],
+      "asset_id": "BE-S04-odm-factory",
+      "native_asset_id": "02ba58e0-eb0d-11ec-8fe1-cdedd4db0830",
+      "native_source_uri": "fs:media/02ba58e0eb0d11ec8fe1cdedd4db08308a4d96a8fccc37ba4023e783a42fe96d.mp4",
+      "video": true,
+      "at": 61.8,
+      "duration": 2.4999999999999973,
+      "nominal_at": 62,
+      "nominal_end": 64.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 38,
+      "original_cuts": [
+        40
+      ],
+      "asset_id": "BE-S05-distribution",
+      "native_asset_id": "6afad517-a7cc-03d0-c19e-73dfba144c6c",
+      "native_source_uri": "fs:media/6afad517a7cc03d0c19e73dfba144c6c5a44a3847126457ddd4277706ff225cc.mp4",
+      "video": true,
+      "at": 64.1,
+      "duration": 1.7,
+      "nominal_at": 64.3,
+      "nominal_end": 65.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 39,
+      "original_cuts": [
+        41
+      ],
+      "asset_id": "BE-S05-distribution",
+      "native_asset_id": "29282d27-ef21-0ec5-02c3-7818134d34ba",
+      "native_source_uri": "fs:media/29282d27ef210ec502c37818134d34bafc26a1a7b30739ed365e44ab079766b1.png",
+      "video": false,
+      "at": 65.6,
+      "duration": 1.7,
+      "nominal_at": 65.8,
+      "nominal_end": 67.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 40,
+      "original_cuts": [
+        42
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "082c9eb6-03f7-153e-2735-1015aa4c1624",
+      "native_source_uri": "fs:media/082c9eb603f7153e27351015aa4c1624403e27d47715bd6485442af010d5f706.mp4",
+      "video": true,
+      "at": 67.1,
+      "duration": 1.4999999999999971,
+      "nominal_at": 67.3,
+      "nominal_end": 68.6,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 41,
+      "original_cuts": [
+        43
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "1cc5b53e-567d-090d-45e2-19ca60bf62c6",
+      "native_source_uri": "fs:media/1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a.png",
+      "video": false,
+      "at": 68.39999999999999,
+      "duration": 2.400000000000003,
+      "nominal_at": 68.6,
+      "nominal_end": 70.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 42,
+      "original_cuts": [
+        44
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "3a4138f9-b995-198d-273a-23e247ce1804",
+      "native_source_uri": "fs:media/3a4138f9b995198d273a23e247ce18043dc53320dde463f1b99e1cf00078a09d.mp4",
+      "video": true,
+      "at": 70.6,
+      "duration": 1.2999999999999943,
+      "nominal_at": 70.8,
+      "nominal_end": 71.89999999999999,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 43,
+      "original_cuts": [
+        45
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 71.7,
+      "duration": 2.600000000000006,
+      "nominal_at": 71.9,
+      "nominal_end": 74.30000000000001,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.205,
+        0.55
+      ],
+      "focus_end": [
+        0.205,
+        0.55
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -0.3875229357797707,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        0,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 44,
+      "original_cuts": [
+        46,
+        47,
+        48,
+        49
+      ],
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "native_asset_id": "3e675303-77d4-ec88-c8c5-02f1b934aa4c",
+      "native_source_uri": "fs:media/3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42.png",
+      "video": false,
+      "at": 74.1,
+      "duration": 4.900000000000003,
+      "nominal_at": 74.3,
+      "nominal_end": 79,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2688,
+        1520
+      ],
+      "source_scale": 1.294736842105263,
+      "focus_start": [
+        0.175,
+        0.5
+      ],
+      "focus_end": [
+        0.825,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -69.04421052631562,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -2331.208421052631,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 45,
+      "original_cuts": [
+        50
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 78.8,
+      "duration": 1.2,
+      "nominal_at": 79,
+      "nominal_end": 80,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 46,
+      "original_cuts": [
+        51
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "1ba2c20c-0697-4356-f0f6-9725d8bd36b3",
+      "native_source_uri": "fs:media/1ba2c20c06974356f0f69725d8bd36b31b0337830f8339272320551ec7783220.mp4",
+      "video": true,
+      "at": 79.8,
+      "duration": 2.7,
+      "nominal_at": 80,
+      "nominal_end": 82.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 47,
+      "original_cuts": [
+        52
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "6e9267c9-0963-dfd6-38be-d4ab2fa177f3",
+      "native_source_uri": "fs:media/6e9267c90963dfd638bed4ab2fa177f33f58bc3c0e6d71f24d37c1cc1b5525fc.mp4",
+      "video": true,
+      "at": 82.3,
+      "duration": 1.7,
+      "nominal_at": 82.5,
+      "nominal_end": 84.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 48,
+      "original_cuts": [
+        53
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "167f678d-9279-8f22-240d-271a045cecfa",
+      "native_source_uri": "fs:media/167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff.png",
+      "video": false,
+      "at": 83.8,
+      "duration": 2.2,
+      "nominal_at": 84,
+      "nominal_end": 86,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 49,
+      "original_cuts": [
+        54
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 85.8,
+      "duration": 1.7,
+      "nominal_at": 86,
+      "nominal_end": 87.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.495,
+        0.5800000000000001
+      ],
+      "focus_end": [
+        0.495,
+        0.5800000000000001
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -764.8381651376146,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        -746.8381651376146,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 50,
+      "original_cuts": [
+        55
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "167f678d-9279-8f22-240d-271a045cecfa",
+      "native_source_uri": "fs:media/167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff.png",
+      "video": false,
+      "at": 87.3,
+      "duration": 2.2,
+      "nominal_at": 87.5,
+      "nominal_end": 89.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 51,
+      "original_cuts": [
+        56
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "1cc5b53e-567d-090d-45e2-19ca60bf62c6",
+      "native_source_uri": "fs:media/1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a.png",
+      "video": false,
+      "at": 89.3,
+      "duration": 1.7,
+      "nominal_at": 89.5,
+      "nominal_end": 91.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 52,
+      "original_cuts": [
+        57
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "082c9eb6-03f7-153e-2735-1015aa4c1624",
+      "native_source_uri": "fs:media/082c9eb603f7153e27351015aa4c1624403e27d47715bd6485442af010d5f706.mp4",
+      "video": true,
+      "at": 90.8,
+      "duration": 1.7,
+      "nominal_at": 91,
+      "nominal_end": 92.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 53,
+      "original_cuts": [
+        58
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "6e9267c9-0963-dfd6-38be-d4ab2fa177f3",
+      "native_source_uri": "fs:media/6e9267c90963dfd638bed4ab2fa177f33f58bc3c0e6d71f24d37c1cc1b5525fc.mp4",
+      "video": true,
+      "at": 92.33333333333333,
+      "duration": 1.0666666666666724,
+      "nominal_at": 92.5,
+      "nominal_end": 93.4,
+      "transition_seconds": 0.16666666666666666,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 54,
+      "original_cuts": [
+        59
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "167f678d-9279-8f22-240d-271a045cecfa",
+      "native_source_uri": "fs:media/167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff.png",
+      "video": false,
+      "at": 93.23333333333333,
+      "duration": 3.266666666666661,
+      "nominal_at": 93.4,
+      "nominal_end": 96.5,
+      "transition_seconds": 0.16666666666666666,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 55,
+      "original_cuts": [
+        60
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 96.3,
+      "duration": 1.4999999999999971,
+      "nominal_at": 96.5,
+      "nominal_end": 97.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 56,
+      "original_cuts": [
+        61
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 97.6,
+      "duration": 2.400000000000003,
+      "nominal_at": 97.8,
+      "nominal_end": 100.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 57,
+      "original_cuts": [
+        62,
+        63,
+        64
+      ],
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "native_asset_id": "3e675303-77d4-ec88-c8c5-02f1b934aa4c",
+      "native_source_uri": "fs:media/3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42.png",
+      "video": false,
+      "at": 99.8,
+      "duration": 4.7,
+      "nominal_at": 100,
+      "nominal_end": 104.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2688,
+        1520
+      ],
+      "source_scale": 1.294736842105263,
+      "focus_start": [
+        0.175,
+        0.5
+      ],
+      "focus_end": [
+        0.825,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -69.04421052631562,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -2331.208421052631,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 58,
+      "original_cuts": [
+        65
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 104.3,
+      "duration": 2.7,
+      "nominal_at": 104.5,
+      "nominal_end": 107.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 59,
+      "original_cuts": [
+        66
+      ],
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "native_asset_id": "3e675303-77d4-ec88-c8c5-02f1b934aa4c",
+      "native_source_uri": "fs:media/3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42.png",
+      "video": false,
+      "at": 106.8,
+      "duration": 1.6000000000000056,
+      "nominal_at": 107,
+      "nominal_end": 108.4,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2688,
+        1520
+      ],
+      "source_scale": 1.294736842105263,
+      "focus_start": [
+        0.21,
+        0.5
+      ],
+      "focus_end": [
+        0.79,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -190.85305263157886,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -1022.8530526315818,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 60,
+      "original_cuts": [
+        67
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 108.2,
+      "duration": 1.7,
+      "nominal_at": 108.4,
+      "nominal_end": 109.9,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.205,
+        0.55
+      ],
+      "focus_end": [
+        0.205,
+        0.55
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -0.3875229357797707,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        0,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 61,
+      "original_cuts": [
+        68
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "1cc5b53e-567d-090d-45e2-19ca60bf62c6",
+      "native_source_uri": "fs:media/1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a.png",
+      "video": false,
+      "at": 109.7,
+      "duration": 1.7999999999999943,
+      "nominal_at": 109.9,
+      "nominal_end": 111.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 62,
+      "original_cuts": [
+        69
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "6e9267c9-0963-dfd6-38be-d4ab2fa177f3",
+      "native_source_uri": "fs:media/6e9267c90963dfd638bed4ab2fa177f33f58bc3c0e6d71f24d37c1cc1b5525fc.mp4",
+      "video": true,
+      "at": 111.3,
+      "duration": 1.4000000000000028,
+      "nominal_at": 111.5,
+      "nominal_end": 112.7,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 63,
+      "original_cuts": [
+        70
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 112.5,
+      "duration": 1.4999999999999971,
+      "nominal_at": 112.7,
+      "nominal_end": 114.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 64,
+      "original_cuts": [
+        71
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "29f704cc-b2c6-a2d7-198e-893ca33a6273",
+      "native_source_uri": "fs:media/29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2.png",
+      "video": false,
+      "at": 113.8,
+      "duration": 1.4000000000000028,
+      "nominal_at": 114,
+      "nominal_end": 115.2,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 65,
+      "original_cuts": [
+        72
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 115.0,
+      "duration": 1.6000000000000056,
+      "nominal_at": 115.2,
+      "nominal_end": 116.60000000000001,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 66,
+      "original_cuts": [
+        73
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "f858c7d2-ea3c-5e55-8877-0b84f46dbb50",
+      "native_source_uri": "fs:media/f858c7d2ea3c5e5588770b84f46dbb5068bf2cff7d1a12f610f1e9ff3a57f406.mp4",
+      "video": true,
+      "at": 116.39999999999999,
+      "duration": 1.6000000000000056,
+      "nominal_at": 116.6,
+      "nominal_end": 118.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 67,
+      "original_cuts": [
+        74
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "167f678d-9279-8f22-240d-271a045cecfa",
+      "native_source_uri": "fs:media/167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff.png",
+      "video": false,
+      "at": 117.8,
+      "duration": 1.7,
+      "nominal_at": 118,
+      "nominal_end": 119.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 68,
+      "original_cuts": [
+        75
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 119.3,
+      "duration": 1.2,
+      "nominal_at": 119.5,
+      "nominal_end": 120.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 69,
+      "original_cuts": [
+        76
+      ],
+      "asset_id": "BE-S09-shared-sector-risk",
+      "native_asset_id": "b15f365c-89dc-a920-e57e-7c6ba9738e71",
+      "native_source_uri": "fs:media/b15f365c89dca920e57e7c6ba9738e71807dcb76a3781345ed5faa4cfe614419.mp4",
+      "video": true,
+      "at": 120.3,
+      "duration": 1.9999999999999971,
+      "nominal_at": 120.5,
+      "nominal_end": 122.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 70,
+      "original_cuts": [
+        77
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 122.1,
+      "duration": 1.7,
+      "nominal_at": 122.3,
+      "nominal_end": 123.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 71,
+      "original_cuts": [
+        78
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "167f678d-9279-8f22-240d-271a045cecfa",
+      "native_source_uri": "fs:media/167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff.png",
+      "video": false,
+      "at": 123.6,
+      "duration": 2.2,
+      "nominal_at": 123.8,
+      "nominal_end": 125.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 72,
+      "original_cuts": [
+        79
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 125.6,
+      "duration": 3.7000000000000144,
+      "nominal_at": 125.8,
+      "nominal_end": 129.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.495,
+        0.5800000000000001
+      ],
+      "focus_end": [
+        0.495,
+        0.5800000000000001
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -764.8381651376146,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        -746.8381651376146,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 73,
+      "original_cuts": [
+        80,
+        81
+      ],
+      "asset_id": "BE-S09-shared-sector-risk",
+      "native_asset_id": "b17fa603-9140-a775-18f7-3a6e48a46888",
+      "native_source_uri": "fs:media/b17fa6039140a77518f73a6e48a46888438494fccf405c28487edca3e8a63fd6.mp4",
+      "video": true,
+      "at": 129.10000000000002,
+      "duration": 2.799999999999966,
+      "nominal_at": 129.3,
+      "nominal_end": 131.89999999999998,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 74,
+      "original_cuts": [
+        82
+      ],
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "native_asset_id": "3e675303-77d4-ec88-c8c5-02f1b934aa4c",
+      "native_source_uri": "fs:media/3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42.png",
+      "video": false,
+      "at": 131.70000000000002,
+      "duration": 2.399999999999989,
+      "nominal_at": 131.9,
+      "nominal_end": 134.1,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2688,
+        1520
+      ],
+      "source_scale": 1.294736842105263,
+      "focus_start": [
+        0.21,
+        0.5
+      ],
+      "focus_end": [
+        0.79,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -190.85305263157886,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -1438.853052631573,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 75,
+      "original_cuts": [
+        83
+      ],
+      "asset_id": "BE-S09-shared-sector-risk",
+      "native_asset_id": "b17fa603-9140-a775-18f7-3a6e48a46888",
+      "native_source_uri": "fs:media/b17fa6039140a77518f73a6e48a46888438494fccf405c28487edca3e8a63fd6.mp4",
+      "video": true,
+      "at": 133.9,
+      "duration": 2.399999999999989,
+      "nominal_at": 134.1,
+      "nominal_end": 136.29999999999998,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 76,
+      "original_cuts": [
+        84
+      ],
+      "asset_id": "BE-S02-beauty-market-world",
+      "native_asset_id": "8989417b-5f4f-81d2-520d-286f3399e737",
+      "native_source_uri": "fs:media/8989417b5f4f81d2520d286f3399e737a8f347150b74d34f14a2f87f8d053987.mp4",
+      "video": true,
+      "at": 136.10000000000002,
+      "duration": 1.5000000000000113,
+      "nominal_at": 136.3,
+      "nominal_end": 137.60000000000002,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 77,
+      "original_cuts": [
+        85
+      ],
+      "asset_id": "BE-S04-odm-factory",
+      "native_asset_id": "02ba58e0-eb0d-11ec-8fe1-cdedd4db0830",
+      "native_source_uri": "fs:media/02ba58e0eb0d11ec8fe1cdedd4db08308a4d96a8fccc37ba4023e783a42fe96d.mp4",
+      "video": true,
+      "at": 137.4,
+      "duration": 1.2999999999999943,
+      "nominal_at": 137.6,
+      "nominal_end": 138.7,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 78,
+      "original_cuts": [
+        86
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 138.5,
+      "duration": 1.7999999999999943,
+      "nominal_at": 138.7,
+      "nominal_end": 140.29999999999998,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 79,
+      "original_cuts": [
+        87,
+        88
+      ],
+      "asset_id": "BE-S09-shared-sector-risk",
+      "native_asset_id": "3cd8086a-5297-590e-86ee-06815d31d793",
+      "native_source_uri": "fs:media/3cd8086a5297590e86ee06815d31d793d8699030ccf3d8cb9f5400aa2b7df69f.png",
+      "video": false,
+      "at": 140.10000000000002,
+      "duration": 4.7,
+      "nominal_at": 140.3,
+      "nominal_end": 144.8,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 80,
+      "original_cuts": [
+        89,
+        90
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "29f704cc-b2c6-a2d7-198e-893ca33a6273",
+      "native_source_uri": "fs:media/29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2.png",
+      "video": false,
+      "at": 144.60000000000002,
+      "duration": 3.7,
+      "nominal_at": 144.8,
+      "nominal_end": 148.3,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 81,
+      "original_cuts": [
+        91
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 148.10000000000002,
+      "duration": 1.6000000000000056,
+      "nominal_at": 148.3,
+      "nominal_end": 149.70000000000002,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 82,
+      "original_cuts": [
+        92,
+        93
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "f858c7d2-ea3c-5e55-8877-0b84f46dbb50",
+      "native_source_uri": "fs:media/f858c7d2ea3c5e5588770b84f46dbb5068bf2cff7d1a12f610f1e9ff3a57f406.mp4",
+      "video": true,
+      "at": 149.5,
+      "duration": 3.9000000000000172,
+      "nominal_at": 149.7,
+      "nominal_end": 153.4,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 83,
+      "original_cuts": [
+        94
+      ],
+      "asset_id": "BE-M03",
+      "native_asset_id": "245b8fb7-3df8-c261-c31d-963d985f3b48",
+      "native_source_uri": "fs:media/245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9.png",
+      "video": false,
+      "at": 153.20000000000002,
+      "duration": 1.2999999999999943,
+      "nominal_at": 153.4,
+      "nominal_end": 154.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.5
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -778.0183486238532,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -760.0183486238532,
+        -41.999999999999886
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 84,
+      "original_cuts": [
+        95,
+        96
+      ],
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "native_asset_id": "3e675303-77d4-ec88-c8c5-02f1b934aa4c",
+      "native_source_uri": "fs:media/3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42.png",
+      "video": false,
+      "at": 154.3,
+      "duration": 3.399999999999989,
+      "nominal_at": 154.5,
+      "nominal_end": 157.7,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2688,
+        1520
+      ],
+      "source_scale": 1.294736842105263,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.495,
+        0.49
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -1200.1263157894734,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -1182.7250526315786,
+        -4.319999999999823
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 85,
+      "original_cuts": [
+        97
+      ],
+      "asset_id": "BE-S03-brand-atelier",
+      "native_asset_id": "b9adf1b3-6747-c208-9006-cac529b9d3c0",
+      "native_source_uri": "fs:media/b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5.png",
+      "video": false,
+      "at": 157.5,
+      "duration": 2.5000000000000115,
+      "nominal_at": 157.7,
+      "nominal_end": 160.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 86,
+      "original_cuts": [
+        98
+      ],
+      "asset_id": "BE-M06",
+      "native_asset_id": "376f3735-84e2-5c57-a764-f0c3fa10145e",
+      "native_source_uri": "fs:media/376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b.png",
+      "video": false,
+      "at": 159.8,
+      "duration": 1.6000000000000056,
+      "nominal_at": 160,
+      "nominal_end": 161.4,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        2336,
+        1744
+      ],
+      "source_scale": 1.128440366972477,
+      "focus_start": [
+        0.495,
+        0.5800000000000001
+      ],
+      "focus_end": [
+        0.495,
+        0.5800000000000001
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -764.8381651376146,
+        -47.99999999999977
+      ],
+      "pan_end": [
+        -746.8381651376146,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 87,
+      "original_cuts": [
+        99
+      ],
+      "asset_id": "BE-S08-etf-basket-guide",
+      "native_asset_id": "167f678d-9279-8f22-240d-271a045cecfa",
+      "native_source_uri": "fs:media/167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff.png",
+      "video": false,
+      "at": 161.20000000000002,
+      "duration": 2.2999999999999945,
+      "nominal_at": 161.4,
+      "nominal_end": 163.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 88,
+      "original_cuts": [
+        100
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "29f704cc-b2c6-a2d7-198e-893ca33a6273",
+      "native_source_uri": "fs:media/29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2.png",
+      "video": false,
+      "at": 163.3,
+      "duration": 1.7,
+      "nominal_at": 163.5,
+      "nominal_end": 165.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 89,
+      "original_cuts": [
+        101
+      ],
+      "asset_id": "BE-S09-shared-sector-risk",
+      "native_asset_id": "3cd8086a-5297-590e-86ee-06815d31d793",
+      "native_source_uri": "fs:media/3cd8086a5297590e86ee06815d31d793d8699030ccf3d8cb9f5400aa2b7df69f.png",
+      "video": false,
+      "at": 164.8,
+      "duration": 1.7,
+      "nominal_at": 165,
+      "nominal_end": 166.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 90,
+      "original_cuts": [
+        102
+      ],
+      "asset_id": "BE-M04",
+      "native_asset_id": "1998cc9f-94ff-d301-a588-f8fe44e35f91",
+      "native_source_uri": "fs:media/1998cc9f94ffd301a588f8fe44e35f913c9f70a3612a63e6f5d27c7aaab9c7ce.png",
+      "video": false,
+      "at": 166.3,
+      "duration": 4.2,
+      "nominal_at": 166.5,
+      "nominal_end": 170.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 91,
+      "original_cuts": [
+        103
+      ],
+      "asset_id": "BE-S06-retail-digital",
+      "native_asset_id": "1cc5b53e-567d-090d-45e2-19ca60bf62c6",
+      "native_source_uri": "fs:media/1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a.png",
+      "video": false,
+      "at": 170.3,
+      "duration": 2.2,
+      "nominal_at": 170.5,
+      "nominal_end": 172.5,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 92,
+      "original_cuts": [
+        104
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "29f704cc-b2c6-a2d7-198e-893ca33a6273",
+      "native_source_uri": "fs:media/29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2.png",
+      "video": false,
+      "at": 172.3,
+      "duration": 1.7,
+      "nominal_at": 172.5,
+      "nominal_end": 174.0,
+      "transition_seconds": 0.2,
+      "source_dimensions": [
+        1520,
+        2688
+      ],
+      "source_scale": 0.7321428571428571,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -16.428571428571445,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -16.428571428571445,
+        -47.99999999999977
+      ],
+      "no_stretch": true
+    },
+    {
+      "run": 93,
+      "original_cuts": [
+        105
+      ],
+      "asset_id": "BE-S10-investor-ending",
+      "native_asset_id": "b6c1426a-6fd7-e2bb-c316-78c7e9d5ef3f",
+      "native_source_uri": "fs:media/b6c1426a6fd7e2bbc31678c7e9d5ef3feaf85d3fe845dbda2147763fb9ef6b9b.mp4",
+      "video": true,
+      "at": 174.0,
+      "duration": 6.0,
+      "nominal_at": 174,
+      "nominal_end": 180,
+      "transition_seconds": 0.0,
+      "source_dimensions": [
+        1080,
+        1920
+      ],
+      "source_scale": 1.025,
+      "focus_start": [
+        0.5,
+        0.5
+      ],
+      "focus_end": [
+        0.5,
+        0.515
+      ],
+      "full_canvas_clip": [
+        0,
+        0,
+        1080,
+        1920
+      ],
+      "pan_start": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "pan_end": [
+        -13.5,
+        -23.999999999999886
+      ],
+      "no_stretch": true
+    }
+  ]
+}
