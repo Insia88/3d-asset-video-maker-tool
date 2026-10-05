@@ -3,20 +3,20 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 9990,
-  "exported_references": 9990,
-  "remaining": 15010,
+  "eligible_observed_units": 10100,
+  "exported_references": 10100,
+  "remaining": 14900,
   "classes": {
-    "core3D": 9990
+    "core3D": 10100
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
   "reference_index": "data/projects/finfluencer-beauty-etf/references/index.json",
-  "shard_count": 10,
+  "shard_count": 11,
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "5a873cc7d40758cd8fafc4699d40c9c70435d0404ae6ad44612091d0af65c5f8",
+    "driver_sha256": "0917f027152e1e3a07da25ed9d67832c7f253da0d8190c2c1ae85f62850abefe",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -57,14 +57,18 @@
       "reference-index/3d_references_09001_09250.md",
       "reference-index/3d_references_09251_09500.md",
       "reference-index/3d_references_09501_09750.md",
-      "reference-index/3d_references_09751_09990.md"
+      "reference-index/3d_references_09751_10000.md",
+      "reference-index/3d_references_10001_10100.md"
     ],
     "unlinked_markdown_omitted": 0
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
     "references_external_review364.jsonl": 66,
+    "references_external_review365.jsonl": 6,
+    "references_external_review366.jsonl": 20,
     "references_external_review368.jsonl": 41,
+    "references_external_review476.jsonl": 70,
     "references_root_meshy_beauty185.jsonl": 27,
     "references_root_meshy_collectible248.jsonl": 85,
     "references_root_meshy_cozy206.jsonl": 99,
@@ -185,7 +189,7 @@
     "references_visual_stockcake_softspa.jsonl": 35,
     "references_visual_stockcake_toys.jsonl": 40,
     "references_visual_stockcake_vanity.jsonl": 13,
-    "shots_plus_3d_images.jsonl": 1295,
+    "shots_plus_3d_images.jsonl": 1300,
     "shots_plus_3d_studio311.jsonl": 13,
     "shots_plus_higgsfield.jsonl": 31,
     "shots_plus_motion.jsonl": 27,
@@ -251,7 +255,7 @@
     "shots_root_runway.jsonl": 50,
     "shots_root_viral.jsonl": 1,
     "shots_shuka_3d_images.jsonl": 6,
-    "shots_shuka_blendkit.jsonl": 160,
+    "shots_shuka_blendkit.jsonl": 169,
     "shots_shuka_diffuse.jsonl": 93,
     "shots_shuka_icons8.jsonl": 251,
     "shots_shuka_lexica.jsonl": 393,
@@ -267,28 +271,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "a40e335e9489795a7c9034df2dad0093b12269d52473f9e4480b1864460d03cf",
-    "shots_master.jsonl": "8d8630b25fe6664dc72add92d041e67d168d4518fb30e3e9b520c3fad2558e41"
+    "shot_audit.json": "4d8cbc41c42e59caeff7f4fc61d482589a2c304e376647640af94143a62db105",
+    "shots_master.jsonl": "b7c962979b55a7a8cc4a957d64f9435bc2f4f6bbce7905b0bd3571c4747ec934"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 57936,
-    "markdown_local_or_unpublished_links_replaced": 15278,
+    "local_artifacts_replaced": 58711,
+    "markdown_local_or_unpublished_links_replaced": 15439,
     "private_links_withheld": 25
   },
   "source_audit": {
-    "updated_local": "2026-10-05T13:53:58",
+    "updated_local": "2026-10-05T18:15:49",
     "target": 25000,
-    "eligible_observed_units": 9990,
-    "remaining": 15010,
-    "raw_rows": 31681,
-    "excluded_rows": 21691,
-    "observed_sources": 8388,
+    "eligible_observed_units": 10100,
+    "remaining": 14900,
+    "raw_rows": 31942,
+    "excluded_rows": 21842,
+    "observed_sources": 8495,
     "classes": {
-      "core3D": 9990
+      "core3D": 10100
     },
-    "historical_broad_observed_units": 12702,
+    "historical_broad_observed_units": 12812,
     "historical_broad_classes": {
-      "core3D": 9995,
+      "core3D": 10105,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -406,12 +410,12 @@
       },
       {
         "file": "shots_plus_3d_images.jsonl",
-        "raw_rows": 6043,
-        "eligible": 1295,
-        "excluded": 4748,
-        "sources": 788,
+        "raw_rows": 6071,
+        "eligible": 1300,
+        "excluded": 4771,
+        "sources": 790,
         "classes": {
-          "core3D": 1295
+          "core3D": 1300
         }
       },
       {
@@ -1024,12 +1028,12 @@
       },
       {
         "file": "shots_shuka_blendkit.jsonl",
-        "raw_rows": 1061,
-        "eligible": 160,
-        "excluded": 901,
-        "sources": 160,
+        "raw_rows": 1175,
+        "eligible": 169,
+        "excluded": 1006,
+        "sources": 169,
         "classes": {
-          "core3D": 160
+          "core3D": 169
         }
       },
       {
@@ -1113,6 +1117,26 @@
         }
       },
       {
+        "file": "references_external_review365.jsonl",
+        "raw_rows": 20,
+        "eligible": 6,
+        "excluded": 14,
+        "sources": 6,
+        "classes": {
+          "core3D": 6
+        }
+      },
+      {
+        "file": "references_external_review366.jsonl",
+        "raw_rows": 20,
+        "eligible": 20,
+        "excluded": 0,
+        "sources": 20,
+        "classes": {
+          "core3D": 20
+        }
+      },
+      {
         "file": "references_external_review368.jsonl",
         "raw_rows": 45,
         "eligible": 41,
@@ -1120,6 +1144,16 @@
         "sources": 41,
         "classes": {
           "core3D": 41
+        }
+      },
+      {
+        "file": "references_external_review476.jsonl",
+        "raw_rows": 79,
+        "eligible": 70,
+        "excluded": 9,
+        "sources": 70,
+        "classes": {
+          "core3D": 70
         }
       },
       {
@@ -2369,7 +2403,7 @@
     ],
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
-    "traditional_or_native_3d_comparison_units": 1596,
+    "traditional_or_native_3d_comparison_units": 1601,
     "directly_observed_hybrid_comparison_units": 2374
   }
 }
