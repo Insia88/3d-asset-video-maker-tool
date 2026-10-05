@@ -6,8 +6,7 @@ PLUS KR·슈카친구들 포맷 분석, 25,000개 참고 수집, Higgsfield 에�
 
 ## 바로 보기
 
-- [진행 현황과 실제 완료 수](production/beauty-etf-portfolio/  180초 완성본·40자막·105컷·출처와 복구 정보
-data/projects/finfluencer-beauty-etf/audit.json)
+- [진행 현황과 실제 완료 수](data/projects/finfluencer-beauty-etf/audit.json)
 - [채널 포맷·3D 조사 종합](docs/research/2026-10-05/00_포맷분석_종합.md)
 - [PLUS KR A–Z 분석](docs/research/2026-10-05/01_PLUS_KR_A-Z.md)
 - [슈카친구들·머니코믹스 A–Z 분석](docs/research/2026-10-05/02_슈카친구들_A-Z.md)
