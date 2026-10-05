@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "14aeff2a498342b5d7ed8469eac5ddad24f50bc435bdcda2a35ca6dc7b3bd6c8",
+    "driver_sha256": "166e1ec3922cda1b28d6189d5fbacbd6614a2925f440ea6b92e6d5f453fcdaec",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -277,8 +277,8 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "640c8a594f2bacb9d5f91d2f0e69ed5a4c5c07b127563ac001bcbe7270d57126",
-    "shots_master.jsonl": "b1501c18e6693c7b1024e69633a88b9df5227562f5991e0396c1050b62e0957b"
+    "shot_audit.json": "5ff3e3f3ac5159736ab21294588b9a02f38db46497afa870b93d9599f9423929",
+    "shots_master.jsonl": "8e988e957e1b11ab2f96479b963233547451f2de1d6d61fafaf7222f1b194070"
   },
   "privacy_redactions": {
     "local_artifacts_replaced": 59124,
@@ -286,7 +286,7 @@
     "private_links_withheld": 25
   },
   "source_audit": {
-    "updated_local": "2026-10-06T03:26:34",
+    "updated_local": "2026-10-06T03:40:59",
     "target": 25000,
     "eligible_observed_units": 10134,
     "remaining": 14866,
