@@ -1,0 +1,6 @@
+script/captions.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+script/captions.md -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+script/main_captions.srt -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+script/cutlist.json -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+script/history/v2/* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof
+script/history/v3/* -text whitespace=cr-at-eol,-blank-at-eol,-blank-at-eof

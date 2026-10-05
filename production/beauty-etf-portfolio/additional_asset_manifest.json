@@ -1,0 +1,38 @@
+{
+  "original_15_assets_preserved": true,
+  "new_approved_key_images": [
+    {
+      "asset_id": "BE-K201-kbeauty-export-campus",
+      "file": "K201.png",
+      "bytes": 6054209,
+      "sha256": "fe3ae8088807c909fdf3903b1a14fc6a8cb45b594fd33635872fd4fab73ceff9",
+      "dimensions": [
+        1520,
+        2688
+      ],
+      "generation_job_id": "1c6e7fc6-9871-45aa-acfd-de39fab8acfc",
+      "generation_model": "gpt_image_2_5",
+      "style": "felt miniature 3D render",
+      "review": "Whole generated image directly reviewed by primary producer.",
+      "limits": "Illustrative industry/geography; not an accurate country boundary or measured market-share map.",
+      "research_reference_count_delta": 0
+    },
+    {
+      "asset_id": "BE-K202-illustrative-global-beauty",
+      "file": "K202.png",
+      "bytes": 5611352,
+      "sha256": "3135179ca0a6d1ca021c916ed3766e54eed64e734b3ff4ad0f22a84df6565a12",
+      "dimensions": [
+        1520,
+        2688
+      ],
+      "generation_job_id": "4486ffab-74bb-4dd4-8647-1a8b73a303f2",
+      "generation_model": "gpt_image_2_5",
+      "style": "felt miniature 3D render",
+      "review": "Whole generated image directly reviewed by primary producer.",
+      "limits": "Illustrative industry/geography; not an accurate country boundary or measured market-share map.",
+      "research_reference_count_delta": 0
+    }
+  ],
+  "research_reference_count_delta": 0
+}
