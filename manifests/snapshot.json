@@ -4,7 +4,7 @@
     "finfluencer-beauty-etf": {
       "project": "finfluencer-beauty-etf",
       "snapshot_date": "2026-10-05",
-      "exported_at_utc": "2026-10-05T21:24:45+00:00",
+      "exported_at_utc": "2026-10-05T22:02:48+00:00",
       "references": "data/projects/finfluencer-beauty-etf/references/index.json",
       "audit": "data/projects/finfluencer-beauty-etf/audit.json",
       "reference_format": "sharded_jsonl",
@@ -12,7 +12,7 @@
       "reference_index_selection": {
         "method": "linked_from_current_integrated_index",
         "driver": "36_3D_고유참고_통합색인.md",
-        "driver_sha256": "ae47f585f373c7eb85e71e4bf6b391d8bf5110583afabc666323efcea65fd023",
+        "driver_sha256": "e2cb8bc5f731f06e881bed4f37b0b72c40a8be6a2e08813296f7c1c3d405c5ef",
         "selected_documents": [
           "reference-index/3d_references_00001_00250.md",
           "reference-index/3d_references_00251_00500.md",
@@ -54,16 +54,16 @@
           "reference-index/3d_references_09251_09500.md",
           "reference-index/3d_references_09501_09750.md",
           "reference-index/3d_references_09751_10000.md",
-          "reference-index/3d_references_10001_10210.md"
+          "reference-index/3d_references_10001_10232.md"
         ],
-        "unlinked_markdown_omitted": 3
+        "unlinked_markdown_omitted": 4
       },
       "managed_file_cleanup": {
         "mode": "report_only_no_deletion",
         "stale_files": [
           {
-            "path": "docs/research/2026-10-05/reference-index/3d_references_10001_10177.md",
-            "previous_sha256": "ac4addb43c0bdf79dedbef5521d0bac673a17eb13c3df287c7a8a1f2ae47f3e1",
+            "path": "docs/research/2026-10-05/reference-index/3d_references_10001_10210.md",
+            "previous_sha256": "a6d19a509c37be2794854eb9eb96b02a71a63794b2ae86aafeec07341ca2ad3a",
             "status": "unchanged_since_previous_snapshot",
             "removal_candidate": true
           }
@@ -73,16 +73,16 @@
         "unsafe_previous_paths_ignored": 0
       },
       "research_directory": "docs/research/2026-10-05",
-      "research_document_count": 518,
-      "eligible_observed_units": 10210,
+      "research_document_count": 520,
+      "eligible_observed_units": 10232,
       "input_sha256": {
-        "shot_audit.json": "de825a21d97c1f58e1f6cf3dda11bc4ac571dbac36135172ea66f4e2a3e28189",
-        "shots_master.jsonl": "a68dea562593fb47ab2ada8311058b3c0d86c72ac8fd78ebafc78d66a5776bba"
+        "shot_audit.json": "3b7088c581a50ac08b0b76730823e5a6cd71c148decbf7608a54db8643465226",
+        "shots_master.jsonl": "49f8e223e533008a53d973edda0f2057dc9be25388f0476641e17f9ae7b0be4c"
       },
       "source_documents": [
         {
           "name": "00_포맷분석_종합.md",
-          "sha256": "10011b28eccece9100b1b2e2ab10616a792491af844d035156d0f713a73d3d50"
+          "sha256": "c3c4ffd97dd2064e6ba766ee63d735ec5b821078095f94ad20f60d5ed7895ee2"
         },
         {
           "name": "01_PLUS_KR_A-Z.md",
@@ -106,7 +106,7 @@
         },
         {
           "name": "06_비주얼_집계와_검증.md",
-          "sha256": "e49feb8a1481280caa6eb2f38de1fb9b10aa6b356ffacce6b3965ed5453fe509"
+          "sha256": "8810ec856333fedf5b34eac3ff85053ca6b98d7145d92958d4aceecfb4519c58"
         },
         {
           "name": "07_비주얼_M050-M099.md",
@@ -1530,7 +1530,7 @@
         },
         {
           "name": "36_3D_고유참고_통합색인.md",
-          "sha256": "ae47f585f373c7eb85e71e4bf6b391d8bf5110583afabc666323efcea65fd023"
+          "sha256": "e2cb8bc5f731f06e881bed4f37b0b72c40a8be6a2e08813296f7c1c3d405c5ef"
         },
         {
           "name": "36_StockCake_비누_거품_부드러운제품조형_직접분석.md",
@@ -1785,6 +1785,14 @@
           "sha256": "ab67ff8c761e8e4ed80fcdc8a3d18706576c5cceb4aae910f33edb7fb4d90ee2"
         },
         {
+          "name": "496_F36_뷰티와_귀여운_3D_집계.md",
+          "sha256": "454450fb3775497b9ea1335a5bf16b7db06019c40ce1cb5e72cc1e5e1a580919"
+        },
+        {
+          "name": "497_F36_새_고유참고22_분석.md",
+          "sha256": "39a8a42af68939d70f84bae4069ab7537e542a2ed95eec4b12149a16d2405029"
+        },
+        {
           "name": "49_3D_작은제조공간_욕실_제품무대_직접분석.md",
           "sha256": "de5400fdc4569580bf0c0da35b524deb4a5d05eca5d5d8390f5e41a093ceb176"
         },
@@ -1990,178 +1998,178 @@
         },
         {
           "name": "reference-index/3d_references_00001_00250.md",
-          "sha256": "ea1b7d4259e1f6311e87bb0808208f37565db734e0c42a0d74113b23c5f2ba0c"
+          "sha256": "13be5ff102969e4aa7a6c146403f2a79e957c5ddaa27fa65aaa85ff2c5a9015e"
         },
         {
           "name": "reference-index/3d_references_00251_00500.md",
-          "sha256": "10d380d6f4346b230168348b5345e405bb0ad3e7bb004006d82ee6a05a7beda9"
+          "sha256": "b28304ea2c80ab480a2e4978e61a92934935672160078638f90b03bb309a4777"
         },
         {
           "name": "reference-index/3d_references_00501_00750.md",
-          "sha256": "ac06f60e174e98f9f43744f4e120228ba89646ef5ef2550f9d1355edb2904868"
+          "sha256": "490e2ac013a353e445d37c81d212fcb32a33d5c8df887f8370fa08a59efc863f"
         },
         {
           "name": "reference-index/3d_references_00751_01000.md",
-          "sha256": "5e56fdfd4f074f8617192403bed3a30a5094ff306cd3b64e91327211ad7ae1b6"
+          "sha256": "743fde29f385e770135c5602c4bc56b8c4337e0eebdd57ca8ffaa4a00db5787f"
         },
         {
           "name": "reference-index/3d_references_01001_01250.md",
-          "sha256": "46d0e34e42987a70d7b616201c965603e5243c16311f2d031fec1ea2654b0d4d"
+          "sha256": "e35c1e4969dbae33888574af8a58b9cfa961f131c5d08380c65f71fb3fc6891a"
         },
         {
           "name": "reference-index/3d_references_01251_01500.md",
-          "sha256": "d26f7d06c92e0b1935a9d12743572415cc50cd8642ac56ff3b8716ae9e455fdb"
+          "sha256": "8b00b427e742771fb6eeb83e28c79484d5b7a61f54739ea0fc43022fc6db9bc8"
         },
         {
           "name": "reference-index/3d_references_01501_01750.md",
-          "sha256": "8fa8b009d5076169cf3d196079a04a23583671fe7abb86be520f90caef5b314d"
+          "sha256": "29146a80c336d62c063d3023ec4080f12acdba181f98bdfd3c4f30e4c31b6df2"
         },
         {
           "name": "reference-index/3d_references_01751_02000.md",
-          "sha256": "a9836505cc52b92791349c62988f31b18a2ca35406cc6246d7889d736b34c8df"
+          "sha256": "4170484b6c1df7f9f62cbef1ce6dc4a6e3cd04096d7aa35335c0b9d6d810eb4b"
         },
         {
           "name": "reference-index/3d_references_02001_02250.md",
-          "sha256": "49156ac31ddb93111fce766eacdd13d1e567de82864e86ecf52d3c3c142ceeac"
+          "sha256": "03d0a2fa21f3bee1f23b28677f8bfd79248b471e30d368e0f732475f8a28c27d"
         },
         {
           "name": "reference-index/3d_references_02251_02500.md",
-          "sha256": "c1ef364cb6a64d562b837cf34fee1ff575344ccfffcabe1dc0c8091412c613b5"
+          "sha256": "3f7e3d4865c448441e92d694ca3cb537da19e274a5cae2aa857b85bf5d0e62b8"
         },
         {
           "name": "reference-index/3d_references_02501_02750.md",
-          "sha256": "fd41a4a8c853a8d911c86d2d1fcb72fb706da760be5e3330598f371080b56492"
+          "sha256": "c790aefe1c59075a128ae057abf1a02897c034523987a3e2cdc49caa4fac0b26"
         },
         {
           "name": "reference-index/3d_references_02751_03000.md",
-          "sha256": "edf55eb6fb75aa4ea3ad9e28011eccc27259a13533faad673ffa8d694a5fc416"
+          "sha256": "794feac089cc5601b158648b5af613f9c01e60b5ea703a74a9db33667dfedc40"
         },
         {
           "name": "reference-index/3d_references_03001_03250.md",
-          "sha256": "01faefedf276013f7dda983c5420afb1d1d5a3cdff08685b3fe1c6459608f12c"
+          "sha256": "d00bda88d4ca9d24038a6bfbefc8a28914274585000b0ef07f58de793737d855"
         },
         {
           "name": "reference-index/3d_references_03251_03500.md",
-          "sha256": "500a3a1fb37a6930a1317d5f6dac686b88f96df29f6fdb394142674a25301caf"
+          "sha256": "373441c21731fd4c0788e2a05a6065c2b77fa1cbedb55898b201704038140393"
         },
         {
           "name": "reference-index/3d_references_03501_03750.md",
-          "sha256": "f22d4d86e5b1b45c681e8dc4d66ad55ac70544671de20b726f97010f1208f4af"
+          "sha256": "49371f9e2410458ff9464069e56ee0da16aa101784db0c37443f1c4fb1c7988c"
         },
         {
           "name": "reference-index/3d_references_03751_04000.md",
-          "sha256": "e701da2baeedc0a247e1433ac4f705caac763af77a08428538311d8a939f0d03"
+          "sha256": "39ed9e953162b8d17d4c5bdd0317b0418778331a7ce12d7e5414bee7070881bc"
         },
         {
           "name": "reference-index/3d_references_04001_04250.md",
-          "sha256": "6e65efb6f672b0f39da97d9fb20a7d2e21003bb94725c298158f611055bf3ccd"
+          "sha256": "8c1c28d03d67f0f1c07f376b8ddd46e8145cb631c56ff702479b904138998ec9"
         },
         {
           "name": "reference-index/3d_references_04251_04500.md",
-          "sha256": "2dd342219d222824eaf88a11697492051b63f654d7630cfbb53e6cb970efe0dc"
+          "sha256": "680ef27607f90733cd451226dc7b3939eba4550eebba7274eeed663f779d1b2a"
         },
         {
           "name": "reference-index/3d_references_04501_04750.md",
-          "sha256": "fea97d72e90448260a94548c96dc70a7c6c65834e4ff804c70a9352852a906c8"
+          "sha256": "e7d1e314d909bfcb8010b5884392ed260f488f7bffce067b6ab54b7d4cffdc69"
         },
         {
           "name": "reference-index/3d_references_04751_05000.md",
-          "sha256": "46ed2ae32826f219354fcd7c876be03d857c665366b671285405831c2d7d2949"
+          "sha256": "b222ad0d057563fd24ef1018c3dd7ca252847f9dd756ed3c4ab84b04553a4f97"
         },
         {
           "name": "reference-index/3d_references_05001_05250.md",
-          "sha256": "586d0fc65ffc168bdaea109b83764fa9b02fcbeb66b2949c678d67ed84c62f86"
+          "sha256": "8ac2c0143f945aee7b80c9cd53c762414a3c74ba32671592a60e7830ccb57c0e"
         },
         {
           "name": "reference-index/3d_references_05251_05500.md",
-          "sha256": "9c59c18608424e9d9beab043feaa63d1f2e79440d753f3557871313b8f9da78c"
+          "sha256": "83a08c8991679c8d6982c843df4801550553a0264ef508b03d6f652e15562994"
         },
         {
           "name": "reference-index/3d_references_05501_05750.md",
-          "sha256": "8d98776111a416631b22433dc9f347a3c6862d53f435957c7149402a5507a45e"
+          "sha256": "ab5ec65bc4c8691a4b37198e9bf9cf5611437e0b20f684518a1a33c7030c9d5e"
         },
         {
           "name": "reference-index/3d_references_05751_06000.md",
-          "sha256": "d69e2b18bdbc9f4d3d9f7ed001a4b0541f352cb0dbafa9dde19ebca4501e52dd"
+          "sha256": "1660a4b97a78ae7ecf5cebfb0f47513195248754ae4ad2f7ed073701404220c6"
         },
         {
           "name": "reference-index/3d_references_06001_06250.md",
-          "sha256": "d174ed63882ccbef8383e3cc362ebc3ab572687523f3411fce09873983314ac1"
+          "sha256": "f6a35c4a473bb1cf69f2e0180e443d3419c08e86dc9716a271a2ca63713eeb26"
         },
         {
           "name": "reference-index/3d_references_06251_06500.md",
-          "sha256": "8baa54ee69d4ccd500231ea254cd571fdba3d529376b34606e8196253b6ed4e8"
+          "sha256": "cc2416513ea421ddb98a91512a342c4bba7fa6189b7ce252645fbf70f1a8938b"
         },
         {
           "name": "reference-index/3d_references_06501_06750.md",
-          "sha256": "5a421522857f2a9fdd28f2bbec384e33380429e415689d76bce5b4a6c4e709d0"
+          "sha256": "8c280811b5f5408b2b0d3c12653c2ef98f97ecf67f6b98b5f9262649c470bc3b"
         },
         {
           "name": "reference-index/3d_references_06751_07000.md",
-          "sha256": "67b4f9959888e87d23cdd6a37d13e4860db34f5cb05bb8a464fb68bf1e6d2fa6"
+          "sha256": "18cd7b8caea7e298e6d380d7f465949433c0084034491afdcca024ff311cc4e8"
         },
         {
           "name": "reference-index/3d_references_07001_07250.md",
-          "sha256": "b81f0be5d33d3a5a8f909344b2f17b1ddccd8bc1beec2e20b9a16b86be9b9048"
+          "sha256": "492c873454c408c3c9e3299afcdf4e625cfe88346ca63c3dc426bce99260973e"
         },
         {
           "name": "reference-index/3d_references_07251_07500.md",
-          "sha256": "4632d8b5791cdfd84e9853688ae8e0f4eae6c9f691c104e9605bd3afd86455f4"
+          "sha256": "42c0d40ee8db4e92656eb8e8e0c98d894ebd15f8487da82cbab47726b54fec42"
         },
         {
           "name": "reference-index/3d_references_07501_07750.md",
-          "sha256": "1da584212f43dc234a99de621f524383752fca1480c315e6cc6c33154c00aec4"
+          "sha256": "87726b17efd105ea450b4895858276c4a464365985284a4f3046f75a88363113"
         },
         {
           "name": "reference-index/3d_references_07751_08000.md",
-          "sha256": "66c61862bb1f365c6b380ba1129de0e7c1f66b30058a0a02cb31df4d4421b7d3"
+          "sha256": "7f91ff35d8f327809f730dabd8adb49e0feef166f4720c8a4388b484c97c271e"
         },
         {
           "name": "reference-index/3d_references_08001_08250.md",
-          "sha256": "8f7e49b157cdd48659a1093b9c2fbb498306ed89c9dcd797384f7f326291ce0e"
+          "sha256": "f2ab70a1f83d64ce67295b56e586fc7eba1d82287c601d08991f4d9522ff852a"
         },
         {
           "name": "reference-index/3d_references_08251_08500.md",
-          "sha256": "6e25be2e402baf99e8153e38d7659c3f91efd5f6c6fa17cca6b484774d95e982"
+          "sha256": "c25d6b692648fdfec9c4f2ec433734eb23561c7aac318d15d68786a51dbc0156"
         },
         {
           "name": "reference-index/3d_references_08501_08750.md",
-          "sha256": "0ce5bc5c0c78b49ec499fd78ad5608239275266ac9a31a2b0167699c183c8797"
+          "sha256": "3df8687c0b411409d0bffea9d71c1207d039e4445592c4a98a1968946b3fdae7"
         },
         {
           "name": "reference-index/3d_references_08751_09000.md",
-          "sha256": "5c038a3f4d49b7adc6b91d099e95e9b32ad2f4cc010b7df1955715ddcfc290e7"
+          "sha256": "8012df35febc17858f202c08589a98bafef5a8a0b15d0b7a1c185eca17b1f778"
         },
         {
           "name": "reference-index/3d_references_09001_09250.md",
-          "sha256": "415f54a47d875b3ed430660d395873b2235397b596269c2918f24800180643fe"
+          "sha256": "35342fcf539cc401bccde8fee6e15ea7e5be7c77c06ac7c4e989b1c403a399be"
         },
         {
           "name": "reference-index/3d_references_09251_09500.md",
-          "sha256": "9ccaba7fc5ad6c011e0cb5ee305943702e17f5cd17fd03876776666b05d41e4f"
+          "sha256": "a847e4c837f8d86f5dba01f243b3c448365921b8a7b94e54feb29da9c105e9ac"
         },
         {
           "name": "reference-index/3d_references_09501_09750.md",
-          "sha256": "9a01c0fa3653a2fa5277340b4e1aed7b70ec1ad72f7dc081dafd9b365c85eca0"
+          "sha256": "f07c0f51839e529c0fbca340ea02bb51e2223e4a92090296e60bf36a4708a264"
         },
         {
           "name": "reference-index/3d_references_09751_10000.md",
-          "sha256": "756b18b4a678d29a20581ea4e2fd49197ccec0341865aa103bd96549ade0727a"
+          "sha256": "b0878874a48e1b7e25feacd634dff44d7576e9a2331c8b4236412ae5d20c0c81"
         },
         {
-          "name": "reference-index/3d_references_10001_10210.md",
-          "sha256": "5659d07b0ab964adf91f879b1bc18f43ae4dec4bdccc07638762a821a97cefdd"
+          "name": "reference-index/3d_references_10001_10232.md",
+          "sha256": "7b8c76605818bee8dbfb3188cc21f27e1baafb99eefe7d56e464aec6606b127b"
         }
       ],
       "files": [
         {
           "path": "data/projects/finfluencer-beauty-etf/audit.json",
-          "sha256": "78c3850a311ebb7265798091bc50c4b193cf029493a1087cd6917046e1efde90",
-          "bytes": 67738
+          "sha256": "969a4f6329e1f5558d8be11ff050994fbd4c120054fb55c2c86bf2990002c736",
+          "bytes": 68806
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/index.json",
-          "sha256": "20db6b931e1ff52154d866fac99ef88a7de7f826fa46e3c7eda195978a2446a3",
+          "sha256": "15af6f1776b36532beaf07ec403e3ab83f39711ac9665407546633b6f2d35044",
           "bytes": 2157
         },
         {
@@ -2196,33 +2204,33 @@
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00007.jsonl",
-          "sha256": "ad402d8903c791f96d1d764ccd9132113682a9ac4c7a8e36eef61a9ee9557527",
-          "bytes": 10171699
+          "sha256": "363c59d06efe9dbad0c58f3d8865a5d76454110b89005e1a3f207601f636f4a3",
+          "bytes": 10339630
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00008.jsonl",
-          "sha256": "da755bd7e4933679915cfef9a9252292f475dde0c323e97f080d3dc5db35378f",
-          "bytes": 8893138
+          "sha256": "466b8c113fa6590852a68dffa754c8f0eb5904ef0bdf076d96608e0cdca85336",
+          "bytes": 8570148
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00009.jsonl",
-          "sha256": "f8a76550bf3df3267338577b60559ddece5d33a81494efba45db68f3a8d880c2",
-          "bytes": 16147213
+          "sha256": "c032d642ed0fb60b1af270be2f792856907fe9c14c6de3e34c5a4b095af08397",
+          "bytes": 16423301
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00010.jsonl",
-          "sha256": "310d3707c100e5cbf10103789702d678a523452505d50198496b16b73eb8a257",
-          "bytes": 9954420
+          "sha256": "80442ba8be145e94814cb4220f0a57aabc397577b6cfa579886625bd382f12c9",
+          "bytes": 9957433
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00011.jsonl",
-          "sha256": "6ad6859d140bfab7cf34eecf09b5d058a7fd2ade8a8185dbeb4c83d48b7a37a9",
-          "bytes": 1945709
+          "sha256": "660bed3c41f18db5ca5cf9e423d7fae08af4088ff7e85da665ecf187b8cc6719",
+          "bytes": 2152529
         },
         {
           "path": "docs/research/2026-10-05/00_포맷분석_종합.md",
-          "sha256": "527efd0492c9b1736bb74622d59079050a82325727bf297918b7a0b8428e7afa",
-          "bytes": 86921
+          "sha256": "185fcb6992ba4bdfbca4932e9dc11a6a5027303920bf0321afc28aee1c506802",
+          "bytes": 87298
         },
         {
           "path": "docs/research/2026-10-05/01_PLUS_KR_A-Z.md",
@@ -2251,8 +2259,8 @@
         },
         {
           "path": "docs/research/2026-10-05/06_비주얼_집계와_검증.md",
-          "sha256": "ee681c3e47463139325d14e9fc1166aa44238f2572abd8a74c37ac4aebb650bd",
-          "bytes": 33396
+          "sha256": "1a3458bd46715153048c2c1280c4bb6d92e0cf3987e183789f096f8bde531389",
+          "bytes": 33906
         },
         {
           "path": "docs/research/2026-10-05/07_비주얼_M050-M099.md",
@@ -4031,8 +4039,8 @@
         },
         {
           "path": "docs/research/2026-10-05/36_3D_고유참고_통합색인.md",
-          "sha256": "84b319db4fe717c7e320a794afb8fbf48a8a386b43ec58b324c95133a9140a09",
-          "bytes": 7134
+          "sha256": "5d22e3c0584edfd175a399424b74eb39516b7e614c860e8af68a674b9439c028",
+          "bytes": 7124
         },
         {
           "path": "docs/research/2026-10-05/36_StockCake_비누_거품_부드러운제품조형_직접분석.md",
@@ -4350,6 +4358,16 @@
           "bytes": 39315
         },
         {
+          "path": "docs/research/2026-10-05/496_F36_뷰티와_귀여운_3D_집계.md",
+          "sha256": "299b390d4d7a6b9a07005659d4f7eb3894519fd8844b2e56eb89a0713c55f509",
+          "bytes": 3084
+        },
+        {
+          "path": "docs/research/2026-10-05/497_F36_새_고유참고22_분석.md",
+          "sha256": "22aa54483097ab54555c844f45522f8f0bcf05460a02c1da01389db435fe275c",
+          "bytes": 24237
+        },
+        {
           "path": "docs/research/2026-10-05/49_3D_작은제조공간_욕실_제품무대_직접분석.md",
           "sha256": "b6c519f07133f17ac8fc5389eadd00ded7fb07d3c0d85d3ca5921cb399c2fdf9",
           "bytes": 13735
@@ -4601,208 +4619,208 @@
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_00001_00250.md",
-          "sha256": "4f881deaa0b9ed990debf277f67213014c3d6414a01756e72ae05444980438ba",
+          "sha256": "fa5713d8ad4565d2639bd9f6093c033b5ec5f1c9b316f18cfd5b5f48f688dab3",
           "bytes": 189303
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_00251_00500.md",
-          "sha256": "f3820d5a7b98c6e681ac713444b7fc89a255f8f9c062232670f6cdb7d2e96b35",
+          "sha256": "d1356da0f438bbd64535cf95d2b63de4220eec40d54e6a27c92cccd412a298de",
           "bytes": 200864
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_00501_00750.md",
-          "sha256": "10b1623cd3937481b7a0668296cd205df306bb82048f9265a5e8b37e06d47206",
+          "sha256": "63bfa6989e38cb45b6ccb1977a0edca420bb97564726d6d27062c911ed6f5fe7",
           "bytes": 226661
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_00751_01000.md",
-          "sha256": "736c78d058f52ee9d82e47c57d48a47063b9906e92bc0f257c9bf3b3357b3203",
+          "sha256": "f2751c6a52daf4446b7adb126880e4b037a4a8709772f66e11116cac0ff4a078",
           "bytes": 149771
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_01001_01250.md",
-          "sha256": "f14d85b6f6a18531cc484c54d419a6b56b44688bd6da65dcf6b06cee70bc3c0b",
+          "sha256": "2a117e41527149e07d5ad65fb3fd67863b433a88d647cccc616ca19217fb4e5d",
           "bytes": 183147
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_01251_01500.md",
-          "sha256": "5d2c72a444ef8a532e49656f5f3459c251a78f0e9f8ee1a66342ce920d9dd64e",
+          "sha256": "e019d4b24d8496a52988dd333d466f6f9c5e9afb5eb9c3a7d602e66b03ae4b1f",
           "bytes": 244937
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_01501_01750.md",
-          "sha256": "6ac3b4f74838086b55a827407eb17f7c645ae2f9be81f0a29f3d06cc1e58bf9d",
+          "sha256": "4e43154c5c2fd619e1d4f3f31b385e423ac36f5d77cfb9415d07023a6682ec8a",
           "bytes": 311685
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_01751_02000.md",
-          "sha256": "aab4b56e3908c890c3375dcc70a30ea2c775c39b42ba0321164fe26027df7596",
+          "sha256": "d0fb8f5f17e619a80bf89fcc762e53aa30177053d8e303b3697c7ec3894750b3",
           "bytes": 445927
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_02001_02250.md",
-          "sha256": "d7ef523588fc51676944590e682352fc7111f9ff74fdf91eec062b835fdd05d0",
+          "sha256": "ae3c74a821ed419e8e1f49d9d03a772bed589a2869f39f29edc40a81e3f864ba",
           "bytes": 444410
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_02251_02500.md",
-          "sha256": "a513d47339aede6fe2c03407e3029cdaa689d11d04c5d6fca50c1c10b91415b5",
+          "sha256": "f48138c50a53cb34a1441641c0a634254d2d2c765de48689d9d077721dd9a310",
           "bytes": 280815
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_02501_02750.md",
-          "sha256": "d4d171e4808528c7f60c482f36374c676924ee91e0ed0a864bf4ad9cf8981183",
+          "sha256": "a1dffff09b775c77b7a191d483467f28457a69e3a8242beff3d0e6c8cc5b5786",
           "bytes": 202840
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_02751_03000.md",
-          "sha256": "b99aa8f3f43342f98821261b0d4364e3a65fa56402e922b323b50524c1950690",
+          "sha256": "c8621864bf0feafcfafe60d4766467dbae0bf4e78417cd21bf54f3164de3ab28",
           "bytes": 173611
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_03001_03250.md",
-          "sha256": "b64e247c8d891d6f75769fb5e9c9df542e3d46585f48eb64901701b0bb4a6a8f",
+          "sha256": "9a1fd16e9facf06ffa6e470d41a971fc4c18d85e2604abb8e958200ae32203dc",
           "bytes": 172728
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_03251_03500.md",
-          "sha256": "87175c64194b509217713ed80c78aa811b7787165022ec712a60b1b3bcb5443c",
+          "sha256": "43dc6438db66436bac4a54156a99d08241fd7f49404d07a74b0a1e89fe1b2de7",
           "bytes": 182477
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_03501_03750.md",
-          "sha256": "e7451e7c91a51f9661312c39b478a2071a013679839e621ffbb57bbc64a4d937",
+          "sha256": "312cd3fed1593b66860416bcf03f10474760a20cd3014cac4f1feb2de70c207c",
           "bytes": 190270
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_03751_04000.md",
-          "sha256": "7463b6fb3024038ed1e283458ce158b1f4deb60a4c76fd02f25dda500301ab8b",
+          "sha256": "d5669889dee6cdaadb83a49e8bc2463c8519ba588260795a5c7e818fc38d5cd6",
           "bytes": 181812
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_04001_04250.md",
-          "sha256": "7b53b180f4f73a5e33e69b39d4f3be5997e099aed1bf1fe9c8006ad704d3e37b",
+          "sha256": "fdef8e2d1516ec046a319ca64edcbdc4f92e8b048cdbe0c94da9d67e8b971188",
           "bytes": 198876
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_04251_04500.md",
-          "sha256": "cd5c0835dc0e31fe197d4362b9d7c139a81673d57994aeb8f52b5ac1454f3560",
+          "sha256": "ee39b202009540935f0150851b581461e60aa3b12edc7ea6112002525d181eeb",
           "bytes": 186680
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_04501_04750.md",
-          "sha256": "d6a1bff8fb95e398adf76b8b483764561da4963a7c7b4cfbbee17a6799790c7d",
+          "sha256": "e52f557fa2e4fcf48be503a31b74d7b844856bd22a0fd48f53147abc8008bcea",
           "bytes": 188998
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_04751_05000.md",
-          "sha256": "9cd31eb308b5df03d43d094915465b12c78927d6171962965256474e15aa5dee",
+          "sha256": "288d6f09d96a25495cb5686785ef60d24ec000abf349e2dd1b7e23e40b36f1cd",
           "bytes": 192965
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_05001_05250.md",
-          "sha256": "4925c241b93354ffc9d16f099c6e90e32f56d7c6d94aab0b5e1aebc612298cf6",
+          "sha256": "5395365cf7e1b0b4a1fc822083059c192f29e15eac9f1f0c79c411ad1ee1cad4",
           "bytes": 409839
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_05251_05500.md",
-          "sha256": "51e4e5e1f29a2b95e571e3238f265de97a472a87443daac42858ce57d4c5cf27",
+          "sha256": "dfb2367324a12cfc2fb412761308fac3078f41d093015a3924de56e4290af3c0",
           "bytes": 224062
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_05501_05750.md",
-          "sha256": "cfcb3a94d54a1a46fba92caf839b7ca7dfb68ac55e2aa88e425f84e5f4d56f27",
+          "sha256": "0691753e6bf5c3953b959029852f5ceff78c9f432a2a94721126d150e58f36fe",
           "bytes": 207468
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_05751_06000.md",
-          "sha256": "8f830773535dd1a576b131952e6bc118ce823bfa73104ffd321b28829554bfa1",
+          "sha256": "3eaf7c4cca09756bca957bfb5a8387a047b74e8922329458a9f8806e8d545e0c",
           "bytes": 356971
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_06001_06250.md",
-          "sha256": "53b5b8415d204203c1903f5d7d64cf68ed3ee64de930e092927ae712082edf6b",
+          "sha256": "73d32c8c232a0ddd9a9979f57fdde2faea59190d5f01599e93b8e024a81083df",
           "bytes": 317174
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_06251_06500.md",
-          "sha256": "0a386387edb3fb1f694fa67ae33b4768610b5860f26be55fc010bfe1ca244a95",
+          "sha256": "e2bcaaf0d9b7c7c88b5199bd51cb96c73a7ec0c933bb6b3445a58dc1622266d2",
           "bytes": 358148
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_06501_06750.md",
-          "sha256": "612a8dc7a1a22182131359a404deb9e1292cdb3ac8f379a46ae805a50ee00013",
-          "bytes": 228944
+          "sha256": "76f4a0856239917bce095a3c08a246a9b8deedefd92101f3bef0282e8be73e0e",
+          "bytes": 236503
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_06751_07000.md",
-          "sha256": "6072f12a5e0a10ca0ce94d0d04752e43a7d04cf23756ad5050cfaa23c790cd47",
-          "bytes": 202248
+          "sha256": "7263c209d57bac9407ef3fbd50e03b45587d8fc3caafe1688bbd9cd21918e748",
+          "bytes": 201999
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_07001_07250.md",
-          "sha256": "2f2e353b087168c07731baa7fd587610d27e458b4fa2e1bd6137cc21b9d6e6d6",
-          "bytes": 217595
+          "sha256": "a62a44b14ef4126576d102a3d6a9960ec1dd342ac5fb6f231d7ba0f8cb4b6943",
+          "bytes": 210413
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_07251_07500.md",
-          "sha256": "e0aa56707c325ea3dda1c54577128763b7bd60a60a7a3e88b398c662e42ac3e5",
-          "bytes": 209663
+          "sha256": "e2134f42d57a1b26ea0879acf66ca1972e170ca3a33c6cdb6bb207c13d21cb9c",
+          "bytes": 213890
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_07501_07750.md",
-          "sha256": "610e6c5321640f4235b79c129714400668cfcc7091c85d204eb4f164e52c5070",
-          "bytes": 216509
+          "sha256": "884d1bb6a17375a872a8a3b8b1c4af3df43ac39e784de189538984735e37f112",
+          "bytes": 218451
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_07751_08000.md",
-          "sha256": "bcae07a926a76bbeb9c9b06bc199a4cfc9ca828d9de5effadadc3aa4e1edbe9a",
-          "bytes": 199648
+          "sha256": "e6f5547c9c21bf1e19946e64586f9e674f0874ba6183035a058eb6f88a7cf2c9",
+          "bytes": 203896
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_08001_08250.md",
-          "sha256": "fdb5091d8422bcd342bd3c05dbb21e5eec99287b8da480e3a68c824e1fc9177d",
-          "bytes": 217507
+          "sha256": "fb8591fbe7d501ebb8615c4bc3ae439610c150b5b9dd5c608139f0d41994d119",
+          "bytes": 209294
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_08251_08500.md",
-          "sha256": "a1633863162fa3c484300e01bfe306d277da071dec161c2dc67e901b816d598f",
-          "bytes": 255906
+          "sha256": "ae3b5b3844e6941928cdf6202d722103dc86f89daaed0585ff02bec7d4db6627",
+          "bytes": 254364
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_08501_08750.md",
-          "sha256": "8e970751710c040859fd3927d3a33662a24c52a2d754daddf80441b093713471",
-          "bytes": 240977
+          "sha256": "17c061fbcdc0ac029edf3594772d21a02914e4dfa536f71266250dfccca9c93e",
+          "bytes": 245116
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_08751_09000.md",
-          "sha256": "3f4390eebe3e68cdf313233bf2c13c83e9b3ccf9ebb9eb8aa2ce8bb9e8a7aadd",
-          "bytes": 249176
+          "sha256": "41e3e5b63ff0570044a6f092e028b41a4c7ccbf701c1e1ed94e1acb1d7621b5b",
+          "bytes": 244881
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_09001_09250.md",
-          "sha256": "255711215ee716575fa4a63bb4f47819090642bde1d35745caa66bd8177f04c5",
-          "bytes": 250870
+          "sha256": "137ce78c93c2f01ccee97f55b6f338d1c811b0f2d13f38a238ab17ccb0058c1a",
+          "bytes": 252847
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_09251_09500.md",
-          "sha256": "5dd83516ddbdacd2c15bcff0654153af7e30654231eb4aa777f324fa98d2549d",
-          "bytes": 239588
+          "sha256": "9c3e45a9c2a016a0a22df6c185a2392bd1318e64c30ea789be63ee57ad4c6685",
+          "bytes": 237645
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_09501_09750.md",
-          "sha256": "b9672d0bb78abeb1278d9a2e4de0eb86be3fd16269eae24c8c8a30d93be1c40e",
-          "bytes": 209873
+          "sha256": "2ff8771c7ded4032c2820b12ae6cc16805e42971f42f146e8584699a270dafe6",
+          "bytes": 214975
         },
         {
           "path": "docs/research/2026-10-05/reference-index/3d_references_09751_10000.md",
-          "sha256": "92b6fc958defec51cee1c6e40ed921f0aa22ea321df472b58ccb0ba3b433ee9d",
-          "bytes": 208660
+          "sha256": "fd830ea37ab0332efdad8283a3b103ec48cf2e48f235405c1d59f9854679ea6d",
+          "bytes": 207581
         },
         {
-          "path": "docs/research/2026-10-05/reference-index/3d_references_10001_10210.md",
-          "sha256": "a6d19a509c37be2794854eb9eb96b02a71a63794b2ae86aafeec07341ca2ad3a",
-          "bytes": 188061
+          "path": "docs/research/2026-10-05/reference-index/3d_references_10001_10232.md",
+          "sha256": "6d3763e5b129b1eadae461be4899c434f4e62e3ad1266f039405610638a08817",
+          "bytes": 207992
         },
         {
           "path": "docs/research/2026-10-05/shot-counting.md",
