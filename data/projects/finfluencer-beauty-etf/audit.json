@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 10210,
-  "exported_references": 10210,
-  "remaining": 14790,
+  "eligible_observed_units": 10232,
+  "exported_references": 10232,
+  "remaining": 14768,
   "classes": {
-    "core3D": 10210
+    "core3D": 10232
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "ae47f585f373c7eb85e71e4bf6b391d8bf5110583afabc666323efcea65fd023",
+    "driver_sha256": "e2cb8bc5f731f06e881bed4f37b0b72c40a8be6a2e08813296f7c1c3d405c5ef",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -58,9 +58,9 @@
       "reference-index/3d_references_09251_09500.md",
       "reference-index/3d_references_09501_09750.md",
       "reference-index/3d_references_09751_10000.md",
-      "reference-index/3d_references_10001_10210.md"
+      "reference-index/3d_references_10001_10232.md"
     ],
-    "unlinked_markdown_omitted": 3
+    "unlinked_markdown_omitted": 4
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
@@ -87,6 +87,10 @@
     "references_external_reviewF40A.jsonl": 6,
     "references_external_reviewF40B.jsonl": 1,
     "references_external_reviewF40C39.jsonl": 4,
+    "references_external_reviewF41A.jsonl": 3,
+    "references_external_reviewF41B.jsonl": 6,
+    "references_external_reviewF41C.jsonl": 10,
+    "references_external_reviewF42A.jsonl": 3,
     "references_root_meshy_beauty185.jsonl": 27,
     "references_root_meshy_collectible248.jsonl": 85,
     "references_root_meshy_cozy206.jsonl": 99,
@@ -289,28 +293,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "de825a21d97c1f58e1f6cf3dda11bc4ac571dbac36135172ea66f4e2a3e28189",
-    "shots_master.jsonl": "a68dea562593fb47ab2ada8311058b3c0d86c72ac8fd78ebafc78d66a5776bba"
+    "shot_audit.json": "3b7088c581a50ac08b0b76730823e5a6cd71c148decbf7608a54db8643465226",
+    "shots_master.jsonl": "49f8e223e533008a53d973edda0f2057dc9be25388f0476641e17f9ae7b0be4c"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 59914,
-    "markdown_local_or_unpublished_links_replaced": 15566,
+    "local_artifacts_replaced": 60207,
+    "markdown_local_or_unpublished_links_replaced": 15588,
     "private_links_withheld": 25
   },
   "source_audit": {
-    "updated_local": "2026-10-06T06:19:18",
+    "updated_local": "2026-10-06T06:58:46",
     "target": 25000,
-    "eligible_observed_units": 10210,
-    "remaining": 14790,
-    "raw_rows": 32428,
-    "excluded_rows": 22218,
-    "observed_sources": 8599,
+    "eligible_observed_units": 10232,
+    "remaining": 14768,
+    "raw_rows": 32541,
+    "excluded_rows": 22309,
+    "observed_sources": 8621,
     "classes": {
-      "core3D": 10210
+      "core3D": 10232
     },
-    "historical_broad_observed_units": 12922,
+    "historical_broad_observed_units": 12944,
     "historical_broad_classes": {
-      "core3D": 10215,
+      "core3D": 10237,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -1368,6 +1372,46 @@
         "sources": 4,
         "classes": {
           "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF41A.jsonl",
+        "raw_rows": 33,
+        "eligible": 3,
+        "excluded": 30,
+        "sources": 3,
+        "classes": {
+          "core3D": 3
+        }
+      },
+      {
+        "file": "references_external_reviewF41B.jsonl",
+        "raw_rows": 33,
+        "eligible": 6,
+        "excluded": 27,
+        "sources": 6,
+        "classes": {
+          "core3D": 6
+        }
+      },
+      {
+        "file": "references_external_reviewF41C.jsonl",
+        "raw_rows": 26,
+        "eligible": 10,
+        "excluded": 16,
+        "sources": 10,
+        "classes": {
+          "core3D": 10
+        }
+      },
+      {
+        "file": "references_external_reviewF42A.jsonl",
+        "raw_rows": 21,
+        "eligible": 3,
+        "excluded": 18,
+        "sources": 3,
+        "classes": {
+          "core3D": 3
         }
       },
       {
@@ -2618,6 +2662,6 @@
     "data_quality_notes": [],
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
     "traditional_or_native_3d_comparison_units": 1649,
-    "directly_observed_hybrid_comparison_units": 2377
+    "directly_observed_hybrid_comparison_units": 2396
   }
 }
