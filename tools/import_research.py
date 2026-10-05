@@ -487,7 +487,28 @@ def atomic_write(path: Path, data: bytes) -> None:
             os.unlink(temporary)
 
 
-def export_research(source: Path, destination: Path, project: str, snapshot_date: str) -> dict:
+def document_links(document_sources: list[Path], source: Path, root: Path,
+                   docs_rel: Path, aliases: tuple[Path, ...] = ()) -> dict[str, Path]:
+    """Map only exported documents, including explicitly named prior checkpoints."""
+    mapping = {path_key(path): root / docs_rel / path.relative_to(source)
+               for path in document_sources}
+    for alias in aliases:
+        alias = alias.resolve()
+        if not alias.is_dir():
+            raise ExportError("A document-source alias must be an existing checkpoint directory.")
+        for path in document_sources:
+            prior = alias / path.relative_to(source)
+            if not prior.is_file() or not prior.resolve().is_relative_to(alias):
+                continue
+            key, target = path_key(prior), mapping[path_key(path)]
+            if key in mapping and mapping[key] != target:
+                raise ExportError("Document-source aliases map one path to different public documents.")
+            mapping[key] = target
+    return mapping
+
+
+def export_research(source: Path, destination: Path, project: str, snapshot_date: str,
+                    document_source_aliases: tuple[Path, ...] = ()) -> dict:
     if not SLUG_RE.fullmatch(project):
         raise ExportError("Project must be a lowercase hyphen-separated slug.")
     try:
@@ -538,7 +559,7 @@ def export_research(source: Path, destination: Path, project: str, snapshot_date
     document_sources.extend(reference_documents)
     if not document_sources:
         raise ExportError("No numbered Markdown research documents were found.")
-    document_map = {path_key(path): root / docs_rel / path.relative_to(source) for path in document_sources}
+    document_map = document_links(document_sources, source, root, docs_rel, document_source_aliases)
     payloads, reference_index = shard_references(normalized, project, reference_rel)
     document_inputs = []
     for path in document_sources:
@@ -644,11 +665,14 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--destination", type=Path, required=True, help="Separate destination repository directory.")
     parser.add_argument("--project", required=True, help="Lowercase hyphen-separated project slug.")
     parser.add_argument("--date", required=True, help="Research snapshot date, YYYY-MM-DD.")
+    parser.add_argument("--document-source-alias", type=Path, action="append", default=[],
+                        help="Explicit prior checkpoint of this project, for exported document links only. Repeat as needed.")
     args = parser.parse_args(argv)
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     try:
-        result = export_research(args.source, args.destination, args.project, args.date)
+        result = export_research(args.source, args.destination, args.project, args.date,
+                                 tuple(args.document_source_alias))
     except (ExportError, OSError, UnicodeError, json.JSONDecodeError) as exc:
         # Path-bearing OSError text is deliberately not printed into portable logs.
         message = str(exc) if isinstance(exc, ExportError) else type(exc).__name__
