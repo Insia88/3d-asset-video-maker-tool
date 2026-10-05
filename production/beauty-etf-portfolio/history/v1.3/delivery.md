@@ -30,7 +30,7 @@
 | 4 | [beauty-etf-v1.3-editable-source-part-04.zip](https://drive.google.com/file/d/1TOd6886hcoWhZugSUx_yzPa8aAI5hobw/view) | 84,478,912 |
 | 5 | [beauty-etf-v1.3-editable-source-part-05.zip](https://drive.google.com/file/d/1Mk0mH2bqRwDiXjgqjAEpYTzMpmfEKMXl/view) | 68,033,344 |
 
-[원본·음악·MIDI·자막 백업 폴더](https://drive.google.com/drive/folders/1WA8Vv43dkLC6bf_fz3S09ZgFIy36UG9X)에서 음악 소스 ZIP과 별도 MIDI/MP3도 확인할 수 있다. 네이티브 편집 소스의 메타데이터·복구 해시는 [패키지 검사](qc/package_check.json)에 있다.
+[원본·음악·MIDI·자막 백업 폴더](https://drive.google.com/drive/folders/1WA8Vv43dkLC6bf_fz3S09ZgFIy36UG9X)에서 음악 소스 ZIP과 별도 MIDI/MP3도 확인할 수 있다. 네이티브 편집 소스의 메타데이터·복구 해시는 [패키지 검사](../../qc/package_check.json)에 있다.
 
 ## 이전 Adobe 작업
 
