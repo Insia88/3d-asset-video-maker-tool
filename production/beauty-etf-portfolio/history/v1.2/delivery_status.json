@@ -1,0 +1,131 @@
+{
+  "native_movie": {
+    "bytes": 89419591,
+    "sha256": "376232ab375ec30289bb85d751865704c2583377849acecd94f8cfde23fc36bb",
+    "duration_seconds": 180,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 5400,
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "audio_sample_rate": 48000,
+    "audio_channels": 2,
+    "narration": false,
+    "version": "1.2",
+    "caption_revision": "v3"
+  },
+  "timeline": {
+    "source_cutlist_sha256": "b63ebb18827d26d41953c2c2c4aec725423f97e0312aedc0d3a69a75c45dcd84",
+    "source_cutlist_unchanged": true,
+    "actual_visual_cuts": 66,
+    "persistent_caption_groups": 38,
+    "video_plate_cuts": 53,
+    "still_plate_cuts": 13,
+    "approved_visual_families_used": [
+      "BE-M01",
+      "BE-M02",
+      "BE-M03",
+      "BE-M04",
+      "BE-M06",
+      "BE-S01-consumer-hook",
+      "BE-S02-beauty-market-world",
+      "BE-S03-brand-atelier",
+      "BE-S04-odm-factory",
+      "BE-S05-distribution",
+      "BE-S06-retail-digital",
+      "BE-S07-value-chain-modules-v2",
+      "BE-S08-etf-basket-guide",
+      "BE-S09-shared-sector-risk",
+      "BE-S10-investor-ending"
+    ],
+    "caption_revision": "caption-v3-natural-written-korean"
+  },
+  "independent_author_review": {
+    "full_final_movie_playback": false,
+    "full_score_listening": false,
+    "caption_group_representative_frames": 38,
+    "generated_video_pts_frames": 39,
+    "AE_native_frame_results": 13,
+    "AE_v3_native_frames": 6,
+    "AE_v3_encoded_preview_frames": 9,
+    "final_v1_2_encoded_frames_observed_here": 0
+  },
+  "delivery_links": {
+    "movie": "https://drive.google.com/file/d/1lsCMVUakZQ2YZMoHtxNZerGaX-A-A6Dv/view",
+    "after_effects_project": "https://drive.google.com/file/d/1rFHV53faEN48DjT5UDOL_zffQHKYR0uh/view",
+    "after_effects_native_preview": "https://drive.google.com/file/d/1CeuuQzRnmb_iw0h61cK-pHk6EkNMkhjo/view"
+  },
+  "delivery_links_status": "movie_v1_2_same_shared_file_updated_and_metadata_readback_confirmed_by_primary_producer; prior_AE_links_retained",
+  "research_reference_count_change": 0,
+  "after_effects_project": {
+    "bytes": 2915337,
+    "sha256": "32b1c957b21bdb39e6b3eb23c79c2cec45d1adccfae895554b07b4c7d93b40b9",
+    "native_composition_duration_seconds": 180,
+    "local_file_hash_independently_read": true,
+    "caption_revision": "previous v2 production",
+    "latest_v3_delivery_metadata_status": "pending"
+  },
+  "after_effects_preview": {
+    "bytes": 19347980,
+    "duration_seconds": 12,
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 360,
+    "audio_codec": "AAC",
+    "full_technical_decode_exit_code": 0,
+    "verification": "primary_producer_receipt",
+    "caption_revision": "previous v2 production"
+  },
+  "latest_script_caption_revision": "v3",
+  "shared_movie_caption_revision": "v3 / v1.2",
+  "primary_production_review": {
+    "native_v1_2_caption_group_midpoint_frames": 38,
+    "encoded_final_movie_sample_frames": 10,
+    "encoded_frame_times_seconds": [
+      15.5,
+      29.5,
+      41.75,
+      56.05,
+      84.25,
+      108,
+      116,
+      132.8,
+      145.05,
+      177
+    ],
+    "full_technical_decode_exit_code": 0,
+    "continuous_full_video_viewing_claim": false,
+    "full_score_listening_claim": false,
+    "review_attribution": "film editor; encoded boards also directly reviewed by primary producer"
+  },
+  "caption_verification": {
+    "canonical_sha256": "b63ebb18827d26d41953c2c2c4aec725423f97e0312aedc0d3a69a75c45dcd84",
+    "native_main_text_exact_matches": 38,
+    "native_footer_text_exact_matches": 26,
+    "persistent_calculation_footer_matches": true,
+    "captions_max_lines": 2,
+    "all_boxes_retained": true,
+    "G05_G08_G26_font_size": 56,
+    "priority_max_line_width_px": {
+      "G05": 777.578125,
+      "G08": 722.71875,
+      "G26": 751.5
+    },
+    "box_width": 864,
+    "text_centering": "Existing box retained; internal y position centers the final two-line text."
+  },
+  "editable_native_project": {
+    "version": "1.2",
+    "archive_parts": 4,
+    "payload_members": 37,
+    "crc_and_member_sha_verified_by_producer": true,
+    "complete_union_verified_by_producer": true,
+    "parts01_02_updated": true,
+    "parts03_04_reused_byte_identical": true,
+    "all_media_fonts_audio_bytes_unchanged": true,
+    "restored_native_project_check": "clean",
+    "restored_native_project_byte_identical": true
+  }
+}
