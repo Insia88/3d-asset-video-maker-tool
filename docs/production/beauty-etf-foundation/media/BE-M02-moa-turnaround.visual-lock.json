@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-M02-moa-turnaround.png",
+  "sha256": "07e52d1b82f0db6a199a2eef64945f473090975c2e00fefd264e3f11ac13b512",
+  "version": "be-m02-v1",
+  "aspect": "16:9",
+  "pixelWidth": 2688,
+  "pixelHeight": 1520,
+  "crop": "Original full frame; no crop. 네 패널 전체는 한 참조 이미지다. 네 캐릭터가 등장하는 I2V 시작 프레임으로 사용하지 않는다.",
+  "prompt": "An exact character turnaround model sheet of the ONE original plush mascot shown in the reference, preserving its identity and all materials. FOUR evenly spaced whole-body views in one horizontal row: front, front three-quarter, true side, back. All views show the SAME cream short-fiber felt head and pear body, same lavender flattened beret and offset fabric tab, same oversized dark plum round sunglasses (front and side only where physically visible), peach stitched smile, same two tiny mint shoes and mitten hands. Same scale, aligned feet on one subtle warm cream ground line. Fixed anatomy, shoe design, beret silhouette and tiny side seam placement. Back view should show the back of beret and cream head, NOT duplicate front face or front lenses. Short arms relaxed away from torso, all four silhouettes unobstructed with generous spacing. Entirely stylized 3D render with soft even warm studio light. Clean warm cream background. No letters, captions, labels, border, extra accessories or props. Full bodies including shoes and hat must remain within frame.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "0ab86cc2-286e-4d68-861f-2fd80fcc03fd",
+  "lockedAt": "2026-10-05T06:57:26.482637+00:00"
+}

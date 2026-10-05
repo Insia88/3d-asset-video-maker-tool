@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-M04-vanity-scene.png",
+  "sha256": "1998cc9f94ffd301a588f8fe44e35f913c9f70a3612a63e6f5d27c7aaab9c7ce",
+  "version": "be-m04-v1",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Original full frame; no crop. 현재 파일을 비율 그대로 사용하고 새 크롭 전에 제품과 캐릭터 여백을 확인한다. 상단 전체보다 오른쪽 평평한 벽 면에 제목을 놓기 좋다. 공간 내 캐릭터 크기는 실제 장면을 기준으로 고정한다.",
+  "prompt": "Create ONE original vertical 9:16 cinematic scene master for a cute 3D beauty ETF explainer. Preserve the exact cream felt mascot from reference 1: same lavender lid-shaped beret with tab, dark plum rounded sunglasses, peach stitched smile, two mint shoes, two short mitten hands, same head-to-body ratio. Preserve the EXACT three unbranded cosmetic designs from reference 2: lavender open cream jar and lid, peach lipstick in mint base with cap, round mint perfume bottle with lavender spherical stopper. Entire scene is handcrafted stylized 3D, not live-action. Place this tiny mascot standing on a warm walnut vanity tabletop at lower left, around half the height of the perfume bottle. The mascot curiously reaches one mitten toward the cream jar. Cosmetics on tabletop to the right, jar nearest mascot. Warm cream rounded vanity cabinet, a large softly luminous oval window behind at upper left showing volumetric peach clouds and amber sunset, plain cream wall at right, rounded small stool just visible below; quiet restrained miniature interior, tactile wool and wood contrasted with satin ceramic and frosted glass. One warm rear-left light and consistent grounded shadows. Slight high three-quarter camera looking across the vanity, medium wide enough to show all mascot and products. Main objects within middle 70% width; upper 22% stays quiet for future title, lower 14% free of important objects for subtitles. No printed text or logos, no typography, no new characters, no extra products, no charts. A charming cinematic establishing frame, believable scale and touching surfaces, avoid a collage or split panel.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "0ac50764-201d-46f5-b380-924da2438c8c",
+  "lockedAt": "2026-10-05T06:57:26.292157+00:00"
+}

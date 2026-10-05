@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-M03-cosmetics-master.png",
+  "sha256": "245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9",
+  "version": "be-m03-v1",
+  "aspect": "4:3",
+  "pixelWidth": 2336,
+  "pixelHeight": 1744,
+  "crop": "Original full frame; no crop. 제품은 세 종류다. 분리 뚜껑과 캡은 각 제품의 부품으로 유지하며 제품 수를 늘리지 않는다.",
+  "prompt": "Original stylized 3D animation art direction for a Korean beauty ETF explainer. Handcrafted miniature beauty world, tactile felt and wool paired with satin ceramic and restrained frosted glass; physically coherent volumetric forms, soft golden light from rear left, grounded contact shadows. Palette warm cream #F5EBDD, lavender #B9A1DA, sage mint #A7CDBE, peach #EEB4A2, walnut #9B6D4D. Premium cinematic macro rendering, charming and quietly witty, clean intentional composition. Entire scene rendered in 3D. No text, letters, logos, charts, watermarks or numbers. Create an original cosmetics prop master set on one low warm cream oval podium. EXACTLY THREE distinct unbranded cosmetic products: left a squat lavender satin cream jar with a matching lid resting separately next to it and visible pale cream inside; center a short thick peach lipstick with mint rounded base and its cap upright nearby; right a round flattened mint frosted-glass perfume bottle with a small lavender spherical stopper. Every container geometry is clear and coherent. Three products with removable lids counted as parts of each product, balanced silhouette, slightly oversized rounded forms, accurate contact with podium. Front three-quarter view, enough spacing to separate each product for later animation, neutral warm cream studio background. No humans, characters, printed packaging, embossed letters or labels.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+  "lockedAt": "2026-10-05T06:57:25.877064+00:00"
+}
