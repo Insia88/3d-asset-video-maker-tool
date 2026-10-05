@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "project": "뷰티 ETF · 모아의 작은 화장대",
+    "version": "beauty-etf-foundation-v1",
+    "source": "Locked foundation assets and existing beauty ETF direction",
+    "generatedAt": "2026-10-05T15:57:25.445382+09:00"
+  },
+  "palette": {
+    "cream": "#F5EBDD",
+    "lavender": "#B9A1DA",
+    "mint": "#A7CDBE",
+    "peach": "#EEB4A2",
+    "walnut": "#9B6D4D",
+    "darkPlum": "#292335"
+  },
+  "color": {
+    "primary": "#B9A1DA",
+    "accent": "#A7CDBE",
+    "surface": "#F5EBDD",
+    "text": "#292335",
+    "muted": "#9B6D4D"
+  },
+  "materials": {
+    "character": "Short cream felt/wool; stitched silhouette; lavender felt hat; mint felt shoes.",
+    "cosmetics": "Satin ceramic, restrained mint frosted glass, small warm-metal collars present in master.",
+    "basket": "Restrained clear/frosted glass; matte soft tokens.",
+    "environment": "Warm walnut tabletop, rounded cream furniture, tactile stool."
+  },
+  "lighting": {
+    "direction": "warm_rear_left",
+    "shadows": "grounded_soft_contact_shadows",
+    "reflections": "restrained_on_glass_and_lenses"
+  },
+  "composition": {
+    "primary_video_aspect": "9:16",
+    "scene_master": "BE-M04",
+    "crop": "preserve_full_native_frame_before_recomposition",
+    "caption_location": "Plain right wall above products for title; lower furniture for subtitles; test final output.",
+    "generated_text": false
+  },
+  "typography": {
+    "fontSans": [
+      "Pretendard",
+      "Noto Sans KR",
+      "system-ui",
+      "sans-serif"
+    ],
+    "fontDisplay": [
+      "Pretendard",
+      "Noto Sans KR",
+      "system-ui",
+      "sans-serif"
+    ],
+    "font_status": "proposed_for_postproduction; font_files_not_loaded_or_verified",
+    "headingWeight": 700,
+    "bodyLineHeight": 1.45,
+    "financial_labels": "Postproduction only from verified product data and date."
+  },
+  "motion": {
+    "method": "I2V_from_locked_single_scene_or_single_character",
+    "short_take_seconds": [
+      3,
+      5
+    ],
+    "actions_per_take": 1,
+    "identity": "Preserve character, geometry, palette, light direction and spatial contacts.",
+    "turnaround_sheet_direct_I2V": false
+  },
+  "masters": {
+    "BE-M01": {
+      "path": "assets/BE-M01-moa-master.png",
+      "lock": "media/BE-M01-moa-master.visual-lock.json",
+      "sha256": "4df72ddfd79fefe47ade8f0108aa45a22570118a816908479dee72faccacdf1f"
+    },
+    "BE-M03": {
+      "path": "assets/BE-M03-cosmetics-master.png",
+      "lock": "media/BE-M03-cosmetics-master.visual-lock.json",
+      "sha256": "245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9"
+    },
+    "BE-M06": {
+      "path": "assets/BE-M06-etf-basket-master.png",
+      "lock": "media/BE-M06-etf-basket-master.visual-lock.json",
+      "sha256": "376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b"
+    },
+    "BE-M04": {
+      "path": "assets/BE-M04-vanity-scene.png",
+      "lock": "media/BE-M04-vanity-scene.visual-lock.json",
+      "sha256": "1998cc9f94ffd301a588f8fe44e35f913c9f70a3612a63e6f5d27c7aaab9c7ce"
+    },
+    "BE-M02": {
+      "path": "assets/BE-M02-moa-turnaround.png",
+      "lock": "media/BE-M02-moa-turnaround.visual-lock.json",
+      "sha256": "07e52d1b82f0db6a199a2eef64945f473090975c2e00fefd264e3f11ac13b512"
+    }
+  },
+  "scope": {
+    "finfluencer_beauty_ETF_duration_seconds": 180,
+    "generated_assets_are_research_references": false,
+    "basket_token_count_is_financial_data": false
+  }
+}

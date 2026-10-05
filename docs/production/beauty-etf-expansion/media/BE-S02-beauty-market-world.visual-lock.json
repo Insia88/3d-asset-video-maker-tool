@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S02-beauty-market-world.png",
+  "sha256": "1962aa915db9132d0062b41516c0bb3416caf081c600e49bfd1ef4c217a0f22c",
+  "version": "be-s02-beauty-market-world-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 건물의 크기·개수·길은 산업 개념이며 시장 비율을 표현하지 않는다. 모아 신발이 하단에 가까우므로 하단 자막은 피한다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A charming expanding miniature beauty town arranged around a central cream circular plaza: exactly three distinct small pavilions, a lavender cosmetic design atelier, a mint curved-glass manufacturing pavilion, and a peach beauty boutique. All lie on one warm cream sculpted island, connected by a single winding walnut pathway, a few decorative felt flowers, no labels. Moa small at front center gazes at the town. Three familiar cosmetic silhouettes recur subtly. The town conveys an industry ecosystem, NOT a numeric chart and NOT investment gains. Three-quarter overhead camera with abundant clean warm cream sky/background.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "929bfa64-8060-4a0c-bfbd-d312fc926cc2",
+  "lockedAt": "2026-10-05T07:23:01.403233+00:00"
+}

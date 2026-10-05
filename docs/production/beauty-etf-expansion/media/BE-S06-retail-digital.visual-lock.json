@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S06-retail-digital.png",
+  "sha256": "1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a",
+  "version": "be-s06-retail-digital-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 화면에는 제품 형태만 있으며 글자·버튼은 없다. 스마트폰을 실제 판매 실적 화면이나 데이터로 취급하지 않는다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A single rounded peach and cream beauty boutique, open front with visible wall thickness. Low walnut display shelves hold the three exact recurring cosmetics. Beside the boutique stands one large cream smartphone frame as a physical 3D prop on the same floor, its plain frosted-mint screen showing only the three matching 3D product miniatures with no labels/buttons/text. Moa stands between store and phone, connecting offline and online sales. Lavender arch doorway, restrained felt plant. No collage or split-screen divider. Plenty of clean upper background.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "cf0d580c-45bd-4683-8d72-efb11b0c11f1",
+  "lockedAt": "2026-10-05T07:23:02.027965+00:00"
+}

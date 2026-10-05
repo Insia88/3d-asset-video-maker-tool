@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S05-distribution.png",
+  "sha256": "29282d27ef210ec502c37818134d34bafc26a1a7b30739ed365e44ab079766b1",
+  "version": "be-s05-distribution-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 선반 왼쪽과 밴 오른쪽 일부가 잘려 있다. 차량 전체를 보여 주는 원본이라고 설명하지 않는다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. One adorable miniature cosmetics distribution scene on a rounded cream base. A short sage-mint shelving unit holds plain lavender and peach cartons; one open carton on a walnut packing counter contains the recognizable cream jar, lipstick and perfume. A small unbranded cream delivery van waits at the right edge, clearly on the same ground. Moa gestures to the packed carton, unchanged identity. Simple spatial story from shelf to box to vehicle. All packages blank, no shipping labels, no logos or flags, no human people. Warm controlled studio background.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "2ac82f5b-0e96-4658-879b-6b2f4e519f98",
+  "lockedAt": "2026-10-05T07:23:01.883452+00:00"
+}

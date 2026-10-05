@@ -14,13 +14,16 @@ PLUS KR·슈카친구들 포맷 분석, 25,000개 참고 수집, Higgsfield 에�
 - [뷰티 ETF 기초 에셋 설계](docs/research/2026-10-05/17_3D_기초에셋_설계.md)
 - [보송한 질감·노을빛·창가 구도의 시각 방향](docs/beauty-etf-visual-direction.md)
 - [기초 에셋 프롬프트](prompts/beauty-etf/foundation.json)
+- [예인 · 란 공유용 영상 기획안 · 8페이지](https://docs.google.com/document/d/1a1AHSuMrylfhS2jx9jOgBu2UurlWVNwJkBV3mwmj2ro)
+- [생성된 기초 이미지 5종과 사용 기준](docs/production/beauty-etf-foundation/에셋_사용안내.md)
+- [추가 장면 10종·금융 근거·Drive 원본](docs/production/beauty-etf-expansion/README.md)
 - [반복 작업 순서](docs/workflow.md) · [Higgsfield 세팅 순서](docs/higgsfield-foundation.md)
 
 ## 현재 프로젝트의 범위
 
-영상의 흐름은 **뷰티에 대한 관심 → 관련 기업·사업 → 선택한 ETF의 구성 → 확인할 기준과 위험 → 한 줄 결론**을 중심으로 설계합니다. 실제 ETF 상품은 확정 전이며, 상품·기업·비중·비용·위험에 관한 문구는 운용사·공시 원문을 확인한 뒤 대본에 적용합니다. 약 3분은 현재 제작 목표이며 실제 지원 규정은 별도로 확인합니다.
+영상의 흐름은 **뷰티에 대한 관심 → 관련 기업·사업 → 선택한 ETF의 구성 → 확인할 기준과 위험 → 한 줄 결론**을 중심으로 설계합니다. 대상은 20~30대 뷰티 관심 투자자입니다. 금융 근거에는 SOL 화장품TOP3플러스의 실제 구성 사례와 TIGER 화장품·HANARO K-뷰티 비교를 보존하며, 공식 구성표와 제작진의 사업 역할별 재분류를 구분합니다. 상품·비중·비용·기준일은 [운용사·공시 원문 근거](docs/production/beauty-etf-expansion/research/etf_composition_primary.md)에 연결합니다. 약 3분은 현재 제작 목표이며 실제 지원 규정은 별도로 확인합니다.
 
-**3D만, 뷰티 소재 우선.** 미감이 좋거나 귀엽고 뽀짝한 입체 캐릭터·제품·미니어처·공간을 선별합니다. 목표는 직접 관찰한 고유 장면·샷·정지 이미지 **25,000개**입니다. 완료 수는 `audit.json`의 `eligible_observed_units`, 남은 수는 `remaining`으로 확인합니다. 현재 수집은 진행 중이며 목표 달성 전입니다. Higgsfield MCP의 마스터 생성·Element 등록은 수집 완료 뒤 실행합니다.
+**3D만, 뷰티 소재 우선.** 미감이 좋거나 귀엽고 뽀짝한 입체 캐릭터·제품·미니어처·공간을 선별합니다. 목표는 직접 관찰한 고유 장면·샷·정지 이미지 **25,000개**입니다. 완료 수는 `audit.json`의 `eligible_observed_units`, 남은 수는 `remaining`으로 확인합니다. 현재 수집은 진행 중이며 목표 달성 전입니다. 공유용 기획안은 8페이지로 구체화했고, Higgsfield 기초 이미지 5종과 추가 장면 10종을 합쳐 **15개를 채택**했습니다. 실제 이미지 생성 성공은 **누적 16개(시각적 제외 1개)**이며, 기존 Element 4종을 유지합니다. 생성 에셋의 **연구 신규 참고 수는 0개**입니다.
 
 전체 정지 이미지 한 장·모델 시트 한 장은 한 단위입니다. 같은 캐릭터나 공간의 색상·복장·작은 구도 변형, 재게시·동일 픽셀은 대표로 묶습니다. 원작의 AI 제작 주장·생성 모델 표시와 실제 화면의 3D 스타일 판정은 각각 기록합니다. 이미지의 3D 스타일만으로 편집 가능한 메시·리깅이 있다고 판단하지 않습니다.
 
@@ -33,6 +36,8 @@ docs/
   library-schema.md            원장 필드와 집계 조건
   decisions.md                 채택한 범위와 변경 규칙
   research/2026-10-05/          최신 채널 A–Z와 실제 3D 관찰 보고서
+  production/beauty-etf-foundation/  기초 이미지 5종의 생성 기록
+  production/beauty-etf-expansion/   추가 장면 10종·금융 근거·Drive 링크
 data/projects/finfluencer-beauty-etf/
   references/index.json        원장 묶음의 개수·경로·해시
   references/part-*.jsonl       전역 중복 제거 후 선정된 참고 원장

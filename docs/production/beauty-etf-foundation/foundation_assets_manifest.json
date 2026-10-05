@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0",
+  "project_id": "finfluencer-beauty-etf",
+  "purpose": "핀플루언서 지원용 약180초 뷰티 ETF 영상",
+  "created_date": "2026-10-05",
+  "provider": "Higgsfield MCP",
+  "completed_image_count": 5,
+  "completed_element_count": 4,
+  "research_count_addition": 0,
+  "native_mesh_or_rig": false,
+  "document_url": "https://docs.google.com/document/d/1a1AHSuMrylfhS2jx9jOgBu2UurlWVNwJkBV3mwmj2ro",
+  "asset_folder": {
+    "id": "1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi",
+    "url": "https://drive.google.com/drive/folders/1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi"
+  },
+  "estimated_credits_per_image": 2.75,
+  "estimated_credits_total": 13.75,
+  "actual_billing_verified": false,
+  "assets": [
+    {
+      "asset_id": "BE-M01",
+      "role_ko": "독자 캐릭터 모아의 단일 정체성 기준",
+      "role_type": "single_character_identity_master",
+      "version": "be-m01-v1",
+      "generation_status": "completed",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "3:4",
+        "count": 1,
+        "prompt": "Original stylized 3D animation art direction for a Korean beauty ETF explainer. Handcrafted miniature beauty world, tactile felt and wool paired with satin ceramic and restrained frosted glass; physically coherent volumetric forms, soft golden light from rear left, grounded contact shadows. Palette warm cream #F5EBDD, lavender #B9A1DA, sage mint #A7CDBE, peach #EEB4A2, walnut #9B6D4D. Premium cinematic macro rendering, charming and quietly witty, clean intentional composition. Entire scene rendered in 3D. No text, letters, logos, charts, watermarks or numbers. Create ONE original mascot identity master, a single whole body three-quarter front view only, on warm cream seamless ground. A tiny friendly creature called Moa: a large rounded cream-colored felt head that subtly evokes a cosmetic cream pot, a short pear-shaped cream wool body, two short rounded arms ending in simple mittens and two separate stubby legs; a lavender soft flattened lid-shaped beret with one little offset fabric tab; oversized dark plum rounded sunglasses with restrained lens reflections; two mint rounded shoes; tiny peach stitched smile. Fine short plush fibers, visible subtle stitched seam along sides, expressive relaxed curious posture with both hands clear of body. About 2.3 heads tall, deliberately non-human toy proportions. Subject fully visible with 15 percent breathing room all around, not cropped. No other character, no props, no turnaround sheet, no human baby, no diaper, no necklace."
+      },
+      "model": "gpt_image_2_5",
+      "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+      "relative_path": "assets/BE-M01-moa-master.png",
+      "file_bytes": 4865580,
+      "sha256": "4df72ddfd79fefe47ade8f0108aa45a22570118a816908479dee72faccacdf1f",
+      "image_format": "PNG",
+      "pixel_width": 1744,
+      "pixel_height": 2336,
+      "requested_aspect_ratio": "3:4",
+      "actual_pixel_aspect_ratio": "1744:2336",
+      "key_image_lock": "media/BE-M01-moa-master.visual-lock.json",
+      "key_image_lock_sha256": "9b519831b51e3b39535d58ad179ad37feedd97f8b3606b11ce4e8f6ea9c13353",
+      "derived_from": [],
+      "element_usage_note": "Generation used image job ID references, not Element syntax. Use registered Elements only with compatible models.",
+      "native_mesh_or_rig": false,
+      "drive": {
+        "file_id": "1NtnaKyK8VFb9lManPw2e3nq7EJbWdM3O",
+        "parent_folder_id": "1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi",
+        "url": "https://drive.google.com/file/d/1NtnaKyK8VFb9lManPw2e3nq7EJbWdM3O/view"
+      },
+      "higgsfield_element": {
+        "id": "8c9c6877-44c0-4d2f-afa2-e15c57ab49bd",
+        "name": "BE-M01-Moa",
+        "category": "auto:character",
+        "status": "completed"
+      },
+      "visual_review": {
+        "observations_ko": "큰 크림 펠트 머리·짧은 몸·라벤더 베레모와 탭·짙은 자두색 안경·피치색 수놓은 미소·민트 신발이 보이며 전신이 화면 안에 있다.",
+        "reuse_conditions_ko": "모자·안경·미소·신발과 몸 비율을 유지한다. 이 단일 전신을 정체성의 첫 참조로 사용한다."
+      }
+    },
+    {
+      "asset_id": "BE-M02",
+      "role_ko": "모아의 정면·사선·측면·후면 확인용 회전 시트",
+      "role_type": "turnaround_reference_sheet",
+      "version": "be-m02-v1",
+      "generation_status": "completed",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          }
+        ],
+        "prompt": "An exact character turnaround model sheet of the ONE original plush mascot shown in the reference, preserving its identity and all materials. FOUR evenly spaced whole-body views in one horizontal row: front, front three-quarter, true side, back. All views show the SAME cream short-fiber felt head and pear body, same lavender flattened beret and offset fabric tab, same oversized dark plum round sunglasses (front and side only where physically visible), peach stitched smile, same two tiny mint shoes and mitten hands. Same scale, aligned feet on one subtle warm cream ground line. Fixed anatomy, shoe design, beret silhouette and tiny side seam placement. Back view should show the back of beret and cream head, NOT duplicate front face or front lenses. Short arms relaxed away from torso, all four silhouettes unobstructed with generous spacing. Entirely stylized 3D render with soft even warm studio light. Clean warm cream background. No letters, captions, labels, border, extra accessories or props. Full bodies including shoes and hat must remain within frame."
+      },
+      "model": "gpt_image_2_5",
+      "job_id": "0ab86cc2-286e-4d68-861f-2fd80fcc03fd",
+      "relative_path": "assets/BE-M02-moa-turnaround.png",
+      "file_bytes": 5020771,
+      "sha256": "07e52d1b82f0db6a199a2eef64945f473090975c2e00fefd264e3f11ac13b512",
+      "image_format": "PNG",
+      "pixel_width": 2688,
+      "pixel_height": 1520,
+      "requested_aspect_ratio": "16:9",
+      "actual_pixel_aspect_ratio": "2688:1520",
+      "key_image_lock": "media/BE-M02-moa-turnaround.visual-lock.json",
+      "key_image_lock_sha256": "6704152218595c7f9401c9d672043d5f726a79b23d6f84efc2fb8b715df8dcf9",
+      "derived_from": [
+        {
+          "role": "image",
+          "reference_type": "image_job_id",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "source": "recorded_generation_params.medias"
+        }
+      ],
+      "element_usage_note": "Generation used image job ID references, not Element syntax. Use registered Elements only with compatible models.",
+      "native_mesh_or_rig": false,
+      "drive": {
+        "file_id": "1jbZ-7Rq5C37qaJkuGQJAyD4lNexQUm58",
+        "parent_folder_id": "1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi",
+        "url": "https://drive.google.com/file/d/1jbZ-7Rq5C37qaJkuGQJAyD4lNexQUm58/view"
+      },
+      "higgsfield_element": null,
+      "visual_review": {
+        "observations_ko": "같은 펠트 캐릭터의 네 전신 방향이 한 줄로 놓여 있다. 후면에는 앞 얼굴이나 렌즈가 반복되지 않으며 측면에서 안경과 모자 두께가 읽힌다.",
+        "reuse_conditions_ko": "네 패널 전체는 한 참조 이미지다. 네 캐릭터가 등장하는 I2V 시작 프레임으로 사용하지 않는다."
+      }
+    },
+    {
+      "asset_id": "BE-M03",
+      "role_ko": "크림통·립스틱·향수의 제품 조형 기준",
+      "role_type": "cosmetic_prop_set_master",
+      "version": "be-m03-v1",
+      "generation_status": "completed",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "count": 1,
+        "prompt": "Original stylized 3D animation art direction for a Korean beauty ETF explainer. Handcrafted miniature beauty world, tactile felt and wool paired with satin ceramic and restrained frosted glass; physically coherent volumetric forms, soft golden light from rear left, grounded contact shadows. Palette warm cream #F5EBDD, lavender #B9A1DA, sage mint #A7CDBE, peach #EEB4A2, walnut #9B6D4D. Premium cinematic macro rendering, charming and quietly witty, clean intentional composition. Entire scene rendered in 3D. No text, letters, logos, charts, watermarks or numbers. Create an original cosmetics prop master set on one low warm cream oval podium. EXACTLY THREE distinct unbranded cosmetic products: left a squat lavender satin cream jar with a matching lid resting separately next to it and visible pale cream inside; center a short thick peach lipstick with mint rounded base and its cap upright nearby; right a round flattened mint frosted-glass perfume bottle with a small lavender spherical stopper. Every container geometry is clear and coherent. Three products with removable lids counted as parts of each product, balanced silhouette, slightly oversized rounded forms, accurate contact with podium. Front three-quarter view, enough spacing to separate each product for later animation, neutral warm cream studio background. No humans, characters, printed packaging, embossed letters or labels."
+      },
+      "model": "gpt_image_2_5",
+      "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+      "relative_path": "assets/BE-M03-cosmetics-master.png",
+      "file_bytes": 4259695,
+      "sha256": "245b8fb73df8c261c31d963d985f3b48cae6c1a00bd06ee253f821a22452a8e9",
+      "image_format": "PNG",
+      "pixel_width": 2336,
+      "pixel_height": 1744,
+      "requested_aspect_ratio": "4:3",
+      "actual_pixel_aspect_ratio": "2336:1744",
+      "key_image_lock": "media/BE-M03-cosmetics-master.visual-lock.json",
+      "key_image_lock_sha256": "29617e49662d68abc814668170dd916fef2dc2734fe8573845ad33481b59246c",
+      "derived_from": [],
+      "element_usage_note": "Generation used image job ID references, not Element syntax. Use registered Elements only with compatible models.",
+      "native_mesh_or_rig": false,
+      "drive": {
+        "file_id": "1zR-n8-oo-91VKz_RUWXdUCt9xqEMxfs6",
+        "parent_folder_id": "1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi",
+        "url": "https://drive.google.com/file/d/1zR-n8-oo-91VKz_RUWXdUCt9xqEMxfs6/view"
+      },
+      "higgsfield_element": {
+        "id": "49114dab-9ad0-4ff0-9369-a87019da1114",
+        "name": "BE-M03-Beauty-Props",
+        "category": "auto:prop",
+        "status": "completed"
+      },
+      "visual_review": {
+        "observations_ko": "라벤더 열린 크림통과 분리 뚜껑, 민트 바닥의 피치 립스틱과 분리 캡, 민트 유리 향수병과 라벤더 구형 마개가 보인다. 립스틱 슬리브와 향수 목에는 작은 샴페인빛 금속 포인트가 있다.",
+        "reuse_conditions_ko": "제품은 세 종류다. 분리 뚜껑과 캡은 각 제품의 부품으로 유지하며 제품 수를 늘리지 않는다."
+      }
+    },
+    {
+      "asset_id": "BE-M04",
+      "role_ko": "화장대 도입 장면과 공간 연속성의 세로 기준",
+      "role_type": "vertical_scene_master",
+      "version": "be-m04-v1",
+      "generation_status": "completed",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "Create ONE original vertical 9:16 cinematic scene master for a cute 3D beauty ETF explainer. Preserve the exact cream felt mascot from reference 1: same lavender lid-shaped beret with tab, dark plum rounded sunglasses, peach stitched smile, two mint shoes, two short mitten hands, same head-to-body ratio. Preserve the EXACT three unbranded cosmetic designs from reference 2: lavender open cream jar and lid, peach lipstick in mint base with cap, round mint perfume bottle with lavender spherical stopper. Entire scene is handcrafted stylized 3D, not live-action. Place this tiny mascot standing on a warm walnut vanity tabletop at lower left, around half the height of the perfume bottle. The mascot curiously reaches one mitten toward the cream jar. Cosmetics on tabletop to the right, jar nearest mascot. Warm cream rounded vanity cabinet, a large softly luminous oval window behind at upper left showing volumetric peach clouds and amber sunset, plain cream wall at right, rounded small stool just visible below; quiet restrained miniature interior, tactile wool and wood contrasted with satin ceramic and frosted glass. One warm rear-left light and consistent grounded shadows. Slight high three-quarter camera looking across the vanity, medium wide enough to show all mascot and products. Main objects within middle 70% width; upper 22% stays quiet for future title, lower 14% free of important objects for subtitles. No printed text or logos, no typography, no new characters, no extra products, no charts. A charming cinematic establishing frame, believable scale and touching surfaces, avoid a collage or split panel."
+      },
+      "model": "gpt_image_2_5",
+      "job_id": "0ac50764-201d-46f5-b380-924da2438c8c",
+      "relative_path": "assets/BE-M04-vanity-scene.png",
+      "file_bytes": 4549359,
+      "sha256": "1998cc9f94ffd301a588f8fe44e35f913c9f70a3612a63e6f5d27c7aaab9c7ce",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "key_image_lock": "media/BE-M04-vanity-scene.visual-lock.json",
+      "key_image_lock_sha256": "71b27ee2aa9f9b933abf32c25e18c0e02d3d6f506e28c664336d83433d5c551f",
+      "derived_from": [
+        {
+          "role": "image",
+          "reference_type": "image_job_id",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "source": "recorded_generation_params.medias"
+        },
+        {
+          "role": "image",
+          "reference_type": "image_job_id",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "source": "recorded_generation_params.medias"
+        }
+      ],
+      "element_usage_note": "Generation used image job ID references, not Element syntax. Use registered Elements only with compatible models.",
+      "native_mesh_or_rig": false,
+      "drive": {
+        "file_id": "1nV-rh6h8SD0FlqHuNMLvP8fnyGVyPlgu",
+        "parent_folder_id": "1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi",
+        "url": "https://drive.google.com/file/d/1nV-rh6h8SD0FlqHuNMLvP8fnyGVyPlgu/view"
+      },
+      "higgsfield_element": {
+        "id": "9f1a8d0f-c067-471e-bb2c-5cb1576e2c1c",
+        "category": "auto:character",
+        "status": "completed"
+      },
+      "visual_review": {
+        "observations_ko": "노을 창과 원목 화장대 위에 모아와 같은 세 제품이 배치된다. 캐릭터는 향수병과 비슷하거나 조금 큰 높이로 보이며 프롬프트의 향수병 절반 높이는 충족하지 않는다. 제품이 오른쪽 가장자리 가까이 있어 중앙 70% 안에 모두 들어간다는 지시도 완전히 충족하지 않는다.",
+        "reuse_conditions_ko": "현재 파일을 비율 그대로 사용하고 새 크롭 전에 제품과 캐릭터 여백을 확인한다. 상단 전체보다 오른쪽 평평한 벽 면에 제목을 놓기 좋다. 공간 내 캐릭터 크기는 실제 장면을 기준으로 고정한다."
+      }
+    },
+    {
+      "asset_id": "BE-M06",
+      "role_ko": "기업 묶음과 구성을 설명하는 투명 ETF 바구니",
+      "role_type": "etf_basket_metaphor_master",
+      "version": "be-m06-v1",
+      "generation_status": "completed",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "4:3",
+        "count": 1,
+        "prompt": "Original stylized 3D animation art direction for a Korean beauty ETF explainer. Handcrafted miniature beauty world, tactile felt and wool paired with satin ceramic and restrained frosted glass; physically coherent volumetric forms, soft golden light from rear left, grounded contact shadows. Palette warm cream #F5EBDD, lavender #B9A1DA, sage mint #A7CDBE, peach #EEB4A2, walnut #9B6D4D. Premium cinematic macro rendering, charming and quietly witty, clean intentional composition. Entire scene rendered in 3D. No text, letters, logos, charts, watermarks or numbers. Create an original ETF visual-metaphor prop master, a single low rounded rectangular transparent glass basket with softly frosted thin rim and ONE large arched lavender handle. Inside stand EXACTLY FIVE distinct simple little company tokens, with clearly separated whole silhouettes, all equally sized in visual weight: cream rounded cuboid, mint cylinder, peach arch block, lavender low rounded prism, warm beige small stepped block. Each token is a simple abstract building volume without windows, markings or icons. Basket and contents are readable in one high three-quarter view, soft restrained reflections, visible basket floor supporting all five tokens. A small shadow grounds the entire basket on a warm cream seamless studio surface. A financial basket metaphor, no actual company brands or market data. No scales, arrows, charts, coins, gold piles or extra tokens."
+      },
+      "model": "gpt_image_2_5",
+      "job_id": "d048fb40-4445-451a-9e4a-443cb11944cb",
+      "relative_path": "assets/BE-M06-etf-basket-master.png",
+      "file_bytes": 4609021,
+      "sha256": "376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b",
+      "image_format": "PNG",
+      "pixel_width": 2336,
+      "pixel_height": 1744,
+      "requested_aspect_ratio": "4:3",
+      "actual_pixel_aspect_ratio": "2336:1744",
+      "key_image_lock": "media/BE-M06-etf-basket-master.visual-lock.json",
+      "key_image_lock_sha256": "9783137f6ea7be19afda42c66ce89f1be309bf1bc7e8a28a1831194e42d027ba",
+      "derived_from": [],
+      "element_usage_note": "Generation used image job ID references, not Element syntax. Use registered Elements only with compatible models.",
+      "native_mesh_or_rig": false,
+      "drive": {
+        "file_id": "1-dKtCL9bNXa-NUmBu_rdcrHBi7nTYSNZ",
+        "parent_folder_id": "1xzzK1B5JBwMkN6cfFU2sP8X1T47nJROi",
+        "url": "https://drive.google.com/file/d/1-dKtCL9bNXa-NUmBu_rdcrHBi7nTYSNZ/view"
+      },
+      "higgsfield_element": {
+        "id": "b9cf64f6-fa20-4c99-abfa-87f58cfea1fa",
+        "name": "BE-M06-ETF-Basket",
+        "category": "auto:prop",
+        "status": "completed"
+      },
+      "visual_review": {
+        "observations_ko": "투명 둥근 사각 바구니에 하나의 라벤더 손잡이와 크림 블록·민트 원통·피치 아치·낮은 라벤더 원통형 토큰·베이지 계단 블록이 보인다. 다섯 토큰은 각자 바닥에 닿으며 서로 구별된다.",
+        "reuse_conditions_ko": "토큰 다섯 개는 설명용 조형이며 실제 편입 종목 수·비중·수익률을 뜻하지 않는다. 낮은 라벤더 토큰의 실제 원통형을 보존한다."
+      }
+    }
+  ]
+}

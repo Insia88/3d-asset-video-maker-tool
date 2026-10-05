@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-M01-moa-master.png",
+  "sha256": "4df72ddfd79fefe47ade8f0108aa45a22570118a816908479dee72faccacdf1f",
+  "version": "be-m01-v1",
+  "aspect": "3:4",
+  "pixelWidth": 1744,
+  "pixelHeight": 2336,
+  "crop": "Original full frame; no crop. 모자·안경·미소·신발과 몸 비율을 유지한다. 이 단일 전신을 정체성의 첫 참조로 사용한다.",
+  "prompt": "Original stylized 3D animation art direction for a Korean beauty ETF explainer. Handcrafted miniature beauty world, tactile felt and wool paired with satin ceramic and restrained frosted glass; physically coherent volumetric forms, soft golden light from rear left, grounded contact shadows. Palette warm cream #F5EBDD, lavender #B9A1DA, sage mint #A7CDBE, peach #EEB4A2, walnut #9B6D4D. Premium cinematic macro rendering, charming and quietly witty, clean intentional composition. Entire scene rendered in 3D. No text, letters, logos, charts, watermarks or numbers. Create ONE original mascot identity master, a single whole body three-quarter front view only, on warm cream seamless ground. A tiny friendly creature called Moa: a large rounded cream-colored felt head that subtly evokes a cosmetic cream pot, a short pear-shaped cream wool body, two short rounded arms ending in simple mittens and two separate stubby legs; a lavender soft flattened lid-shaped beret with one little offset fabric tab; oversized dark plum rounded sunglasses with restrained lens reflections; two mint rounded shoes; tiny peach stitched smile. Fine short plush fibers, visible subtle stitched seam along sides, expressive relaxed curious posture with both hands clear of body. About 2.3 heads tall, deliberately non-human toy proportions. Subject fully visible with 15 percent breathing room all around, not cropped. No other character, no props, no turnaround sheet, no human baby, no diaper, no necklace.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "dcc4523f-32a1-4442-886f-f8086f467b56",
+  "lockedAt": "2026-10-05T06:57:25.672227+00:00"
+}

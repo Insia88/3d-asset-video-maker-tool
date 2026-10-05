@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S09-shared-sector-risk.png",
+  "sha256": "3cd8086a5297590e86ee06815d31d793d8699030ccf3d8cb9f5400aa2b7df69f",
+  "version": "be-s09-shared-sector-risk-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 프롬프트가 요구한 다섯 블록 전체의 넓고 차가운 그림자는 뚜렷하지 않고 전반적으로 따뜻한 조명이 유지된다. I2V에서는 그림자 이동만 별도 동작으로 지정한다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Same transparent ETF basket and exact five distinct pastel blocks rest on a walnut table; Moa stands beside them, attentive and calm. A single large soft gray-lavender felt cloud floats high above the entire basket, and one broad cool shadow from the cloud covers all five blocks together, with warm sunset still visible outside that shadow. This gentle visual metaphor conveys a shared industry influence affecting different companies. Keep basket upright and intact, blocks unchanged, no destruction, no warning symbols, no price chart, no guaranteed protection visual. Moody but friendly soft cinematic lighting.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "17f389f4-9b69-49f6-8d5a-3eafd43fe24c",
+  "lockedAt": "2026-10-05T07:23:02.337305+00:00"
+}

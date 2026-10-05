@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-M06-etf-basket-master.png",
+  "sha256": "376f373584e25c57a764f0c3fa10145e606159ec8c6518cc59952cbb228ced5b",
+  "version": "be-m06-v1",
+  "aspect": "4:3",
+  "pixelWidth": 2336,
+  "pixelHeight": 1744,
+  "crop": "Original full frame; no crop. 토큰 다섯 개는 설명용 조형이며 실제 편입 종목 수·비중·수익률을 뜻하지 않는다. 낮은 라벤더 토큰의 실제 원통형을 보존한다.",
+  "prompt": "Original stylized 3D animation art direction for a Korean beauty ETF explainer. Handcrafted miniature beauty world, tactile felt and wool paired with satin ceramic and restrained frosted glass; physically coherent volumetric forms, soft golden light from rear left, grounded contact shadows. Palette warm cream #F5EBDD, lavender #B9A1DA, sage mint #A7CDBE, peach #EEB4A2, walnut #9B6D4D. Premium cinematic macro rendering, charming and quietly witty, clean intentional composition. Entire scene rendered in 3D. No text, letters, logos, charts, watermarks or numbers. Create an original ETF visual-metaphor prop master, a single low rounded rectangular transparent glass basket with softly frosted thin rim and ONE large arched lavender handle. Inside stand EXACTLY FIVE distinct simple little company tokens, with clearly separated whole silhouettes, all equally sized in visual weight: cream rounded cuboid, mint cylinder, peach arch block, lavender low rounded prism, warm beige small stepped block. Each token is a simple abstract building volume without windows, markings or icons. Basket and contents are readable in one high three-quarter view, soft restrained reflections, visible basket floor supporting all five tokens. A small shadow grounds the entire basket on a warm cream seamless studio surface. A financial basket metaphor, no actual company brands or market data. No scales, arrows, charts, coins, gold piles or extra tokens.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "d048fb40-4445-451a-9e4a-443cb11944cb",
+  "lockedAt": "2026-10-05T06:57:26.102674+00:00"
+}

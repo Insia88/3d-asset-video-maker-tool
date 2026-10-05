@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S08-etf-basket-guide.png",
+  "sha256": "167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff",
+  "version": "be-s08-etf-basket-guide-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 블록의 크기와 개수는 기업 묶음의 개념이며 실제 ETF 종목 수나 투자 비중이 아니다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Moa stands to the left of the exact transparent rounded rectangular ETF basket with its single lavender handle and the same five pastel toy blocks from reference. Basket at right, all five blocks visibly separated, unchanged geometry: cream block, mint cylinder, peach arch, low lavender cylinder, beige stairs. One mitten points at the basket rim while the other stays clear. Warm cream seamless studio and rounded walnut low table, camera three-quarter at basket height. This is a conceptual basket of businesses, no numerical weights, no symbols or promises. Leave quiet space above for actual sourced composition labels.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "30f85218-7cb9-4506-afbc-8b8706c72027",
+  "lockedAt": "2026-10-05T07:23:02.183458+00:00"
+}

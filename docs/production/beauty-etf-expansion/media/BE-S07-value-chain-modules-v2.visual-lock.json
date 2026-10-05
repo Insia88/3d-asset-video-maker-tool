@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S07-value-chain-modules-v2.png",
+  "sha256": "3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42",
+  "version": "be-s07-value-chain-modules-v2-locked-20261005",
+  "aspect": "16:9",
+  "pixelWidth": 2688,
+  "pixelHeight": 1520,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 캐릭터 없는 3개 모듈 판으로 채택한다. 좌우 모듈의 바깥쪽이 프레임 가장자리에 가까워 9:16 중앙 크롭 대신 전체 가로 구도 또는 모듈별 컷을 쓴다.",
+  "prompt": "Edit the provided original 3D scene. Completely REMOVE the foreground plush character and its shoes and shadows. Reconstruct the clean warm cream tabletop behind it. Keep EXACTLY the three existing miniature modules with their original designs, materials, left-to-right positions and lighting: lavender cosmetic jar and blank packaging on walnut pedestal; mint glass mixing/filling machine on pedestal; peach boutique shelf and blank cartons on pedestal. No person, no animal, no mascot, no face, no character, no hands, no feet anywhere. Three module sizes and spacing should be balanced. Preserve the wide 16:9 composition and quiet upper half for editor-added business-role labels. No text, letters, logo, numbers, charts or arrows. The objects are a conceptual value-chain illustration, not a financial proportion chart. Premium original tactile 3D with warm cream, lavender, mint, peach and walnut.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "2adbaefe-c337-43a2-8dff-0ed49027c3c3",
+  "lockedAt": "2026-10-05T07:23:02.600083+00:00"
+}

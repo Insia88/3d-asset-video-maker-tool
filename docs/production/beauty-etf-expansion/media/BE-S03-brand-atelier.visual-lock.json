@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S03-brand-atelier.png",
+  "sha256": "b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5",
+  "version": "be-s03-brand-atelier-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 모아의 한 손이 볼 가까이에 있고, 앞으로 뻗는 동작은 후속 I2V 제안이다. 정지 이미지에 이미 완료된 동작으로 기록하지 않는다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A single open-front tiny cosmetic brand design atelier as a three-dimensional dollhouse room on a rounded cream floor. Lavender curved back wall, walnut workbench, the exact lavender cream jar, peach lipstick and mint perfume bottle from reference on the bench. Several plain pastel color/material swatches and blank cream packaging mockups neatly arranged. Moa stands beside the table looking at a jar. A soft rounded desk lamp and a shallow material shelf. Camera front three-quarter; room walls have visible thickness and no writing. Focus on designing a product and brand, no finance icons.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "e9f67bc6-f768-405b-85da-019dee52078b",
+  "lockedAt": "2026-10-05T07:23:01.540103+00:00"
+}
