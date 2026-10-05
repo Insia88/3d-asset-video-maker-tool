@@ -1,241 +1,148 @@
 {
-  "version": "1.3",
+  "version": "1.4",
   "caption_revision": "v4",
-  "native_movie": {
-    "file": "beauty-etf-engagement-v4-180s-30fps.mp4",
-    "bytes": 74797657,
-    "sha256": "8817f7b7c51b564d9d615b3f818a2e4a6433af3793a5055720deea4dff7a97e0",
-    "fps": 30,
-    "frames": 5400,
-    "duration": 180,
-    "codec": "h264",
-    "full_decode_exit": 0,
-    "blackdetect_events": [],
-    "full_continuous_visual_playback": false,
-    "full_listening": false
-  },
-  "format": {
+  "purpose": "2030 뷰티 관심 투자자를 위한 핀플루언서 지원 포트폴리오",
+  "movie": {
+    "filename": "beauty-etf-smooth-fullbleed-v5-final-180s-30fps.mp4",
+    "bytes": 182823930,
+    "sha256": "cb0ab4d30ce87282729e769d48a716daced9c6d61092c5a252e4de946239d226",
+    "duration_seconds": 180,
     "width": 1080,
     "height": 1920,
     "fps": 30,
     "frames": 5400,
-    "duration_seconds": 180,
-    "video_codec": "h264",
-    "audio_codec": "aac",
-    "audio_sample_rate_hz": 48000,
-    "audio_channels": 2,
+    "codec": "h264",
+    "confirmed_higgsfield_media_id": "882ebd3d-9330-419e-be7d-bc2052764222"
+  },
+  "change": {
+    "original_visual_cuts": 105,
+    "visual_runs": 93,
+    "same_asset_continuous_runs": 9,
+    "full_canvas_cover": true,
+    "source_aspect_preserved": true,
+    "max_incoming_transition_frames": 6,
+    "source_timebase_unchanged": true,
+    "frame_interpolation": false,
+    "audio_and_native_caption_tracks_unchanged": true,
+    "nonvisual_tracks_sha256": "87019956adad143d94cb0ab63ea2d17afb7b414ad39bb9883cf23760fd100221",
     "narration": false,
-    "vocals": false
+    "vocals": false,
+    "music_bpm": 132
   },
-  "timeline": {
-    "actual_visual_cuts": 105,
-    "video_cuts": 35,
-    "still_cuts": 70,
-    "persistent_caption_groups": 40,
-    "source_interval_overlaps": 0,
-    "new_motion_seconds": 35.0,
-    "village_video_seconds": 5.1,
-    "previous_village_video_seconds": 34.2
-  },
-  "music": {
-    "bpm": 132,
-    "source_wav_sha256": "8f7657d518b7767a639a67e670c7dd7ab690732beb44979183b25aa8c1f80d56",
-    "source_wav_integrated_lufs": -16.01,
-    "source_wav_true_peak_dbtp": -1.19,
-    "final_encoded_audio": {
-      "integrated_LUFS": -16.04,
-      "true_peak_dBTP": -0.98,
-      "LRA": 1.5,
-      "method": "loudnorm input analysis of final encoded AAC",
-      "source_WAV_unchanged_sha256": "8f7657d518b7767a639a67e670c7dd7ab690732beb44979183b25aa8c1f80d56"
-    }
-  },
-  "review": {
-    "native_caption_midpoints_directly_seen_by_primary": 40,
-    "encoded_final_frames_directly_seen_by_primary": 15,
-    "encoded_times_seconds": [
-      0.5,
-      4.8,
-      21.5,
-      22.5,
-      27,
-      35,
-      46.9,
-      47,
-      47.1,
-      48.5,
-      60,
-      130,
-      135,
-      177,
-      179
+  "verification": {
+    "full_decode_exit_code": 0,
+    "full_decode_frames": 5400,
+    "blackdetect_info_level": true,
+    "blackdetect_parameters": "d=0.1:pix_th=0.05:pic_th=0.98",
+    "blackdetect_events": [],
+    "decode_errors": [],
+    "independent_encoded_unique_frames_directly_observed": 142,
+    "independent_run_midpoints": 93,
+    "independent_problem_boundaries": 4,
+    "independent_role_endpoints": 6,
+    "independent_motion_sequence_samples": 32,
+    "primary_encoded_unique_frames_directly_observed_this_review": 23,
+    "primary_boards": [
+      "module_endpoints6.jpg",
+      "problem_boundaryboard_01.jpg",
+      "run_midboard_08.jpg"
     ],
-    "aerial_mask_geometry_and_text_pass": true,
-    "counter_46_9_intermediate": 127,
-    "counter_47_0_47_1_48_5_endpoint": 128,
+    "primary_corrected_native_preview_frames_directly_observed": 12,
+    "independent_material_additional_changes_recommended": 0,
     "full_continuous_visual_playback": false,
-    "full_music_listening": false
+    "full_audio_listening": false,
+    "independent_QA_sha256": "f9623ca3dd874b3066057e02b1a0c48afdce782593c05ba7e9b8c02b43533f3d",
+    "portable_source_payload_members": 40,
+    "portable_source_native_assets_resolve": 34,
+    "portable_source_all_payload_SHA_CRC_pass": true,
+    "native_cloud_check_clean": true,
+    "native_local_render_performed": false
   },
+  "editable_source": {
+    "file": "beauty-etf-smooth-v5-editable.zip",
+    "url": "https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view",
+    "bytes": 410483374,
+    "sha256": "226a6d9204253aa9577e285b00662ae7af559a0ad1b7d6dba2142d37339e4c35",
+    "drive_url": "https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view"
+  },
+  "final_native_preview": {
+    "file": "beauty-etf-smooth-v5-final-preview.zip",
+    "url": "https://drive.google.com/file/d/1VIAXaLbM4PEB1gQ4ncmd8YSQ-yJlmLDB/view",
+    "bytes": 3699206,
+    "sha256": "35ec54938b1b9170041985f5c2ba056a7d31ef6fcef311a3605cb973b3c3e016",
+    "drive_url": "https://drive.google.com/file/d/1VIAXaLbM4PEB1gQ4ncmd8YSQ-yJlmLDB/view"
+  },
+  "drive_folder": {
+    "id": "1gXrXhwhR8i4yo3fqc6PwHke6NHJgFjas",
+    "url": "https://drive.google.com/drive/folders/1gXrXhwhR8i4yo3fqc6PwHke6NHJgFjas",
+    "upload_completion_verified": true
+  },
+  "financial_content_unchanged": true,
+  "research_reference_count_delta": 0,
+  "previous_movie_sha256": "8817f7b7c51b564d9d615b3f818a2e4a6433af3793a5055720deea4dff7a97e0",
+  "previous_movie_preserved": true,
   "delivery_links": {
-    "movie": "https://drive.google.com/file/d/1lsCMVUakZQ2YZMoHtxNZerGaX-A-A6Dv/view",
-    "shared_plan": "https://docs.google.com/document/d/1a1AHSuMrylfhS2jx9jOgBu2UurlWVNwJkBV3mwmj2ro",
-    "plan_pdf": "https://drive.google.com/file/d/1mf4ountHHj9xfOOn4QYVC-AX4ci3p7vN/view",
-    "source_folder": "https://drive.google.com/drive/folders/1WA8Vv43dkLC6bf_fz3S09ZgFIy36UG9X"
+    "movie": "https://drive.google.com/file/d/13rFWu-i0S3yTvpXjsNPo0mDzZpEHSVf6/view",
+    "editable_source": "https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view",
+    "QA_archive": "https://drive.google.com/file/d/1x9HoTbnGLM3oPi30sAGHDjbd15nDsg8i/view",
+    "shared_plan": "https://docs.google.com/document/d/1a1AHSuMrylfhS2jx9jOgBu2UurlWVNwJkBV3mwmj2ro"
   },
   "cloud_verification": {
-    "same_movie_id_raw_updated": true,
-    "independent_name_size_parent_readback": true,
-    "movie_bytes": 74797657,
-    "source_parts": [
+    "independent_names_sizes_parents_readback": true,
+    "remote_content_SHA_verified": false,
+    "permissions_changed": false,
+    "files": [
       {
-        "part": 1,
-        "file": "beauty-etf-v1.3-editable-source-part-01.zip",
-        "bytes": 85572051,
-        "sha256": "bdfbc65cb7bc90db64ad7a420b2827b5c3670fe6cd77c9229ba15103c2def717",
-        "payload_members": 8,
-        "url": "https://drive.google.com/file/d/1ptyRGpHL8bJOKPXN_rVO3lzVNyG93s7P/view",
-        "independent_drive_metadata_readback": true
+        "id": "1LFwSziJYuqC6-9Y7aNPObyOZJdMIvD3h",
+        "file": "beauty-etf-v1.4-QA-archive-receipt.json",
+        "bytes": 207,
+        "url": "https://drive.google.com/file/d/1LFwSziJYuqC6-9Y7aNPObyOZJdMIvD3h/view"
       },
       {
-        "part": 2,
-        "file": "beauty-etf-v1.3-editable-source-part-02.zip",
-        "bytes": 87412054,
-        "sha256": "9c8dc9ad2a5b8e915b0b5dd628dec8340806354463d82484164037983ba891d3",
-        "payload_members": 9,
-        "url": "https://drive.google.com/file/d/10b-6Mq5mkZgTzKL8mZSlGeSEsyfiAn8o/view",
-        "independent_drive_metadata_readback": true
+        "id": "1x9HoTbnGLM3oPi30sAGHDjbd15nDsg8i",
+        "file": "beauty-etf-v1.4-final-QA.zip",
+        "bytes": 25675716,
+        "url": "https://drive.google.com/file/d/1x9HoTbnGLM3oPi30sAGHDjbd15nDsg8i/view"
       },
       {
-        "part": 3,
-        "file": "beauty-etf-v1.3-editable-source-part-03.zip",
-        "bytes": 87191143,
-        "sha256": "5394e41949d4e9b1d9a6094877d3800ac02795022769aaaef209c5531c2f1052",
-        "payload_members": 11,
-        "url": "https://drive.google.com/file/d/14KPu2-wsSoWMgzJ5lRo8r_1ZYSeyWE1y/view",
-        "independent_drive_metadata_readback": true
+        "id": "1ilwM0IAhi_hKplNfgmI2NODSS6lRYJ5F",
+        "file": "beauty-etf-v1.4-delivery.md",
+        "bytes": 1616,
+        "url": "https://drive.google.com/file/d/1ilwM0IAhi_hKplNfgmI2NODSS6lRYJ5F/view"
       },
       {
-        "part": 4,
-        "file": "beauty-etf-v1.3-editable-source-part-04.zip",
-        "bytes": 84478912,
-        "sha256": "b003770e89d185d4c55c6b6b4ec2e5c823e68cad87c96fe5d8624292f3476de3",
-        "payload_members": 63,
-        "url": "https://drive.google.com/file/d/1TOd6886hcoWhZugSUx_yzPa8aAI5hobw/view",
-        "independent_drive_metadata_readback": true
+        "id": "1LAVknnxlm2zvRzTBrq_6TCT8LQ-63XkB",
+        "file": "beauty-etf-v1.4-final-delivery-receipt.json",
+        "bytes": 3520,
+        "url": "https://drive.google.com/file/d/1LAVknnxlm2zvRzTBrq_6TCT8LQ-63XkB/view"
       },
       {
-        "part": 5,
-        "file": "beauty-etf-v1.3-editable-source-part-05.zip",
-        "bytes": 68033344,
-        "sha256": "0bbea7a9019df89d7f317fff1f345ecdb777eba23ab9d8895bd306a5eabc44e1",
-        "payload_members": 31,
-        "url": "https://drive.google.com/file/d/1Mk0mH2bqRwDiXjgqjAEpYTzMpmfEKMXl/view",
-        "independent_drive_metadata_readback": true
+        "id": "1VIAXaLbM4PEB1gQ4ncmd8YSQ-yJlmLDB",
+        "file": "beauty-etf-smooth-v5-final-preview.zip",
+        "bytes": 3699206,
+        "url": "https://drive.google.com/file/d/1VIAXaLbM4PEB1gQ4ncmd8YSQ-yJlmLDB/view"
+      },
+      {
+        "id": "1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW",
+        "file": "beauty-etf-smooth-v5-editable.zip",
+        "bytes": 410483374,
+        "url": "https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view"
+      },
+      {
+        "id": "13rFWu-i0S3yTvpXjsNPo0mDzZpEHSVf6",
+        "file": "beauty-etf-smooth-fullbleed-v5-final-180s-30fps.mp4",
+        "bytes": 182823930,
+        "url": "https://drive.google.com/file/d/13rFWu-i0S3yTvpXjsNPo0mDzZpEHSVf6/view"
       }
-    ],
-    "remote_movie_bytes_sha_verified": false,
-    "sharing_permissions_changed": false
+    ]
   },
-  "shared_plan": {
-    "caption_groups": 40,
-    "canonical_json_sha256": "a78bcbc4deaa39d6729c9184dfa9ddf63adefa248fc54e2205acf5b95efd9400",
-    "images": 9,
-    "tables": 4,
-    "styles_and_tab_structure_preserved": true,
-    "pdf_pages_directly_reviewed": 8,
-    "pdf_bytes": 43683638,
-    "pdf_sha256": "185a2ab013c317a47a0f006757d5f2867e54e767c66e7a9492dc585d38606c63"
+  "QA_archive": {
+    "file": "beauty-etf-v1.4-final-QA.zip",
+    "bytes": 25675716,
+    "sha256": "eacc2173d5d950727919ac909c00aee843dc0bd1408994e6c3d07c9f26b0fa81",
+    "payload_members": 170,
+    "CRC_all_SHA_pass": true
   },
-  "editable_native_project": {
-    "payload_members": 122,
-    "payload_bytes": 426862060,
-    "manifest_sha256": "11840d70cff81aff3ace3baf5e8886d22be5e1071c3d57c5bef79bc2c5c62e7c",
-    "CRC_member_SHA_pass": true,
-    "empty_folder_restore_pass": true,
-    "native_check_clean": true,
-    "restored_pixel_frame_checks": [
-      {
-        "seconds": 22.5,
-        "sha256": "40c93d2acb5aa6cdfbd92076d4e5760eb24aba85c1d7d9fea7ae762b5361dfee",
-        "identical": true
-      },
-      {
-        "seconds": 47.1,
-        "sha256": "667a0871c07c63ac49d998ce997a134c4f34cab6c998bc14930a4c13278adbf3",
-        "identical": true
-      },
-      {
-        "seconds": 179,
-        "sha256": "c20a8de8370d8e9bd2a7629151a5ca2ab7f322b5afcd84c9acb4e9dc940602da",
-        "identical": true
-      }
-    ],
-    "all_5_parts_required": true,
-    "each_zip_independently_decompressible": true,
-    "max_part_bytes": 87412054,
-    "parts": [
-      {
-        "part": 1,
-        "file": "beauty-etf-v1.3-editable-source-part-01.zip",
-        "bytes": 85572051,
-        "sha256": "bdfbc65cb7bc90db64ad7a420b2827b5c3670fe6cd77c9229ba15103c2def717",
-        "payload_members": 8,
-        "url": "https://drive.google.com/file/d/1ptyRGpHL8bJOKPXN_rVO3lzVNyG93s7P/view",
-        "independent_drive_metadata_readback": true
-      },
-      {
-        "part": 2,
-        "file": "beauty-etf-v1.3-editable-source-part-02.zip",
-        "bytes": 87412054,
-        "sha256": "9c8dc9ad2a5b8e915b0b5dd628dec8340806354463d82484164037983ba891d3",
-        "payload_members": 9,
-        "url": "https://drive.google.com/file/d/10b-6Mq5mkZgTzKL8mZSlGeSEsyfiAn8o/view",
-        "independent_drive_metadata_readback": true
-      },
-      {
-        "part": 3,
-        "file": "beauty-etf-v1.3-editable-source-part-03.zip",
-        "bytes": 87191143,
-        "sha256": "5394e41949d4e9b1d9a6094877d3800ac02795022769aaaef209c5531c2f1052",
-        "payload_members": 11,
-        "url": "https://drive.google.com/file/d/14KPu2-wsSoWMgzJ5lRo8r_1ZYSeyWE1y/view",
-        "independent_drive_metadata_readback": true
-      },
-      {
-        "part": 4,
-        "file": "beauty-etf-v1.3-editable-source-part-04.zip",
-        "bytes": 84478912,
-        "sha256": "b003770e89d185d4c55c6b6b4ec2e5c823e68cad87c96fe5d8624292f3476de3",
-        "payload_members": 63,
-        "url": "https://drive.google.com/file/d/1TOd6886hcoWhZugSUx_yzPa8aAI5hobw/view",
-        "independent_drive_metadata_readback": true
-      },
-      {
-        "part": 5,
-        "file": "beauty-etf-v1.3-editable-source-part-05.zip",
-        "bytes": 68033344,
-        "sha256": "0bbea7a9019df89d7f317fff1f345ecdb777eba23ab9d8895bd306a5eabc44e1",
-        "payload_members": 31,
-        "url": "https://drive.google.com/file/d/1Mk0mH2bqRwDiXjgqjAEpYTzMpmfEKMXl/view",
-        "independent_drive_metadata_readback": true
-      }
-    ],
-    "native_asset_count": 34,
-    "remote_bytes_sha_verified": false
-  },
-  "legacy_after_effects": {
-    "project_version": "previous v2 production",
-    "project_bytes": 2915337,
-    "project_url": "https://drive.google.com/file/d/1rFHV53faEN48DjT5UDOL_zffQHKYR0uh/view",
-    "preview_version": "v1.2 / caption v3",
-    "preview_bytes": 19421230,
-    "preview_sha256": "4964d007a6d7fecf720429f9457562a324e78e90800e1159cd67a413c45f21ae",
-    "preview_duration_seconds": 12,
-    "preview_frames": 360,
-    "preview_fps": 30,
-    "preview_url": "https://drive.google.com/file/d/1CeuuQzRnmb_iw0h61cK-pHk6EkNMkhjo/view",
-    "is_current_v1_3_higgsedit_source": false,
-    "portable_AEP_package_complete": false
-  },
-  "research_reference_count_delta": 0
+  "historical_source_commit": "181223f7849ed9ae372aba06d8d5921690808ce3",
+  "historical_relative_links_relocated": true
 }

@@ -1,39 +1,17 @@
-# 완성본의 형식과 전달 상태
+# 뷰티 ETF 영상 v1.4
 
-132BPM 자체 연주곡과 새 항공·동작을 적용한 180초 Higgsedit 편집본 v1.3이다. 문어체 자막 v4를 사용한다.
+작은 중앙 화면으로 바뀌던 컷을 모두 9:16 화면을 채우는 구도로 수정했다. 같은 원본에서 이어지는 구간은 연결하고, 전환에 최대 6프레임의 짧은 겹침을 적용했다. 가로 장면은 브랜드·제조·유통의 세 역할을 차례로 보여주는 팬으로 구성했다.
 
-| 항목 | 확인 결과 |
-|---|---|
-| 길이·해상도 | 180.000초 · 1080×1920 · 9:16 |
-| 프레임 | 30fps · 5,400프레임 |
-| 구성 | 105컷: 영상 35개·정지 70개 · 지속 자막 40그룹 |
-| 음악 | 132BPM 오리지널 연주곡 · 무내레이션·무보컬 |
-| 최종 음량 | 실제 AAC 입력 분석 −16.04LUFS · −0.98dBTP |
-| 기술 검사 | 전체 디코딩 오류 0 · 검정 구간 0 |
-| 시각 검사 | 실제 자막 중간 화면 40개 · 최종 인코딩 표본 15개 |
-| 파일 | 74,797,657바이트 |
-| SHA-256 | `8817f7b7c51b564d9d615b3f818a2e4a6433af3793a5055720deea4dff7a97e0` |
+180초 · 1080×1920 · 30fps · 5,400프레임 · 93개 영상 구간. 문어체 자막 v4와 밝은 132BPM 연주곡을 유지하며 내레이션과 보컬은 없다.
 
-[180초 완성본 v1.3](https://drive.google.com/file/d/1lsCMVUakZQ2YZMoHtxNZerGaX-A-A6Dv/view) · [공유 기획안](https://docs.google.com/document/d/1a1AHSuMrylfhS2jx9jOgBu2UurlWVNwJkBV3mwmj2ro) · [기획안 PDF](https://drive.google.com/file/d/1mf4ountHHj9xfOOn4QYVC-AX4ci3p7vN/view)
+실제 인코딩된 142개 고유 프레임의 독립 검수에서 화면 축소, 네 문제 경계의 잔류 화면, 세 역할 장면 누락이 교정됐다. 전체 파일 디코딩은 오류 없이 끝났고, 명시한 검정 구간 탐지 조건의 검출은 0건이었다. 검수는 표본 관찰과 기술 검사이며 전편 연속 재생·청취의 완료를 의미하지 않는다.
 
-같은 영상 링크에서 실제 MP4 바이트를 교체하고 이름·크기·부모 폴더를 독립 대조했다. 권한은 바꾸지 않았다. 원격 파일 바이트의 SHA를 다시 계산한 것으로 표시하지 않는다.
+편집 원본 ZIP에는 40개 payload와 상대 경로로 연결된 34개 에셋이 있다. 모든 payload의 SHA-256과 ZIP CRC를 재검증하고 빈 폴더에 복원해 경로를 확인했다. 원본 프레임레이트는 변경하지 않았으며 보간과 60fps 변환은 적용하지 않았다.
 
-## 재편집 소스
+[180초 수정본](https://drive.google.com/file/d/13rFWu-i0S3yTvpXjsNPo0mDzZpEHSVf6/view) · [편집 원본](https://drive.google.com/file/d/1JjqGbUJ6kqOkg0B7S0OtSfFpyCkcn6xW/view) · [검수 표본 묶음](https://drive.google.com/file/d/1x9HoTbnGLM3oPi30sAGHDjbd15nDsg8i/view)
 
-아래 다섯 ZIP은 같은 빈 폴더에 모두 풀어야 한다. 122개 실제 파일의 CRC·SHA와 중복 없는 합집합을 확인했고, 34개 네이티브 에셋 경로가 정상이다. 제작자는 빈 폴더 복구 후 항공·지수 종료·마지막 장면의 세 PNG가 원래 렌더와 동일한 해시임을 확인했다.
+[수정본과 편집 원본 폴더](https://drive.google.com/drive/folders/1gXrXhwhR8i4yo3fqc6PwHke6NHJgFjas)
 
-| 부분 | 파일 | 바이트 |
-|---|---|---:|
-| 1 | [beauty-etf-v1.3-editable-source-part-01.zip](https://drive.google.com/file/d/1ptyRGpHL8bJOKPXN_rVO3lzVNyG93s7P/view) | 85,572,051 |
-| 2 | [beauty-etf-v1.3-editable-source-part-02.zip](https://drive.google.com/file/d/10b-6Mq5mkZgTzKL8mZSlGeSEsyfiAn8o/view) | 87,412,054 |
-| 3 | [beauty-etf-v1.3-editable-source-part-03.zip](https://drive.google.com/file/d/14KPu2-wsSoWMgzJ5lRo8r_1ZYSeyWE1y/view) | 87,191,143 |
-| 4 | [beauty-etf-v1.3-editable-source-part-04.zip](https://drive.google.com/file/d/1TOd6886hcoWhZugSUx_yzPa8aAI5hobw/view) | 84,478,912 |
-| 5 | [beauty-etf-v1.3-editable-source-part-05.zip](https://drive.google.com/file/d/1Mk0mH2bqRwDiXjgqjAEpYTzMpmfEKMXl/view) | 68,033,344 |
+금융 문장과 출처는 기존판과 같다. 한국 화장품의 세계 2위는 2025년 수출액 순위이며 시장 점유율 순위가 아니다. 산업 성장률은 ETF 수익률을 뜻하지 않는다. 생산 에셋은 3D 참고 수집 집계에 더하지 않는다.
 
-[원본·음악·MIDI·자막 백업 폴더](https://drive.google.com/drive/folders/1WA8Vv43dkLC6bf_fz3S09ZgFIy36UG9X)에서 음악 소스 ZIP과 별도 MIDI/MP3도 확인할 수 있다. 네이티브 편집 소스의 메타데이터·복구 해시는 [패키지 검사](qc/package_check.json)에 있다.
-
-## 이전 Adobe 작업
-
-[이전 원고의 180초 AEP](https://drive.google.com/file/d/1rFHV53faEN48DjT5UDOL_zffQHKYR0uh/view)와 [문어체 v3의 실제 AE 12초 프리뷰](https://drive.google.com/file/d/1CeuuQzRnmb_iw0h61cK-pHk6EkNMkhjo/view)는 별도 제작 이력이다. 프리뷰는 19,421,230바이트·30fps·360프레임이며, AEP의 최신 portable 의존파일 묶음은 완료되지 않았다. 현재 v1.3의 재편집 소스는 위 Higgsedit 다섯 ZIP이다.
-
-40개 중간 화면과 15개 최종 표본을 직접 확인한 검수는 전편 연속 시청이나 전곡 청취를 뜻하지 않는다. 실제 파일 형식·해시·범위는 [전달 JSON](delivery_status.json)에 있다. 원본 미디어와 편집 바이너리는 공개 Git에 넣지 않는다.
+이전 [v1.3 전달 기록](history/v1.3/delivery.md)과 원본은 보존했다. 현재 편집 원본은 단일 ZIP이며, 이전 v1.3의 다섯 ZIP과 섞어서 복원하지 않는다. ZIP의 movie/project.json을 기준으로 fonts와 media 상대 경로를 유지하면 된다. 포함된 패치 스크립트는 이전 v1.3 기준자료를 필요로 하며, 현재 project.json의 재편집에는 그 스크립트를 실행할 필요가 없다.
