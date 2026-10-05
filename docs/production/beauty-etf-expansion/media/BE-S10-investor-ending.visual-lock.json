@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S10-investor-ending.png",
+  "sha256": "29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2",
+  "version": "be-s10-investor-ending-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 요청한 화장품 3종 중 향수는 없다. 중앙 카드 하단은 모아의 머리에 가려져 있어 카드 글자는 상단에 배치한다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Final wide scene in the same warm miniature beauty world. Moa stands center foreground on walnut vanity; to left the recognizable three cosmetics, to right the transparent lavender-handled basket with five blocks. Behind them, three small clean empty cream display cards stand in a row, equal height, each truly BLANK for editor-written investment criteria. A warm oval window with peach clouds behind at left, cream wall at right. Curious confident friendly stance, no triumph gesture or celebration, no coins or rising arrows. Keep all key objects readable and cards unobstructed. A thoughtful final question, premium tactile 3D.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "1536b490-9fd5-4c54-add5-e22873b33257",
+  "lockedAt": "2026-10-05T07:23:02.468647+00:00"
+}

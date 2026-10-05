@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "assetPath": "assets/BE-S04-odm-factory.png",
+  "sha256": "37e96e12659312f29ede330796bacc8beafb4fd45aceb4eae79ab91da1a18819",
+  "version": "be-s04-odm-factory-locked-20261005",
+  "aspect": "9:16",
+  "pixelWidth": 1520,
+  "pixelHeight": 2688,
+  "crop": "Preserve full source composition. Do not infer numeric proportions from object size. 혼합 용기 왼쪽과 벨트의 앞쪽이 화면 밖으로 이어진다. 실제 ODM 설비가 아닌 공정을 단순화한 3D 비유다.",
+  "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A friendly miniature skincare manufacturing cell, one coherent physically sensible machine. A short walnut and sage-mint conveyor runs diagonally from lower left to upper right; exactly three identical lavender cream jars travel beneath one cream filling nozzle on a solid rounded gantry. Clear separation of belt, support legs and nozzle. A single frosted mixing vessel connects by a short visible tube. Moa stands safely beside the conveyor in its unchanged beret and glasses, no costume. Clean tiny factory, no smoke, no hazard motifs. Top area is calm cream wall. Demonstrate making products for beauty brands; no logos, chart or text.",
+  "negativePrompt": "",
+  "model": "gpt_image_2_5",
+  "seedOrJobId": "fdaf226b-5a62-46bf-8ddd-1c50ed3f536b",
+  "lockedAt": "2026-10-05T07:23:01.720509+00:00"
+}
