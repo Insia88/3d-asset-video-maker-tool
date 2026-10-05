@@ -1,0 +1,41 @@
+{
+  "script_version": "caption-v3-natural-written-korean",
+  "caption_revision": "caption-v3",
+  "fps": 30,
+  "duration_seconds": 180,
+  "total_frames": 5400,
+  "cuts": 66,
+  "caption_groups": 38,
+  "files": [
+    {
+      "path": "script/cutlist.json",
+      "bytes": 104664,
+      "sha256": "b63ebb18827d26d41953c2c2c4aec725423f97e0312aedc0d3a69a75c45dcd84",
+      "byte_identical_to_frozen_source": true
+    },
+    {
+      "path": "script/captions.md",
+      "bytes": 6915,
+      "sha256": "5e64a3771ee59f11e90156cc1bb8f218f66e36dd886477512e2b5e47032eddaf",
+      "byte_identical_to_frozen_source": true
+    },
+    {
+      "path": "script/main_captions.srt",
+      "bytes": 3755,
+      "sha256": "5cd7a2fa7be143da6bb1244f48b7cc29d6dff47b14a9d51182c188cd05b66a9e",
+      "byte_identical_to_frozen_source": true
+    }
+  ],
+  "previous_version": {
+    "manifest": "history/v2/frozen_manifest.json",
+    "script_sha256": "8776d8a00eee8de597b64ebecf6e14c25eefd14a16d17bcae997a6a0346befc9"
+  },
+  "render_layout_overrides_are_separate": true,
+  "metadata_repair_only": {
+    "changed_fields": [
+      "/persistent_footer_overlays/0/detail",
+      "/persistent_footer_overlays/0/text"
+    ],
+    "caption_group_body_footer_cut_timing_unchanged": true
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "frozen_v2_sha256": "8776d8a00eee8de597b64ebecf6e14c25eefd14a16d17bcae997a6a0346befc9",
+  "overrides": [
+    {
+      "group": "G05",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G06",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G07",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G08",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G09",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G10",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G11",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G12",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G29",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G30",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    },
+    {
+      "group": "G31",
+      "original": {
+        "x": 108,
+        "y": 1340,
+        "width": 864,
+        "height": 210
+      },
+      "ae_override": {
+        "x": 108,
+        "y": 96,
+        "width": 864,
+        "height": 180
+      },
+      "reason": "Direct encoded-frame/phone-proof observation; preserve face and foreground."
+    }
+  ],
+  "concept_prop_footer_spacing_override": {
+    "text": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다.",
+    "financial_meaning_changed": false,
+    "frozen_script_changed": false
+  },
+  "current_frozen_script_sha256": "b63ebb18827d26d41953c2c2c4aec725423f97e0312aedc0d3a69a75c45dcd84",
+  "caption_revision": "caption-v3",
+  "financial_meaning_changed": false,
+  "approved_original_images_changed": false,
+  "caption_v3_footer_text": {
+    "role": "사업 간 연결을 설명하기 위한 역할 예시다.",
+    "blocks": "블록은 개념을 설명하는 소품이다.\n실제 편입 종목이나 비중을 나타내지 않는다.",
+    "calculation": "5년간의 복리 성장을 설명하는 가상 지수다.\n실제 시장 규모나 ETF 수익률을 뜻하지 않는다.",
+    "costs": "보수·기타 비용·매매수수료를 함께 확인한다.",
+    "risk": "원금 손실이 발생할 수 있다.\n시장 전망이 투자 수익률을 보장하지는 않는다.",
+    "cagr_no_guarantee": "매년 같은 성장률을 보장하지는 않는다."
+  }
+}
