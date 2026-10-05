@@ -1,0 +1,184 @@
+{
+  "sources": [
+    {
+      "index": 301,
+      "file": "V301.mp4",
+      "bytes": 5920778,
+      "sha256": "3a4138f9b995198d273a23e247ce18043dc53320dde463f1b99e1cf00078a09d",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 302,
+      "file": "V302.mp4",
+      "bytes": 13560350,
+      "sha256": "4936868ac44acd74802de49e64ad3e9e3fcbef9afc31049104ba9b89562ed6bf",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 303,
+      "file": "V303.mp4",
+      "bytes": 10074387,
+      "sha256": "02ba58e0eb0d11ec8fe1cdedd4db08308a4d96a8fccc37ba4023e783a42fe96d",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 304,
+      "file": "V304.mp4",
+      "bytes": 9111460,
+      "sha256": "6e9267c90963dfd638bed4ab2fa177f33f58bc3c0e6d71f24d37c1cc1b5525fc",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 305,
+      "file": "V305.mp4",
+      "bytes": 24603980,
+      "sha256": "96e7ee6ae7ad074f053b21f87d88a7e992857ac896744970a2c6398e2cc0b76a",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 306,
+      "file": "V306.mp4",
+      "bytes": 19697007,
+      "sha256": "5dce2a3e039d5ec2ca0517ea9629ea7fa38f64e4d5e7f4b4020f273198ea1850",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 307,
+      "file": "V307.mp4",
+      "bytes": 10708850,
+      "sha256": "b17fa6039140a77518f73a6e48a46888438494fccf405c28487edca3e8a63fd6",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    },
+    {
+      "index": 308,
+      "file": "V308.mp4",
+      "bytes": 9775752,
+      "sha256": "b6c1426a6fd7e2bbc31678c7e9d5ef3feaf85d3fe845dbda2147763fb9ef6b9b",
+      "duration": "6.041667",
+      "streams": [
+        {
+          "codec_type": "video",
+          "codec_name": "hevc",
+          "width": 1080,
+          "height": 1920,
+          "avg_frame_rate": "24/1",
+          "nb_frames": "145",
+          "sample_rate": null,
+          "channels": null
+        }
+      ],
+      "full_decode_exit": 0,
+      "observed_frames": 12,
+      "method": "Full technical decode plus root visual QC of 2fps contact frames; not full continuous motion playback."
+    }
+  ],
+  "total_direct_timed_sample_frames": 96,
+  "continuous_full_playback": false,
+  "research_reference_count_delta": 0,
+  "V305_limitation": "Generated unwanted glyphs in late raw footage. Only source 3.5–5.7s is used with an opaque upper 400px mask in the rank sequence; actual encoded aerial samples were reviewed."
+}
