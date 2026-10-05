@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "finfluencer-beauty-etf",
   "reference_format": "sharded_jsonl",
-  "total_references": 10177,
+  "total_references": 10210,
   "shard_count": 11,
   "max_rows_per_shard": 1000,
   "max_bytes_per_shard": 16777216,
@@ -46,32 +46,32 @@
     {
       "path": "part-00007.jsonl",
       "rows": 1000,
-      "sha256": "8cf1bf1453210a42f689d29a97534c58f042d7fb009e0e03d65785bd47a2f2fc",
-      "bytes": 9937781
+      "sha256": "ad402d8903c791f96d1d764ccd9132113682a9ac4c7a8e36eef61a9ee9557527",
+      "bytes": 10171699
     },
     {
       "path": "part-00008.jsonl",
       "rows": 1000,
-      "sha256": "44de11986b940ce5cd5791fe1a4130367a5bfc4c6c092ab246aa420ab2267753",
-      "bytes": 9297934
+      "sha256": "da755bd7e4933679915cfef9a9252292f475dde0c323e97f080d3dc5db35378f",
+      "bytes": 8893138
     },
     {
       "path": "part-00009.jsonl",
       "rows": 1000,
-      "sha256": "cad86ed9163792d5f2aa113a30c27ee0c4d98a0b2e6b5ff846dee06c62885c3a",
-      "bytes": 15816509
+      "sha256": "f8a76550bf3df3267338577b60559ddece5d33a81494efba45db68f3a8d880c2",
+      "bytes": 16147213
     },
     {
       "path": "part-00010.jsonl",
       "rows": 1000,
-      "sha256": "c92b069782801d5abec1edb2d2bd0e24529484f64ef601f1f27546fa38926451",
-      "bytes": 9923868
+      "sha256": "310d3707c100e5cbf10103789702d678a523452505d50198496b16b73eb8a257",
+      "bytes": 9954420
     },
     {
       "path": "part-00011.jsonl",
-      "rows": 177,
-      "sha256": "3fee272a53f84597e3e5ef463f4796574dc127f1fb879687f6eae8bc0bc753a2",
-      "bytes": 1655504
+      "rows": 210,
+      "sha256": "6ad6859d140bfab7cf34eecf09b5d058a7fd2ade8a8185dbeb4c83d48b7a37a9",
+      "bytes": 1945709
     }
   ]
 }
