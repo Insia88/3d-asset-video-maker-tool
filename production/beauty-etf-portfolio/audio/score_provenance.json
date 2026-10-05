@@ -82,7 +82,9 @@
       "file": "beauty-etf-bright-score-source.zip",
       "bytes": 53473649,
       "sha256": "d7a6ec8425583c75fbce3147e88f109378754e7878dc7f36af121987008cb39d",
-      "member_count": 12,
+      "member_count": 13,
+      "content_files": 12,
+      "receipt_files": 1,
       "crc_verified": true,
       "all_member_hashes_verified": true,
       "contains": "180초 WAV, 18초 비교 MP3 두 종, 음표·박자 자료, 렌더 스크립트와 음색 라이선스"
