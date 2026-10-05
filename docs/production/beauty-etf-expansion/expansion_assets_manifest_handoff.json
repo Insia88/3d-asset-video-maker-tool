@@ -1,0 +1,1096 @@
+{
+  "schema_version": 1,
+  "purpose": "20~30대 뷰티 관심 투자자 대상 핀플루언서 지원용 약180초 뷰티 ETF 영상",
+  "assembled_at": "2026-10-05T16:23:02.616108+09:00",
+  "asset_kind": "3D-styled generated PNG key images, not mesh or rig assets",
+  "expansion_completed_generation_count": 11,
+  "expansion_accepted_count": 10,
+  "expansion_excluded_completed_count": 1,
+  "foundation_accepted_count": 5,
+  "cumulative_completed_generation_count": 16,
+  "cumulative_accepted_image_count": 15,
+  "research_reference_count_addition": 0,
+  "research_inclusion": false,
+  "research_479_status": "paused",
+  "additional_generation_calls_in_this_metadata_task": 0,
+  "submission_summary": {
+    "new_batch_request_attempts": 13,
+    "accepted_generation_jobs": 11,
+    "submission_failed_before_job_acceptance": 2,
+    "generation_jobs_failed": 0,
+    "successful_retries": 2,
+    "events": [
+      {
+        "index": 13,
+        "initial_submission_status": "submission_failed",
+        "http_status": 429,
+        "initial_job_id": null,
+        "retry_status": "completed",
+        "retry_job_id": "30f85218-7cb9-4506-afbc-8b8706c72027"
+      },
+      {
+        "index": 15,
+        "initial_submission_status": "submission_failed",
+        "http_status": 429,
+        "initial_job_id": null,
+        "retry_status": "completed",
+        "retry_job_id": "1536b490-9fd5-4c54-add5-e22873b33257"
+      }
+    ],
+    "provenance": "Root supplied confirmed 429 submission failures and successful retry mapping; completed job records read locally."
+  },
+  "source_documents": [
+    {
+      "file_name": "expansion_requests.json",
+      "sha256": "7226beacdb6e86e1c6fd4c9838749b86b233d1ac52044df7c8cf422137a3b075"
+    },
+    {
+      "file_name": "expansion_repair_request.json",
+      "sha256": "4d3e624aedf2351524d7890d759fd892d8c6aa935bc5e3149070d4aaf37e6b94"
+    },
+    {
+      "file_name": "expansion_assets_first8.json",
+      "sha256": "f1f903b7cb3481f07350def0dd43243e04f60e0b042426d535095939ace2ab5e"
+    },
+    {
+      "file_name": "expansion_assets_last3.json",
+      "sha256": "a8154bebe5b3033450d9e3e60c766922e8a751fa416f93655fdef5400d787207"
+    }
+  ],
+  "assets": [
+    {
+      "index": 6,
+      "asset_id": "BE-S01-consumer-hook",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "64c42a1b-3374-4861-81e0-fc10eca21c66",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          },
+          {
+            "role": "image",
+            "value": "0ac50764-201d-46f5-b380-924da2438c8c"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A warm close view of the same walnut vanity. Moa stands at left examining the familiar lavender cream jar beside a small upright unbranded cream smartphone. The phone has only a softly glowing mint blank screen, no UI text. Lipstick and perfume remain at right. One curious mitten rests near the jar; other hand clear. Camera at toy eye level, a sliver of oval sunset window at upper left. The visual question is moving from a familiar shopping choice to curiosity about the business behind it. Premium cozy composition with clear object separation."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A warm close view of the same walnut vanity. Moa stands at left examining the familiar lavender cream jar beside a small upright unbranded cream smartphone. The phone has only a softly glowing mint blank screen, no UI text. Lipstick and perfume remain at right. One curious mitten rests near the jar; other hand clear. Camera at toy eye level, a sliver of oval sunset window at upper left. The visual question is moving from a familiar shopping choice to curiosity about the business behind it. Premium cozy composition with clear object separation.",
+      "original_job_record": {
+        "index": 6,
+        "job_id": "64c42a1b-3374-4861-81e0-fc10eca21c66",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S01-consumer-hook",
+        "bytes": 4742207,
+        "sha256": "a17634f71bc515fa9ba3bc1d914adc2d4a4dc58f96522d314b130426ae0e01c8",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S01-consumer-hook.png",
+      "file_bytes": 4742207,
+      "sha256": "a17634f71bc515fa9ba3bc1d914adc2d4a4dc58f96522d314b130426ae0e01c8",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "0ac50764-201d-46f5-b380-924da2438c8c",
+          "asset_id": "BE-M04",
+          "image_file_name": "BE-M04-vanity-scene.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "일상적인 화장품 선택에서 기업에 대한 호기심으로 여는 도입",
+      "suggested_single_action_ko": "모아가 크림 용기를 향해 고개를 한 번 기울인다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "모아, 열린 라벤더 크림 용기, 민트색 빈 스마트폰 화면, 립스틱과 향수가 한 화장대 위에 있다.",
+          "오른쪽 향수가 화면 가장자리에 가까워 중앙 75% 안에 모든 핵심 물체를 두라는 요청은 완전 충족하지 않는다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S01-consumer-hook.visual-lock.json",
+      "key_image_lock_sha256": "69e6f2f33ed58cee164ca4561d7c4e35b835715a6a4a5eb4dd008f2f037263b7",
+      "drive": {
+        "file_id": "134l2mONOWE7KPI8YEuDzTUPoBNhaVRcQ",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/134l2mONOWE7KPI8YEuDzTUPoBNhaVRcQ/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 7,
+      "asset_id": "BE-S02-beauty-market-world",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "929bfa64-8060-4a0c-bfbd-d312fc926cc2",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A charming expanding miniature beauty town arranged around a central cream circular plaza: exactly three distinct small pavilions, a lavender cosmetic design atelier, a mint curved-glass manufacturing pavilion, and a peach beauty boutique. All lie on one warm cream sculpted island, connected by a single winding walnut pathway, a few decorative felt flowers, no labels. Moa small at front center gazes at the town. Three familiar cosmetic silhouettes recur subtly. The town conveys an industry ecosystem, NOT a numeric chart and NOT investment gains. Three-quarter overhead camera with abundant clean warm cream sky/background."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A charming expanding miniature beauty town arranged around a central cream circular plaza: exactly three distinct small pavilions, a lavender cosmetic design atelier, a mint curved-glass manufacturing pavilion, and a peach beauty boutique. All lie on one warm cream sculpted island, connected by a single winding walnut pathway, a few decorative felt flowers, no labels. Moa small at front center gazes at the town. Three familiar cosmetic silhouettes recur subtly. The town conveys an industry ecosystem, NOT a numeric chart and NOT investment gains. Three-quarter overhead camera with abundant clean warm cream sky/background.",
+      "original_job_record": {
+        "index": 7,
+        "job_id": "929bfa64-8060-4a0c-bfbd-d312fc926cc2",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S02-beauty-market-world",
+        "bytes": 5447581,
+        "sha256": "1962aa915db9132d0062b41516c0bb3416caf081c600e49bfd1ef4c217a0f22c",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S02-beauty-market-world.png",
+      "file_bytes": 5447581,
+      "sha256": "1962aa915db9132d0062b41516c0bb3416caf081c600e49bfd1ef4c217a0f22c",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "제품을 둘러싼 브랜드·제조·판매의 산업 생태계",
+      "suggested_single_action_ko": "카메라가 길을 따라 마을 쪽으로 천천히 전진한다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "라벤더 아틀리에·민트 공장·피치 매장 세 건물이 길과 중앙 제품 광장을 둘러싼다. 모아는 아래쪽에서 뒷모습으로 마을을 본다.",
+          "건물의 크기·개수·길은 산업 개념이며 시장 비율을 표현하지 않는다. 모아 신발이 하단에 가까우므로 하단 자막은 피한다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S02-beauty-market-world.visual-lock.json",
+      "key_image_lock_sha256": "5aa0528f98928bf165ada0dd9ffd49550714bc8da14562f8527e90d821d15acd",
+      "drive": {
+        "file_id": "1qmz24iJKBFNs935Cc1eict9RjNVcNvoc",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1qmz24iJKBFNs935Cc1eict9RjNVcNvoc/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 8,
+      "asset_id": "BE-S03-brand-atelier",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "e9f67bc6-f768-405b-85da-019dee52078b",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A single open-front tiny cosmetic brand design atelier as a three-dimensional dollhouse room on a rounded cream floor. Lavender curved back wall, walnut workbench, the exact lavender cream jar, peach lipstick and mint perfume bottle from reference on the bench. Several plain pastel color/material swatches and blank cream packaging mockups neatly arranged. Moa stands beside the table looking at a jar. A soft rounded desk lamp and a shallow material shelf. Camera front three-quarter; room walls have visible thickness and no writing. Focus on designing a product and brand, no finance icons."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A single open-front tiny cosmetic brand design atelier as a three-dimensional dollhouse room on a rounded cream floor. Lavender curved back wall, walnut workbench, the exact lavender cream jar, peach lipstick and mint perfume bottle from reference on the bench. Several plain pastel color/material swatches and blank cream packaging mockups neatly arranged. Moa stands beside the table looking at a jar. A soft rounded desk lamp and a shallow material shelf. Camera front three-quarter; room walls have visible thickness and no writing. Focus on designing a product and brand, no finance icons.",
+      "original_job_record": {
+        "index": 8,
+        "job_id": "e9f67bc6-f768-405b-85da-019dee52078b",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S03-brand-atelier",
+        "bytes": 5033539,
+        "sha256": "b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S03-brand-atelier.png",
+      "file_bytes": 5033539,
+      "sha256": "b9adf1b36747c2089006cac529b9d3c02a4fc9f4ef6ca3f4d47d56ffe7787fd5",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "제품과 포장을 기획하는 브랜드 역할",
+      "suggested_single_action_ko": "모아가 크림 용기에 한 손을 가볍게 내민다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "곡면 라벤더 벽, 월넛 책상, 재료 샘플, 빈 포장과 화장품 3종이 입체 아틀리에를 이룬다.",
+          "모아의 한 손이 볼 가까이에 있고, 앞으로 뻗는 동작은 후속 I2V 제안이다. 정지 이미지에 이미 완료된 동작으로 기록하지 않는다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S03-brand-atelier.visual-lock.json",
+      "key_image_lock_sha256": "fabbbfa7a322cf5ef3ee53722462a08dd6bb13c71b27571058085a09e0652118",
+      "drive": {
+        "file_id": "1KYtWSVauEUbuB-N883Mk1EVRSudMA1Mw",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1KYtWSVauEUbuB-N883Mk1EVRSudMA1Mw/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 9,
+      "asset_id": "BE-S04-odm-factory",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "fdaf226b-5a62-46bf-8ddd-1c50ed3f536b",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A friendly miniature skincare manufacturing cell, one coherent physically sensible machine. A short walnut and sage-mint conveyor runs diagonally from lower left to upper right; exactly three identical lavender cream jars travel beneath one cream filling nozzle on a solid rounded gantry. Clear separation of belt, support legs and nozzle. A single frosted mixing vessel connects by a short visible tube. Moa stands safely beside the conveyor in its unchanged beret and glasses, no costume. Clean tiny factory, no smoke, no hazard motifs. Top area is calm cream wall. Demonstrate making products for beauty brands; no logos, chart or text."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A friendly miniature skincare manufacturing cell, one coherent physically sensible machine. A short walnut and sage-mint conveyor runs diagonally from lower left to upper right; exactly three identical lavender cream jars travel beneath one cream filling nozzle on a solid rounded gantry. Clear separation of belt, support legs and nozzle. A single frosted mixing vessel connects by a short visible tube. Moa stands safely beside the conveyor in its unchanged beret and glasses, no costume. Clean tiny factory, no smoke, no hazard motifs. Top area is calm cream wall. Demonstrate making products for beauty brands; no logos, chart or text.",
+      "original_job_record": {
+        "index": 9,
+        "job_id": "fdaf226b-5a62-46bf-8ddd-1c50ed3f536b",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S04-odm-factory",
+        "bytes": 4843261,
+        "sha256": "37e96e12659312f29ede330796bacc8beafb4fd45aceb4eae79ab91da1a18819",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S04-odm-factory.png",
+      "file_bytes": 4843261,
+      "sha256": "37e96e12659312f29ede330796bacc8beafb4fd45aceb4eae79ab91da1a18819",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "브랜드의 제품을 제조하는 공정 역할",
+      "suggested_single_action_ko": "고정된 노즐에서 크림 한 줄기만 천천히 내려온다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "민트색 벨트 위 라벤더 크림 용기 3개와 크림을 내리는 단일 노즐, 연결된 구형 혼합 용기가 보인다.",
+          "혼합 용기 왼쪽과 벨트의 앞쪽이 화면 밖으로 이어진다. 실제 ODM 설비가 아닌 공정을 단순화한 3D 비유다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S04-odm-factory.visual-lock.json",
+      "key_image_lock_sha256": "01bbf1e7e527c7e41b6dcefc3ee70014dc7cd9bfb6c61c39a47cf17f513b9e27",
+      "drive": {
+        "file_id": "1U_8sj74n9gepmZfBG1V1hrzWOR0GPMCu",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1U_8sj74n9gepmZfBG1V1hrzWOR0GPMCu/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 10,
+      "asset_id": "BE-S05-distribution",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "2ac82f5b-0e96-4658-879b-6b2f4e519f98",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. One adorable miniature cosmetics distribution scene on a rounded cream base. A short sage-mint shelving unit holds plain lavender and peach cartons; one open carton on a walnut packing counter contains the recognizable cream jar, lipstick and perfume. A small unbranded cream delivery van waits at the right edge, clearly on the same ground. Moa gestures to the packed carton, unchanged identity. Simple spatial story from shelf to box to vehicle. All packages blank, no shipping labels, no logos or flags, no human people. Warm controlled studio background."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. One adorable miniature cosmetics distribution scene on a rounded cream base. A short sage-mint shelving unit holds plain lavender and peach cartons; one open carton on a walnut packing counter contains the recognizable cream jar, lipstick and perfume. A small unbranded cream delivery van waits at the right edge, clearly on the same ground. Moa gestures to the packed carton, unchanged identity. Simple spatial story from shelf to box to vehicle. All packages blank, no shipping labels, no logos or flags, no human people. Warm controlled studio background.",
+      "original_job_record": {
+        "index": 10,
+        "job_id": "2ac82f5b-0e96-4658-879b-6b2f4e519f98",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S05-distribution",
+        "bytes": 4793214,
+        "sha256": "29282d27ef210ec502c37818134d34bafc26a1a7b30739ed365e44ab079766b1",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S05-distribution.png",
+      "file_bytes": 4793214,
+      "sha256": "29282d27ef210ec502c37818134d34bafc26a1a7b30739ed365e44ab079766b1",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "제품을 포장하고 이동시키는 유통 역할",
+      "suggested_single_action_ko": "모아가 열린 상자를 한 번 가리킨다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "왼쪽 선반, 열린 상자 속 화장품 3종, 중앙 모아, 오른쪽 배송 밴이 같은 받침 위에 있다.",
+          "선반 왼쪽과 밴 오른쪽 일부가 잘려 있다. 차량 전체를 보여 주는 원본이라고 설명하지 않는다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S05-distribution.visual-lock.json",
+      "key_image_lock_sha256": "34667aee9c30633c8a0fb099e9c10e2a36e8b636a019ab5651e3e0a84d4de5c5",
+      "drive": {
+        "file_id": "1-t7dGuWyLuDTCNlYEyaJ7KcYLCldz8WW",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1-t7dGuWyLuDTCNlYEyaJ7KcYLCldz8WW/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 11,
+      "asset_id": "BE-S06-retail-digital",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "cf0d580c-45bd-4683-8d72-efb11b0c11f1",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A single rounded peach and cream beauty boutique, open front with visible wall thickness. Low walnut display shelves hold the three exact recurring cosmetics. Beside the boutique stands one large cream smartphone frame as a physical 3D prop on the same floor, its plain frosted-mint screen showing only the three matching 3D product miniatures with no labels/buttons/text. Moa stands between store and phone, connecting offline and online sales. Lavender arch doorway, restrained felt plant. No collage or split-screen divider. Plenty of clean upper background."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. A single rounded peach and cream beauty boutique, open front with visible wall thickness. Low walnut display shelves hold the three exact recurring cosmetics. Beside the boutique stands one large cream smartphone frame as a physical 3D prop on the same floor, its plain frosted-mint screen showing only the three matching 3D product miniatures with no labels/buttons/text. Moa stands between store and phone, connecting offline and online sales. Lavender arch doorway, restrained felt plant. No collage or split-screen divider. Plenty of clean upper background.",
+      "original_job_record": {
+        "index": 11,
+        "job_id": "cf0d580c-45bd-4683-8d72-efb11b0c11f1",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S06-retail-digital",
+        "bytes": 4706510,
+        "sha256": "1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S06-retail-digital.png",
+      "file_bytes": 4706510,
+      "sha256": "1cc5b53e567d090d45e219ca60bf62c6c6818c194bfa05ab9eb2430c3117c12a",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "오프라인 매장과 온라인 판매 채널 연결",
+      "suggested_single_action_ko": "모아가 스마트폰을 향해 손을 한 번 들어 올린다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "왼쪽 매장 선반과 오른쪽 물리적 스마트폰 프레임에 같은 화장품이 반복되며 모아가 가운데 선다.",
+          "화면에는 제품 형태만 있으며 글자·버튼은 없다. 스마트폰을 실제 판매 실적 화면이나 데이터로 취급하지 않는다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S06-retail-digital.visual-lock.json",
+      "key_image_lock_sha256": "238dd61dcc1b1eb91aa8e509bbcaf7953d29b41e926f7594796d911f329bc039",
+      "drive": {
+        "file_id": "1oU0CySmiwozhAFNq6CqNGAYreGmlDhJR",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1oU0CySmiwozhAFNq6CqNGAYreGmlDhJR/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 12,
+      "asset_id": "BE-S07-value-chain-modules",
+      "accepted": false,
+      "adoption_status": "excluded_visual_identity_mismatch",
+      "adoption_reason": "캐릭터 정체성 차이로 제외; index16 교체본 채택",
+      "replacement_asset_id": "BE-S07-value-chain-modules-v2",
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "31d5fbf6-4df0-44c8-b348-e32d829bb155",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Exactly three separate sculpted miniature modules on a continuous warm cream tabletop, with generous even space between: left lavender brand atelier with jar and blank packaging; center mint manufacturing cell with one mixing vessel and filling nozzle; right peach boutique with shelf and a blank carton. All three modules equally sized, front three-quarter, grounded shadows, walnut detail, sophisticated cute 3D. No arrows, no title or letters, no percentage wedges, no pie chart. The arrangement identifies business roles only; sizes do not encode investment weights. Clear negative space above each module for labels added later."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Exactly three separate sculpted miniature modules on a continuous warm cream tabletop, with generous even space between: left lavender brand atelier with jar and blank packaging; center mint manufacturing cell with one mixing vessel and filling nozzle; right peach boutique with shelf and a blank carton. All three modules equally sized, front three-quarter, grounded shadows, walnut detail, sophisticated cute 3D. No arrows, no title or letters, no percentage wedges, no pie chart. The arrangement identifies business roles only; sizes do not encode investment weights. Clear negative space above each module for labels added later.",
+      "original_job_record": {
+        "index": 12,
+        "job_id": "31d5fbf6-4df0-44c8-b348-e32d829bb155",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S07-value-chain-modules",
+        "bytes": 4885781,
+        "sha256": "9f870b950c345748f0fe418a056945cd90c9e2ba369996d5c4f68536caa643db",
+        "dimensions": [
+          2688,
+          1520
+        ]
+      },
+      "image_file_name": "BE-S07-value-chain-modules.png",
+      "file_bytes": 4885781,
+      "sha256": "9f870b950c345748f0fe418a056945cd90c9e2ba369996d5c4f68536caa643db",
+      "image_format": "PNG",
+      "pixel_width": 2688,
+      "pixel_height": 1520,
+      "requested_aspect_ratio": "16:9",
+      "actual_pixel_aspect_ratio": "2688:1520",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "산업 역할 3종 비교용 초기안",
+      "suggested_single_action_ko": "사용 제외",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "세 모듈 앞에 몸통과 머리가 한 덩어리처럼 보이는 작은 캐릭터가 생겼으며 신발에도 끈 형태가 추가되었다.",
+          "기초 모아와 캐릭터 비율·신발 형태가 달라 영상용 채택에서 제외한다. 생성 작업 자체는 completed다."
+        ]
+      },
+      "key_image_lock_file_name": null,
+      "key_image_lock_sha256": null,
+      "drive": null,
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 13,
+      "asset_id": "BE-S08-etf-basket-guide",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "30f85218-7cb9-4506-afbc-8b8706c72027",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "d048fb40-4445-451a-9e4a-443cb11944cb"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Moa stands to the left of the exact transparent rounded rectangular ETF basket with its single lavender handle and the same five pastel toy blocks from reference. Basket at right, all five blocks visibly separated, unchanged geometry: cream block, mint cylinder, peach arch, low lavender cylinder, beige stairs. One mitten points at the basket rim while the other stays clear. Warm cream seamless studio and rounded walnut low table, camera three-quarter at basket height. This is a conceptual basket of businesses, no numerical weights, no symbols or promises. Leave quiet space above for actual sourced composition labels."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Moa stands to the left of the exact transparent rounded rectangular ETF basket with its single lavender handle and the same five pastel toy blocks from reference. Basket at right, all five blocks visibly separated, unchanged geometry: cream block, mint cylinder, peach arch, low lavender cylinder, beige stairs. One mitten points at the basket rim while the other stays clear. Warm cream seamless studio and rounded walnut low table, camera three-quarter at basket height. This is a conceptual basket of businesses, no numerical weights, no symbols or promises. Leave quiet space above for actual sourced composition labels.",
+      "original_job_record": {
+        "index": 13,
+        "job_id": "30f85218-7cb9-4506-afbc-8b8706c72027",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S08-etf-basket-guide",
+        "bytes": 4862758,
+        "sha256": "167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S08-etf-basket-guide.png",
+      "file_bytes": 4862758,
+      "sha256": "167f678d92798f22240d271a045cecfa0b931a02622d97aef9959ec5395ca7ff",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "d048fb40-4445-451a-9e4a-443cb11944cb",
+          "asset_id": "BE-M06",
+          "image_file_name": "BE-M06-etf-basket-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "서로 다른 기업을 함께 담는 ETF 개념",
+      "suggested_single_action_ko": "모아가 바구니 가장자리를 한 번 가리킨다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "모아 옆 투명 바구니 안에 크림색 블록, 민트 원기둥, 피치 아치, 낮은 라벤더 원기둥, 베이지 계단형 블록 5개가 분리되어 보인다.",
+          "블록의 크기와 개수는 기업 묶음의 개념이며 실제 ETF 종목 수나 투자 비중이 아니다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S08-etf-basket-guide.visual-lock.json",
+      "key_image_lock_sha256": "312e4c01cd815e2eecdb9ab66788251932be38af4d9eb52e3d5e620be6e61f6e",
+      "drive": {
+        "file_id": "1_QbSfBy_1F6hx6s5-HoQyMsoF85IpJqv",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1_QbSfBy_1F6hx6s5-HoQyMsoF85IpJqv/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 14,
+      "asset_id": "BE-S09-shared-sector-risk",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "17f389f4-9b69-49f6-8d5a-3eafd43fe24c",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "d048fb40-4445-451a-9e4a-443cb11944cb"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Same transparent ETF basket and exact five distinct pastel blocks rest on a walnut table; Moa stands beside them, attentive and calm. A single large soft gray-lavender felt cloud floats high above the entire basket, and one broad cool shadow from the cloud covers all five blocks together, with warm sunset still visible outside that shadow. This gentle visual metaphor conveys a shared industry influence affecting different companies. Keep basket upright and intact, blocks unchanged, no destruction, no warning symbols, no price chart, no guaranteed protection visual. Moody but friendly soft cinematic lighting."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Same transparent ETF basket and exact five distinct pastel blocks rest on a walnut table; Moa stands beside them, attentive and calm. A single large soft gray-lavender felt cloud floats high above the entire basket, and one broad cool shadow from the cloud covers all five blocks together, with warm sunset still visible outside that shadow. This gentle visual metaphor conveys a shared industry influence affecting different companies. Keep basket upright and intact, blocks unchanged, no destruction, no warning symbols, no price chart, no guaranteed protection visual. Moody but friendly soft cinematic lighting.",
+      "original_job_record": {
+        "index": 14,
+        "job_id": "17f389f4-9b69-49f6-8d5a-3eafd43fe24c",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S09-shared-sector-risk",
+        "bytes": 5098967,
+        "sha256": "3cd8086a5297590e86ee06815d31d793d8699030ccf3d8cb9f5400aa2b7df69f",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S09-shared-sector-risk.png",
+      "file_bytes": 5098967,
+      "sha256": "3cd8086a5297590e86ee06815d31d793d8699030ccf3d8cb9f5400aa2b7df69f",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "d048fb40-4445-451a-9e4a-443cb11944cb",
+          "asset_id": "BE-M06",
+          "image_file_name": "BE-M06-etf-basket-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "여러 기업에 공통으로 작용하는 산업 위험",
+      "suggested_single_action_ko": "구름의 그림자가 바구니 전체를 가로질러 천천히 이동한다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "회색빛 라벤더 펠트 구름 아래 바구니와 블록 5개, 모아가 있다.",
+          "프롬프트가 요구한 다섯 블록 전체의 넓고 차가운 그림자는 뚜렷하지 않고 전반적으로 따뜻한 조명이 유지된다. I2V에서는 그림자 이동만 별도 동작으로 지정한다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S09-shared-sector-risk.visual-lock.json",
+      "key_image_lock_sha256": "63be7a81fc43d4fe044508c30f098dbce5fbfd2bb4364cabc830391a57fe845b",
+      "drive": {
+        "file_id": "1JHJm_MhhDHjHqteXAQGJ6i2Bu9nR8CJc",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1JHJm_MhhDHjHqteXAQGJ6i2Bu9nR8CJc/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 15,
+      "asset_id": "BE-S10-investor-ending",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": null,
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "1536b490-9fd5-4c54-add5-e22873b33257",
+      "source_request_file": "expansion_requests.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "9:16",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "dcc4523f-32a1-4442-886f-f8086f467b56"
+          },
+          {
+            "role": "image",
+            "value": "1a2dfe7f-485f-4baf-9776-5b0defc7040d"
+          },
+          {
+            "role": "image",
+            "value": "d048fb40-4445-451a-9e4a-443cb11944cb"
+          }
+        ],
+        "prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Final wide scene in the same warm miniature beauty world. Moa stands center foreground on walnut vanity; to left the recognizable three cosmetics, to right the transparent lavender-handled basket with five blocks. Behind them, three small clean empty cream display cards stand in a row, equal height, each truly BLANK for editor-written investment criteria. A warm oval window with peach clouds behind at left, cream wall at right. Curious confident friendly stance, no triumph gesture or celebration, no coins or rising arrows. Keep all key objects readable and cards unobstructed. A thoughtful final question, premium tactile 3D."
+      },
+      "original_prompt": "ONE polished original stylized 3D cinematic frame for a Korean beauty ETF educational video aimed at investors in their twenties and thirties. Follow the supplied identity/style images exactly where relevant: cream short-fiber felt mascot Moa, lavender flattened beret with offset tab, dark plum rounded sunglasses, peach stitched smile, mint shoes, two mitten hands, two feet. Keep a sophisticated tactile miniature world, walnut, warm cream, lavender, sage mint, peach, satin ceramic and frosted glass. Coherent physical 3D depth, rounded forms, rear-left golden light, clean grounded shadows, generous clean background. No live action, no flat illustration, no infographic panel, no written words, letters, logos, watermark, numbers, currency signs, stock charts or upward price arrows. No extra mascots, no altered sunglasses or accessories. Not a collage. Keep top 22% calm for accurate typography added later, all essential objects inside the middle 75% width and above the bottom 14%. Final wide scene in the same warm miniature beauty world. Moa stands center foreground on walnut vanity; to left the recognizable three cosmetics, to right the transparent lavender-handled basket with five blocks. Behind them, three small clean empty cream display cards stand in a row, equal height, each truly BLANK for editor-written investment criteria. A warm oval window with peach clouds behind at left, cream wall at right. Curious confident friendly stance, no triumph gesture or celebration, no coins or rising arrows. Keep all key objects readable and cards unobstructed. A thoughtful final question, premium tactile 3D.",
+      "original_job_record": {
+        "index": 15,
+        "job_id": "1536b490-9fd5-4c54-add5-e22873b33257",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S10-investor-ending",
+        "bytes": 4852215,
+        "sha256": "29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2",
+        "dimensions": [
+          1520,
+          2688
+        ]
+      },
+      "image_file_name": "BE-S10-investor-ending.png",
+      "file_bytes": 4852215,
+      "sha256": "29f704ccb2c6a2d7198e893ca33a6273a5df7849e46d68bbf1b8d3c992614fa2",
+      "image_format": "PNG",
+      "pixel_width": 1520,
+      "pixel_height": 2688,
+      "requested_aspect_ratio": "9:16",
+      "actual_pixel_aspect_ratio": "1520:2688",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "dcc4523f-32a1-4442-886f-f8086f467b56",
+          "asset_id": "BE-M01",
+          "image_file_name": "BE-M01-moa-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "1a2dfe7f-485f-4baf-9776-5b0defc7040d",
+          "asset_id": "BE-M03",
+          "image_file_name": "BE-M03-cosmetics-master.png"
+        },
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "d048fb40-4445-451a-9e4a-443cb11944cb",
+          "asset_id": "BE-M06",
+          "image_file_name": "BE-M06-etf-basket-master.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "소비자에서 투자자로 이어지는 마무리 질문",
+      "suggested_single_action_ko": "모아가 카메라를 향해 작게 고개를 끄덕인다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "모아 왼쪽에 크림·립스틱·립스틱 뚜껑이 있고, 오른쪽에 블록 5개가 든 바구니, 뒤에 빈 카드 3개가 있다.",
+          "요청한 화장품 3종 중 향수는 없다. 중앙 카드 하단은 모아의 머리에 가려져 있어 카드 글자는 상단에 배치한다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S10-investor-ending.visual-lock.json",
+      "key_image_lock_sha256": "609eb23a7893b4cbdc6fd35c9c4ee28f649934bc903f5b4e555928ea755b48e5",
+      "drive": {
+        "file_id": "1tSSUMW36dc20uENIXqcJoHmvbqa9DGN3",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1tSSUMW36dc20uENIXqcJoHmvbqa9DGN3/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    },
+    {
+      "index": 16,
+      "asset_id": "BE-S07-value-chain-modules-v2",
+      "accepted": true,
+      "adoption_status": "accepted",
+      "adoption_reason": "Root selected; independent whole-image observation recorded.",
+      "replacement_asset_id": null,
+      "replaces_asset_id": "BE-S07-value-chain-modules",
+      "generation_status": "completed",
+      "model": "gpt_image_2_5",
+      "job_id": "2adbaefe-c337-43a2-8dff-0ed49027c3c3",
+      "source_request_file": "expansion_repair_request.json",
+      "original_generation_params": {
+        "model": "gpt_image_2_5",
+        "quality": "high",
+        "resolution": "2k",
+        "aspect_ratio": "16:9",
+        "count": 1,
+        "medias": [
+          {
+            "role": "image",
+            "value": "31d5fbf6-4df0-44c8-b348-e32d829bb155"
+          }
+        ],
+        "prompt": "Edit the provided original 3D scene. Completely REMOVE the foreground plush character and its shoes and shadows. Reconstruct the clean warm cream tabletop behind it. Keep EXACTLY the three existing miniature modules with their original designs, materials, left-to-right positions and lighting: lavender cosmetic jar and blank packaging on walnut pedestal; mint glass mixing/filling machine on pedestal; peach boutique shelf and blank cartons on pedestal. No person, no animal, no mascot, no face, no character, no hands, no feet anywhere. Three module sizes and spacing should be balanced. Preserve the wide 16:9 composition and quiet upper half for editor-added business-role labels. No text, letters, logo, numbers, charts or arrows. The objects are a conceptual value-chain illustration, not a financial proportion chart. Premium original tactile 3D with warm cream, lavender, mint, peach and walnut."
+      },
+      "original_prompt": "Edit the provided original 3D scene. Completely REMOVE the foreground plush character and its shoes and shadows. Reconstruct the clean warm cream tabletop behind it. Keep EXACTLY the three existing miniature modules with their original designs, materials, left-to-right positions and lighting: lavender cosmetic jar and blank packaging on walnut pedestal; mint glass mixing/filling machine on pedestal; peach boutique shelf and blank cartons on pedestal. No person, no animal, no mascot, no face, no character, no hands, no feet anywhere. Three module sizes and spacing should be balanced. Preserve the wide 16:9 composition and quiet upper half for editor-added business-role labels. No text, letters, logo, numbers, charts or arrows. The objects are a conceptual value-chain illustration, not a financial proportion chart. Premium original tactile 3D with warm cream, lavender, mint, peach and walnut.",
+      "original_job_record": {
+        "index": 16,
+        "job_id": "2adbaefe-c337-43a2-8dff-0ed49027c3c3",
+        "status": "completed",
+        "type": "image",
+        "model": "gpt_image_2_5",
+        "asset_id": "BE-S07-value-chain-modules-v2",
+        "bytes": 4520521,
+        "sha256": "3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42",
+        "dimensions": [
+          2688,
+          1520
+        ]
+      },
+      "image_file_name": "BE-S07-value-chain-modules-v2.png",
+      "file_bytes": 4520521,
+      "sha256": "3e67530377d4ec88c8c502f1b934aa4ca275146f35142b9d1e209468a3061e42",
+      "image_format": "PNG",
+      "pixel_width": 2688,
+      "pixel_height": 1520,
+      "requested_aspect_ratio": "16:9",
+      "actual_pixel_aspect_ratio": "2688:1520",
+      "derived_from": [
+        {
+          "reference_type": "image_job_id",
+          "role": "image",
+          "job_id": "31d5fbf6-4df0-44c8-b348-e32d829bb155",
+          "asset_id": "BE-S07-value-chain-modules",
+          "image_file_name": "BE-S07-value-chain-modules.png"
+        }
+      ],
+      "reference_usage_note": "Generation references were image job IDs; no Element syntax was used.",
+      "role_ko": "브랜드·제조·판매 역할을 나란히 보여 주는 3개 모듈",
+      "suggested_single_action_ko": "카메라가 세 모듈의 정면을 따라 천천히 오른쪽으로 이동한다.",
+      "visual_review": {
+        "parent_whole_viewed": true,
+        "independent_whole_viewed": true,
+        "review_date": "2026-10-05",
+        "observation_method": "view_image original PNG, displayed whole frame; no crops counted as separate work",
+        "observations_and_prompt_differences_ko": [
+          "초기안의 전경 캐릭터와 신발이 제거되었고, 라벤더 브랜드 제품·민트 제조 설비·피치 판매 선반의 세 모듈이 유지되었다.",
+          "캐릭터 없는 3개 모듈 판으로 채택한다. 좌우 모듈의 바깥쪽이 프레임 가장자리에 가까워 9:16 중앙 크롭 대신 전체 가로 구도 또는 모듈별 컷을 쓴다."
+        ]
+      },
+      "key_image_lock_file_name": "BE-S07-value-chain-modules-v2.visual-lock.json",
+      "key_image_lock_sha256": "5f9134746f254f1b89ea52ee964aea48d1c87e9f7a8376b16383ab7e5b1e7299",
+      "drive": {
+        "file_id": "1rNvjCdT15wq2exoCuuN7OhOSs6JRveUM",
+        "parent_folder_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+        "url": "https://drive.google.com/file/d/1rNvjCdT15wq2exoCuuN7OhOSs6JRveUM/view",
+        "metadata_source": "expansion_drive_ids.json; parent-supplied folder ID",
+        "verification_scope": "File ID and asset name matched locally; no independent Drive API call in this packaging task."
+      },
+      "research_inclusion": false,
+      "research_reference_count_addition": 0
+    }
+  ],
+  "drive_asset_folder": {
+    "file_id": "1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm",
+    "url": "https://drive.google.com/drive/folders/1G7Kmb2qxX-j_bYXJd0HN3iZJ2w1y17bm"
+  },
+  "drive_id_mapping_sha256": "033661a67528ada8b0045226c6e2fbc8ac2500822462ebc67dead19f3fc5f0cd",
+  "handoff_scope": "Portable filenames, Drive links, asset IDs, hashes, prompts and image job IDs. Restore PNGs from Drive to the project-relative assets directory referenced by each visual lock."
+}
