@@ -282,7 +282,7 @@
   },
   "privacy_redactions": {
     "local_artifacts_replaced": 59124,
-    "markdown_local_or_unpublished_links_replaced": 15521,
+    "markdown_local_or_unpublished_links_replaced": 15490,
     "private_links_withheld": 25
   },
   "source_audit": {

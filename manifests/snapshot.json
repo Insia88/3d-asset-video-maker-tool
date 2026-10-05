@@ -4,7 +4,7 @@
     "finfluencer-beauty-etf": {
       "project": "finfluencer-beauty-etf",
       "snapshot_date": "2026-10-05",
-      "exported_at_utc": "2026-10-05T18:42:41+00:00",
+      "exported_at_utc": "2026-10-05T19:17:24+00:00",
       "references": "data/projects/finfluencer-beauty-etf/references/index.json",
       "audit": "data/projects/finfluencer-beauty-etf/audit.json",
       "reference_format": "sharded_jsonl",
@@ -2133,7 +2133,7 @@
       "files": [
         {
           "path": "data/projects/finfluencer-beauty-etf/audit.json",
-          "sha256": "7e8727e28349fb8d1858b21fa871c16dda91354f1961a0d17c7ea2812d7fb354",
+          "sha256": "7121ca2bb70b21f28ed897dbb09b2e86bb35bbabd0c169cd5e18f1c9ffd58a8d",
           "bytes": 64332
         },
         {
@@ -2198,8 +2198,8 @@
         },
         {
           "path": "docs/research/2026-10-05/00_포맷분석_종합.md",
-          "sha256": "827b76d0365f08b5746bb33a6e7837c11638e54cce9acfd81d553dfe0420b797",
-          "bytes": 81966
+          "sha256": "d6e4bc9eea03128d60bae56e1952176bade8cac98a71eb6276250f69c5b51d0b",
+          "bytes": 86071
         },
         {
           "path": "docs/research/2026-10-05/01_PLUS_KR_A-Z.md",
@@ -3458,8 +3458,8 @@
         },
         {
           "path": "docs/research/2026-10-05/23_3D_미감_큐레이션.md",
-          "sha256": "d413dfbbb70d23b2a315f043d2b63befec31d804acab5c94174105e209e4c617",
-          "bytes": 2931
+          "sha256": "6abb38fea489271b15ec510e7ddf64a903c72f2011299f287bc17abe30450276",
+          "bytes": 3001
         },
         {
           "path": "docs/research/2026-10-05/23_StockCake_장신구_수조_로봇_직접분석.md",

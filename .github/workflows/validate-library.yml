@@ -23,3 +23,5 @@ jobs:
           python-version: '3.12'
       - name: Validate counts, integrity, privacy and links
         run: python tools/validate_library.py --root .
+      - name: Check copied-checkpoint document links
+        run: python -m unittest discover -s tools -p 'test_*.py'
