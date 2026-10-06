@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 10266,
-  "exported_references": 10266,
-  "remaining": 14734,
+  "eligible_observed_units": 10276,
+  "exported_references": 10276,
+  "remaining": 14724,
   "classes": {
-    "core3D": 10266
+    "core3D": 10276
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "52da0391b4aaeaa3c0bec52444abd9aade7dffafc126c033f2a63c87004184a4",
+    "driver_sha256": "4127d8946e1ed0e57ed9aa8fb90afc08948b7ec0894f0f6c7338a2dffba06a19",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -59,9 +59,9 @@
       "reference-index/3d_references_09501_09750.md",
       "reference-index/3d_references_09751_10000.md",
       "reference-index/3d_references_10001_10250.md",
-      "reference-index/3d_references_10251_10266.md"
+      "reference-index/3d_references_10251_10276.md"
     ],
-    "unlinked_markdown_omitted": 7
+    "unlinked_markdown_omitted": 9
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
@@ -104,6 +104,10 @@
     "references_external_reviewF47A2.jsonl": 2,
     "references_external_reviewF47C4.jsonl": 4,
     "references_external_reviewF48C4.jsonl": 4,
+    "references_external_reviewF49A2.jsonl": 2,
+    "references_external_reviewF49B2.jsonl": 2,
+    "references_external_reviewF50A5.jsonl": 5,
+    "references_external_reviewF50C1.jsonl": 1,
     "references_root_meshy_beauty185.jsonl": 27,
     "references_root_meshy_collectible248.jsonl": 85,
     "references_root_meshy_cozy206.jsonl": 99,
@@ -306,28 +310,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "5c2d870f08f25a4a94220528a523d26b20e51fc19aabf45da677c725cce18f1d",
-    "shots_master.jsonl": "8dd7f2b99548a12b761cd29effc05a7b006cd025fd6039cc07f6f65e41d4cbad"
+    "shot_audit.json": "29d98c1b2b3a7830ebce70f80ae6b6af35d549fe5ac2e227d7f58bb236721346",
+    "shots_master.jsonl": "caeb5e0a50385d6ceaf5c0cb4da3eaa70e219b94144afc117a8eae1f75b6130d"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 60719,
-    "markdown_local_or_unpublished_links_replaced": 15622,
+    "local_artifacts_replaced": 60867,
+    "markdown_local_or_unpublished_links_replaced": 15632,
     "private_links_withheld": 25
   },
   "source_audit": {
-    "updated_local": "2026-10-06T12:12:34",
+    "updated_local": "2026-10-06T13:03:45",
     "target": 25000,
-    "eligible_observed_units": 10266,
-    "remaining": 14734,
-    "raw_rows": 32823,
-    "excluded_rows": 22557,
-    "observed_sources": 8655,
+    "eligible_observed_units": 10276,
+    "remaining": 14724,
+    "raw_rows": 32899,
+    "excluded_rows": 22623,
+    "observed_sources": 8662,
     "classes": {
-      "core3D": 10266
+      "core3D": 10276
     },
-    "historical_broad_observed_units": 12978,
+    "historical_broad_observed_units": 12988,
     "historical_broad_classes": {
-      "core3D": 10271,
+      "core3D": 10281,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -1561,6 +1565,46 @@
         "sources": 4,
         "classes": {
           "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF49A2.jsonl",
+        "raw_rows": 19,
+        "eligible": 2,
+        "excluded": 17,
+        "sources": 2,
+        "classes": {
+          "core3D": 2
+        }
+      },
+      {
+        "file": "references_external_reviewF49B2.jsonl",
+        "raw_rows": 19,
+        "eligible": 2,
+        "excluded": 17,
+        "sources": 2,
+        "classes": {
+          "core3D": 2
+        }
+      },
+      {
+        "file": "references_external_reviewF50A5.jsonl",
+        "raw_rows": 20,
+        "eligible": 5,
+        "excluded": 15,
+        "sources": 2,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF50C1.jsonl",
+        "raw_rows": 18,
+        "eligible": 1,
+        "excluded": 17,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
         }
       },
       {
