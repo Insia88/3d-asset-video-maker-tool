@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 10276,
-  "exported_references": 10276,
-  "remaining": 14724,
+  "eligible_observed_units": 10317,
+  "exported_references": 10317,
+  "remaining": 14683,
   "classes": {
-    "core3D": 10276
+    "core3D": 10317
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "4127d8946e1ed0e57ed9aa8fb90afc08948b7ec0894f0f6c7338a2dffba06a19",
+    "driver_sha256": "638bb7b9ebe6406f184799a981f79aeb5f08da611fa4c3231b76bc60819315b6",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -59,9 +59,9 @@
       "reference-index/3d_references_09501_09750.md",
       "reference-index/3d_references_09751_10000.md",
       "reference-index/3d_references_10001_10250.md",
-      "reference-index/3d_references_10251_10276.md"
+      "reference-index/3d_references_10251_10317.md"
     ],
-    "unlinked_markdown_omitted": 9
+    "unlinked_markdown_omitted": 10
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
@@ -108,6 +108,11 @@
     "references_external_reviewF49B2.jsonl": 2,
     "references_external_reviewF50A5.jsonl": 5,
     "references_external_reviewF50C1.jsonl": 1,
+    "references_external_reviewF51A13.jsonl": 13,
+    "references_external_reviewF51C4.jsonl": 4,
+    "references_external_reviewF52A7.jsonl": 7,
+    "references_external_reviewF52C7.jsonl": 7,
+    "references_external_reviewF53C10.jsonl": 10,
     "references_root_meshy_beauty185.jsonl": 27,
     "references_root_meshy_collectible248.jsonl": 85,
     "references_root_meshy_cozy206.jsonl": 99,
@@ -310,28 +315,28 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "29d98c1b2b3a7830ebce70f80ae6b6af35d549fe5ac2e227d7f58bb236721346",
-    "shots_master.jsonl": "caeb5e0a50385d6ceaf5c0cb4da3eaa70e219b94144afc117a8eae1f75b6130d"
+    "shot_audit.json": "28cf0daca0eed4b86187f1660588017305b0b0878dd79a8fe73c446fa3ee6c52",
+    "shots_master.jsonl": "8b2213f536ff36b602e648d3b52fb778cb298901e5d836cdb94aa27cb06705b5"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 60867,
-    "markdown_local_or_unpublished_links_replaced": 15632,
+    "local_artifacts_replaced": 61362,
+    "markdown_local_or_unpublished_links_replaced": 15673,
     "private_links_withheld": 25
   },
   "source_audit": {
-    "updated_local": "2026-10-06T13:03:45",
+    "updated_local": "2026-10-06T14:07:38",
     "target": 25000,
-    "eligible_observed_units": 10276,
-    "remaining": 14724,
-    "raw_rows": 32899,
-    "excluded_rows": 22623,
-    "observed_sources": 8662,
+    "eligible_observed_units": 10317,
+    "remaining": 14683,
+    "raw_rows": 33139,
+    "excluded_rows": 22822,
+    "observed_sources": 8694,
     "classes": {
-      "core3D": 10276
+      "core3D": 10317
     },
-    "historical_broad_observed_units": 12988,
+    "historical_broad_observed_units": 13029,
     "historical_broad_classes": {
-      "core3D": 10281,
+      "core3D": 10322,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -1608,6 +1613,56 @@
         }
       },
       {
+        "file": "references_external_reviewF51A13.jsonl",
+        "raw_rows": 50,
+        "eligible": 13,
+        "excluded": 37,
+        "sources": 6,
+        "classes": {
+          "core3D": 13
+        }
+      },
+      {
+        "file": "references_external_reviewF51C4.jsonl",
+        "raw_rows": 44,
+        "eligible": 4,
+        "excluded": 40,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF52A7.jsonl",
+        "raw_rows": 53,
+        "eligible": 7,
+        "excluded": 46,
+        "sources": 5,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF52C7.jsonl",
+        "raw_rows": 47,
+        "eligible": 7,
+        "excluded": 40,
+        "sources": 7,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF53C10.jsonl",
+        "raw_rows": 46,
+        "eligible": 10,
+        "excluded": 36,
+        "sources": 10,
+        "classes": {
+          "core3D": 10
+        }
+      },
+      {
         "file": "references_root_meshy_beauty185.jsonl",
         "raw_rows": 138,
         "eligible": 27,
@@ -2856,5 +2911,85 @@
     "method": "직접 읽은 순서 프레임의 서로 다른 구도·서사 행동을 집계. 전체 실시간 재생이나 오디오 청취로 표현하지 않음. 발견·다운로드·자동 컷 후보·정지프레임 개수는 관찰 완료 수가 아님.",
     "traditional_or_native_3d_comparison_units": 1649,
     "directly_observed_hybrid_comparison_units": 2436
+  },
+  "descriptor_scope_corrections": {
+    "schema_version": 1,
+    "scope": "individual whole descriptor correction",
+    "reason": "캠페인 전체 공통 재질·조명과 개별 전체 화면의 관찰을 구분한다.",
+    "count_changed": false,
+    "confirmed_units": 10317,
+    "original_source_records_preserved": true,
+    "observations_reused": "SHA로 연결된 원작 관찰과 독립 검수를 재사용했으며 새로운 시각 검수나 AI 실행을 뜻하지 않는다.",
+    "corrections": [
+      {
+        "reference_id": "F52A0028-I001",
+        "source_url": "https://xk.studio/project/shiseido-future-solution-lx",
+        "source_file_SHA256": "d35abc1ebf302c6a065a00642e271b45912a0c9afd470364fb79902bc74725d1",
+        "before_public_object_SHA256": "a63877a032e44bd800986a917286f2fc87b32aa299af00593261e0dfc6716d55",
+        "after_public_object_SHA256": "28c66d4271d577842609557f114e69b2e536c68e14e238c76dbfb250dcc90369",
+        "before_visual_descriptor": {
+          "materials": "검은 둥근 용기·유리 외피·금빛 점·유백색 크림 띠",
+          "lighting": null,
+          "camera_or_change": "제품을 감싼 큰 유리 띠와 대각선 크림 외피의 사선 시점"
+        },
+        "after_visual_descriptor": {
+          "materials": "구멍과 접힌 겹면의 유백색 크림 띠",
+          "lighting": "부드러운 밝은 반사와 내부 그림자; 단순 회색 바탕",
+          "camera_or_change": "회색 바탕에서 대각선으로 이어지는 크림 띠의 사선 시점"
+        },
+        "preserved_author_campaign_context": {
+          "material": "검은 둥근 용기·유리 외피·금빛 점·유백색 크림 띠",
+          "lighting": "어두운 유리 반사와 금빛 점, 크림의 넓고 부드러운 밝은 빛",
+          "material_lighting": "검은 둥근 용기·유리 외피·금빛 점·유백색 크림 띠; 어두운 유리 반사와 금빛 점, 크림의 넓고 부드러운 밝은 빛",
+          "camera_assessment": "제품을 감싼 큰 유리 띠와 대각선 크림 외피의 사선 시점"
+        }
+      },
+      {
+        "reference_id": "F52A0034-I001",
+        "source_url": "https://stepv-studio.com/portfolio/carolina-herrera-bad-boy-elixir/",
+        "source_file_SHA256": "6b33601493b5df9481b1190f39e197084e83dd128138cb5a10f88d94c46b82e3",
+        "before_public_object_SHA256": "2d8fabbe08482322175260caf89c993690e37dfb551cee85563cf0e34abae44d",
+        "after_public_object_SHA256": "405ac354eee92dcda6632a5ea2c1754b4a78dff75d74a97abc1799032c2cd088",
+        "before_visual_descriptor": {
+          "materials": "검정·호박색 각진 병·두꺼운 목재·넓은 금갈색 천·분무 액체",
+          "lighting": null,
+          "camera_or_change": "목재 위 사선과 천 띠 사이의 세로 가까운 시점"
+        },
+        "after_visual_descriptor": {
+          "materials": "검정·호박색의 각진 향수병과 거칠고 두꺼운 목재",
+          "lighting": "주황 역광과 단순 검은 바탕",
+          "camera_or_change": "넓고 비스듬한 목재 위에 걸친 병과 부러진 목재 끝의 사선 시점"
+        },
+        "preserved_author_campaign_context": {
+          "material": "검정·호박색 각진 병·두꺼운 목재·넓은 금갈색 천·분무 액체",
+          "lighting": "짙은 검정과 주황 역광·좁은 밝은 빛",
+          "material_lighting": "검정·호박색 각진 병·두꺼운 목재·넓은 금갈색 천·분무 액체; 짙은 검정과 주황 역광·좁은 밝은 빛",
+          "camera_assessment": "목재 위 사선과 천 띠 사이의 세로 가까운 시점"
+        }
+      },
+      {
+        "reference_id": "F52A0043-I001",
+        "source_url": "https://stepv-studio.com/portfolio/carolina-herrera-bad-boy-elixir/",
+        "source_file_SHA256": "24f3b6f5a5d5f60376d3cf49f0a393614e4afd4c56e74dc83c2dd98f553ad093",
+        "before_public_object_SHA256": "11c32eebdcbda0702323af31c984931f99dc54dced104f7a456752fe208f3812",
+        "after_public_object_SHA256": "8b2530d2f6aedd81275194696dc8242516de60d1d8b7efce85dff64a8778337a",
+        "before_visual_descriptor": {
+          "materials": "검정·호박색 각진 병·두꺼운 목재·넓은 금갈색 천·분무 액체",
+          "lighting": null,
+          "camera_or_change": "목재 위 사선과 천 띠 사이의 세로 가까운 시점"
+        },
+        "after_visual_descriptor": {
+          "materials": "각진 향수병과 넓은 금갈색 천 띠",
+          "lighting": "천의 밝은 가장자리와 검은 바탕",
+          "camera_or_change": "서로 다른 높이에서 굽고 교차하는 천 띠가 병을 세로로 둘러싼 시점"
+        },
+        "preserved_author_campaign_context": {
+          "material": "검정·호박색 각진 병·두꺼운 목재·넓은 금갈색 천·분무 액체",
+          "lighting": "짙은 검정과 주황 역광·좁은 밝은 빛",
+          "material_lighting": "검정·호박색 각진 병·두꺼운 목재·넓은 금갈색 천·분무 액체; 짙은 검정과 주황 역광·좁은 밝은 빛",
+          "camera_assessment": "목재 위 사선과 천 띠 사이의 세로 가까운 시점"
+        }
+      }
+    ]
   }
 }
