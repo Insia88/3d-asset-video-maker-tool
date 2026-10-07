@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 11044,
-  "exported_references": 11044,
-  "remaining": 13956,
+  "eligible_observed_units": 11169,
+  "exported_references": 11169,
+  "remaining": 13831,
   "classes": {
-    "core3D": 11044
+    "core3D": 11169
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "38a70b6dcf49767b9d7d94fdd959d2fe1600a8cbf173c854a38b1bb212e10d67",
+    "driver_sha256": "676174a99dabc46bb6586e1475f3b10766de4343230911dbbe860c2321c340f9",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -62,9 +62,9 @@
       "reference-index/3d_references_10251_10500.md",
       "reference-index/3d_references_10501_10750.md",
       "reference-index/3d_references_10751_11000.md",
-      "reference-index/3d_references_11001_11044.md"
+      "reference-index/3d_references_11001_11169.md"
     ],
-    "unlinked_markdown_omitted": 22
+    "unlinked_markdown_omitted": 23
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
@@ -136,6 +136,26 @@
     "references_external_reviewF173_A.jsonl": 1,
     "references_external_reviewF176_A.jsonl": 1,
     "references_external_reviewF178_A.jsonl": 11,
+    "references_external_reviewF179_B.jsonl": 8,
+    "references_external_reviewF180_B.jsonl": 10,
+    "references_external_reviewF181_C.jsonl": 14,
+    "references_external_reviewF182_B.jsonl": 5,
+    "references_external_reviewF184_B.jsonl": 5,
+    "references_external_reviewF186_B.jsonl": 7,
+    "references_external_reviewF187_C.jsonl": 3,
+    "references_external_reviewF188_B.jsonl": 9,
+    "references_external_reviewF189_C.jsonl": 2,
+    "references_external_reviewF190_B.jsonl": 7,
+    "references_external_reviewF191_C.jsonl": 8,
+    "references_external_reviewF192_B.jsonl": 5,
+    "references_external_reviewF193_C.jsonl": 9,
+    "references_external_reviewF194_B.jsonl": 6,
+    "references_external_reviewF195_C.jsonl": 7,
+    "references_external_reviewF198_B.jsonl": 1,
+    "references_external_reviewF200_C.jsonl": 5,
+    "references_external_reviewF202_B.jsonl": 4,
+    "references_external_reviewF203_C.jsonl": 1,
+    "references_external_reviewF205_C.jsonl": 9,
     "references_external_reviewF33A.jsonl": 3,
     "references_external_reviewF33B.jsonl": 6,
     "references_external_reviewF33C4.jsonl": 2,
@@ -429,23 +449,23 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "55a934e97b7305c3077dea86ce5ba1d69be6b228a9e7b33c4e55bac2e3c3c292",
-    "shots_master.jsonl": "1b96cfeb8f379801ad0da8527a384fd38d590eacbd8dcb11f2be830618b952f6"
+    "shot_audit.json": "7cd2c5db54a5b4bf4e72043c6f9893b304f48256342334ef6230ef644f3af3a2",
+    "shots_master.jsonl": "05aa4c00078a1a240d00a22423f549064fd9e5fb9dca73c9f3e71db6bde6fb85"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 86,
-    "markdown_local_or_unpublished_links_replaced": 16401
+    "local_artifacts_replaced": 268,
+    "markdown_local_or_unpublished_links_replaced": 16526
   },
   "source_audit": {
-    "updated_local": "2026-10-08T07:13:35.495278+09:00",
+    "updated_local": "2026-10-08T08:38:32.333378+09:00",
     "target": 25000,
-    "eligible_observed_units": 11044,
-    "remaining": 13956,
-    "raw_rows": 35299,
-    "excluded_rows": 24255,
+    "eligible_observed_units": 11169,
+    "remaining": 13831,
+    "raw_rows": 35634,
+    "excluded_rows": 24465,
     "observed_sources": 9380,
     "classes": {
-      "core3D": 11044
+      "core3D": 11169
     },
     "historical_broad_observed_units": 13722,
     "historical_broad_classes": {
@@ -4130,6 +4150,206 @@
         "classes": {
           "core3D": 11
         }
+      },
+      {
+        "file": "references_external_reviewF179_B.jsonl",
+        "raw_rows": 17,
+        "eligible": 8,
+        "excluded": 9,
+        "sources": 3,
+        "classes": {
+          "core3D": 8
+        }
+      },
+      {
+        "file": "references_external_reviewF180_B.jsonl",
+        "raw_rows": 24,
+        "eligible": 10,
+        "excluded": 14,
+        "sources": 10,
+        "classes": {
+          "core3D": 10
+        }
+      },
+      {
+        "file": "references_external_reviewF181_C.jsonl",
+        "raw_rows": 23,
+        "eligible": 14,
+        "excluded": 9,
+        "sources": 3,
+        "classes": {
+          "core3D": 14
+        }
+      },
+      {
+        "file": "references_external_reviewF182_B.jsonl",
+        "raw_rows": 18,
+        "eligible": 5,
+        "excluded": 13,
+        "sources": 5,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF184_B.jsonl",
+        "raw_rows": 21,
+        "eligible": 5,
+        "excluded": 16,
+        "sources": 5,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF186_B.jsonl",
+        "raw_rows": 16,
+        "eligible": 7,
+        "excluded": 9,
+        "sources": 7,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF187_C.jsonl",
+        "raw_rows": 16,
+        "eligible": 3,
+        "excluded": 13,
+        "sources": 1,
+        "classes": {
+          "core3D": 3
+        }
+      },
+      {
+        "file": "references_external_reviewF188_B.jsonl",
+        "raw_rows": 20,
+        "eligible": 9,
+        "excluded": 11,
+        "sources": 9,
+        "classes": {
+          "core3D": 9
+        }
+      },
+      {
+        "file": "references_external_reviewF189_C.jsonl",
+        "raw_rows": 19,
+        "eligible": 2,
+        "excluded": 17,
+        "sources": 1,
+        "classes": {
+          "core3D": 2
+        }
+      },
+      {
+        "file": "references_external_reviewF190_B.jsonl",
+        "raw_rows": 20,
+        "eligible": 7,
+        "excluded": 13,
+        "sources": 7,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF191_C.jsonl",
+        "raw_rows": 20,
+        "eligible": 8,
+        "excluded": 12,
+        "sources": 8,
+        "classes": {
+          "core3D": 8
+        }
+      },
+      {
+        "file": "references_external_reviewF192_B.jsonl",
+        "raw_rows": 20,
+        "eligible": 5,
+        "excluded": 15,
+        "sources": 5,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF193_C.jsonl",
+        "raw_rows": 20,
+        "eligible": 9,
+        "excluded": 11,
+        "sources": 9,
+        "classes": {
+          "core3D": 9
+        }
+      },
+      {
+        "file": "references_external_reviewF194_B.jsonl",
+        "raw_rows": 20,
+        "eligible": 6,
+        "excluded": 14,
+        "sources": 6,
+        "classes": {
+          "core3D": 6
+        }
+      },
+      {
+        "file": "references_external_reviewF195_C.jsonl",
+        "raw_rows": 16,
+        "eligible": 7,
+        "excluded": 9,
+        "sources": 7,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF198_B.jsonl",
+        "raw_rows": 14,
+        "eligible": 1,
+        "excluded": 13,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF200_C.jsonl",
+        "raw_rows": 8,
+        "eligible": 5,
+        "excluded": 3,
+        "sources": 2,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF202_B.jsonl",
+        "raw_rows": 8,
+        "eligible": 4,
+        "excluded": 4,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF203_C.jsonl",
+        "raw_rows": 1,
+        "eligible": 1,
+        "excluded": 0,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF205_C.jsonl",
+        "raw_rows": 14,
+        "eligible": 9,
+        "excluded": 5,
+        "sources": 3,
+        "classes": {
+          "core3D": 9
+        }
       }
     ],
     "global_still_duplicates": [
@@ -4159,12 +4379,12 @@
     "traditional_or_native_3d_comparison_units": 1649,
     "directly_observed_hybrid_comparison_units": 2436,
     "latest_incremental_audit": {
-      "round": "F54",
-      "new_raw": 108,
-      "new_selected": 34,
-      "historical_objects_unchanged": 35191,
-      "selected_preserved": 11010,
-      "staging_review_SHA256": "84c5f7b2759d9727f2be5205ff346697bf4c0e4bf6f7e30fb590b527bdc051ce"
+      "round": "F55",
+      "new_raw": 335,
+      "new_selected": 125,
+      "historical_objects_unchanged": 35299,
+      "selected_preserved": 11044,
+      "staging_review_SHA256": "aa16760edbad89a7dbfe813e6fd5801520337a010c1cade93900c8d85136cdf1"
     }
   },
   "descriptor_scope_corrections": {
@@ -17613,5 +17833,10 @@
     "new_selected": 34,
     "source": "whole-specific author descriptions retained after independent whole acceptance",
     "historical_public_records_preserved": 11010
+  },
+  "new_whole_descriptor_scope55": {
+    "new_selected": 125,
+    "historical_records_preserved": 11044,
+    "basis": "Source whole descriptions retained after independent review and root sameSHA evidence reuse."
   }
 }
