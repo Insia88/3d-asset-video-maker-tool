@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 10871,
-  "exported_references": 10871,
-  "remaining": 14129,
+  "eligible_observed_units": 10970,
+  "exported_references": 10970,
+  "remaining": 14030,
   "classes": {
-    "core3D": 10871
+    "core3D": 10970
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "99503450c9e1bc0954b8feaef373dc69d8bd7b0449215c3d5aaeb8b6eb561ee1",
+    "driver_sha256": "c17e88aa62f5106b96f3b63b0ec772b15049252320bc26532bc2179f751b0576",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -61,9 +61,9 @@
       "reference-index/3d_references_10001_10250.md",
       "reference-index/3d_references_10251_10500.md",
       "reference-index/3d_references_10501_10750.md",
-      "reference-index/3d_references_10751_10871.md"
+      "reference-index/3d_references_10751_10970.md"
     ],
-    "unlinked_markdown_omitted": 18
+    "unlinked_markdown_omitted": 20
   },
   "exported_per_ledger": {
     "references_external_review360.jsonl": 46,
@@ -101,6 +101,26 @@
     "references_external_reviewF133_A.jsonl": 4,
     "references_external_reviewF134_C.jsonl": 3,
     "references_external_reviewF135_A.jsonl": 4,
+    "references_external_reviewF136_A.jsonl": 5,
+    "references_external_reviewF140_B.jsonl": 13,
+    "references_external_reviewF141_A.jsonl": 4,
+    "references_external_reviewF142_C.jsonl": 4,
+    "references_external_reviewF143_B.jsonl": 5,
+    "references_external_reviewF146_B.jsonl": 7,
+    "references_external_reviewF147_A.jsonl": 11,
+    "references_external_reviewF149_B.jsonl": 1,
+    "references_external_reviewF150_C.jsonl": 9,
+    "references_external_reviewF151_A.jsonl": 6,
+    "references_external_reviewF152_C.jsonl": 2,
+    "references_external_reviewF153_B.jsonl": 1,
+    "references_external_reviewF154_C.jsonl": 1,
+    "references_external_reviewF155_A.jsonl": 8,
+    "references_external_reviewF156_A.jsonl": 1,
+    "references_external_reviewF158_C.jsonl": 2,
+    "references_external_reviewF159_A.jsonl": 4,
+    "references_external_reviewF160_C.jsonl": 3,
+    "references_external_reviewF161_C.jsonl": 4,
+    "references_external_reviewF163_A.jsonl": 8,
     "references_external_reviewF33A.jsonl": 3,
     "references_external_reviewF33B.jsonl": 6,
     "references_external_reviewF33C4.jsonl": 2,
@@ -394,28 +414,29 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "674aaca552a07d6ccf26813bc8aaa343ff60a37bda1e28b2d190c288fb9df8b7",
-    "shots_master.jsonl": "15bf6e394c7f625cbaef8208a808f6871c24a5abec3943478ac331ec7eb11e6c"
+    "shot_audit.json": "19185835328637063688f8717e9c113ccd33cdf276b963584ed0572056a622ff",
+    "shots_master.jsonl": "05451f3c82e93a2d96a10ab956a264fbe95f5e44e3ba5ce9bf921f684d3bfcea"
   },
   "privacy_redactions": {
-    "local_artifacts_replaced": 67949,
-    "markdown_local_or_unpublished_links_replaced": 16228,
+    "local_artifacts_replaced": 69590,
+    "markdown_local_or_unpublished_links_replaced": 16327,
+    "private_fields_removed": 24,
     "private_links_withheld": 27
   },
   "source_audit": {
-    "updated_local": "2026-10-07T07:35:01",
+    "updated_local": "2026-10-07T21:42:40",
     "target": 25000,
-    "eligible_observed_units": 10871,
-    "remaining": 14129,
-    "raw_rows": 34744,
-    "excluded_rows": 23873,
-    "observed_sources": 9242,
+    "eligible_observed_units": 10970,
+    "remaining": 14030,
+    "raw_rows": 35063,
+    "excluded_rows": 24093,
+    "observed_sources": 9340,
     "classes": {
-      "core3D": 10871
+      "core3D": 10970
     },
-    "historical_broad_observed_units": 13583,
+    "historical_broad_observed_units": 13682,
     "historical_broad_classes": {
-      "core3D": 10876,
+      "core3D": 10975,
       "comparison_2D": 400,
       "hybrid": 922,
       "camera_only": 1385
@@ -1567,6 +1588,206 @@
         "sources": 4,
         "classes": {
           "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF136_A.jsonl",
+        "raw_rows": 9,
+        "eligible": 5,
+        "excluded": 4,
+        "sources": 5,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF140_B.jsonl",
+        "raw_rows": 30,
+        "eligible": 13,
+        "excluded": 17,
+        "sources": 12,
+        "classes": {
+          "core3D": 13
+        }
+      },
+      {
+        "file": "references_external_reviewF141_A.jsonl",
+        "raw_rows": 5,
+        "eligible": 4,
+        "excluded": 1,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF142_C.jsonl",
+        "raw_rows": 13,
+        "eligible": 4,
+        "excluded": 9,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF143_B.jsonl",
+        "raw_rows": 15,
+        "eligible": 5,
+        "excluded": 10,
+        "sources": 5,
+        "classes": {
+          "core3D": 5
+        }
+      },
+      {
+        "file": "references_external_reviewF146_B.jsonl",
+        "raw_rows": 20,
+        "eligible": 7,
+        "excluded": 13,
+        "sources": 7,
+        "classes": {
+          "core3D": 7
+        }
+      },
+      {
+        "file": "references_external_reviewF147_A.jsonl",
+        "raw_rows": 26,
+        "eligible": 11,
+        "excluded": 15,
+        "sources": 11,
+        "classes": {
+          "core3D": 11
+        }
+      },
+      {
+        "file": "references_external_reviewF149_B.jsonl",
+        "raw_rows": 8,
+        "eligible": 1,
+        "excluded": 7,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF150_C.jsonl",
+        "raw_rows": 29,
+        "eligible": 9,
+        "excluded": 20,
+        "sources": 9,
+        "classes": {
+          "core3D": 9
+        }
+      },
+      {
+        "file": "references_external_reviewF151_A.jsonl",
+        "raw_rows": 29,
+        "eligible": 6,
+        "excluded": 23,
+        "sources": 6,
+        "classes": {
+          "core3D": 6
+        }
+      },
+      {
+        "file": "references_external_reviewF152_C.jsonl",
+        "raw_rows": 14,
+        "eligible": 2,
+        "excluded": 12,
+        "sources": 2,
+        "classes": {
+          "core3D": 2
+        }
+      },
+      {
+        "file": "references_external_reviewF153_B.jsonl",
+        "raw_rows": 9,
+        "eligible": 1,
+        "excluded": 8,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF154_C.jsonl",
+        "raw_rows": 6,
+        "eligible": 1,
+        "excluded": 5,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF155_A.jsonl",
+        "raw_rows": 21,
+        "eligible": 8,
+        "excluded": 13,
+        "sources": 8,
+        "classes": {
+          "core3D": 8
+        }
+      },
+      {
+        "file": "references_external_reviewF156_A.jsonl",
+        "raw_rows": 2,
+        "eligible": 1,
+        "excluded": 1,
+        "sources": 1,
+        "classes": {
+          "core3D": 1
+        }
+      },
+      {
+        "file": "references_external_reviewF158_C.jsonl",
+        "raw_rows": 17,
+        "eligible": 2,
+        "excluded": 15,
+        "sources": 2,
+        "classes": {
+          "core3D": 2
+        }
+      },
+      {
+        "file": "references_external_reviewF159_A.jsonl",
+        "raw_rows": 21,
+        "eligible": 4,
+        "excluded": 17,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF160_C.jsonl",
+        "raw_rows": 13,
+        "eligible": 3,
+        "excluded": 10,
+        "sources": 3,
+        "classes": {
+          "core3D": 3
+        }
+      },
+      {
+        "file": "references_external_reviewF161_C.jsonl",
+        "raw_rows": 12,
+        "eligible": 4,
+        "excluded": 8,
+        "sources": 4,
+        "classes": {
+          "core3D": 4
+        }
+      },
+      {
+        "file": "references_external_reviewF163_A.jsonl",
+        "raw_rows": 20,
+        "eligible": 8,
+        "excluded": 12,
+        "sources": 8,
+        "classes": {
+          "core3D": 8
         }
       },
       {
@@ -13115,6 +13336,2716 @@
         },
         "scope": "individual_observed_whole",
         "new_motion_proposal_is_original_motion": false
+      }
+    ]
+  },
+  "new_whole_descriptor_scope51": {
+    "scope": "26 individually observed original wholes; description fields map preserved author/peer observations. Source motion is not inferred from static images.",
+    "author_and_canonical_records_preserved": true,
+    "count_changes": 0,
+    "corrections": [
+      {
+        "reference_id": "F136A0002-I001",
+        "source_file_SHA256": "45f033a941d161fbf53b10e63d901a4d9ca1d5e19cc4f02d5f38519836a61254",
+        "source_url": "https://sketchfab.com/3d-models/cute-creatures-greetings-from-a-monkey-dee7fa8590af425b8d71bc5e2249b4b3",
+        "after_visual": {
+          "description": "주황 뾰족 머리와 밝은 턱/뺨·큰 눈·잎 모양 초록 어깨 덮개를 가진 원숭이 캐릭터가 한 팔을 들어 갈색 컵 같은 물체를 든다. 다른 긴 팔과 두 발, 옆 작은 버섯 및 껍질 모양 둥근 받침 전체가 녹색 여백 안에 들어온다.",
+          "composition": "주황 뾰족 머리와 밝은 턱/뺨·큰 눈·잎 모양 초록 어깨 덮개를 가진 원숭이 캐릭터가 한 팔을 들어 갈색 컵 같은 물체를 든다. 다른 긴 팔과 두 발, 옆 작은 버섯 및 껍질 모양 둥근 받침 전체가 녹색 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "주황/초록 면에는 칠한 결·밝기 변화와 각진 면/검은 윤곽이 보이고, 길게 뻗은 팔과 손/발의 부피가 분리된다.",
+          "lighting": "짙은 녹색 무대에서 얼굴/어깨가 밝고 받침·팔 뒤에는 어두운 음영이 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F136A0003-I001",
+        "source_file_SHA256": "a64bbb4ecfbafc0b4fe47cbb356258c3572ebc6d6cf49a40a89329c2d9710421",
+        "source_url": "https://sketchfab.com/3d-models/cute-hippo-3d-printing-e61bee84197a474288b76df0ba06eb0e",
+        "after_visual": {
+          "description": "회색 하마의 큰 둥근 주둥이·콧구멍·반쯤 감긴 눈·작은 귀와 둥근 몸, 짧은 발/발가락 전체가 어두운 무대 여백 안에 포함된다.",
+          "composition": "회색 하마의 큰 둥근 주둥이·콧구멍·반쯤 감긴 눈·작은 귀와 둥근 몸, 짧은 발/발가락 전체가 어두운 무대 여백 안에 포함된다.",
+          "camera_or_change": null,
+          "materials": "한 가지 회색의 매끈한 표면에 큰 볼/주둥이 곡면과 눈 주위 접힘·몸/다리의 깊이 차이가 보인다.",
+          "lighting": "왼쪽 위에서 밝은 하이라이트가 볼과 주둥이에 걸리고 몸 아랫부분은 부드럽게 어두워진다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F136A0007-I001",
+        "source_file_SHA256": "c76ce417b4d6d5fd571b8e7fb8af26086e45324ee597d74551ee45a7f2137454",
+        "source_url": "https://sketchfab.com/3d-models/cute-mushroomm-51546485edf64e6a8892d3abe1cf5957",
+        "after_visual": {
+          "description": "커다란 황갈색 버섯 갓과 작은 검은 눈/붉은 삼각 형태의 밝은 줄기형 몸·둥근 두 팔/두 발 전체가 주황 여백 안에 들어온다.",
+          "composition": "커다란 황갈색 버섯 갓과 작은 검은 눈/붉은 삼각 형태의 밝은 줄기형 몸·둥근 두 팔/두 발 전체가 주황 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "갓에는 미세한 세로 결·흰 얼룩과 넓은 하이라이트가 있고 몸/팔/발은 밝고 매끈한 둥근 부피로 보인다.",
+          "lighting": "위쪽 갓이 밝고 갓 아래와 몸/발 뒤는 어둡게 접히며 바닥에 부드러운 접촉 그림자가 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F136A0008-I001",
+        "source_file_SHA256": "119a8a7c012db7a00ed350346272e8b7f4545e694c5c2c304286e5f12f5af9b1",
+        "source_url": "https://sketchfab.com/3d-models/bubu-the-owl-3d-printing-miniature-a423fbc4a6ab410593f0c2e4f14df397",
+        "after_visual": {
+          "description": "큰 원형 눈/눈꺼풀·작은 부리와 층층이 길게 패인 깃털 몸의 회색 부엉이가 두 발톱으로 굽은 가지를 잡는다. 머리·몸·발·가지의 양 끝 전체가 검은 여백 안에 포함된다.",
+          "composition": "큰 원형 눈/눈꺼풀·작은 부리와 층층이 길게 패인 깃털 몸의 회색 부엉이가 두 발톱으로 굽은 가지를 잡는다. 머리·몸·발·가지의 양 끝 전체가 검은 여백 안에 포함된다.",
+          "camera_or_change": null,
+          "materials": "회색 표면의 깊게 패인 깃털 줄과 둥근 눈 면·굽은 가지 홈에서 명확한 부피 차이가 보인다.",
+          "lighting": "왼쪽 위의 부드러운 밝음과 오른쪽/깃털 홈의 음영이 회색 조형 외곽을 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F136A0009-I001",
+        "source_file_SHA256": "6d2e192e6a0e8a355eed6e8d3de94a8af751d525ba1e9bce2469b4caf62ae5c3",
+        "source_url": "https://sketchfab.com/3d-models/standard-house-miniature-e54dfa34e6e649558f1e78c817b92fe5",
+        "after_visual": {
+          "description": "보라색 작은 집의 큰 흰 지붕과 왼쪽 작은 박공/세로 칸 문·흰 계단, 오른쪽 두 칸 창과 건물/사각 받침 전체가 보라 여백 안에 들어온다.",
+          "composition": "보라색 작은 집의 큰 흰 지붕과 왼쪽 작은 박공/세로 칸 문·흰 계단, 오른쪽 두 칸 창과 건물/사각 받침 전체가 보라 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "지붕/계단은 밝고 매끈한 단순 면, 보라 벽/문은 세로 홈·각진 창틀/모서리로 부피가 나뉜다.",
+          "lighting": "위 지붕은 매우 밝고 건물 오른쪽에는 긴 짙은 그림자가 생겨 받침과 무대 깊이를 구별한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F141A0001-I001",
+        "source_file_SHA256": "7290b1b8938b6e32f2e1a9f915cb4b62ec245aa1e79ad6c845ab5093f4328649",
+        "source_url": "https://sketchfab.com/3d-models/cute-lhu-56a56200051f42ebbedca4ea74b1faae",
+        "after_visual": {
+          "description": "초록 촉수형 얼굴·붉은 안쪽 날개·파란 별무늬 모자의 작은 캐릭터가 큰 흰 욕조 뒤에 있고, 왼쪽 연보라 병·욕조 별 장식·작은 노란 발이 좁은 받침과 함께 전부 검은 여백 안에 든다.",
+          "composition": "초록 촉수형 얼굴·붉은 안쪽 날개·파란 별무늬 모자의 작은 캐릭터가 큰 흰 욕조 뒤에 있고, 왼쪽 연보라 병·욕조 별 장식·작은 노란 발이 좁은 받침과 함께 전부 검은 여백 안에 든다.",
+          "camera_or_change": null,
+          "materials": "초록 둥근 표면과 흰 욕조의 부드러운 하이라이트, 파란 모자의 울퉁불퉁한 패턴·붉은 날개가 대비된다. 상부 조명과 발밑 접촉 그림자가 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F141A0002-I001",
+        "source_file_SHA256": "e38c87c98d39d76bc2f278c64ad7165e0a39f561a7b5e5bef70e8ab326946b9b",
+        "source_url": "https://sketchfab.com/3d-models/sushi-bath-730bd99e63c14db7a929edbba3d0e9ff",
+        "after_visual": {
+          "description": "큰 파란 그릇 안에 웃는 눈과 두 흰 팔을 가진 네모난 초밥 캐릭터가 서 있다. 흰 쌀알·짙은 띠, 주황/흰 줄무늬 조각이 그릇 앞에 걸리고 긴 갈색 젓가락 두 개가 앞쪽 여백에 놓인다.",
+          "composition": "큰 파란 그릇 안에 웃는 눈과 두 흰 팔을 가진 네모난 초밥 캐릭터가 서 있다. 흰 쌀알·짙은 띠, 주황/흰 줄무늬 조각이 그릇 앞에 걸리고 긴 갈색 젓가락 두 개가 앞쪽 여백에 놓인다.",
+          "camera_or_change": null,
+          "materials": "쌀알은 개별 둥근 부피, 파란 그릇과 주황 조각은 매끈한 반사, 젓가락은 나무색 길쭉한 면을 갖는다. 위쪽 빛과 그릇 아래 부드러운 그림자가 형태를 구분한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F141A0004-I001",
+        "source_file_SHA256": "21e93697752405c685ffc3ae8a4f999f8923a7c3597ba5509b736524578e4c1a",
+        "source_url": "https://sketchfab.com/3d-models/nene-bath-582db9e8d13f43fb9955896b9fa8cd14",
+        "after_visual": {
+          "description": "작은 분홍 원형 그릇 안의 옅은 청록 면과 흰/연분홍 생물 형태·작은 밝은 덩어리 뒤로 남색·노란 펌프 용기 두 개가 선다. 조합의 외곽은 회색 여백 안에 들어온다.",
+          "composition": "작은 분홍 원형 그릇 안의 옅은 청록 면과 흰/연분홍 생물 형태·작은 밝은 덩어리 뒤로 남색·노란 펌프 용기 두 개가 선다. 조합의 외곽은 회색 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "그릇은 분홍 무광에 가까운 면, 뒤 용기는 매끈한 하이라이트, 안쪽 작은 대상은 흰/분홍 굴곡을 갖는다. 상부 빛과 왼쪽으로 드리운 접촉 그림자가 전체를 묶는다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F141A0005-I001",
+        "source_file_SHA256": "34013357eb16ab6059d125bb872aeb1caf0833543e9b54817801e76d3a3ddc76",
+        "source_url": "https://sketchfab.com/3d-models/cute-dash-hound-in-a-bath-robe-d7a2c8426b3243118f03b4472f4e3244",
+        "after_visual": {
+          "description": "끝이 굽은 뾰족 후드와 둥근 눈·긴 주둥이·양옆 귀가 있는 흰 강아지 형태가 두 앞발을 모으고 서 있다. 긴 가운의 아래 테두리와 작은 발끝까지 회색 여백 안에 포함된다.",
+          "composition": "끝이 굽은 뾰족 후드와 둥근 눈·긴 주둥이·양옆 귀가 있는 흰 강아지 형태가 두 앞발을 모으고 서 있다. 긴 가운의 아래 테두리와 작은 발끝까지 회색 여백 안에 포함된다.",
+          "camera_or_change": null,
+          "materials": "흰 표면의 굵은 고리·작은 돌출 조직이 후드와 가운을 감싼다. 밝은 상부 조명과 약한 회색 음영이 눈·주둥이·앞발의 부피를 구분한다. 실제 직물/프린트 결과는 확인하지 않았다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F142C0001-I001",
+        "source_file_SHA256": "efd83d06e17cfbe0db4df6b307bb8a0d81d58deb3d9313e33125a060030815d8",
+        "source_url": "https://sketchfab.com/3d-models/the-shophouse-aa5b1d282a824578a422a7be207b843d",
+        "after_visual": {
+          "description": "지붕과 바닥 받침까지 들어오는 좁은 다층 블록 건물이 회색 여백에 서 있다. 갈색 기와형 지붕·초록 셔터와 아치 창 세 개·노랑과 흰 기둥·앞 체크무늬 마당과 낮은 난간이 층을 이룬다.",
+          "composition": "지붕과 바닥 받침까지 들어오는 좁은 다층 블록 건물이 회색 여백에 서 있다. 갈색 기와형 지붕·초록 셔터와 아치 창 세 개·노랑과 흰 기둥·앞 체크무늬 마당과 낮은 난간이 층을 이룬다.",
+          "camera_or_change": null,
+          "materials": "블록의 매끈한 면·반복 기와 곡면과 흰 장식·초록 셔터·노랑 난간의 작은 돌출이 구분된다.",
+          "lighting": "지붕과 전면 기둥·마당은 밝고 처마 밑·창 안·왼쪽 측면은 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F142C0003-I001",
+        "source_file_SHA256": "51d2f04131b32bbebc1d6d8648646714dfa30e2932b3b6de8d3294d1265842b0",
+        "source_url": "https://sketchfab.com/3d-models/jewelry-kiosk-41b35bbca0a44633ad0da9c04e1a1b54",
+        "after_visual": {
+          "description": "검은 여백에 흰 다각형 고리 진열대와 중앙의 높은 사각 기둥이 하나의 키오스크로 놓인다. 유리형 윗칸·안쪽 수납 문·아래 패턴 띠와 높이 차까지 모두 들어온다.",
+          "composition": "검은 여백에 흰 다각형 고리 진열대와 중앙의 높은 사각 기둥이 하나의 키오스크로 놓인다. 유리형 윗칸·안쪽 수납 문·아래 패턴 띠와 높이 차까지 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "흰 매끈한 판·얇은 투명 칸 경계·금빛 가는 띠·아래 기하학 패턴이 대비한다.",
+          "lighting": "중앙 기둥과 전면 윗판은 밝고 안쪽 칸과 하단 접촉부는 회색으로 어두워진다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F142C0004-I001",
+        "source_file_SHA256": "979e79a2ee6aedb99c3c7806f1050c8738c0e65c57c9079c936db1ae5b208b8b",
+        "source_url": "https://sketchfab.com/3d-models/beauty-cart-4e03c6e6986f45b99eb4e9e4918baefd",
+        "after_visual": {
+          "description": "두 큰 바퀴와 금빛 테두리·옆 손잡이를 가진 목재형 판매 카트 전체가 검은 여백에 보인다. 앞 유리형 수납 칸·흰 상판·높은 둥근 프레임과 위 손잡이·아래 지지대가 들어온다.",
+          "composition": "두 큰 바퀴와 금빛 테두리·옆 손잡이를 가진 목재형 판매 카트 전체가 검은 여백에 보인다. 앞 유리형 수납 칸·흰 상판·높은 둥근 프레임과 위 손잡이·아래 지지대가 들어온다.",
+          "camera_or_change": null,
+          "materials": "목재 같은 세로 결·금빛 프레임·투명 칸과 흰 상판·가는 바퀴살이 대비한다.",
+          "lighting": "상판과 앞 프레임은 밝고 왼쪽 측면·칸 안·상판 아래·바퀴 안쪽은 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F142C0009-I001",
+        "source_file_SHA256": "22fc84bc4524d5d21c0aca2ad581c9df0bee855c05ccb6edba6e603c630e29fd",
+        "source_url": "https://sketchfab.com/3d-models/display-makeup-beauty-shops-bc72ab5b5203431d86cea70ace2445ef",
+        "after_visual": {
+          "description": "흰 여백에 회색 경사형 진열 상자와 그 위에 여러 줄로 꽂힌 노란 원통형 제품이 보인다. 앞 투명형 벽·옆 사각 벽·경사 윗판과 받침 외곽이 모두 들어온다.",
+          "composition": "흰 여백에 회색 경사형 진열 상자와 그 위에 여러 줄로 꽂힌 노란 원통형 제품이 보인다. 앞 투명형 벽·옆 사각 벽·경사 윗판과 받침 외곽이 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "반투명 회색 상자·노란 매끈한 원통과 검은 얇은 띠·경사 면의 반복 반사 같은 줄이 대비한다.",
+          "lighting": "노란 제품 윗면과 앞쪽은 밝고 상자의 오른쪽 면·아래 접촉부는 회색으로 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0001-I001",
+        "source_file_SHA256": "ef3dbab05d9c87a82454f111f3ed623b0fab56b451ae159dee92ef690aa1f4be",
+        "source_url": "https://polyaxel.com/mushroom-house/",
+        "after_visual": {
+          "description": "발광 반점과 끝의 등불이 있는 길고 휘어진 버섯 갓 아래에 둥근 집·파란 아치문·양옆 원형 창이 놓인다. 매달린 등불, 두 큰 잎 군집, 작은 버섯과 계단이 둥근 정원 받침에 함께 들어온다.",
+          "composition": "발광 반점과 끝의 등불이 있는 길고 휘어진 버섯 갓 아래에 둥근 집·파란 아치문·양옆 원형 창이 놓인다. 매달린 등불, 두 큰 잎 군집, 작은 버섯과 계단이 둥근 정원 받침에 함께 들어온다.",
+          "camera_or_change": null,
+          "materials": "매끈한 자주색 갓, 결이 드러난 문·테라스, 잎의 두꺼운 곡면과 금속빛 물뿌리개가 구분된다.",
+          "lighting": "갓의 밝은 반점과 주황 등불·창빛이 보라 바깥 그늘과 대비된다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0002-I001",
+        "source_file_SHA256": "b57279ab94ff3ca52f0b8a4d58ae913589ed6298fe3e6ed42c4cfbb2c6290782",
+        "source_url": "https://polyaxel.com/isometric-bedroom/",
+        "after_visual": {
+          "description": "상층 침대·기타와 하층 컴퓨터 책상·소파·반려동물 침상이 두 벽·목조 천장과 바닥 안에 놓인다. 앞쪽 사다리와 상층 난간, 덩굴·책·작은 화분이 높이가 다른 공간을 잇는다.",
+          "composition": "상층 침대·기타와 하층 컴퓨터 책상·소파·반려동물 침상이 두 벽·목조 천장과 바닥 안에 놓인다. 앞쪽 사다리와 상층 난간, 덩굴·책·작은 화분이 높이가 다른 공간을 잇는다.",
+          "camera_or_change": null,
+          "materials": "나뭇결이 있는 바닥·난간·사다리, 무광 벽·쿠션과 두꺼운 잎, 매끈한 화분.",
+          "lighting": "둥근 줄전구와 하층 등불의 따뜻한 빛, 밝고 부드러운 방 안 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0003-I001",
+        "source_file_SHA256": "cee79e5920ba0cab49072607a6ccc65ce21a1803ec5149daf195b75d06505021",
+        "source_url": "https://polyaxel.com/love-is-in-the-air-%e2%9d%a4%ef%b8%8f/",
+        "after_visual": {
+          "description": "체크무늬 돗자리 위에 접이식 작은 탁자·병과 잔, 큰 손잡이 바구니, 하트 케이크·딸기와 작은 화병이 모인다. 주변은 반복되는 입체 풀과 꽃의 잔디면이다.",
+          "composition": "체크무늬 돗자리 위에 접이식 작은 탁자·병과 잔, 큰 손잡이 바구니, 하트 케이크·딸기와 작은 화병이 모인다. 주변은 반복되는 입체 풀과 꽃의 잔디면이다.",
+          "camera_or_change": null,
+          "materials": "나무 탁자·편조 바구니, 반투명 잔과 병, 부드러운 크림·과일 곡면·직물무늬 돗자리.",
+          "lighting": "밝은 황록색 주변광과 잔·병의 작은 반사, 앞뒤로 부드러운 초점 차이."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0004-I001",
+        "source_file_SHA256": "3eb33627600b968e6c9d88b843e3f77f536fdf9e51c7d67c5be48fbfa6189f78",
+        "source_url": "https://polyaxel.com/candy-house-%f0%9f%8d%ac/",
+        "after_visual": {
+          "description": "쿠키들이 붙은 높은 흰 지붕과 초콜릿빛 벽·둥근 창의 집 앞에 도넛·사탕기둥·캔디케인과 작은 길이 놓인다. 민트색 정원과 층진 과자 받침이 집 전체를 둘러싼다.",
+          "composition": "쿠키들이 붙은 높은 흰 지붕과 초콜릿빛 벽·둥근 창의 집 앞에 도넛·사탕기둥·캔디케인과 작은 길이 놓인다. 민트색 정원과 층진 과자 받침이 집 전체를 둘러싼다.",
+          "camera_or_change": null,
+          "materials": "쿠키의 요철, 흰 아이싱 곡면, 반짝이는 도넛 코팅과 목재처럼 결이 있는 받침.",
+          "lighting": "민트 배경에서 따뜻하고 부드러운 고른 빛과 앞 받침의 짧은 그림자."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0005-I001",
+        "source_file_SHA256": "40108d56d4da10ac0d6f0bdb4771faeb83671ffa09306bcefb1a1bb7f50fb699",
+        "source_url": "https://polyaxel.com/i-just-love-making-christmas-stuff/",
+        "after_visual": {
+          "description": "큰 눈 덮인 두 박공 지붕과 왼쪽 돌출 창·작은 현관 지붕을 가진 연녹색 주택이 사각 눈 지면에 선다. 지붕 가장자리 전구와 여러 따뜻한 창빛, 좌우 눈 덮인 침엽수가 보인다.",
+          "composition": "큰 눈 덮인 두 박공 지붕과 왼쪽 돌출 창·작은 현관 지붕을 가진 연녹색 주택이 사각 눈 지면에 선다. 지붕 가장자리 전구와 여러 따뜻한 창빛, 좌우 눈 덮인 침엽수가 보인다.",
+          "camera_or_change": null,
+          "materials": "가로 목재 벽과 붉은 기와, 부드러운 눈 덩어리, 반짝이는 창과 작은 전구.",
+          "lighting": "남색 외부와 주황 창·현관 빛의 대비, 눈 위 푸른 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0007-I001",
+        "source_file_SHA256": "56f17b599eb3bbd6d534c33f3e0c6356bec4265bb8b9351ee09a8e7a5a38ed4b",
+        "source_url": "https://polyaxel.com/happy-first-day-of-autumn/",
+        "after_visual": {
+          "description": "둥근 호박집 위에 긴 크림색 돌기둥 풍차가 올라가고 네 큰 나무틀 날개가 교차한다. 덩굴·작은 호박이 기둥을 감고, 아치형 나무 문·원형 창과 해바라기가 낮은 정원에 모인다.",
+          "composition": "둥근 호박집 위에 긴 크림색 돌기둥 풍차가 올라가고 네 큰 나무틀 날개가 교차한다. 덩굴·작은 호박이 기둥을 감고, 아치형 나무 문·원형 창과 해바라기가 낮은 정원에 모인다.",
+          "camera_or_change": null,
+          "materials": "매끈한 호박 외피, 요철 돌기둥·나뭇결 날개와 문, 두꺼운 덩굴 잎.",
+          "lighting": "밝은 크림·민트 배경의 부드러운 빛, 날개 아래와 둥근 집 옆에 옅은 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0011-I001",
+        "source_file_SHA256": "c05627853b55ad1061540a67d9ea701eb6e0be60ffc7f3994565f527e5691175",
+        "source_url": "https://polyaxel.com/a-cute-little-axolotl-collection/",
+        "after_visual": {
+          "description": "큰 민트 액솔로틀의 머리 위와 팔 옆에 각각 작은 분홍·연두 액솔로틀이 겹치고, 앞에는 작은 머그가 놓인다. 세 캐릭터의 꽃잎형 아가미·꼬리와 큰 검은 눈이 밝은 빈 무대 안에 들어온다.",
+          "composition": "큰 민트 액솔로틀의 머리 위와 팔 옆에 각각 작은 분홍·연두 액솔로틀이 겹치고, 앞에는 작은 머그가 놓인다. 세 캐릭터의 꽃잎형 아가미·꼬리와 큰 검은 눈이 밝은 빈 무대 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "솜·클레이 같은 미세 요철 표면, 광택 검은 눈과 부드러운 머그 곡면.",
+          "lighting": "밝은 크림 배경과 따뜻한 왼쪽 빛, 겹치는 몸 아래의 짧은 그림자."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0012-I001",
+        "source_file_SHA256": "53f2c36c79d49d20077ca0b82b78f3af374c053f2f84d483ec7e8c1c7148023d",
+        "source_url": "https://polyaxel.com/i-love-deers-very-dear-ly/",
+        "after_visual": {
+          "description": "가느다란 네 다리와 작은 검은 발굽, 큰 둥근 눈·두 큰 귀·얇은 가지형 뿔을 가진 갈색 아기 사슴이 노란 빈 무대에 서 있다. 흰 점무늬와 작은 꼬리까지 보인다.",
+          "composition": "가느다란 네 다리와 작은 검은 발굽, 큰 둥근 눈·두 큰 귀·얇은 가지형 뿔을 가진 갈색 아기 사슴이 노란 빈 무대에 서 있다. 흰 점무늬와 작은 꼬리까지 보인다.",
+          "camera_or_change": null,
+          "materials": "부드러운 갈색 펠트 같은 표면, 매끄럽고 반사하는 검은 눈·작은 발굽.",
+          "lighting": "노란 주변광과 머리·몸 왼쪽의 부드러운 밝은 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0013-I001",
+        "source_file_SHA256": "687cf7f0a802b38eba8b8c434f2f50cef80620b9bcd4ca02524618a4ed54e196",
+        "source_url": "https://polyaxel.com/dont-you-just-love-the-deserts/",
+        "after_visual": {
+          "description": "노란 사각 판 위에 크림색 블록 돌의 두 높은 덩어리와 작은 풀·잎 군집, 여러 선인장과 둥근 바위가 놓인다. 판과 모든 중심 식물 외곽이 보인다.",
+          "composition": "노란 사각 판 위에 크림색 블록 돌의 두 높은 덩어리와 작은 풀·잎 군집, 여러 선인장과 둥근 바위가 놓인다. 판과 모든 중심 식물 외곽이 보인다.",
+          "camera_or_change": null,
+          "materials": "무광 밝은 블록 돌, 매끈한 초록 선인장과 납작한 잎, 짧은 입체 풀.",
+          "lighting": "고른 노란 밝은 빛과 돌 옆의 얕은 그림자."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0014-I001",
+        "source_file_SHA256": "fe15e45c3f8e47575e9f6c8e19fc82073d77269901dd416f969e659487785c88",
+        "source_url": "https://polyaxel.com/its-springtime/",
+        "after_visual": {
+          "description": "풀을 덮은 낮은 구릉 안에 둥근 문과 두 원형 창의 작은 집이 들어 있고, 위쪽의 큰 당근·세 침엽수와 꽃이 둘러싼다. 왼쪽 지면 끝 일부는 프레임에 걸리지만 중심 집·문·주요 식물 외곽은 보인다.",
+          "composition": "풀을 덮은 낮은 구릉 안에 둥근 문과 두 원형 창의 작은 집이 들어 있고, 위쪽의 큰 당근·세 침엽수와 꽃이 둘러싼다. 왼쪽 지면 끝 일부는 프레임에 걸리지만 중심 집·문·주요 식물 외곽은 보인다.",
+          "camera_or_change": null,
+          "materials": "짧은 초록 풀·두꺼운 잎과 꽃, 무광 벽·나무 문과 밝은 원형 창.",
+          "lighting": "밝고 부드러운 민트 배경광과 문·구릉 아래의 얕은 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0015-I001",
+        "source_file_SHA256": "625d5569b4d582cd69860380eece7c06be04a379efa181a1b9046d8da7465c7b",
+        "source_url": "https://polyaxel.com/its-springtime/",
+        "after_visual": {
+          "description": "긴 두 귀·큰 검은 눈의 흰 뜨개 토끼가 큰 편조 바구니 안에서 앞발을 올린다. 양옆의 파스텔 달걀, 뒤의 아치 손잡이와 바구니 아래까지 프레임에 들어온다.",
+          "composition": "긴 두 귀·큰 검은 눈의 흰 뜨개 토끼가 큰 편조 바구니 안에서 앞발을 올린다. 양옆의 파스텔 달걀, 뒤의 아치 손잡이와 바구니 아래까지 프레임에 들어온다.",
+          "camera_or_change": null,
+          "materials": "토끼의 뜨개 결·분홍 귀 안쪽, 매끈한 눈·달걀과 띠형 편조 바구니.",
+          "lighting": "밝은 파스텔 주변광과 바구니 안의 부드러운 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0020-I001",
+        "source_file_SHA256": "e76c7b1f5db5f39d164fcf037e85c71191a75377305501ff23783f0af650e0bc",
+        "source_url": "https://polyaxel.com/its-finally-december-again/",
+        "after_visual": {
+          "description": "아치형 나무 지붕과 위 둥근 창·아래 문이 있는 작은 갈색 집이 눈 덮인 사각 정원에 놓인다. 집 앞의 길과 돌·작은 식물, 높이가 다른 침엽수가 전체 받침 안에 들어온다.",
+          "composition": "아치형 나무 지붕과 위 둥근 창·아래 문이 있는 작은 갈색 집이 눈 덮인 사각 정원에 놓인다. 집 앞의 길과 돌·작은 식물, 높이가 다른 침엽수가 전체 받침 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "무광 갈색 목재 판·층진 침엽수 잎·두꺼운 눈과 낮은 돌.",
+          "lighting": "보라 밤 주변광, 창과 문 위 등불의 따뜻한 밝기."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      },
+      {
+        "reference_id": "F140B0023-I001",
+        "source_file_SHA256": "be0bfc9de3ba0e1e68749af0df48314b93e432d7e2014d2a12d7b17441b7f527",
+        "source_url": "https://polyaxel.com/little-deer/",
+        "after_visual": {
+          "description": "큰 사각 갈색 몸과 평평한 크림 얼굴면·두 큰 눈, 두 얇은 귀와 각진 뿔·앞뒤 짧은 네 발의 작은 사슴이 노란 빈 무대에 놓인다. 주요 외곽이 모두 들어온다.",
+          "composition": "큰 사각 갈색 몸과 평평한 크림 얼굴면·두 큰 눈, 두 얇은 귀와 각진 뿔·앞뒤 짧은 네 발의 작은 사슴이 노란 빈 무대에 놓인다. 주요 외곽이 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "평평한 무광 블록 면과 밝은 얼굴 무늬, 각진 뿔·발.",
+          "lighting": "노란 고른 빛과 몸 오른쪽의 짙은 갈색 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false
+      }
+    ]
+  },
+  "new_whole_descriptor_scope52": {
+    "scope": "73 individual observed original wholes; Korean descriptions follow the bound same-SHA author/peer whole observations.",
+    "author_and_canonical_records_preserved": true,
+    "count_changes": 0,
+    "corrections": [
+      {
+        "reference_id": "F143B0011-I001",
+        "source_file_SHA256": "b93847db4d2ebe196fba74d052db1362e8f52aa6d4642e735c6e5bae5537e2b5",
+        "source_url": "https://amrit.art/nfts/the-bakerykiki-toy-rooms",
+        "visual_title": "빵 선반과 곡면 진열대의 베이커리",
+        "after_visual": {
+          "description": "두 높은 벽과 목재 바닥 안에 왼쪽의 높은 빵 선반, 뒤의 병·포장 선반과 계산대, 앞과 오른쪽의 곡면 유리형 진열대가 놓인다. 커튼 창, 체크 천을 덮은 둥근 탁자, 빵 봉지·스툴·고양이와 돌출된 프레첼 간판이 한 베이커리를 이룬다.",
+          "composition": "두 높은 벽과 목재 바닥 안에 왼쪽의 높은 빵 선반, 뒤의 병·포장 선반과 계산대, 앞과 오른쪽의 곡면 유리형 진열대가 놓인다. 커튼 창, 체크 천을 덮은 둥근 탁자, 빵 봉지·스툴·고양이와 돌출된 프레첼 간판이 한 베이커리를 이룬다.",
+          "camera_or_change": null,
+          "materials": "둥근 빵과 유리형 진열 앞면, 목재 수납장과 천의 주름이 겹친다.",
+          "lighting": "창의 옅은 빛과 부드러운 접촉 그림자가 가구의 깊이를 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞 곡면 진열대에서 뒤 빵 선반 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 둥근 빵과 유리형 진열 앞면, 목재 수납장과 천의 주름이 겹친다.",
+          "lighting": "새 장면의 조명은 창의 옅은 빛과 부드러운 접촉 그림자가 가구의 깊이를 나눈다.",
+          "application": "브랜드 없는 새 용기와 진열 공간으로 여러 선택지가 함께 놓이는 장면을 만든다. 중앙 진열대와 둘레 동선이 산업의 다양성을 보여 주는 구성으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F143B0012-I001",
+        "source_file_SHA256": "0c24cb116d694495c71458f7db07508c7aa50b2077f26c829312646578418f49",
+        "source_url": "https://amrit.art/nfts/cryptoadz-toy-rooms",
+        "visual_title": "물과 연잎이 감싼 개구리 방",
+        "after_visual": {
+          "description": "두꺼운 돌벽 두 면 아래 투명한 청록 물 받침이 놓인다. 아치형 물길과 두 물줄기 사이에 파라솔과 개구리를 둔 큰 연잎, 바위 위 다른 개구리, 떠 있는 장난감·갈대·작은 연잎이 모인다.",
+          "composition": "두꺼운 돌벽 두 면 아래 투명한 청록 물 받침이 놓인다. 아치형 물길과 두 물줄기 사이에 파라솔과 개구리를 둔 큰 연잎, 바위 위 다른 개구리, 떠 있는 장난감·갈대·작은 연잎이 모인다.",
+          "camera_or_change": null,
+          "materials": "물 받침의 옆면과 굴절형 외관, 돌·잎·파라솔과 작은 생물의 도톰한 부피가 보인다.",
+          "lighting": "청록색의 밝은 물과 돌벽 아래 음영이 작은 수변 공간을 구분한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 투명한 물 받침에서 큰 연잎 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 물 받침의 옆면과 굴절형 외관, 돌·잎·파라솔과 작은 생물의 도톰한 부피가 보인다.",
+          "lighting": "새 장면의 조명은 청록색의 밝은 물과 돌벽 아래 음영이 작은 수변 공간을 구분한다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F143B0013-I001",
+        "source_file_SHA256": "c377f3cae349c3055fa43814ea603f1c37e9ffa75f1e26631bf10e5c27ed9ba7",
+        "source_url": "https://amrit.art/nfts/a-hobbits-study-toy-rooms",
+        "visual_title": "둥근 창과 벽난로의 작은 서재",
+        "after_visual": {
+          "description": "목재 바닥과 두 벽 안에 왼쪽 둥근 격자창, 오른쪽 돌출된 굴뚝과 둥근 화구가 놓인다. 비스듬한 글쓰기 책상, 책 더미·목재 의자·러그와 바닥 장작이 하나의 작은 서재를 이룬다.",
+          "composition": "목재 바닥과 두 벽 안에 왼쪽 둥근 격자창, 오른쪽 돌출된 굴뚝과 둥근 화구가 놓인다. 비스듬한 글쓰기 책상, 책 더미·목재 의자·러그와 바닥 장작이 하나의 작은 서재를 이룬다.",
+          "camera_or_change": null,
+          "materials": "회벽형 면과 목재, 두꺼운 굴뚝·곡선 의자·책의 부피가 어울린다.",
+          "lighting": "둥근 창의 단순한 밝음과 화구 안 작은 빛, 책상 아래 그늘이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 책상에서 둥근 창과 벽난로 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 회벽형 면과 목재, 두꺼운 굴뚝·곡선 의자·책의 부피가 어울린다.",
+          "lighting": "새 장면의 조명은 둥근 창의 단순한 밝음과 화구 안 작은 빛, 책상 아래 그늘이 대비한다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F143B0014-I001",
+        "source_file_SHA256": "244edc1a9948f1a9a0008da2ecddf53ec110d0671538446c3e84f95272c4a9be",
+        "source_url": "https://amrit.art/nfts/wizards-chamber",
+        "visual_title": "금빛 거울과 망토의 푸른 방",
+        "after_visual": {
+          "description": "푸른 돌벽과 타일 바닥의 방에 높은 뾰족 금빛 거울, 뒤의 열린 보물 상자, 앞의 접힌 무늬 망토·촛불·쌓인 상자가 놓인다. 아치형 격자창과 거울의 꼭짓점까지 방 외곽 안에 들어온다.",
+          "composition": "푸른 돌벽과 타일 바닥의 방에 높은 뾰족 금빛 거울, 뒤의 열린 보물 상자, 앞의 접힌 무늬 망토·촛불·쌓인 상자가 놓인다. 아치형 격자창과 거울의 꼭짓점까지 방 외곽 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "돌벽·타일의 두께, 금빛 거울 틀과 접힌 무늬 천이 입체를 만든다.",
+          "lighting": "창과 거울 안의 옅은 밝음이 푸른 벽·망토 아래 그림자와 나뉜다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 접힌 망토에서 높은 금빛 거울 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 돌벽·타일의 두께, 금빛 거울 틀과 접힌 무늬 천이 입체를 만든다.",
+          "lighting": "새 장면의 조명은 창과 거울 안의 옅은 밝음이 푸른 벽·망토 아래 그림자와 나뉜다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F143B0015-I001",
+        "source_file_SHA256": "0df87a8cbc0f7e65003ba76869e3a8761c5033a3090a0881d393aaec8ff3dc16",
+        "source_url": "https://amrit.art/nfts/bedroom-in-arles",
+        "visual_title": "노랑 침대가 놓인 파랑 침실",
+        "after_visual": {
+          "description": "옅은 파랑 벽 두 면과 목재 바닥 안에서 오른쪽 큰 노랑 침대와 붉은 덮개가 중심을 이룬다. 초록 창 옆 작은 탁자에는 물그릇과 손질 소품이 있고, 두 의자·파랑 문·걸린 옷과 벽 그림이 방을 채운다.",
+          "composition": "옅은 파랑 벽 두 면과 목재 바닥 안에서 오른쪽 큰 노랑 침대와 붉은 덮개가 중심을 이룬다. 초록 창 옆 작은 탁자에는 물그릇과 손질 소품이 있고, 두 의자·파랑 문·걸린 옷과 벽 그림이 방을 채운다.",
+          "camera_or_change": null,
+          "materials": "침대 프레임·둥근 베개와 천 주름, 창틀·의자·도기형 그릇의 깊이가 보인다.",
+          "lighting": "넓고 부드러운 빛과 짧은 접촉 그림자가 노랑 침대와 파랑 벽을 구분한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞 의자에서 노랑 침대와 창 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 침대 프레임·둥근 베개와 천 주름, 창틀·의자·도기형 그릇의 깊이가 보인다.",
+          "lighting": "새 장면의 조명은 넓고 부드러운 빛과 짧은 접촉 그림자가 노랑 침대와 파랑 벽을 구분한다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0004-I001",
+        "source_file_SHA256": "599425adf3bae3be14fdc73fbe3fec02aa6ad10187983cf15ecd3e87f5e35fb9",
+        "source_url": "https://sketchfab.com/3d-models/none-efdbe77af7fb45cb95b6f9e4669b1de4",
+        "visual_title": "두 갈래 모자를 쓴 작은 인형",
+        "after_visual": {
+          "description": "연회색 여백에 두 갈래로 휘어진 모자와 끝의 둥근 장식, 양옆 귀 모양 돌출부, 둥근 얼굴, 넓은 뾰족 목깃·검은 망토, 짧고 둥근 몸·발의 인형 전체가 들어온다. 모자·목깃·망토의 끝이 잘리지 않는다.",
+          "composition": "연회색 여백에 두 갈래로 휘어진 모자와 끝의 둥근 장식, 양옆 귀 모양 돌출부, 둥근 얼굴, 넓은 뾰족 목깃·검은 망토, 짧고 둥근 몸·발의 인형 전체가 들어온다. 모자·목깃·망토의 끝이 잘리지 않는다.",
+          "camera_or_change": null,
+          "materials": "둥근 무광 머리·몸과 각진 목깃, 모자 끝의 작고 밝은 금색 구체.",
+          "lighting": "얼굴과 모자 앞의 부드러운 밝음, 목깃 아래·망토 안쪽의 어두운 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 모자 양 끝과 망토의 전신 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 둥근 무광 머리·몸과 각진 목깃, 모자 끝의 작고 밝은 금색 구체.",
+          "lighting": "새 장면의 조명은 얼굴과 모자 앞의 부드러운 밝음, 목깃 아래·망토 안쪽의 어두운 면.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0010-I001",
+        "source_file_SHA256": "f0f6594fff156da77107cb0967278d6b6fe91484283a18ce2581595a08d0505b",
+        "source_url": "https://sketchfab.com/3d-models/none-73557045a80d49eda33feeb408b931d6",
+        "visual_title": "용머리와 마디 몸의 초록 생물",
+        "after_visual": {
+          "description": "연한 황록색 바닥·여백 안에 머리의 길고 굽은 돌출부, 노란 앞면, 여러 둥근 몸 마디와 짧은 발 모양 돌출부, 위로 세운 뒤끝을 가진 녹색 캐릭터 전체가 보인다. 앞의 잎 모양 요소와 가장 긴 위쪽·뒤쪽 돌출부도 캔버스 안에 있다.",
+          "composition": "연한 황록색 바닥·여백 안에 머리의 길고 굽은 돌출부, 노란 앞면, 여러 둥근 몸 마디와 짧은 발 모양 돌출부, 위로 세운 뒤끝을 가진 녹색 캐릭터 전체가 보인다. 앞의 잎 모양 요소와 가장 긴 위쪽·뒤쪽 돌출부도 캔버스 안에 있다.",
+          "camera_or_change": null,
+          "materials": "밝은 녹색·노랑의 매끄러운 곡면, 손으로 그린 듯한 흰 줄무늬와 짙은 외곽선.",
+          "lighting": "머리 위와 배 앞의 밝음, 분절 사이·발 아래의 부드러운 음영과 바닥 접촉 그림자."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 머리 돌기에서 굽은 몸과 꼬리 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 밝은 녹색·노랑의 매끄러운 곡면, 손으로 그린 듯한 흰 줄무늬와 짙은 외곽선.",
+          "lighting": "새 장면의 조명은 머리 위와 배 앞의 밝음, 분절 사이·발 아래의 부드러운 음영과 바닥 접촉 그림자.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0011-I001",
+        "source_file_SHA256": "75719f3a06d94cb58bf0fa286e0c1970730c0d657b1b61d6540e03405a31ba1d",
+        "source_url": "https://sketchfab.com/3d-models/none-04b622460920479381f226669fff364f",
+        "visual_title": "여러 층이 이어진 작은 보육장",
+        "after_visual": {
+          "description": "어두운 단색 여백 안에 모래색 받침 전체, 야자수 모양 식물, 휘어진 뼈 모양 지지부·여러 높이의 목재색 발판·빨간 삼각 천막·알 모양 소품·작은 생물 모양 요소가 하나의 시설 세계를 이룬다. 가장 높은 꼭짓점과 좌우 식물 끝, 앞 받침 경계가 프레임 안에 들어온다.",
+          "composition": "어두운 단색 여백 안에 모래색 받침 전체, 야자수 모양 식물, 휘어진 뼈 모양 지지부·여러 높이의 목재색 발판·빨간 삼각 천막·알 모양 소품·작은 생물 모양 요소가 하나의 시설 세계를 이룬다. 가장 높은 꼭짓점과 좌우 식물 끝, 앞 받침 경계가 프레임 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "넓고 거친 목재, 크림색 뼈·뿔, 찢긴 주황 천막과 각진 녹색 잎, 작은 푸른 점박이 알.",
+          "lighting": "왼쪽 위의 따뜻한 밝음, 기둥·발판 아래의 짙은 음영과 천막 뒤의 어두운 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 아래 발판에서 높은 천막 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 넓고 거친 목재, 크림색 뼈·뿔, 찢긴 주황 천막과 각진 녹색 잎, 작은 푸른 점박이 알.",
+          "lighting": "새 장면의 조명은 왼쪽 위의 따뜻한 밝음, 기둥·발판 아래의 짙은 음영과 천막 뒤의 어두운 면.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0013-I001",
+        "source_file_SHA256": "c19c46e7a39dcc851df8d200a791fe2be6dc0adc173132e97aad13d6c8d83e29",
+        "source_url": "https://sketchfab.com/3d-models/none-39d728da6b1d42dfa0ee0af714a87022",
+        "visual_title": "붉은 병을 안은 작은 용",
+        "after_visual": {
+          "description": "노란 여백·바닥에 큰 빨간 병과 녹색 뾰족 마개, 병을 둘러안은 붉은 용 모양 캐릭터의 머리·몸·작은 발·날개/꼬리 모양 돌출부가 함께 보인다. 마개 끝과 병 바닥, 오른쪽 긴 돌출부가 모두 캔버스 안에 있다.",
+          "composition": "노란 여백·바닥에 큰 빨간 병과 녹색 뾰족 마개, 병을 둘러안은 붉은 용 모양 캐릭터의 머리·몸·작은 발·날개/꼬리 모양 돌출부가 함께 보인다. 마개 끝과 병 바닥, 오른쪽 긴 돌출부가 모두 캔버스 안에 있다.",
+          "camera_or_change": null,
+          "materials": "유광 빨강 병·용 피부, 녹색 리브 뚜껑, 몸의 옅은 고리 무늬와 병 곡면에 붙은 흰 인쇄.",
+          "lighting": "병 어깨와 용 얼굴의 작은 강한 흰 반사, 아래 병·몸 사이의 음영과 바닥의 부드러운 그림자."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 병과 캐릭터가 맞닿는 전신 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 유광 빨강 병·용 피부, 녹색 리브 뚜껑, 몸의 옅은 고리 무늬와 병 곡면에 붙은 흰 인쇄.",
+          "lighting": "새 장면의 조명은 병 어깨와 용 얼굴의 작은 강한 흰 반사, 아래 병·몸 사이의 음영과 바닥의 부드러운 그림자.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0018-I001",
+        "source_file_SHA256": "6ea4e62a5f6dbf09f4671b72897a47b3c2645258d5a0c7adcb329a1c528f064c",
+        "source_url": "https://sketchfab.com/3d-models/none-69e019d9386541ce864d83bb74684e2f",
+        "visual_title": "욕실과 카메라가 놓인 원형 무대",
+        "after_visual": {
+          "description": "어두운 여백 안의 원형 받침 전체에 욕조·변기가 있는 욕실 벽, 열린 문 옆 별도 벽 구역, 외부 녹색 판, 삼각 트러스·벽 지지대·카메라·의자·상자 등이 놓인다. 촬영 공간의 외부 구조와 받침 경계까지 들어온다.",
+          "composition": "어두운 여백 안의 원형 받침 전체에 욕조·변기가 있는 욕실 벽, 열린 문 옆 별도 벽 구역, 외부 녹색 판, 삼각 트러스·벽 지지대·카메라·의자·상자 등이 놓인다. 촬영 공간의 외부 구조와 받침 경계까지 들어온다.",
+          "camera_or_change": null,
+          "materials": "흰 위생 도기·파랑 회색 타일, 분홍 천·벽무늬, 은색 트러스·갈색 지지 목재와 무광 녹색 판.",
+          "lighting": "세트 안 흰 욕조와 타일의 강한 밝음, 바깥 원형 무대·지지대의 길고 짙은 그림자."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 외부 카메라에서 욕실 세트 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 흰 위생 도기·파랑 회색 타일, 분홍 천·벽무늬, 은색 트러스·갈색 지지 목재와 무광 녹색 판.",
+          "lighting": "새 장면의 조명은 세트 안 흰 욕조와 타일의 강한 밝음, 바깥 원형 무대·지지대의 길고 짙은 그림자.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0021-I001",
+        "source_file_SHA256": "6372b4b349ef85dbed73fa76ab625f1984c30d6aafa8e2b1fbb19be2aa8c8855",
+        "source_url": "https://sketchfab.com/3d-models/none-7fe2cf308ba242e898d8072fc80c0db2",
+        "visual_title": "넓은 동선을 둔 입체 욕실",
+        "after_visual": {
+          "description": "회색 여백에 두 벽과 한 층 바닥의 방 전체가 보인다. 왼쪽 세탁기·변기, 뒤 모서리 샤워 칸, 오른쪽 세면 수납장·거울과 별도 욕조, 앞 바구니와 넓은 빈 동선이 배치된다. 벽 위·양옆·앞 바닥 모서리가 모두 들어온다.",
+          "composition": "회색 여백에 두 벽과 한 층 바닥의 방 전체가 보인다. 왼쪽 세탁기·변기, 뒤 모서리 샤워 칸, 오른쪽 세면 수납장·거울과 별도 욕조, 앞 바구니와 넓은 빈 동선이 배치된다. 벽 위·양옆·앞 바닥 모서리가 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "평탄한 크림·회색·남색 타일, 반투명 유리 같은 샤워 면, 무광 도기와 단순 수건·세탁기 면.",
+          "lighting": "전체의 고른 밝음과 세면대·욕조 옆의 단순 넓은 음영."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 빈 바닥에서 세면대와 욕조 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 평탄한 크림·회색·남색 타일, 반투명 유리 같은 샤워 면, 무광 도기와 단순 수건·세탁기 면.",
+          "lighting": "새 장면의 조명은 전체의 고른 밝음과 세면대·욕조 옆의 단순 넓은 음영.",
+          "application": "손질과 휴식의 생활 루틴을 여는 장면으로 사용한다. 직접 디자인한 용기와 가구가 익숙한 하루의 시작을 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F146B0023-I001",
+        "source_file_SHA256": "82fb42da7daad529cb389e5037443114a0283e34d3ac9243ed95788100fc9c2b",
+        "source_url": "https://sketchfab.com/3d-models/none-18799bb3ef1f40f9a53c28e7f1691ea1",
+        "visual_title": "타원 욕조와 둥근 거울의 욕실",
+        "after_visual": {
+          "description": "청록 여백에 두 벽·바닥 전체와 왼쪽 발 달린 타원 욕조, 가운데 변기, 오른쪽 서랍 세면대·큰 둥근 거울, 벽 선반·식물·앞 러그와 슬리퍼가 보인다. 앞 바닥 끝과 욕조·수납장의 바깥 경계가 잘리지 않는다.",
+          "composition": "청록 여백에 두 벽·바닥 전체와 왼쪽 발 달린 타원 욕조, 가운데 변기, 오른쪽 서랍 세면대·큰 둥근 거울, 벽 선반·식물·앞 러그와 슬리퍼가 보인다. 앞 바닥 끝과 욕조·수납장의 바깥 경계가 잘리지 않는다.",
+          "camera_or_change": null,
+          "materials": "유광 도기·금속 같은 발과 손잡이, 거울·병의 반사 외관, 나무 상판·보라 러그의 촘촘한 결과 녹색 타일.",
+          "lighting": "왼쪽 좁은 창에서 중앙 식물 쪽으로 삼각형 밝음이 내려오고 도기·거울에 작은 밝은 반사가 생긴다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 러그에서 욕조와 둥근 거울 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 유광 도기·금속 같은 발과 손잡이, 거울·병의 반사 외관, 나무 상판·보라 러그의 촘촘한 결과 녹색 타일.",
+          "lighting": "새 장면의 조명은 왼쪽 좁은 창에서 중앙 식물 쪽으로 삼각형 밝음이 내려오고 도기·거울에 작은 밝은 반사가 생긴다.",
+          "application": "손질과 휴식의 생활 루틴을 여는 장면으로 사용한다. 직접 디자인한 용기와 가구가 익숙한 하루의 시작을 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0001-I001",
+        "source_file_SHA256": "29536176d9500440a6347542e93d8e52f07a45d0fbf318969b9609c22e7fb38e",
+        "source_url": "https://sketchfab.com/3d-models/octorabbit-9177f85b14a6477583c7d03243f97139",
+        "visual_title": "토끼 머리와 방사형 돌기의 인형",
+        "after_visual": {
+          "description": "회색 스튜디오에서 청록 귀 안쪽을 가진 흰 토끼 머리 아래 둥글게 납작한 문어형 돌기가 방사형으로 뻗는다. 귀·돌기 끝과 바닥 접점이 캔버스 안에 들어온다.",
+          "composition": "회색 스튜디오에서 청록 귀 안쪽을 가진 흰 토끼 머리 아래 둥글게 납작한 문어형 돌기가 방사형으로 뻗는다. 귀·돌기 끝과 바닥 접점이 캔버스 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "미세한 결이 있는 부드러운 봉제물 같은 표면과 작은 검은 눈, 분홍색 코가 보인다.",
+          "lighting": "머리 윗면은 매우 밝고 촉수 아래에는 회색 음영과 바닥 그림자가 남는다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 두 귀와 방사형 돌기의 외곽 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 미세한 결이 있는 부드러운 봉제물 같은 표면과 작은 검은 눈, 분홍색 코가 보인다.",
+          "lighting": "새 장면의 조명은 머리 윗면은 매우 밝고 촉수 아래에는 회색 음영과 바닥 그림자가 남는다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0002-I001",
+        "source_file_SHA256": "e6b97ce076de37ab9ff9e9b3fc5888254cd2d1bb4b12047578b1c20726f336b3",
+        "source_url": "https://sketchfab.com/3d-models/pink-bunny-mascot-b0cd37c45824468a8fa092a7ba38af02",
+        "visual_title": "긴 다리로 선 분홍 마스코트",
+        "after_visual": {
+          "description": "분홍 토끼 마스코트는 큰 볼·귀·노란 배와 장갑 손을 갖고 양팔을 굽힌 채 긴 두 다리로 선다. 머리에서 신발 끝까지 보인다.",
+          "composition": "분홍 토끼 마스코트는 큰 볼·귀·노란 배와 장갑 손을 갖고 양팔을 굽힌 채 긴 두 다리로 선다. 머리에서 신발 끝까지 보인다.",
+          "camera_or_change": null,
+          "materials": "분홍색 몸과 장갑 같은 손에 주름과 거친 천 같은 결이 보인다.",
+          "lighting": "머리와 가슴 윗면이 밝고 턱·겨드랑이·옷 주름 아래가 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 큰 귀에서 장갑과 두 발 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 분홍색 몸과 장갑 같은 손에 주름과 거친 천 같은 결이 보인다.",
+          "lighting": "새 장면의 조명은 머리와 가슴 윗면이 밝고 턱·겨드랑이·옷 주름 아래가 어둡다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0005-I001",
+        "source_file_SHA256": "a35eecf4c165671259a5026ad4624d1f53189a7563ea4210a383f233317d8725",
+        "source_url": "https://sketchfab.com/3d-models/bear-50c7819d22b048fdadb1dae18e5846b6",
+        "visual_title": "작은 머리와 큰 타원 몸의 곰",
+        "after_visual": {
+          "description": "아주 작은 주황 곰 머리 아래 거대한 타원 몸, 짧은 팔·발이 붙은 전신이 붉은 스튜디오에 놓인다.",
+          "composition": "아주 작은 주황 곰 머리 아래 거대한 타원 몸, 짧은 팔·발이 붙은 전신이 붉은 스튜디오에 놓인다.",
+          "camera_or_change": null,
+          "materials": "둥근 표면은 부드러운 무광에 가까우며 넓은 면에 약한 반사가 보인다.",
+          "lighting": "상부와 왼쪽이 밝고 배 오른쪽과 팔 아래가 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 작은 머리와 큰 복부의 비율 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 둥근 표면은 부드러운 무광에 가까우며 넓은 면에 약한 반사가 보인다.",
+          "lighting": "새 장면의 조명은 상부와 왼쪽이 밝고 배 오른쪽과 팔 아래가 어둡다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0008-I001",
+        "source_file_SHA256": "f22035ffb1a809b2c119cd545185996c3908fad9f82a5a66c8c849f299ecfcdd",
+        "source_url": "https://sketchfab.com/3d-models/bear-plush-0673dc40ea4a4cd79911d911fd665ca3",
+        "visual_title": "스티치와 긴 다리가 보이는 곰",
+        "after_visual": {
+          "description": "큰 둥근 사각 머리와 귀 아래 좁은 배 모양 몸·늘어진 팔·긴 두 다리의 곰이 선다. 전신이 적갈색 여백 안에 있다.",
+          "composition": "큰 둥근 사각 머리와 귀 아래 좁은 배 모양 몸·늘어진 팔·긴 두 다리의 곰이 선다. 전신이 적갈색 여백 안에 있다.",
+          "camera_or_change": null,
+          "materials": "굵은 직조 무늬와 밝은 바느질 선, 검은 구슬 눈·코의 광택이 보인다.",
+          "lighting": "왼쪽 위가 밝고 이음선의 홈과 팔 아래가 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 머리 봉합선에서 긴 두 다리 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 굵은 직조 무늬와 밝은 바느질 선, 검은 구슬 눈·코의 광택이 보인다.",
+          "lighting": "새 장면의 조명은 왼쪽 위가 밝고 이음선의 홈과 팔 아래가 어둡다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0010-I001",
+        "source_file_SHA256": "957f1974a13aeeb83b7f9fcd05432ef2f294b860f0e64abec676ecab0fede802",
+        "source_url": "https://sketchfab.com/3d-models/little-sleepy-mouse-d00c01f28dcd4df496b8653fe9b439a6",
+        "visual_title": "상자 침상에서 잠든 작은 쥐",
+        "after_visual": {
+          "description": "왼쪽으로 열린 푸른 상자 뚜껑과 상자 안 격자 베개·붉은 담요, 머리와 귀가 드러난 작은 쥐가 한 침상 장면을 이룬다.",
+          "composition": "왼쪽으로 열린 푸른 상자 뚜껑과 상자 안 격자 베개·붉은 담요, 머리와 귀가 드러난 작은 쥐가 한 침상 장면을 이룬다.",
+          "camera_or_change": null,
+          "materials": "각진 상자의 모서리, 체크 천과 골이 있는 담요, 쥐의 둥근 분홍 귀가 서로 다른 결로 보인다.",
+          "lighting": "뚜껑 안쪽은 밝게 반사되고 담요·베개·쥐 얼굴 접점에는 작은 음영이 놓인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 열린 뚜껑에서 베개와 담요 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 각진 상자의 모서리, 체크 천과 골이 있는 담요, 쥐의 둥근 분홍 귀가 서로 다른 결로 보인다.",
+          "lighting": "새 장면의 조명은 뚜껑 안쪽은 밝게 반사되고 담요·베개·쥐 얼굴 접점에는 작은 음영이 놓인다.",
+          "application": "손질과 휴식의 생활 루틴을 여는 장면으로 사용한다. 직접 디자인한 용기와 가구가 익숙한 하루의 시작을 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0012-I001",
+        "source_file_SHA256": "d02376ebe3d0122498ce5c2c081d32043d1252de76b67e77df83ccb1cfe26d69",
+        "source_url": "https://sketchfab.com/3d-models/kitty-plush-096df34078e84f289b15984b21b672be",
+        "visual_title": "리본을 단 줄무늬 고양이",
+        "after_visual": {
+          "description": "작은 줄무늬 고양이는 긴 앞다리·바깥 뒷발·굽은 꼬리, 분홍 목 리본과 금색 방울이 보이는 착석 전신이다.",
+          "composition": "작은 줄무늬 고양이는 긴 앞다리·바깥 뒷발·굽은 꼬리, 분홍 목 리본과 금색 방울이 보이는 착석 전신이다.",
+          "camera_or_change": null,
+          "materials": "머리와 배의 이음선, 무광 줄무늬, 반짝이는 눈·방울과 분홍 발바닥이 구분된다.",
+          "lighting": "윗면과 얼굴 앞쪽은 밝고 리본 아래·다리 사이·꼬리 접점이 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 목 리본에서 앞다리와 굽은 꼬리 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 머리와 배의 이음선, 무광 줄무늬, 반짝이는 눈·방울과 분홍 발바닥이 구분된다.",
+          "lighting": "새 장면의 조명은 윗면과 얼굴 앞쪽은 밝고 리본 아래·다리 사이·꼬리 접점이 어둡다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0013-I001",
+        "source_file_SHA256": "e92f1d5e02e1988924acebb507dc0f26926da6140e79e41a029f864ca3cb5b6f",
+        "source_url": "https://sketchfab.com/3d-models/creepy-cat-eee94352545c467cb49ecc55961fbd64",
+        "visual_title": "단추 눈과 큰 리본의 고양이",
+        "after_visual": {
+          "description": "노란 비대칭 긴 귀·큰 머리와 분홍 단추 눈, 봉합 입·큰 리본, 작은 어두운 몸·두 다리·짧은 꼬리의 고양이가 선다.",
+          "composition": "노란 비대칭 긴 귀·큰 머리와 분홍 단추 눈, 봉합 입·큰 리본, 작은 어두운 몸·두 다리·짧은 꼬리의 고양이가 선다.",
+          "camera_or_change": null,
+          "materials": "굵은 봉합 선과 손으로 그린 듯한 명암선, 단추·방울의 작은 반사가 보인다.",
+          "lighting": "머리 전면은 밝고 귀 안쪽과 몸 측면은 어두우며 발 아래 타원형 그림자가 남는다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 긴 귀에서 단추 눈과 리본 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 굵은 봉합 선과 손으로 그린 듯한 명암선, 단추·방울의 작은 반사가 보인다.",
+          "lighting": "새 장면의 조명은 머리 전면은 밝고 귀 안쪽과 몸 측면은 어두우며 발 아래 타원형 그림자가 남는다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0014-I001",
+        "source_file_SHA256": "82bfe5f5ee362297950bca143b21219050eeb1fb6fd2b5cd5ea26e7638600a68",
+        "source_url": "https://sketchfab.com/3d-models/jiji-black-cat-toy-3fc8e136939340fda36bd1afdc30b39d",
+        "visual_title": "긴 귀와 말린 꼬리의 검은 고양이",
+        "after_visual": {
+          "description": "검은 고양이의 아주 긴 귀·목·몸과 가는 두 앞다리, 뒤 발·말린 꼬리·큰 흰 돌출 눈이 전신에 들어온다.",
+          "composition": "검은 고양이의 아주 긴 귀·목·몸과 가는 두 앞다리, 뒤 발·말린 꼬리·큰 흰 돌출 눈이 전신에 들어온다.",
+          "camera_or_change": null,
+          "materials": "검은 잔결 표면과 눈의 흰 볼륨, 얇은 수염과 분홍 코가 보인다.",
+          "lighting": "왼쪽 위의 빛이 머리·귀를 밝히고 목과 앞다리 사이, 바닥 접점에 그림자가 생긴다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 돌출된 흰 눈에서 긴 몸과 꼬리 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 검은 잔결 표면과 눈의 흰 볼륨, 얇은 수염과 분홍 코가 보인다.",
+          "lighting": "새 장면의 조명은 왼쪽 위의 빛이 머리·귀를 밝히고 목과 앞다리 사이, 바닥 접점에 그림자가 생긴다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0017-I001",
+        "source_file_SHA256": "7bff4c11d44656cb87fd0de9bee4828026aa4870666ead553008774cee792646",
+        "source_url": "https://sketchfab.com/3d-models/axolotl-friend-6511da7be4714b7a896f25ee51bf54e8",
+        "visual_title": "플라스크 속 작은 생물 세계",
+        "after_visual": {
+          "description": "마개가 있는 둥근 유리 플라스크와 노란 네발 받침 안에 보라색 아홀로틀·수초와 밝은 꽃 모양이 들어간 작은 세계다. 병·받침 발 끝이 모두 보인다.",
+          "composition": "마개가 있는 둥근 유리 플라스크와 노란 네발 받침 안에 보라색 아홀로틀·수초와 밝은 꽃 모양이 들어간 작은 세계다. 병·받침 발 끝이 모두 보인다.",
+          "camera_or_change": null,
+          "materials": "검은 외곽선, 반투명 병의 테두리와 색칠한 듯한 생명체 표면, 각진 금빛 받침이 구분된다.",
+          "lighting": "병 윗부분과 내부 구가 밝고 받침과 병 하부에는 옅은 음영이 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 유리 외곽에서 내부 수초와 생물 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 검은 외곽선, 반투명 병의 테두리와 색칠한 듯한 생명체 표면, 각진 금빛 받침이 구분된다.",
+          "lighting": "새 장면의 조명은 병 윗부분과 내부 구가 밝고 받침과 병 하부에는 옅은 음영이 보인다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0019-I001",
+        "source_file_SHA256": "1f38aa45f18f36db377e4dceaf4c15372b3d5ae3b179bd960f43ff9912dca94b",
+        "source_url": "https://sketchfab.com/3d-models/axolotl-9ce08ac79abf44a79517af308eacd87e",
+        "visual_title": "긴 아가미와 U자 꼬리의 생물",
+        "after_visual": {
+          "description": "검은 청록 아홀로틀은 큰 머리와 여섯 옆 아가미, 긴 네 사지·세 갈래 손끝·U자 꼬리의 한 전신이다. 둥근 투명 버블도 캔버스 안에 있다.",
+          "composition": "검은 청록 아홀로틀은 큰 머리와 여섯 옆 아가미, 긴 네 사지·세 갈래 손끝·U자 꼬리의 한 전신이다. 둥근 투명 버블도 캔버스 안에 있다.",
+          "camera_or_change": null,
+          "materials": "어두운 거친 표면에 청록색 고리 무늬가 그려지고 주변 구형 거품에는 작은 반사가 보인다.",
+          "lighting": "머리·꼬리 윗면은 밝고 아래 면이 어두워 몸의 두께와 구부러진 관계가 읽힌다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 옆 아가미에서 U자 꼬리 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 어두운 거친 표면에 청록색 고리 무늬가 그려지고 주변 구형 거품에는 작은 반사가 보인다.",
+          "lighting": "새 장면의 조명은 머리·꼬리 윗면은 밝고 아래 면이 어두워 몸의 두께와 구부러진 관계가 읽힌다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F147A0024-I001",
+        "source_file_SHA256": "acf1c87847dc2a36619b642b12dac60006c3d902481e041ebfa076b0c9bbd6b8",
+        "source_url": "https://sketchfab.com/3d-models/baby-room-383c314073a641aa8cd1aa704742f3d5",
+        "visual_title": "아기침대와 모빌을 둔 작은 방",
+        "after_visual": {
+          "description": "두 벽·바닥 안에 왼쪽 창 두 개와 커튼·흔들의자, 중앙 난간 아기침대·모빌, 오른쪽 교환 수납장과 바닥 놀이 장치가 들어온 아기방 전체다.",
+          "composition": "두 벽·바닥 안에 왼쪽 창 두 개와 커튼·흔들의자, 중앙 난간 아기침대·모빌, 오른쪽 교환 수납장과 바닥 놀이 장치가 들어온 아기방 전체다.",
+          "camera_or_change": null,
+          "materials": "무광 파스텔 면과 목재형 침대 난간, 천 같은 커튼과 작은 봉제 토끼 표면이 구분된다.",
+          "lighting": "창문과 윗면은 밝고 가구 아래·모서리와 벽 선반 아래에는 부드러운 음영이 놓인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 중앙 난간 침대에서 양쪽 생활 가구 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 무광 파스텔 면과 목재형 침대 난간, 천 같은 커튼과 작은 봉제 토끼 표면이 구분된다.",
+          "lighting": "새 장면의 조명은 창문과 윗면은 밝고 가구 아래·모서리와 벽 선반 아래에는 부드러운 음영이 놓인다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F149B0005-I001",
+        "source_file_SHA256": "9ed20375f1572096548af421577afdf0d51deb2e28fff851476e24420178a14b",
+        "source_url": "https://www.pcrowther.com/865004006353-1/",
+        "visual_title": "용기 캐릭터가 모인 체육관",
+        "after_visual": {
+          "description": "튜브·통·립 제품·병 등 여섯 화장품 몸에 가는 팔다리가 붙고, 철봉·줄넘기·바닥 운동·케틀벨·러닝머신·일립티컬 기구에 배치된다. 제품 몸·발끝·줄 끝·운동 기구 받침이 모두 캔버스 안에 들어온다. 부드러운 분홍 벽·바닥과 접촉 그림자 안에 하나의 체육관 장면이 형성된다.",
+          "composition": "튜브·통·립 제품·병 등 여섯 화장품 몸에 가는 팔다리가 붙고, 철봉·줄넘기·바닥 운동·케틀벨·러닝머신·일립티컬 기구에 배치된다. 제품 몸·발끝·줄 끝·운동 기구 받침이 모두 캔버스 안에 들어온다. 부드러운 분홍 벽·바닥과 접촉 그림자 안에 하나의 체육관 장면이 형성된다.",
+          "camera_or_change": null,
+          "materials": "금속 캡·운동 기구의 선명한 반사, 유리처럼 보이는 병·매끈한 용기 표면과 굽은 가는 검은 사지가 보인다.",
+          "lighting": "부드러운 분홍 벽·바닥과 제품·기구 아래의 접촉 그림자가 장면의 깊이를 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 운동 기구에서 여섯 용기 캐릭터 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 금속 캡·운동 기구의 선명한 반사, 유리처럼 보이는 병·매끈한 용기 표면과 굽은 가는 검은 사지가 보인다.",
+          "lighting": "새 장면의 조명은 부드러운 분홍 벽·바닥과 제품·기구 아래의 접촉 그림자가 장면의 깊이를 나눈다.",
+          "application": "서로 다른 요소가 한 공간에 모이는 관계를 보여 준다. 새 오브젝트들이 공통 프레임에 놓이며 여러 기업을 함께 바라보는 ETF 설명 장면으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0002-I001",
+        "source_file_SHA256": "5d6168e6a840239a6d8fd7c09603928dc21a26656bfb7d6c7c7173b084c57bec",
+        "source_url": "https://sketchfab.com/3d-models/none-ceb72b4da5e84a0a82c56dfeb888e396",
+        "visual_title": "안경과 배낭을 갖춘 작은 인물",
+        "after_visual": {
+          "description": "작은 노랑 모자와 큰 둥근 초록 안경의 캐릭터가 두꺼운 배낭 끈을 잡고 한 발을 나무 그루터기에 올린다. 줄무늬 셔츠·반바지·샌들과 잔디 받침 전체가 청록 여백 안에 들어온다.",
+          "composition": "작은 노랑 모자와 큰 둥근 초록 안경의 캐릭터가 두꺼운 배낭 끈을 잡고 한 발을 나무 그루터기에 올린다. 줄무늬 셔츠·반바지·샌들과 잔디 받침 전체가 청록 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "둥근 피부색 곡면, 각진 머리 덩어리, 천·배낭처럼 보이는 무광 면과 나무색 그루터기.",
+          "lighting": "얼굴·손·앞 정강이의 넓은 밝음, 배낭 안과 발 아래의 접촉 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 둥근 안경에서 배낭과 잔디 받침 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 둥근 피부색 곡면, 각진 머리 덩어리, 천·배낭처럼 보이는 무광 면과 나무색 그루터기.",
+          "lighting": "새 장면의 조명은 얼굴·손·앞 정강이의 넓은 밝음, 배낭 안과 발 아래의 접촉 그늘.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0006-I001",
+        "source_file_SHA256": "bf0e0b1aea62064507ab3df5b7ef8e8b2bd47aaa53da510d3de8f321e5bf3092",
+        "source_url": "https://sketchfab.com/3d-models/none-2f01be8340f3417f9959c4fd80e5ed87",
+        "visual_title": "다리와 계단이 잇는 바위 마을",
+        "after_visual": {
+          "description": "민트색 물 테두리 안 높은 바위에 세 노란 집·분홍 나무·작은 여러 주민, 서로 다른 높이의 붉은 목재 다리와 계단이 모인다. 집 위 생물·나무 끝·다리·물 테두리 전체가 밝은 여백 안에 들어온다.",
+          "composition": "민트색 물 테두리 안 높은 바위에 세 노란 집·분홍 나무·작은 여러 주민, 서로 다른 높이의 붉은 목재 다리와 계단이 모인다. 집 위 생물·나무 끝·다리·물 테두리 전체가 밝은 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "각진 암벽·목재, 붉은 지붕·노란 벽과 평탄한 손그림 빛 면, 민트색 물 외관.",
+          "lighting": "집·길 윗면의 밝은 색 면, 바위 사이와 다리 아래의 어두운 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 낮은 다리에서 높은 집과 나무 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 각진 암벽·목재, 붉은 지붕·노란 벽과 평탄한 손그림 빛 면, 민트색 물 외관.",
+          "lighting": "새 장면의 조명은 집·길 윗면의 밝은 색 면, 바위 사이와 다리 아래의 어두운 면.",
+          "application": "높이가 다른 공간과 길의 관계를 장면 연결에 사용한다. 카메라가 동선을 따라가며 생활에서 진열 공간으로 시야를 넓힌다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0011-I001",
+        "source_file_SHA256": "53cecd62d6988dd7a3ca5ad705e3d2637a992acb46c2b23f8ad41a6b61e98210",
+        "source_url": "https://sketchfab.com/3d-models/none-35f004d3899f4401ae840571e8a4c4f9",
+        "visual_title": "두 섬을 잇는 버섯집 마을",
+        "after_visual": {
+          "description": "두 각진 섬을 붉은 다리가 잇고 큰 붉은 버섯집·가마 앞 작은 마녀·선반·분수·나무·작은 등들이 놓인다. 두 섬·다리·집·나무의 주요 외곽이 들어온다.",
+          "composition": "두 각진 섬을 붉은 다리가 잇고 큰 붉은 버섯집·가마 앞 작은 마녀·선반·분수·나무·작은 등들이 놓인다. 두 섬·다리·집·나무의 주요 외곽이 들어온다.",
+          "camera_or_change": null,
+          "materials": "낮은 다각형 집·가마·나무/구름 면과 부피가 있는 섬 측면, 노란 작은 등 외관.",
+          "lighting": "등·집 앞의 분홍/노랑 밝음, 섬 아래와 나무 뒤의 어두운 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 두 섬과 가운데 붉은 다리 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 낮은 다각형 집·가마·나무/구름 면과 부피가 있는 섬 측면, 노란 작은 등 외관.",
+          "lighting": "새 장면의 조명은 등·집 앞의 분홍/노랑 밝음, 섬 아래와 나무 뒤의 어두운 면.",
+          "application": "높이가 다른 공간과 길의 관계를 장면 연결에 사용한다. 카메라가 동선을 따라가며 생활에서 진열 공간으로 시야를 넓힌다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0012-I001",
+        "source_file_SHA256": "c2855ccc59d57bb7535e5d1f31286415612c8a816d1db4da18ad91387a8a5828",
+        "source_url": "https://sketchfab.com/3d-models/none-e4d705f5fb5a46749a3e5ba4f7421fa1",
+        "visual_title": "말린 꼬리와 동물 귀의 캐릭터",
+        "after_visual": {
+          "description": "큰 동물 귀 후드·분홍 머리·청록 눈의 작은 캐릭터가 두 손을 앞으로 들고 선다. 뒤 큰 말린 꼬리와 잔디·돌·싹을 담은 사각 목재 받침의 모든 외곽이 들어온다.",
+          "composition": "큰 동물 귀 후드·분홍 머리·청록 눈의 작은 캐릭터가 두 손을 앞으로 들고 선다. 뒤 큰 말린 꼬리와 잔디·돌·싹을 담은 사각 목재 받침의 모든 외곽이 들어온다.",
+          "camera_or_change": null,
+          "materials": "직물처럼 보이는 푸른 결, 분홍 머리 덩어리와 손, 거친 나무틀·돌 외관.",
+          "lighting": "후드·얼굴과 앞 손의 밝음, 꼬리 안쪽·옷 아래의 부드러운 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 후드 귀에서 꼬리와 사각 받침 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 직물처럼 보이는 푸른 결, 분홍 머리 덩어리와 손, 거친 나무틀·돌 외관.",
+          "lighting": "새 장면의 조명은 후드·얼굴과 앞 손의 밝음, 꼬리 안쪽·옷 아래의 부드러운 그늘.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0017-I001",
+        "source_file_SHA256": "3910fdbc5045d21283ea97ef6a39427e42a040a59a53fe58fd71380618e2118d",
+        "source_url": "https://sketchfab.com/3d-models/none-950584e4baef4b8dbccd4eb5a3e83ec0",
+        "visual_title": "꽃과 잎귀를 가진 작은 생물",
+        "after_visual": {
+          "description": "노란 앞얼굴·커다란 초록 잎귀와 둥근 등껍질을 가진 작은 생물이 긴 꼬리를 위로 굽힌다. 등·꼬리의 도톰한 흰 꽃과 둥근 잔디 받침 전체가 청록 여백 안에 들어온다.",
+          "composition": "노란 앞얼굴·커다란 초록 잎귀와 둥근 등껍질을 가진 작은 생물이 긴 꼬리를 위로 굽힌다. 등·꼬리의 도톰한 흰 꽃과 둥근 잔디 받침 전체가 청록 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "초록 비늘/잎 결, 노란 곡면·발 끝과 부피를 보이는 흰 꽃잎, 잔디 표면의 작은 꽃무늬.",
+          "lighting": "꽃잎·얼굴 앞의 따뜻한 밝음, 등 아래·발 사이의 어두운 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞얼굴에서 등에 겹친 꽃 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 초록 비늘/잎 결, 노란 곡면·발 끝과 부피를 보이는 흰 꽃잎, 잔디 표면의 작은 꽃무늬.",
+          "lighting": "새 장면의 조명은 꽃잎·얼굴 앞의 따뜻한 밝음, 등 아래·발 사이의 어두운 그늘.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0018-I001",
+        "source_file_SHA256": "0d127a1de8cdc40488d356a65995e2b6c4c522c5c1964ac45796e600b7e2d79a",
+        "source_url": "https://sketchfab.com/3d-models/none-c660f9a469254e2e8c48741d448dc47f",
+        "visual_title": "긴 꼬리 끝 장식의 작은 생물",
+        "after_visual": {
+          "description": "청록 큰 머리·노란 볏·분홍 작은 몸과 가는 두 발의 생물이 매우 긴 꼬리를 위왼쪽으로 뻗는다. 노란 넓은 꼬리 끝 장식까지 보라 여백 안에 모두 들어온다.",
+          "composition": "청록 큰 머리·노란 볏·분홍 작은 몸과 가는 두 발의 생물이 매우 긴 꼬리를 위왼쪽으로 뻗는다. 노란 넓은 꼬리 끝 장식까지 보라 여백 안에 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "낮은 다각형 청록·분홍 곡면과 가는 보라 꼬리, 얇은 노란 끝 장식.",
+          "lighting": "얼굴·끝 장식의 넓은 밝음, 몸 아래의 어두운 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 큰 머리에서 넓은 꼬리 끝 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 낮은 다각형 청록·분홍 곡면과 가는 보라 꼬리, 얇은 노란 끝 장식.",
+          "lighting": "새 장면의 조명은 얼굴·끝 장식의 넓은 밝음, 몸 아래의 어두운 면.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0019-I001",
+        "source_file_SHA256": "92f3ce47a0cc5239a9bede1b33efcfa87e5580efcc89d2b39cfb39147a18d947",
+        "source_url": "https://sketchfab.com/3d-models/none-9ab26d785b3048f8ae892dbee934f35d",
+        "visual_title": "말린 껍질과 집게 팔의 생물",
+        "after_visual": {
+          "description": "커다란 갈색 말린 껍질을 진 주황 생물이 두 긴 눈 돌출부·웃는 둥근 얼굴·큰 집게형 앞팔을 가진다. 껍질 뒤 끝과 앞팔·아래 작은 사지까지 보라 바닥 여백 안에 들어온다.",
+          "composition": "커다란 갈색 말린 껍질을 진 주황 생물이 두 긴 눈 돌출부·웃는 둥근 얼굴·큰 집게형 앞팔을 가진다. 껍질 뒤 끝과 앞팔·아래 작은 사지까지 보라 바닥 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "유광 검은 눈, 주황색 둥근 팔·얼굴, 거친 초록 얼룩이 붙은 갈색 껍질 외관.",
+          "lighting": "껍질 위의 밝은 반사, 팔 안쪽·껍질 아래와 오른쪽 바닥의 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 집게에서 큰 등껍질 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 유광 검은 눈, 주황색 둥근 팔·얼굴, 거친 초록 얼룩이 붙은 갈색 껍질 외관.",
+          "lighting": "새 장면의 조명은 껍질 위의 밝은 반사, 팔 안쪽·껍질 아래와 오른쪽 바닥의 그늘.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0025-I001",
+        "source_file_SHA256": "d619f07eb157ab3c85fcd59eed91ab7b994e43a1aec84cc6413b4951bea64e52",
+        "source_url": "https://sketchfab.com/3d-models/none-a2205b45709b478790e07fdfecde5014",
+        "visual_title": "책상 앞 고양이 해적의 방",
+        "after_visual": {
+          "description": "전체 목재 두 벽과 판 바닥 안 붉은 두건·큰 갈기의 고양이형 해적이 앞 큰 책상에서 글을 쓴다. 벽 상어형 장식·작은 물고기·창·키 모양 물체, 앞 상자와 오른쪽 통이 같은 방을 이룬다.",
+          "composition": "전체 목재 두 벽과 판 바닥 안 붉은 두건·큰 갈기의 고양이형 해적이 앞 큰 책상에서 글을 쓴다. 벽 상어형 장식·작은 물고기·창·키 모양 물체, 앞 상자와 오른쪽 통이 같은 방을 이룬다.",
+          "camera_or_change": null,
+          "materials": "나뭇결 면·도톰한 갈기, 금속 테두리처럼 밝은 통/상자와 종이색 지도 표면.",
+          "lighting": "책상·캐릭터 앞의 밝음과 벽 기둥/책상 아래의 깊은 그늘."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 책상에서 목재 벽과 작은 소품 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 나뭇결 면·도톰한 갈기, 금속 테두리처럼 밝은 통/상자와 종이색 지도 표면.",
+          "lighting": "새 장면의 조명은 책상·캐릭터 앞의 밝음과 벽 기둥/책상 아래의 깊은 그늘.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F150C0032-I001",
+        "source_file_SHA256": "a20638cbc1986ad26d71f739114a881fd455db67a4747ac1f51877b2712003d2",
+        "source_url": "https://sketchfab.com/3d-models/none-58af0cfdee4b4bd79a9852e87b8adf99",
+        "visual_title": "한 무대에 나란히 선 두 인물",
+        "after_visual": {
+          "description": "높은 모자·안경·수염·넓은 흰 셔츠의 큰 캐릭터와 붉은 재킷·높은 머리 묶음의 가는 캐릭터가 같은 금색 테두리 타원 무대에 나란히 선다. 모자·두 몸·발·무대 끝이 모두 들어온다.",
+          "composition": "높은 모자·안경·수염·넓은 흰 셔츠의 큰 캐릭터와 붉은 재킷·높은 머리 묶음의 가는 캐릭터가 같은 금색 테두리 타원 무대에 나란히 선다. 모자·두 몸·발·무대 끝이 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "평탄한 붉은/보라/흰 채색 면과 각진 옷 곡면, 금색 무대 테두리.",
+          "lighting": "앞 몸의 고른 밝음, 옷 안쪽·모자 아래의 단순 어두운 면."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 타원 받침에서 두 인물의 전신 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 평탄한 붉은/보라/흰 채색 면과 각진 옷 곡면, 금색 무대 테두리.",
+          "lighting": "새 장면의 조명은 앞 몸의 고른 밝음, 옷 안쪽·모자 아래의 단순 어두운 면.",
+          "application": "서로 다른 요소가 한 공간에 모이는 관계를 보여 준다. 새 오브젝트들이 공통 프레임에 놓이며 여러 기업을 함께 바라보는 ETF 설명 장면으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F151A0001-I001",
+        "source_file_SHA256": "1883cd2e152c24c606105c7625f3f742e14a7b6bec347038f8a925c41534bb2c",
+        "source_url": "https://sketchfab.com/3d-models/isometric-room-703adb8138314218a64142dd73d3c06f",
+        "visual_title": "두 높이에 맞물린 다섯 생활방",
+        "after_visual": {
+          "description": "두 높이에 다섯 생활방이 계단형으로 맞물린 집 단면이다. 위층의 작업방·중앙 욕실·침실, 아래층의 주방과 거실이 하나의 건축 외곽 안에 들어온다.",
+          "composition": "두 높이에 다섯 생활방이 계단형으로 맞물린 집 단면이다. 위층의 작업방·중앙 욕실·침실, 아래층의 주방과 거실이 하나의 건축 외곽 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "목재형 바닥 판, 밝은 욕실 타일과 둥근 소파·욕조, 얇은 금속형 가구 다리가 구분된다.",
+          "lighting": "윗면과 창 주변이 밝고 가구 아래·벽 교차 부분에 짧은 그림자가 생긴다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 아래 주방과 거실에서 위 생활방 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 목재형 바닥 판, 밝은 욕실 타일과 둥근 소파·욕조, 얇은 금속형 가구 다리가 구분된다.",
+          "lighting": "새 장면의 조명은 윗면과 창 주변이 밝고 가구 아래·벽 교차 부분에 짧은 그림자가 생긴다.",
+          "application": "서로 다른 요소가 한 공간에 모이는 관계를 보여 준다. 새 오브젝트들이 공통 프레임에 놓이며 여러 기업을 함께 바라보는 ETF 설명 장면으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F151A0016-I001",
+        "source_file_SHA256": "319fa86d927d69f1fd1e9d70cbad843f77bf2945b9e26e650490477c188f2b79",
+        "source_url": "https://sketchfab.com/3d-models/isometric-bathroom-totoros-bathtub-aa689e37afc24e9ea8f7771a5f1aef70",
+        "visual_title": "목재와 푸른 타일의 작은 목욕방",
+        "after_visual": {
+          "description": "짙은 목재 두 벽과 미닫이문 안에 둥근 목욕통·작은 통·낮은 벤치가 놓인 일본식 작은 목욕방이다. 푸른 타일의 높은 구역과 앞 목재 바닥을 모두 볼 수 있다.",
+          "composition": "짙은 목재 두 벽과 미닫이문 안에 둥근 목욕통·작은 통·낮은 벤치가 놓인 일본식 작은 목욕방이다. 푸른 타일의 높은 구역과 앞 목재 바닥을 모두 볼 수 있다.",
+          "camera_or_change": null,
+          "materials": "목재형 판과 원통·타일의 각진 면, 밝은 수면 반사 무늬가 구분된다.",
+          "lighting": "따뜻한 윗빛과 목욕통 테두리·판 아래의 짙은 음영이 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 벤치에서 둥근 목욕통 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 목재형 판과 원통·타일의 각진 면, 밝은 수면 반사 무늬가 구분된다.",
+          "lighting": "새 장면의 조명은 따뜻한 윗빛과 목욕통 테두리·판 아래의 짙은 음영이 보인다.",
+          "application": "손질과 휴식의 생활 루틴을 여는 장면으로 사용한다. 직접 디자인한 용기와 가구가 익숙한 하루의 시작을 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F151A0017-I001",
+        "source_file_SHA256": "accba43dc3e02bb2d6f4e947e0b09a37050ad5e359cbf8c06c4b963a62435636",
+        "source_url": "https://sketchfab.com/3d-models/low-poly-isometric-bathroom-12b69f5f17f542d0a61c1f9b628c20d2",
+        "visual_title": "체커 바닥과 커튼 욕조의 욕실",
+        "after_visual": {
+          "description": "청록 두 벽과 두꺼운 갈색 받침의 욕실이다. 뒤의 긴 커튼 욕조, 왼쪽 세면대와 앞 변기, 오른쪽 통·수건·푸른 매트가 하나의 완결 방을 만든다.",
+          "composition": "청록 두 벽과 두꺼운 갈색 받침의 욕실이다. 뒤의 긴 커튼 욕조, 왼쪽 세면대와 앞 변기, 오른쪽 통·수건·푸른 매트가 하나의 완결 방을 만든다.",
+          "camera_or_change": null,
+          "materials": "단순 각진 CG 벽·욕조와 원통 설비, 두꺼운 갈색 다면체 받침이 보인다.",
+          "lighting": "밝은 흰 설비와 부드러운 회색 배경, 설비 뒤의 짧은 그림자가 구분된다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 도기에서 뒤 커튼 욕조 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 단순 각진 CG 벽·욕조와 원통 설비, 두꺼운 갈색 다면체 받침이 보인다.",
+          "lighting": "새 장면의 조명은 밝은 흰 설비와 부드러운 회색 배경, 설비 뒤의 짧은 그림자가 구분된다.",
+          "application": "손질과 휴식의 생활 루틴을 여는 장면으로 사용한다. 직접 디자인한 용기와 가구가 익숙한 하루의 시작을 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F151A0020-I001",
+        "source_file_SHA256": "198e6b3c34cd83d1f2a8d5cfa084ac45b649a45956257ff2c5ee14d5a7e933bd",
+        "source_url": "https://sketchfab.com/3d-models/simpoly-room-1-14a30b4dbbfa48639aa4f6be5d67fe92",
+        "visual_title": "주방과 거실을 잇는 한 층의 집",
+        "after_visual": {
+          "description": "파랑·노랑 두 벽 안에 주방·식탁·거실을 한 층으로 묶은 집 단면이다. 뒤 주방과 중앙 냉장고/짧은 칸막이, 앞 식탁, 오른쪽 소파·TV의 관계가 주요 구성이다.",
+          "composition": "파랑·노랑 두 벽 안에 주방·식탁·거실을 한 층으로 묶은 집 단면이다. 뒤 주방과 중앙 냉장고/짧은 칸막이, 앞 식탁, 오른쪽 소파·TV의 관계가 주요 구성이다.",
+          "camera_or_change": null,
+          "materials": "하얀 판 바닥과 단색 각진 가구, 얇은 가구 다리가 입체감을 이룬다.",
+          "lighting": "밝은 창 모양 띠와 바닥·가구 아래 방향성 그림자가 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 식탁에서 주방과 오른쪽 소파 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 하얀 판 바닥과 단색 각진 가구, 얇은 가구 다리가 입체감을 이룬다.",
+          "lighting": "새 장면의 조명은 밝은 창 모양 띠와 바닥·가구 아래 방향성 그림자가 보인다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F151A0021-I001",
+        "source_file_SHA256": "883d67705c26700dcfefdbb19787fafb5bc0e9aec7d5fb5264da0f387553d641",
+        "source_url": "https://sketchfab.com/3d-models/isometric-cartoon-room-bathroom-76f31e248eea40b681d9253ba1488b00",
+        "visual_title": "마주 보는 긴 설비의 욕실",
+        "after_visual": {
+          "description": "적갈색과 회색 타일 두 벽 안에 왼쪽 긴 가림판 욕조, 오른쪽 이중 세면대·수직 수납, 앞 변기가 놓인다. 양쪽 긴 설비가 서로 마주 보는 배열이 중심이다.",
+          "composition": "적갈색과 회색 타일 두 벽 안에 왼쪽 긴 가림판 욕조, 오른쪽 이중 세면대·수직 수납, 앞 변기가 놓인다. 양쪽 긴 설비가 서로 마주 보는 배열이 중심이다.",
+          "camera_or_change": null,
+          "materials": "무광 밝은 욕조·각진 두 세면대와 두꺼운 회색 바닥 테두리가 단순 입체감로 읽힌다.",
+          "lighting": "밝은 윗빛과 긴 세면대 밑의 짧은 그림자가 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 앞 변기에서 마주 보는 욕조와 세면대 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 무광 밝은 욕조·각진 두 세면대와 두꺼운 회색 바닥 테두리가 단순 입체감로 읽힌다.",
+          "lighting": "새 장면의 조명은 밝은 윗빛과 긴 세면대 밑의 짧은 그림자가 보인다.",
+          "application": "손질과 휴식의 생활 루틴을 여는 장면으로 사용한다. 직접 디자인한 용기와 가구가 익숙한 하루의 시작을 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F151A0030-I001",
+        "source_file_SHA256": "1fad0880ab2a44bc44cb36ddb4eb1092def51912e79a6ab7d6ba3141f6e7ffc3",
+        "source_url": "https://sketchfab.com/3d-models/dae-crib-fairys-magic-brew-boutique-e07ecacebd3f4a06a566139310162bf1",
+        "visual_title": "바위 동굴 안의 작은 조제 상점",
+        "after_visual": {
+          "description": "바위 동굴의 두 벽 안에 깔때기·구형 조제기·아궁이, 왼쪽 작은 작업대·걸린 큰 열쇠와 도구, 오른쪽 발광 물길이 결합한 조제 상점이다. 꽃 모양 천장 등과 받침 바닥까지 하나의 외곽 안에 들어온다.",
+          "composition": "바위 동굴의 두 벽 안에 깔때기·구형 조제기·아궁이, 왼쪽 작은 작업대·걸린 큰 열쇠와 도구, 오른쪽 발광 물길이 결합한 조제 상점이다. 꽃 모양 천장 등과 받침 바닥까지 하나의 외곽 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "다면체 바위·버섯·목재형 판과 둥근 반투명형 용기의 뚜렷한 입체감이 보인다.",
+          "lighting": "보라색·청록색·노랑빛이 설비와 돌을 비추며 깊은 그늘과 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 왼쪽 작업대에서 구형 조제기와 빛띠 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 다면체 바위·버섯·목재형 판과 둥근 반투명형 용기의 뚜렷한 입체감이 보인다.",
+          "lighting": "새 장면의 조명은 보라색·청록색·노랑빛이 설비와 돌을 비추며 깊은 그늘과 대비한다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F152C0001-I001",
+        "source_file_SHA256": "a022705d823011163ca2c6fddc1dc94b37417ebe0f290e9448267293a916bc28",
+        "source_url": "https://sketchfab.com/3d-models/none-2e2124fd3f71404aa0b6beda7917e4d5",
+        "visual_title": "두 작은 로봇이 드나드는 버섯집",
+        "after_visual": {
+          "description": "큰 붉은 반구 버섯 갓·굴뚝 아래 둥근 집이 서고, 문 앞 계단의 노란 로봇과 앞길에서 등을 보이는 파란 로봇이 출입 장면을 이룬다. 작은 버섯·간판·꽃·풀과 검은 테두리 원형 정원 받침의 전체 외곽이 회색 여백 안에 있다.",
+          "composition": "큰 붉은 반구 버섯 갓·굴뚝 아래 둥근 집이 서고, 문 앞 계단의 노란 로봇과 앞길에서 등을 보이는 파란 로봇이 출입 장면을 이룬다. 작은 버섯·간판·꽃·풀과 검은 테두리 원형 정원 받침의 전체 외곽이 회색 여백 안에 있다.",
+          "camera_or_change": null,
+          "materials": "버섯 갓의 미세 거칠기, 돌·목재처럼 보이는 문·계단, 광택 파랑 로봇과 노란 몸·랜턴 빛이 고정 정면 사선에서 읽힌다.",
+          "lighting": "노란 등과 집 앞 밝은 면, 갓 아래·문 안·로봇 다리의 음영이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞길의 인물에서 둥근 문과 계단 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 버섯 갓의 미세 거칠기, 돌·목재처럼 보이는 문·계단, 광택 파랑 로봇과 노란 몸·랜턴 빛이 고정 정면 사선에서 읽힌다.",
+          "lighting": "새 장면의 조명은 노란 등과 집 앞 밝은 면, 갓 아래·문 안·로봇 다리의 음영이 대비한다.",
+          "application": "높이가 다른 공간과 길의 관계를 장면 연결에 사용한다. 카메라가 동선을 따라가며 생활에서 진열 공간으로 시야를 넓힌다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F152C0007-I001",
+        "source_file_SHA256": "892b89e2d3d2bb54a3177176d19ddc81d2cfd1e7b3185763839dc96add271454",
+        "source_url": "https://sketchfab.com/3d-models/none-edf1f7d16aac4a26a7377739615c28a0",
+        "visual_title": "니트와 긴 망토를 입은 개구리",
+        "after_visual": {
+          "description": "큰 처진 검은 모자·초록 개구리 머리의 긴 직립 인물이 노란 굵은 니트와 어두운 말아 올린 바지·긴 붉은 체크 망토를 입는다. 굽은 목재형 막대를 가로로 들고 두 긴 다리·벌어진 발가락으로 서며 모자·망토·막대·발 끝이 모두 회색 여백 안에 있다.",
+          "composition": "큰 처진 검은 모자·초록 개구리 머리의 긴 직립 인물이 노란 굵은 니트와 어두운 말아 올린 바지·긴 붉은 체크 망토를 입는다. 굽은 목재형 막대를 가로로 들고 두 긴 다리·벌어진 발가락으로 서며 모자·망토·막대·발 끝이 모두 회색 여백 안에 있다.",
+          "camera_or_change": null,
+          "materials": "스웨터의 굵은 짜임, 옷 주름·광택 바지와 초록 발의 반사, 망토의 두께·기울어진 모자 차폐가 정지 사선에서 읽힌다.",
+          "lighting": "큰 유광 눈과 초록 피부·바지·발의 반사, 모자 아래 얼굴과 뒤 망토·바닥의 부드러운 음영이 입체감을 만든다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 검은 모자에서 니트와 두 발 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 스웨터의 굵은 짜임, 옷 주름·광택 바지와 초록 발의 반사, 망토의 두께·기울어진 모자 차폐가 정지 사선에서 읽힌다.",
+          "lighting": "새 장면의 조명은 큰 유광 눈과 초록 피부·바지·발의 반사, 모자 아래 얼굴과 뒤 망토·바닥의 부드러운 음영이 입체감을 만든다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F153B0006-I001",
+        "source_file_SHA256": "d800ef903c26bfedf85dfba9d837c5656f2ac91b2e328f6b343852440eb7ce92",
+        "source_url": "https://sketchfab.com/3d-models/none-95653b5817764ace94a079984a852095",
+        "visual_title": "아치와 진열 띠의 분홍 전시 공간",
+        "after_visual": {
+          "description": "두 높은 옅은 벽과 두꺼운 사각 바닥, 중앙 분홍 블록·둥근 상부 진열대·양쪽 금색 아치가 공장형 전시 공간을 만든다. 둘레를 도는 노란 금테 진열 띠에 가방·향수들이 놓이고 뒤에 큰 굽은 분홍 관·작은 제어 상자가 있다. 벽 상단과 바닥 꼭짓점, 주요 관과 제품 끝까지 모두 분홍 중립 여백 안에 들어온다.",
+          "composition": "두 높은 옅은 벽과 두꺼운 사각 바닥, 중앙 분홍 블록·둥근 상부 진열대·양쪽 금색 아치가 공장형 전시 공간을 만든다. 둘레를 도는 노란 금테 진열 띠에 가방·향수들이 놓이고 뒤에 큰 굽은 분홍 관·작은 제어 상자가 있다. 벽 상단과 바닥 꼭짓점, 주요 관과 제품 끝까지 모두 분홍 중립 여백 안에 들어온다.",
+          "camera_or_change": null,
+          "materials": "분홍/금색 관과 아치의 광택, 흰 분홍 대리석 같은 받침, 각진 중앙 블록, 퀼팅·체인 가방과 작은 유리병의 부피가 보인다.",
+          "lighting": "밝고 따뜻한 스튜디오 빛과 관/가방의 하이라이트, 받침과 벨트의 접촉 그림자가 이어진다. 높은 전면 모서리 사선으로 벽 상단과 바닥 네 귀퉁이를 모두 담는다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 둘레 진열 띠에서 중앙 전시대 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 분홍/금색 관과 아치의 광택, 흰 분홍 대리석 같은 받침, 각진 중앙 블록, 퀼팅·체인 가방과 작은 유리병의 부피가 보인다.",
+          "lighting": "새 장면의 조명은 밝고 따뜻한 스튜디오 빛과 관/가방의 하이라이트, 받침과 벨트의 접촉 그림자가 이어진다. 높은 전면 모서리 사선으로 벽 상단과 바닥 네 귀퉁이를 모두 담는다.",
+          "application": "브랜드 없는 새 용기와 진열 공간으로 여러 선택지가 함께 놓이는 장면을 만든다. 중앙 진열대와 둘레 동선이 산업의 다양성을 보여 주는 구성으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F154C0004-I001",
+        "source_file_SHA256": "3fa25d844eed34c4ae58755dc41badf3df32c51823186db0d9d8c791121dd3e9",
+        "source_url": "https://sketchfab.com/3d-models/none-2a43ce509dec4af9a148e1ca88ad38ce",
+        "visual_title": "병과 모래시계와 책의 허브 조립",
+        "after_visual": {
+          "description": "엇갈린 두꺼운 목재 판 받침 위에 왼쪽 갈색 큰 병과 청록 포션 두 병, 뒤쪽 큰 모래시계, 오른쪽 두꺼운 붉은 책이 놓인다. 큰 덩굴이 병 위에서 모래시계 옆을 지나 책 앞으로 굽고, 잎·작은 꽃·허브가 판 사이와 가장자리를 연결한다. 받침 끝과 책·모래시계·덩굴의 외곽이 모두 갈색 스튜디오 여백 안이다.",
+          "composition": "엇갈린 두꺼운 목재 판 받침 위에 왼쪽 갈색 큰 병과 청록 포션 두 병, 뒤쪽 큰 모래시계, 오른쪽 두꺼운 붉은 책이 놓인다. 큰 덩굴이 병 위에서 모래시계 옆을 지나 책 앞으로 굽고, 잎·작은 꽃·허브가 판 사이와 가장자리를 연결한다. 받침 끝과 책·모래시계·덩굴의 외곽이 모두 갈색 스튜디오 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "목재 결·코르크와 유리처럼 보이는 투과·반사, 모래시계의 굵은 기둥·금속처럼 보이는 뚜껑, 책의 두께와 굽은 가지·잎의 차폐가 사선에서 읽힌다. 작은 글과 그림은 병/책 표면의 라벨처럼 부착되어 보인다.",
+          "lighting": "상단의 넓은 부드러운 빛과 잎·판·책 아래 접촉 그림자가 깊이를 만든다. 유리의 청록 밝음과 책의 붉은 면이 어두운 목재·갈색 배경에서 구분된다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 책과 병에서 뒤 모래시계 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 목재 결·코르크와 유리처럼 보이는 투과·반사, 모래시계의 굵은 기둥·금속처럼 보이는 뚜껑, 책의 두께와 굽은 가지·잎의 차폐가 사선에서 읽힌다. 작은 글과 그림은 병/책 표면의 라벨처럼 부착되어 보인다.",
+          "lighting": "새 장면의 조명은 상단의 넓은 부드러운 빛과 잎·판·책 아래 접촉 그림자가 깊이를 만든다. 유리의 청록 밝음과 책의 붉은 면이 어두운 목재·갈색 배경에서 구분된다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0001-I001",
+        "source_file_SHA256": "a48aefaf35f8a7cc97c1657157d7f0bde278e352a906866a3972c312974883aa",
+        "source_url": "https://sketchfab.com/3d-models/none-c5581b2ae14d424bbcb6e40dac6b6939",
+        "visual_title": "계단과 높은 카운터의 조제 상점",
+        "after_visual": {
+          "description": "두 높은 목재형 벽의 선반과 중앙 가마솥 뒤에 넓은 높은 카운터가 있고 앞 계단·낮은 수납 자리·통과 상자·종이가 이어진다. 벽 꼭대기와 계단·바닥 외곽까지 모두 흰 여백 안이다.",
+          "composition": "두 높은 목재형 벽의 선반과 중앙 가마솥 뒤에 넓은 높은 카운터가 있고 앞 계단·낮은 수납 자리·통과 상자·종이가 이어진다. 벽 꼭대기와 계단·바닥 외곽까지 모두 흰 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "두꺼운 각진 기둥·난간·계단과 둥근 병·통의 입체감이 보인다.",
+          "lighting": "붉은 판매대 위는 밝고 계단 밑·뒤 선반과 모서리는 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 입구 계단에서 카운터와 뒤 선반 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 두꺼운 각진 기둥·난간·계단과 둥근 병·통의 입체감이 보인다.",
+          "lighting": "새 장면의 조명은 붉은 판매대 위는 밝고 계단 밑·뒤 선반과 모서리는 어둡다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0004-I001",
+        "source_file_SHA256": "adeb1904338dc2bed4d89a03f89991a608a8b90f91fe70647ff182920a4af175",
+        "source_url": "https://sketchfab.com/3d-models/none-a7a3636cab2240948d45d2dce49d6c47",
+        "visual_title": "잎 지붕과 작은 상인의 물섬",
+        "after_visual": {
+          "description": "겹 초록 잎 지붕 아래 작은 개구리형 상인·약병 선반·목재 발판과 앞 개구리형 조립이 모인다. 뒤 큰 통나무 지지대·접힌 천, 주변 작은 지붕과 연꽃·잎·꽃이 두꺼운 각진 물섬을 둘러싸며 상단과 섬 전체 외곽이 여백 안이다.",
+          "composition": "겹 초록 잎 지붕 아래 작은 개구리형 상인·약병 선반·목재 발판과 앞 개구리형 조립이 모인다. 뒤 큰 통나무 지지대·접힌 천, 주변 작은 지붕과 연꽃·잎·꽃이 두꺼운 각진 물섬을 둘러싸며 상단과 섬 전체 외곽이 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "잎 주름과 두꺼운 목재·각진 돌/꽃, 두꺼운 물 가장자리와 반사가 입체감을 보인다.",
+          "lighting": "잎과 물은 밝고 지붕 밑 판매대는 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞 잎과 발판에서 지붕과 통나무 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 잎 주름과 두꺼운 목재·각진 돌/꽃, 두꺼운 물 가장자리와 반사가 입체감을 보인다.",
+          "lighting": "새 장면의 조명은 잎과 물은 밝고 지붕 밑 판매대는 어둡다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0006-I001",
+        "source_file_SHA256": "92bc355c85b334929176dbda644842abc2a2df5a96d9232b70418e07d0312425",
+        "source_url": "https://sketchfab.com/3d-models/none-ba886ccc40394de7872a4d7964009fe2",
+        "visual_title": "주황 지붕과 구형 설비의 집",
+        "after_visual": {
+          "description": "크게 휘어진 주황 지붕의 이층 집에 옆의 쌓인 두 금속형 구형 조제기와 긴 굴뚝이 연결된다. 앞 계단·통과 옆 긴 가지/잎이 불규칙 밝은 초록 받침 위에 놓이고 지붕·굴뚝·가지·받침 끝이 모두 여백 안이다.",
+          "composition": "크게 휘어진 주황 지붕의 이층 집에 옆의 쌓인 두 금속형 구형 조제기와 긴 굴뚝이 연결된다. 앞 계단·통과 옆 긴 가지/잎이 불규칙 밝은 초록 받침 위에 놓이고 지붕·굴뚝·가지·받침 끝이 모두 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "굽은 목재 판·두꺼운 문과 구형 금속의 반사/면 그늘이 입체 깊이를 보인다.",
+          "lighting": "초록 창/설비 틈과 밝은 지형이 짙은 초록 여백에서 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 앞 계단에서 집 옆 구형 설비 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 굽은 목재 판·두꺼운 문과 구형 금속의 반사/면 그늘이 입체 깊이를 보인다.",
+          "lighting": "새 장면의 조명은 초록 창/설비 틈과 밝은 지형이 짙은 초록 여백에서 대비한다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0007-I001",
+        "source_file_SHA256": "b81f1c2811148d1868232e057bd02e8daefbd81e31440e1ed1bf8067161f5790",
+        "source_url": "https://sketchfab.com/3d-models/none-4ee9142f591946e7a3f9ecd0716047d4",
+        "visual_title": "레일과 병 선반을 잇는 조제 설비",
+        "after_visual": {
+          "description": "왼쪽 레일·바퀴·계기가 붙은 큰 설비와 높은 굽은 공장 관, 가운데 여러 높이 병 진열/조제 선반, 오른쪽 두 관이 각진 받침에 함께 놓인다. 모든 관·레일·받침 외곽이 갈색 중립 여백 안이며 관 주위 흰 둥근 형상이 떠 있다.",
+          "composition": "왼쪽 레일·바퀴·계기가 붙은 큰 설비와 높은 굽은 공장 관, 가운데 여러 높이 병 진열/조제 선반, 오른쪽 두 관이 각진 받침에 함께 놓인다. 모든 관·레일·받침 외곽이 갈색 중립 여백 안이며 관 주위 흰 둥근 형상이 떠 있다.",
+          "camera_or_change": null,
+          "materials": "목재 통/상자·투명형 병·금속형 관·레일의 부피가 분명하고 떠 있는 흰 구도 입체로 읽힌다.",
+          "lighting": "따뜻한 노랑 병/판매대 빛이 갈색 여백과 어두운 관 면을 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 레일과 원형 계기에서 가운데 선반 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 목재 통/상자·투명형 병·금속형 관·레일의 부피가 분명하고 떠 있는 흰 구도 입체로 읽힌다.",
+          "lighting": "새 장면의 조명은 따뜻한 노랑 병/판매대 빛이 갈색 여백과 어두운 관 면을 나눈다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0012-I001",
+        "source_file_SHA256": "a2934c71c9481b51ae42498e94f78e9f5405db5b3c3359eef8973cfa4ae549c2",
+        "source_url": "https://sketchfab.com/3d-models/none-afe1ce4027a04a958a1d8c18aae8e5b5",
+        "visual_title": "천 지붕 아래 둥근 꽃 판매대",
+        "after_visual": {
+          "description": "파란 접힌 천 지붕과 굵은 기둥의 둥근 목재 꽃 판매대를 가운데 두고 양옆 여러 높이 꽃통 선반·앞 찻잔/주전자 탁자·화분이 둘러싼다. 지붕 꼭대기·꽃끝·선반 다리·앞 화분과 탁자 외곽이 회색 여백 안이다.",
+          "composition": "파란 접힌 천 지붕과 굵은 기둥의 둥근 목재 꽃 판매대를 가운데 두고 양옆 여러 높이 꽃통 선반·앞 찻잔/주전자 탁자·화분이 둘러싼다. 지붕 꼭대기·꽃끝·선반 다리·앞 화분과 탁자 외곽이 회색 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "천 주름·나무 판/기둥·통 고리·도톰한 꽃/잎과 도자기형 컵의 깊이가 보인다.",
+          "lighting": "밝은 목재 앞면과 지붕 밑/선반의 그늘이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 찻잔 탁자에서 꽃통과 천 지붕 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 천 주름·나무 판/기둥·통 고리·도톰한 꽃/잎과 도자기형 컵의 깊이가 보인다.",
+          "lighting": "새 장면의 조명은 밝은 목재 앞면과 지붕 밑/선반의 그늘이 대비한다.",
+          "application": "브랜드 없는 새 용기와 진열 공간으로 여러 선택지가 함께 놓이는 장면을 만든다. 중앙 진열대와 둘레 동선이 산업의 다양성을 보여 주는 구성으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0015-I001",
+        "source_file_SHA256": "3bb4ecee1a7afed1cfab26ddd0981927ac4c8272a94f06413840085a98c0227a",
+        "source_url": "https://sketchfab.com/3d-models/none-a5475fd215f44389b388dc274efff997",
+        "visual_title": "화분을 든 앞치마 고양이",
+        "after_visual": {
+          "description": "큰 초록 눈·주황 무늬 고양이형 인물이 셔츠·초록 앞치마를 입고 둥근 식물 화분을 두 손으로 든다. 한 발이 들리고 긴 꼬리는 옆으로 뻗으며 귀·큰 잎·발·꼬리 끝과 그림자까지 청록 중립 여백 안이다.",
+          "composition": "큰 초록 눈·주황 무늬 고양이형 인물이 셔츠·초록 앞치마를 입고 둥근 식물 화분을 두 손으로 든다. 한 발이 들리고 긴 꼬리는 옆으로 뻗으며 귀·큰 잎·발·꼬리 끝과 그림자까지 청록 중립 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "눈/화분의 유광 반사와 둥근 손·도톰한 귀/잎·천 결/털형 꼬리가 입체감을 만든다.",
+          "lighting": "얼굴/앞 잎이 밝고 화분·팔 안쪽과 바닥 그림자는 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 화분과 두 손에서 귀와 꼬리 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 눈/화분의 유광 반사와 둥근 손·도톰한 귀/잎·천 결/털형 꼬리가 입체감을 만든다.",
+          "lighting": "새 장면의 조명은 얼굴/앞 잎이 밝고 화분·팔 안쪽과 바닥 그림자는 어둡다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0021-I001",
+        "source_file_SHA256": "164366bb85d268ef679f183e6881428668c4180e526cbfefd9df0015bb5e5df8",
+        "source_url": "https://sketchfab.com/3d-models/none-1e3e4353ed144062b0fe3375c81d1661",
+        "visual_title": "둥근 외피 안의 작은 작업방",
+        "after_visual": {
+          "description": "둥근 통형 외피를 연 한 층 작은 방에 원형 창·식물과 중앙 책상·의자·열린 책·촛불, 높은 병/책 선반·바닥 책과 가방이 모인다. 둥근 외피와 앞 판 바닥 경계가 모두 짙은 여백 안이다.",
+          "composition": "둥근 통형 외피를 연 한 층 작은 방에 원형 창·식물과 중앙 책상·의자·열린 책·촛불, 높은 병/책 선반·바닥 책과 가방이 모인다. 둥근 외피와 앞 판 바닥 경계가 모두 짙은 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "곡면 벽/두꺼운 판 바닥과 책·의자·병의 입체 깊이가 보인다.",
+          "lighting": "왼쪽 창의 청록빛과 촛불의 주황빛이 어두운 바깥 여백/안쪽 그늘과 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 앞 책상에서 둥근 창과 병 선반 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 곡면 벽/두꺼운 판 바닥과 책·의자·병의 입체 깊이가 보인다.",
+          "lighting": "새 장면의 조명은 왼쪽 창의 청록빛과 촛불의 주황빛이 어두운 바깥 여백/안쪽 그늘과 대비한다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F155A0022-I001",
+        "source_file_SHA256": "cefed5a08f610b7bfb4697b813fa474c5efca97a3546c25d36cb82bf763168b3",
+        "source_url": "https://sketchfab.com/3d-models/none-a06eab6cb2004c82bbe6cabbd072881d",
+        "visual_title": "결정과 책을 둔 작은 야영 상점",
+        "after_visual": {
+          "description": "목재 A형 기둥과 보라 천의 작은 텐트 앞에 문양 깔개·병·청록 결정, 옆 발광 가마솥과 풀이 원형 청록 지형에 놓인다. 위의 큰 결정과 두꺼운 책 형태까지 포함해 모든 주요 끝과 지형 테두리가 짙은 여백 안이다.",
+          "composition": "목재 A형 기둥과 보라 천의 작은 텐트 앞에 문양 깔개·병·청록 결정, 옆 발광 가마솥과 풀이 원형 청록 지형에 놓인다. 위의 큰 결정과 두꺼운 책 형태까지 포함해 모든 주요 끝과 지형 테두리가 짙은 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "천 주름·목재/밧줄·각진 결정·두꺼운 책과 풀의 입체 깊이가 보인다.",
+          "lighting": "결정의 청록빛·가마솥의 분홍/흰 빛과 짙은 검정 여백이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 가마솥에서 천막과 높은 결정 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 천 주름·목재/밧줄·각진 결정·두꺼운 책과 풀의 입체 깊이가 보인다.",
+          "lighting": "새 장면의 조명은 결정의 청록빛·가마솥의 분홍/흰 빛과 짙은 검정 여백이 대비한다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F156A0004-I001",
+        "source_file_SHA256": "3fa8aeaae4b0012041b6c4ca42d648769524faa2eab0cab07464ee9e9e935cb1",
+        "source_url": "https://sketchfab.com/3d-models/none-a2c0ce58ec7e4a22a6fdf63afab69a7d",
+        "visual_title": "세 박공과 긴 난간의 꽃 코티지",
+        "after_visual": {
+          "description": "짙은 파랑의 세 박공, 연분홍 벽과 흰 격자창이 큰 코티지 전면을 이룬다. 중앙 출입구와 앞 돌길에 양옆 발코니, 두 층의 긴 난간, 앞 꽃 상자와 벽을 타는 잎이 연결된다. 세 지붕 끝, 양옆 건물·기둥과 주요 앞 바닥 외곽이 모두 여백 안에 있다.",
+          "composition": "짙은 파랑의 세 박공, 연분홍 벽과 흰 격자창이 큰 코티지 전면을 이룬다. 중앙 출입구와 앞 돌길에 양옆 발코니, 두 층의 긴 난간, 앞 꽃 상자와 벽을 타는 잎이 연결된다. 세 지붕 끝, 양옆 건물·기둥과 주요 앞 바닥 외곽이 모두 여백 안에 있다.",
+          "camera_or_change": null,
+          "materials": "연분홍 회벽처럼 보이는 면, 흰 프레임과 난간, 두께 있는 파랑 지붕, 목재 꽃 상자와 초록 잎·돌길이 겹쳐 입체를 만든다. 창의 격자와 기둥 뒤의 어두운 면이 전후 깊이를 보여 준다.",
+          "lighting": "밝고 넓은 전면광과 고른 채움이 분홍·흰 전면을 밝히며 지붕 아래와 열린 문 안쪽, 건물 아래가 어둡다. 청록 바닥의 옅은 접촉 그림자가 건물과 돌을 받친다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 꽃 상자에서 세 박공과 발코니 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 연분홍 회벽처럼 보이는 면, 흰 프레임과 난간, 두께 있는 파랑 지붕, 목재 꽃 상자와 초록 잎·돌길이 겹쳐 입체를 만든다. 창의 격자와 기둥 뒤의 어두운 면이 전후 깊이를 보여 준다.",
+          "lighting": "새 장면의 조명은 밝고 넓은 전면광과 고른 채움이 분홍·흰 전면을 밝히며 지붕 아래와 열린 문 안쪽, 건물 아래가 어둡다. 청록 바닥의 옅은 접촉 그림자가 건물과 돌을 받친다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F158C0019-I001",
+        "source_file_SHA256": "b863a8ddf8fcbd0a2e3b837603bb38657fd4b3b65b474f84f689489daaf319d8",
+        "source_url": "https://sketchfab.com/3d-models/none-98f29b8b78844de6853cd5828ca99b3c",
+        "visual_title": "다이너와 교차로가 놓인 도시 단면",
+        "after_visual": {
+          "description": "왼쪽 둥근 금속형 지붕과 청록/분홍 간판의 다이너, 뒤 높이가 다른 세 건물·오른쪽 교차로/보도와 앞 세 자동차·작은 수목/화단이 두꺼운 직사각 도시 받침에 함께 놓인다.",
+          "composition": "왼쪽 둥근 금속형 지붕과 청록/분홍 간판의 다이너, 뒤 높이가 다른 세 건물·오른쪽 교차로/보도와 앞 세 자동차·작은 수목/화단이 두꺼운 직사각 도시 받침에 함께 놓인다.",
+          "camera_or_change": null,
+          "materials": "단순화된 지붕·차체와 유리처럼 밝은 창·가로등·나무 관의 곡면/차폐, 서로 다른 높이의 건물과 두께 있는 길/보도 받침이 밝은 입체 무대를 만든다.",
+          "lighting": "청록 빈 여백과 밝은 창/다이너 띠·보도, 건물/차 아래 얕은 그림자가 나뉜다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞 자동차에서 다이너와 뒤 건물 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 단순화된 지붕·차체와 유리처럼 밝은 창·가로등·나무 관의 곡면/차폐, 서로 다른 높이의 건물과 두께 있는 길/보도 받침이 밝은 입체 무대를 만든다.",
+          "lighting": "새 장면의 조명은 청록 빈 여백과 밝은 창/다이너 띠·보도, 건물/차 아래 얕은 그림자가 나뉜다.",
+          "application": "높이가 다른 공간과 길의 관계를 장면 연결에 사용한다. 카메라가 동선을 따라가며 생활에서 진열 공간으로 시야를 넓힌다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F158C0024-I001",
+        "source_file_SHA256": "8cc928e8f495928f2bb0244a6f8723d3e7230879f46cfae5eb61f9a46b245ae3",
+        "source_url": "https://sketchfab.com/3d-models/none-c2556d996f00436cb7649f09c8108fc5",
+        "visual_title": "구름형 벽 앞의 네 작은 인물",
+        "after_visual": {
+          "description": "웃는 구름 윤곽의 얕은 벽/무대 앞 닫힌 바닥 판에 물방울형 인물 넷·의자/작은 TV/거울·화분/벽 선반과 오른쪽 작은 레일/별 가지가 연결된다. 인물의 앉기/서기/바닥 놀이 배치가 한 실내 구성을 이룬다.",
+          "composition": "웃는 구름 윤곽의 얕은 벽/무대 앞 닫힌 바닥 판에 물방울형 인물 넷·의자/작은 TV/거울·화분/벽 선반과 오른쪽 작은 레일/별 가지가 연결된다. 인물의 앉기/서기/바닥 놀이 배치가 한 실내 구성을 이룬다.",
+          "camera_or_change": null,
+          "materials": "의자/TV/바닥 판의 가시 측면과 화분/선반/옷걸이의 여러 깊이·가림이 읽힌다. 선반·덩굴과 옷걸이는 구름색 벽에 그림자를 드리우고 물방울 인물은 실내 물건과 같은 무대에 접한다.",
+          "lighting": "화분/선반/옷걸이가 구름형 벽에 드리운 그림자와 밝은 파랑/흰 여백이 얕은 실내 무대를 지지한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 앞 바닥에서 네 인물과 구름형 벽 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 의자/TV/바닥 판의 가시 측면과 화분/선반/옷걸이의 여러 깊이·가림이 읽힌다. 선반·덩굴과 옷걸이는 구름색 벽에 그림자를 드리우고 물방울 인물은 실내 물건과 같은 무대에 접한다.",
+          "lighting": "새 장면의 조명은 화분/선반/옷걸이가 구름형 벽에 드리운 그림자와 밝은 파랑/흰 여백이 얕은 실내 무대를 지지한다.",
+          "application": "서로 다른 요소가 한 공간에 모이는 관계를 보여 준다. 새 오브젝트들이 공통 프레임에 놓이며 여러 기업을 함께 바라보는 ETF 설명 장면으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F159A0009-I001",
+        "source_file_SHA256": "80fc325ea3ae9f61c865b9160ca2053b12363a40dd50b9a92416745dcb248a3a",
+        "source_url": "https://sketchfab.com/3d-models/none-7953cfe013d44ca48041fe9e403fbafc",
+        "visual_title": "처마와 데크를 가진 약초 가판대",
+        "after_visual": {
+          "description": "큰 처마와 지붕 간판 아래 긴 서랍 판매대·병 선반과 왼쪽 보조장이 있다. 넓은 앞 목재 데크와 중앙 계단, 양쪽 두 침엽수·작은 돌과 초록 지면이 한 외부 상점을 만든다. 나무 꼭대기·처마 끝·간판·계단·지면 외곽이 여백 안에 모두 들어온다.",
+          "composition": "큰 처마와 지붕 간판 아래 긴 서랍 판매대·병 선반과 왼쪽 보조장이 있다. 넓은 앞 목재 데크와 중앙 계단, 양쪽 두 침엽수·작은 돌과 초록 지면이 한 외부 상점을 만든다. 나무 꼭대기·처마 끝·간판·계단·지면 외곽이 여백 안에 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "두꺼운 목재 보·처마·데크 판, 서랍 전면, 각진 침엽수와 둥근 병·작은 돌이 간단한 입체감을 이룬다. 지붕의 글자판과 기둥 표식은 공간에 붙은 국소 표면이다.",
+          "lighting": "밝은 베이지 스튜디오 여백과 민트 지면 위에 붉은 목재·연분홍 서랍이 고르게 밝다. 처마 밑과 기둥 뒤, 데크 아래가 어둡고 나무 아래 그림자가 지면에 놓인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 계단에서 판매대와 높은 처마 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 두꺼운 목재 보·처마·데크 판, 서랍 전면, 각진 침엽수와 둥근 병·작은 돌이 간단한 입체감을 이룬다. 지붕의 글자판과 기둥 표식은 공간에 붙은 국소 표면이다.",
+          "lighting": "새 장면의 조명은 밝은 베이지 스튜디오 여백과 민트 지면 위에 붉은 목재·연분홍 서랍이 고르게 밝다. 처마 밑과 기둥 뒤, 데크 아래가 어둡고 나무 아래 그림자가 지면에 놓인다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F159A0010-I001",
+        "source_file_SHA256": "07dd2aeee8940fd1381b823f450cbac7f8179900710210affeb6c98a640248b1",
+        "source_url": "https://sketchfab.com/3d-models/none-352a32b3375f44c5b988891b14fe5376",
+        "visual_title": "보라 잎 아래 열린 나무 상점",
+        "after_visual": {
+          "description": "세 큰 보라 잎 덩어리와 긴 늘어진 잎이 굵은 갈라진 줄기 위를 덮는다. 줄기의 움푹 열린 판매 자리, 작은 병과 사각 거울 같은 면·서랍, 옆 의자·매달린 포션 간판과 넓은 뿌리/초록 지면이 하나의 나무 상점이다. 잎 꼭대기·뿌리와 지면 끝이 모두 여백 안이다.",
+          "composition": "세 큰 보라 잎 덩어리와 긴 늘어진 잎이 굵은 갈라진 줄기 위를 덮는다. 줄기의 움푹 열린 판매 자리, 작은 병과 사각 거울 같은 면·서랍, 옆 의자·매달린 포션 간판과 넓은 뿌리/초록 지면이 하나의 나무 상점이다. 잎 꼭대기·뿌리와 지면 끝이 모두 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "둥근 보라 잎 덩어리, 각진 작은 잎, 나뭇결과 줄기 골·뿌리, 두께 있는 간판과 의자의 입체가 보인다.  짙은 올리브 단색 여백에서 초록 받침과 큰 나무 외곽이 구분된다.",
+          "lighting": "넓은 부드러운 빛이 보라 덩어리 윗면과 따뜻한 줄기 앞면을 밝히고 잎 덩어리 아래와 줄기 홈은 어둡다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 넓은 뿌리에서 줄기 판매 자리 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 둥근 보라 잎 덩어리, 각진 작은 잎, 나뭇결과 줄기 골·뿌리, 두께 있는 간판과 의자의 입체가 보인다.  짙은 올리브 단색 여백에서 초록 받침과 큰 나무 외곽이 구분된다.",
+          "lighting": "새 장면의 조명은 넓은 부드러운 빛이 보라 덩어리 윗면과 따뜻한 줄기 앞면을 밝히고 잎 덩어리 아래와 줄기 홈은 어둡다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F159A0023-I001",
+        "source_file_SHA256": "1721152fbb3863435af6edc08fe884080e8d89c8af28b866209097495e186974",
+        "source_url": "https://sketchfab.com/3d-models/none-1b9957c12a044f48ace57fd7ba986470",
+        "visual_title": "큰 기와 처마의 약초 상점",
+        "after_visual": {
+          "description": "크게 휜 청회색 기와 처마 아래 붉은 약초 상점과 앞 긴 작업대·작은 약초/포대·항아리가 있다. 위층은 난간 식물 테라스와 붉은 작은 방·작은 지붕이 한층 높은 외곽을 만든다. 주요 처마 끝·상부 방·앞 작업대와 녹색/모래색 지면이 모두 들어온다.",
+          "composition": "크게 휜 청회색 기와 처마 아래 붉은 약초 상점과 앞 긴 작업대·작은 약초/포대·항아리가 있다. 위층은 난간 식물 테라스와 붉은 작은 방·작은 지붕이 한층 높은 외곽을 만든다. 주요 처마 끝·상부 방·앞 작업대와 녹색/모래색 지면이 모두 들어온다.",
+          "camera_or_change": null,
+          "materials": "두께 있는 기와와 붉은 난간/벽, 각진 약재 포대·목재 판매대·둥근 항아리·초록 식생이 입체감을 만든다. 처마의 큰 글자판과 세로 표식은 건물에 부착된 면이다.",
+          "lighting": "밝고 고른 스튜디오광이 회색 여백·청회 기와·붉은 전면을 구분하고 큰 처마 아래가 어둡다. 항아리와 앞 돌 아래 작은 그림자가 보인다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞 작업대에서 위층 식물 난간 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 두께 있는 기와와 붉은 난간/벽, 각진 약재 포대·목재 판매대·둥근 항아리·초록 식생이 입체감을 만든다. 처마의 큰 글자판과 세로 표식은 건물에 부착된 면이다.",
+          "lighting": "새 장면의 조명은 밝고 고른 스튜디오광이 회색 여백·청회 기와·붉은 전면을 구분하고 큰 처마 아래가 어둡다. 항아리와 앞 돌 아래 작은 그림자가 보인다.",
+          "application": "용기·선반·작업대의 관계를 새 추상 조제 장면으로 바꾼다. 서로 다른 뷰티 활동이 이어지는 구조를 시각적으로 보여 준다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F159A0024-I001",
+        "source_file_SHA256": "37ac0c7840d5fe75bdd397fd681c2bea956c5a01e596e9c9ddfe3621d3a9f268",
+        "source_url": "https://sketchfab.com/3d-models/none-3e762b1513384919a084f6403bbb0626",
+        "visual_title": "붉은 꽃과 조제 탁자의 나무 방",
+        "after_visual": {
+          "description": "굽은 나무/뿌리 테두리의 열린 방 안에 왼쪽 큰 붉은 꽃·화분, 창가 고양이와 뒤 탁자, 오른쪽 초록 선반·화분, 앞 책/병 조제 탁자와 의자가 있다. 테두리와 큰 꽃·선반·앞 바닥 끝의 주요 외곽이 모두 어두운 여백 안이다.",
+          "composition": "굽은 나무/뿌리 테두리의 열린 방 안에 왼쪽 큰 붉은 꽃·화분, 창가 고양이와 뒤 탁자, 오른쪽 초록 선반·화분, 앞 책/병 조제 탁자와 의자가 있다. 테두리와 큰 꽃·선반·앞 바닥 끝의 주요 외곽이 모두 어두운 여백 안이다.",
+          "camera_or_change": null,
+          "materials": "두꺼운 나무 테두리와 판 바닥, 도톰한 큰 꽃잎·초록 잎·둥근 화분·고양이와 탁자/책이 입체 깊이를 만든다. 창틀과 선반 앞뒤 겹침이 방의 층을 보여 준다.  테두리·바닥 아래와 바깥 단색 여백은 어둡다.",
+          "lighting": "창의 넓은 노랑빛이 고양이·붉은 꽃과 뒤 탁자를 밝히고 앞 조제 탁자는 따뜻한 빛을 받는다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 앞 조제 탁자에서 창가와 큰 꽃 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 두꺼운 나무 테두리와 판 바닥, 도톰한 큰 꽃잎·초록 잎·둥근 화분·고양이와 탁자/책이 입체 깊이를 만든다. 창틀과 선반 앞뒤 겹침이 방의 층을 보여 준다.  테두리·바닥 아래와 바깥 단색 여백은 어둡다.",
+          "lighting": "새 장면의 조명은 창의 넓은 노랑빛이 고양이·붉은 꽃과 뒤 탁자를 밝히고 앞 조제 탁자는 따뜻한 빛을 받는다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F160C0005-I001",
+        "source_file_SHA256": "7b3f6d600ada3e35586559a418b1d2d31e265a1d8af5de963e7aa4c82656ce7f",
+        "source_url": "https://sketchfab.com/3d-models/none-f98bbad839d94faea529d82fc5f28017",
+        "visual_title": "통나무 벽과 가구를 둔 생활방",
+        "after_visual": {
+          "description": "통나무 단면이 드러나는 두 벽과 판 바닥 전체에 큰 옷장과 위 상자, 뒤의 금속형 침대, 앞의 펼친 안락 침대와 쿠션, 옆 의자·서랍장·창을 조립한 작은 생활방이다. 줄무늬 러그가 앞 바닥 밖으로 내려오지만 그 끝까지 화면 안이다.",
+          "composition": "통나무 단면이 드러나는 두 벽과 판 바닥 전체에 큰 옷장과 위 상자, 뒤의 금속형 침대, 앞의 펼친 안락 침대와 쿠션, 옆 의자·서랍장·창을 조립한 작은 생활방이다. 줄무늬 러그가 앞 바닥 밖으로 내려오지만 그 끝까지 화면 안이다.",
+          "camera_or_change": null,
+          "materials": "따뜻한 주황 목재/로그 단면·침대의 얇은 굽은 프레임과 쿠션, 옷장 문·열린 상자/서랍장·겹친 의자의 여러 깊이와 그늘이 보인다. 벽 직물과 러그의 무늬가 각 직물 면에 붙어 보인다.",
+          "lighting": "주황·붉은 목재 면과 로그 끝의 밝은 단면, 옷장 문과 상자의 두께, 침대 프레임·쿠션의 겹침과 가구 아래 그림자가 깊이를 만든다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 펼친 침대에서 뒤 옷장과 창 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 따뜻한 주황 목재/로그 단면·침대의 얇은 굽은 프레임과 쿠션, 옷장 문·열린 상자/서랍장·겹친 의자의 여러 깊이와 그늘이 보인다. 벽 직물과 러그의 무늬가 각 직물 면에 붙어 보인다.",
+          "lighting": "새 장면의 조명은 주황·붉은 목재 면과 로그 끝의 밝은 단면, 옷장 문과 상자의 두께, 침대 프레임·쿠션의 겹침과 가구 아래 그림자가 깊이를 만든다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F160C0006-I001",
+        "source_file_SHA256": "d6c02b9682d0853b8926d32a20ac92a0dd35600e1504d5290d2fe8fbc1538ea2",
+        "source_url": "https://sketchfab.com/3d-models/none-9a535dd2178f4ceebbf5079dcce5268f",
+        "visual_title": "덩굴 가지와 등을 가진 작은 화단",
+        "after_visual": {
+          "description": "낮은 사각 노란 지면 위 굵은 흰색·금색 블록의 둥근 화단, 꽃·풀·앞 돌과 짧은 돌길을 두고 왼쪽 덩굴 기둥의 굽은 가지가 등을 매단다. 높은 가지 끝·등·지면 외곽까지 한 화면 안이다.",
+          "composition": "낮은 사각 노란 지면 위 굵은 흰색·금색 블록의 둥근 화단, 꽃·풀·앞 돌과 짧은 돌길을 두고 왼쪽 덩굴 기둥의 굽은 가지가 등을 매단다. 높은 가지 끝·등·지면 외곽까지 한 화면 안이다.",
+          "camera_or_change": null,
+          "materials": "블록의 두께·등의 앞/옆 면과 바위/풀의 높이, 기둥을 덮는 겹친 잎·가늘게 휘는 가지가 읽힌다.",
+          "lighting": "밝은 잎과 블록 상면, 잎 사이·등 아래 어두운 면이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 돌길에서 굽은 가지와 등 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 블록의 두께·등의 앞/옆 면과 바위/풀의 높이, 기둥을 덮는 겹친 잎·가늘게 휘는 가지가 읽힌다.",
+          "lighting": "새 장면의 조명은 밝은 잎과 블록 상면, 잎 사이·등 아래 어두운 면이 대비한다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F160C0011-I001",
+        "source_file_SHA256": "170214e7932f2b6637ff509c8c7102bc09d1865bf877494ccc0204d569a9c875",
+        "source_url": "https://sketchfab.com/3d-models/none-a093a513028a4d46a2d97ca2cd591f7e",
+        "visual_title": "벽돌벽 앞의 두 동물형 탐정",
+        "after_visual": {
+          "description": "낮은 원형 받침과 붉은 벽돌벽 앞에 큰 초록 동물형 탐정과 작은 푸른 동물형 탐정이 등진 방향으로 선다. 큰 탐정은 푸른 장치를 위로 들고 작은 탐정은 앞쪽 장치를 잡으며 외투·몸·발·벽과 받침 전체가 화면 안이다.",
+          "composition": "낮은 원형 받침과 붉은 벽돌벽 앞에 큰 초록 동물형 탐정과 작은 푸른 동물형 탐정이 등진 방향으로 선다. 큰 탐정은 푸른 장치를 위로 들고 작은 탐정은 앞쪽 장치를 잡으며 외투·몸·발·벽과 받침 전체가 화면 안이다.",
+          "camera_or_change": null,
+          "materials": "큰 인물의 둥근 코/머리와 갈색 긴 외투·작은 인물의 흰 상의/넥타이, 서로 겹치는 손/장치와 벽돌의 여러 두께가 읽힌다. 노란 빛은 장치의 둥근 끝/점에 부착된 국소 발광처럼 보인다.",
+          "lighting": "어두운 갈색 무대에서 노란 작은 발광부와 초록/푸른 몸, 금갈색 외투가 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 원형 받침에서 두 인물과 벽 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 큰 인물의 둥근 코/머리와 갈색 긴 외투·작은 인물의 흰 상의/넥타이, 서로 겹치는 손/장치와 벽돌의 여러 두께가 읽힌다. 노란 빛은 장치의 둥근 끝/점에 부착된 국소 발광처럼 보인다.",
+          "lighting": "새 장면의 조명은 어두운 갈색 무대에서 노란 작은 발광부와 초록/푸른 몸, 금갈색 외투가 대비한다.",
+          "application": "서로 다른 요소가 한 공간에 모이는 관계를 보여 준다. 새 오브젝트들이 공통 프레임에 놓이며 여러 기업을 함께 바라보는 ETF 설명 장면으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F161C0002-I001",
+        "source_file_SHA256": "a4224510cbeb9b365e00a6ecf5869d3a75a17e080a955e8f70a448faff9a384a",
+        "source_url": "https://sketchfab.com/3d-models/none-bb0854664d2c43e58fcb0c19d29ad8a6",
+        "visual_title": "별무늬 옷을 입은 흰 염소 인형",
+        "after_visual": {
+          "description": "앉은 흰 염소 인형의 둥근 갈색 뿔, 위와 옆으로 뻗은 귀, 검은 타원 눈과 큰 주둥이가 보인다. 별무늬 주황 옷 아래 앞발 두 개와 벌어진 두 발이 한 전신을 이루고, 미세한 털·봉합선과 바닥 그림자가 이어진다.",
+          "composition": "앉은 흰 염소 인형의 둥근 갈색 뿔, 위와 옆으로 뻗은 귀, 검은 타원 눈과 큰 주둥이가 보인다. 별무늬 주황 옷 아래 앞발 두 개와 벌어진 두 발이 한 전신을 이루고, 미세한 털·봉합선과 바닥 그림자가 이어진다.",
+          "camera_or_change": null,
+          "materials": "미세한 털처럼 보이는 표면, 봉합선과 둥근 옷·뿔의 부피가 어울린다.",
+          "lighting": "밝은 중립광과 몸·발 아래 부드러운 그림자가 흰 털의 외곽을 살린다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 둥근 뿔에서 별무늬 옷과 두 발 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 미세한 털처럼 보이는 표면, 봉합선과 둥근 옷·뿔의 부피가 어울린다.",
+          "lighting": "새 장면의 조명은 밝은 중립광과 몸·발 아래 부드러운 그림자가 흰 털의 외곽을 살린다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F161C0005-I001",
+        "source_file_SHA256": "391139dcf886aeba1efc62b5f4cf14c353386659f1a9ef4fef2be30aaa1acdbb",
+        "source_url": "https://sketchfab.com/3d-models/none-1e3f9c6542c44984aebc47831116015d",
+        "visual_title": "패치와 봉합선의 회색 곰 인형",
+        "after_visual": {
+          "description": "앉은 회색 곰 인형에 짧은 둥근 귀, 검은 단추 눈 하나와 두꺼운 X자 눈 하나, 초록 이마 패치와 배의 하트가 놓인다. 뺨·팔·발의 어두운 봉합선과 크게 벌어진 두 발이 패딩 같은 전신을 이룬다.",
+          "composition": "앉은 회색 곰 인형에 짧은 둥근 귀, 검은 단추 눈 하나와 두꺼운 X자 눈 하나, 초록 이마 패치와 배의 하트가 놓인다. 뺨·팔·발의 어두운 봉합선과 크게 벌어진 두 발이 패딩 같은 전신을 이룬다.",
+          "camera_or_change": null,
+          "materials": "패딩형 곡면, 거친 봉제 표면과 두꺼운 패치·봉합선이 겹친다.",
+          "lighting": "회색 무대의 부드러운 밝음과 접촉 그림자가 몸과 두 발의 깊이를 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 이마 패치에서 배의 하트와 두 발 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 패딩형 곡면, 거친 봉제 표면과 두꺼운 패치·봉합선이 겹친다.",
+          "lighting": "새 장면의 조명은 회색 무대의 부드러운 밝음과 접촉 그림자가 몸과 두 발의 깊이를 나눈다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F161C0010-I001",
+        "source_file_SHA256": "110906a5d15cdafe764570310788f0a363fc5f4948ca0807ae409bbc58b52475",
+        "source_url": "https://sketchfab.com/3d-models/none-275b8f975f854862b15c9e08e2270069",
+        "visual_title": "큰 타원 귀의 무지갯빛 인물",
+        "after_visual": {
+          "description": "앉은 금속형 인물에 매우 큰 열린 타원 귀 두 개, 넓고 어두운 아몬드형 눈, 작은 주둥이, 둥근 손가락과 짧고 넓은 두 발이 붙는다. 무지갯빛 띠와 하이라이트가 귀·머리·몸·사지의 곡면을 따라 흐르는 모습이다.",
+          "composition": "앉은 금속형 인물에 매우 큰 열린 타원 귀 두 개, 넓고 어두운 아몬드형 눈, 작은 주둥이, 둥근 손가락과 짧고 넓은 두 발이 붙는다. 무지갯빛 띠와 하이라이트가 귀·머리·몸·사지의 곡면을 따라 흐르는 모습이다.",
+          "camera_or_change": null,
+          "materials": "금속처럼 보이는 매끈한 곡면에 무지갯빛 띠와 짙은 눈의 반사 외관이 보인다.",
+          "lighting": "밝은 띠가 귀와 머리의 곡률을 따르고 회색 바닥의 그림자가 전신을 받친다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 두 큰 귀에서 몸의 곡면 반사 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 금속처럼 보이는 매끈한 곡면에 무지갯빛 띠와 짙은 눈의 반사 외관이 보인다.",
+          "lighting": "새 장면의 조명은 밝은 띠가 귀와 머리의 곡률을 따르고 회색 바닥의 그림자가 전신을 받친다.",
+          "application": "새로 디자인한 캐릭터의 비율과 표면 대비를 통해 첫 시선을 모은다. 짧은 등장 뒤 다음 생활·진열 장면으로 연결한다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F161C0017-I001",
+        "source_file_SHA256": "c89c100a9a0002de5c75ce6cc36e3c9c91fa26e8231b0b8f81249307dad75e30",
+        "source_url": "https://sketchfab.com/3d-models/none-5bfb2527404e4fc8b6e21e66defcfb52",
+        "visual_title": "중앙 원형 진열대의 꽃 가게",
+        "after_visual": {
+          "description": "짙은 판재 바닥과 색이 다른 두 벽의 꽃 가게에 왼쪽 큰 식물, 뒤 계산대와 가위·실·꽃을 둔 카운터, 벽 식물 선반과 매달린 화분 두 개가 놓인다. 중앙 흰 두 단 원형 진열대와 오른쪽 높은 화분·스툴이 같은 방 안에서 연결된다.",
+          "composition": "짙은 판재 바닥과 색이 다른 두 벽의 꽃 가게에 왼쪽 큰 식물, 뒤 계산대와 가위·실·꽃을 둔 카운터, 벽 식물 선반과 매달린 화분 두 개가 놓인다. 중앙 흰 두 단 원형 진열대와 오른쪽 높은 화분·스툴이 같은 방 안에서 연결된다.",
+          "camera_or_change": null,
+          "materials": "목재 판과 흰 진열대의 두께, 화분·잎·작업 도구의 겹침이 읽힌다.",
+          "lighting": "밝은 청록 여백과 가구·식물의 접촉 그림자가 방 안의 깊이를 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 중앙 꽃 진열대에서 뒤 작업 카운터 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 목재 판과 흰 진열대의 두께, 화분·잎·작업 도구의 겹침이 읽힌다.",
+          "lighting": "새 장면의 조명은 밝은 청록 여백과 가구·식물의 접촉 그림자가 방 안의 깊이를 나눈다.",
+          "application": "브랜드 없는 새 용기와 진열 공간으로 여러 선택지가 함께 놓이는 장면을 만든다. 중앙 진열대와 둘레 동선이 산업의 다양성을 보여 주는 구성으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0004-I001",
+        "source_file_SHA256": "3b6709f6f026ef8325404ac231747ae17e00903c71cf6e4ed82b8abbed90bcc6",
+        "source_url": "https://sketchfab.com/3d-models/none-fe2ea11d22f144bebd2d7f6d5300672b",
+        "visual_title": "돔 우리 안의 작은 생물 전시",
+        "after_visual": {
+          "description": "금속형 돔 우리와 꼭대기 장식 안에 붉은색·청록색 작은 생물, 굽은 가지와 잎이 층을 이룬다. 두꺼운 밝은 받침 위의 원형 초록 바닥이 우리와 내부 전시를 하나로 묶는다.",
+          "composition": "금속형 돔 우리와 꼭대기 장식 안에 붉은색·청록색 작은 생물, 굽은 가지와 잎이 층을 이룬다. 두꺼운 밝은 받침 위의 원형 초록 바닥이 우리와 내부 전시를 하나로 묶는다.",
+          "camera_or_change": null,
+          "materials": "굽은 우리살과 가지, 작은 생물·잎의 겹침과 둥근 받침 두께가 보인다.",
+          "lighting": "어두운 단색 여백에서 밝은 받침과 붉은색·청록색 부분이 분리된다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 둥근 받침에서 우리와 내부 가지 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 굽은 우리살과 가지, 작은 생물·잎의 겹침과 둥근 받침 두께가 보인다.",
+          "lighting": "새 장면의 조명은 어두운 단색 여백에서 밝은 받침과 붉은색·청록색 부분이 분리된다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0006-I001",
+        "source_file_SHA256": "2cf183f476cdc561d1002368b180b8d90fd0488b929dc51cc7c75e4897985949",
+        "source_url": "https://sketchfab.com/3d-models/none-4dd862e583f04efc9257bd7133713ea9",
+        "visual_title": "옥상 휴식과 과일 판매의 상점",
+        "after_visual": {
+          "description": "분홍 테두리 옥상에 탁자·의자와 빨강·파랑 파라솔이 있고, 아래 상점에는 틀을 두른 창과 차양 달린 문이 놓인다. 앞 과일 상자·도기·긴 벤치가 푸른 바닥 판 위에서 옥상 휴식 공간과 연결된다.",
+          "composition": "분홍 테두리 옥상에 탁자·의자와 빨강·파랑 파라솔이 있고, 아래 상점에는 틀을 두른 창과 차양 달린 문이 놓인다. 앞 과일 상자·도기·긴 벤치가 푸른 바닥 판 위에서 옥상 휴식 공간과 연결된다.",
+          "camera_or_change": null,
+          "materials": "각진 건물·과일 상자와 굽은 파라솔, 도기형 소품·의자 다리가 입체를 만든다.",
+          "lighting": "고른 밝은 빛과 옥상·판매대 아래 그림자가 위아래 동선을 보여 준다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 과일 판매대에서 옥상 파라솔 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 각진 건물·과일 상자와 굽은 파라솔, 도기형 소품·의자 다리가 입체를 만든다.",
+          "lighting": "새 장면의 조명은 고른 밝은 빛과 옥상·판매대 아래 그림자가 위아래 동선을 보여 준다.",
+          "application": "브랜드 없는 새 용기와 진열 공간으로 여러 선택지가 함께 놓이는 장면을 만든다. 중앙 진열대와 둘레 동선이 산업의 다양성을 보여 주는 구성으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0011-I001",
+        "source_file_SHA256": "27b7823070c0ed78f84ed8e9f63b97e8ec41fdafdc5c5a74a3e2734cd8ccc3a8",
+        "source_url": "https://sketchfab.com/3d-models/none-1128a3b32bf04a2e9dee94ded899dcaa",
+        "visual_title": "층진 지붕과 둥근 창의 작은 집",
+        "after_visual": {
+          "description": "넓게 층진 붉은 지붕과 굽은 줄 장식을 가진 분홍 집에 둥근 밝은 창, 문 안 선반과 작은 등불이 붙는다. 화초·호박·돌길이 두꺼운 사각 풀·흙 받침 위에서 집 앞 정원을 이룬다.",
+          "composition": "넓게 층진 붉은 지붕과 굽은 줄 장식을 가진 분홍 집에 둥근 밝은 창, 문 안 선반과 작은 등불이 붙는다. 화초·호박·돌길이 두꺼운 사각 풀·흙 받침 위에서 집 앞 정원을 이룬다.",
+          "camera_or_change": null,
+          "materials": "층진 지붕과 줄 장식, 둥근 창·도톰한 호박, 두꺼운 흙 단이 겹친다.",
+          "lighting": "분홍·붉은 면과 창·등의 노란 밝음, 처마 아래 음영이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 정원 길에서 넓은 지붕 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 층진 지붕과 줄 장식, 둥근 창·도톰한 호박, 두꺼운 흙 단이 겹친다.",
+          "lighting": "새 장면의 조명은 분홍·붉은 면과 창·등의 노란 밝음, 처마 아래 음영이 대비한다.",
+          "application": "높이가 다른 공간과 길의 관계를 장면 연결에 사용한다. 카메라가 동선을 따라가며 생활에서 진열 공간으로 시야를 넓힌다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0013-I001",
+        "source_file_SHA256": "a8ac2c8a3a9fc4c1ca911dd1f7691ee2bef8bc5cdadfcf71ebfd91ea90275319",
+        "source_url": "https://sketchfab.com/3d-models/none-bb8ae210511c4821a49dd318dde244e3",
+        "visual_title": "두 층과 식물을 잇는 찻집",
+        "after_visual": {
+          "description": "두 층 복셀 찻집에 지붕 보, 위층 난간과 큰 유리형 창, 아래 긴 공동 탁자와 스툴이 연결된다. 화분·덩굴과 벽에 붙은 세로 글자 간판이 두 층의 생활 공간을 채운다.",
+          "composition": "두 층 복셀 찻집에 지붕 보, 위층 난간과 큰 유리형 창, 아래 긴 공동 탁자와 스툴이 연결된다. 화분·덩굴과 벽에 붙은 세로 글자 간판이 두 층의 생활 공간을 채운다.",
+          "camera_or_change": null,
+          "materials": "각진 복셀 보·난간·가구와 화분의 층이 두 층의 깊이를 만든다.",
+          "lighting": "부드러운 밝음과 보·난간 아래 그늘이 위층과 아래층을 구분한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 아래 긴 탁자에서 위 난간과 창 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 각진 복셀 보·난간·가구와 화분의 층이 두 층의 깊이를 만든다.",
+          "lighting": "새 장면의 조명은 부드러운 밝음과 보·난간 아래 그늘이 위층과 아래층을 구분한다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0014-I001",
+        "source_file_SHA256": "12b2406765ed9159a2a6d8e17ecf7b14c50b4f10c150e8029c8e654391eaaa5a",
+        "source_url": "https://sketchfab.com/3d-models/none-ccf671ecee4c456ea87e767130776536",
+        "visual_title": "곡선 출입구와 꽃 카트의 상점",
+        "after_visual": {
+          "description": "높은 주황 박공 꽃 가게에 앞 차양과 발코니, 굽은 옆 지붕과 출입구가 붙는다. 꽃 모양 간판·화분·꽃 카트·높은 가로등이 두꺼운 흰 사각 받침 위에서 비대칭 상점 앞길을 만든다.",
+          "composition": "높은 주황 박공 꽃 가게에 앞 차양과 발코니, 굽은 옆 지붕과 출입구가 붙는다. 꽃 모양 간판·화분·꽃 카트·높은 가로등이 두꺼운 흰 사각 받침 위에서 비대칭 상점 앞길을 만든다.",
+          "camera_or_change": null,
+          "materials": "두꺼운 지붕 판과 둥근 옆 지붕, 꽃 카트·가로등의 윤곽이 보인다.",
+          "lighting": "밝은 베이지 여백과 주황 지붕, 앞 화분·카트의 접촉 그림자가 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "주요 끝이 화면 안에 남도록 앞 꽃 카트에서 굽은 옆 출입구 방향으로 짧게 전진하고, 닮은 곡면과 반사 외관을 잇는 재질 매치 컷으로 연결한다.",
+          "material": "새 장면의 표면은 두꺼운 지붕 판과 둥근 옆 지붕, 꽃 카트·가로등의 윤곽이 보인다.",
+          "lighting": "새 장면의 조명은 밝은 베이지 여백과 주황 지붕, 앞 화분·카트의 접촉 그림자가 대비한다.",
+          "application": "브랜드 없는 새 용기와 진열 공간으로 여러 선택지가 함께 놓이는 장면을 만든다. 중앙 진열대와 둘레 동선이 산업의 다양성을 보여 주는 구성으로 이어진다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_forward",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0016-I001",
+        "source_file_SHA256": "3c06538bc612f9f9923bb8101be84720ec723e80d923696a1227f6fd5702429f",
+        "source_url": "https://sketchfab.com/3d-models/none-848fe82761904e7c925f033af4b2d891",
+        "visual_title": "세 탁자와 긴 벤치의 카페",
+        "after_visual": {
+          "description": "두 벽과 두꺼운 목재 바닥의 카페에 대리석처럼 보이는 카운터·선반, 왼쪽 문과 오른쪽 큰 아치 창이 놓인다. 걸린 전구, 세 작은 탁자와 의자, 앞의 긴 쿠션 벤치가 하나의 완결된 방을 이룬다.",
+          "composition": "두 벽과 두꺼운 목재 바닥의 카페에 대리석처럼 보이는 카운터·선반, 왼쪽 문과 오른쪽 큰 아치 창이 놓인다. 걸린 전구, 세 작은 탁자와 의자, 앞의 긴 쿠션 벤치가 하나의 완결된 방을 이룬다.",
+          "camera_or_change": null,
+          "materials": "목재 바닥·쿠션 벤치와 대리석형 카운터, 타일형 벽·둥근 도기의 부피가 보인다.",
+          "lighting": "밝은 문·아치 창·전구와 선반·탁자 아래 그늘이 작은 방을 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 윤곽을 담은 짧은 고정 샷에서 앞 긴 벤치에서 카운터와 아치 창 방향의 배치를 강조하고, 유사한 색·표면을 가진 새 장면으로 매치 컷한다.",
+          "material": "새 장면의 표면은 목재 바닥·쿠션 벤치와 대리석형 카운터, 타일형 벽·둥근 도기의 부피가 보인다.",
+          "lighting": "새 장면의 조명은 밝은 문·아치 창·전구와 선반·탁자 아래 그늘이 작은 방을 나눈다.",
+          "application": "20·30대에게 익숙한 생활 공간의 도입이나 전환에 사용한다. 공간의 색과 가구 간 간격을 새 장면의 리듬으로 삼는다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "static_material_match_cut",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0021-I001",
+        "source_file_SHA256": "6a040e32504cb6ce0fa53947bb118aeefe185583749af9d63a358f0f4b5cbfd2",
+        "source_url": "https://sketchfab.com/3d-models/none-149411e57eac4c38b27f979ad3057673",
+        "visual_title": "덩굴과 현관 데크의 식물 가게",
+        "after_visual": {
+          "description": "작은 초록 목재형 가게의 두 지붕 높이를 덩굴이 감싼다. 밝은 단순 창, 긴 현관 지붕과 기둥·낮은 난간, 둥근 탁자·의자와 식물이 앞 데크에 모인다.",
+          "composition": "작은 초록 목재형 가게의 두 지붕 높이를 덩굴이 감싼다. 밝은 단순 창, 긴 현관 지붕과 기둥·낮은 난간, 둥근 탁자·의자와 식물이 앞 데크에 모인다.",
+          "camera_or_change": null,
+          "materials": "목재 판·기둥·난간의 두께와 지붕 면, 덩굴·잎의 겹침이 보인다.",
+          "lighting": "따뜻한 현관 밝음과 창의 밝은 면, 덩굴·지붕 아래 그늘이 대비한다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하며 앞 데크와 둥근 탁자에서 위 덩굴 방향으로 짧게 사선 이동하고, 132 BPM 박자에 맞춘 컷으로 전환한다.",
+          "material": "새 장면의 표면은 목재 판·기둥·난간의 두께와 지붕 면, 덩굴·잎의 겹침이 보인다.",
+          "lighting": "새 장면의 조명은 따뜻한 현관 밝음과 창의 밝은 면, 덩굴·지붕 아래 그늘이 대비한다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_diagonal",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
+      },
+      {
+        "reference_id": "F163A0023-I001",
+        "source_file_SHA256": "e085cc7659f8b30a27b013518300821caf5807618ce1dfb9fa56a4a946209eba",
+        "source_url": "https://sketchfab.com/3d-models/none-e0b3ff7fc27f4d4e8c21844c68cd9a68",
+        "visual_title": "줄무늬 지붕과 웃는 꽃의 정원 가게",
+        "after_visual": {
+          "description": "줄무늬의 굽은 지붕과 굴뚝을 가진 작은 가게가 높은 정원 단 위에 선다. 계단·웃는 얼굴 꽃·울타리·화분 탁자·작은 연못형 면·길과 앞 표지판이 초록 정원 받침 안에서 연결된다.",
+          "composition": "줄무늬의 굽은 지붕과 굴뚝을 가진 작은 가게가 높은 정원 단 위에 선다. 계단·웃는 얼굴 꽃·울타리·화분 탁자·작은 연못형 면·길과 앞 표지판이 초록 정원 받침 안에서 연결된다.",
+          "camera_or_change": null,
+          "materials": "지붕·계단·울타리의 두께와 꽃 얼굴의 채색면, 돌·화분의 겹침이 보인다.",
+          "lighting": "밝고 평평한 채색과 푸른 단색 여백, 단과 꽃 사이 음영이 형태를 나눈다."
+        },
+        "scope": "individual_observed_whole",
+        "new_motion_proposal_is_original_motion": false,
+        "new_video_direction": {
+          "camera": "전체 외곽을 유지하는 짧은 궤도 이동으로 앞 꽃과 길에서 둥근 줄무늬 지붕 방향의 공간 관계를 드러내고, 박자에 맞춰 다음 장면으로 전환한다.",
+          "material": "새 장면의 표면은 지붕·계단·울타리의 두께와 꽃 얼굴의 채색면, 돌·화분의 겹침이 보인다.",
+          "lighting": "새 장면의 조명은 밝고 평평한 채색과 푸른 단색 여백, 단과 꽃 사이 음영이 형태를 나눈다.",
+          "application": "꽃·잎과 생활 공간의 층을 색채 전환에 사용한다. 새로 디자인한 식물과 받침이 다음 장면을 감싸는 무대를 만든다.",
+          "duration_seconds": [
+            5,
+            8
+          ],
+          "execution_status": "proposal_unexecuted",
+          "source_motion_observed": false,
+          "generation_input_eligible": false,
+          "camera_mode": "short_orbit",
+          "audio_direction": "132 BPM instrumental BGM; no narration",
+          "transition_direction": "Beat-timed cuts and original material/shape match cuts; proposed, not observed source motion."
+        },
+        "generation_input_eligible": false
       }
     ]
   }
