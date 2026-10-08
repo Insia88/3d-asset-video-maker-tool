@@ -4,7 +4,7 @@
     "finfluencer-beauty-etf": {
       "project": "finfluencer-beauty-etf",
       "snapshot_date": "2026-10-05",
-      "exported_at_utc": "2026-10-08T06:00:30+00:00",
+      "exported_at_utc": "2026-10-08T09:10:57+00:00",
       "references": "data/projects/finfluencer-beauty-etf/references/index.json",
       "audit": "data/projects/finfluencer-beauty-etf/audit.json",
       "reference_format": "sharded_jsonl",
@@ -12,7 +12,7 @@
       "reference_index_selection": {
         "method": "linked_from_current_integrated_index",
         "driver": "36_3D_고유참고_통합색인.md",
-        "driver_sha256": "13af3e942e09cb7bc8eed85a04a05d0616c4f72c6c7aa3794e033655f0292a48",
+        "driver_sha256": "5d47a1dd7e271fe4766e9e30a3efdebc35e70591612b2ba5afe74fb8225ff590",
         "selected_documents": [
           "reference-index/3d_references_00001_00250.md",
           "reference-index/3d_references_00251_00500.md",
@@ -59,16 +59,17 @@
           "reference-index/3d_references_10501_10750.md",
           "reference-index/3d_references_10751_11000.md",
           "reference-index/3d_references_11001_11250.md",
-          "reference-index/3d_references_11251_11388.md"
+          "reference-index/3d_references_11251_11500.md",
+          "reference-index/3d_references_11501_11502.md"
         ],
-        "unlinked_markdown_omitted": 25
+        "unlinked_markdown_omitted": 26
       },
       "managed_file_cleanup": {
         "mode": "report_only_no_deletion",
         "stale_files": [
           {
-            "path": "docs/research/2026-10-05/reference-index/3d_references_11251_11291.md",
-            "previous_sha256": "90fbd2ef7fd4c825f8050805dc5f87678112a512492dccaba0128ba9cfe1837d",
+            "path": "docs/research/2026-10-05/reference-index/3d_references_11251_11388.md",
+            "previous_sha256": "5cd311e582f7130618df8721cf66ea211a3212681e8e410a6386061517f838bc",
             "status": "unchanged_since_previous_snapshot",
             "removal_candidate": true
           }
@@ -78,11 +79,11 @@
         "unsafe_previous_paths_ignored": 0
       },
       "research_directory": "docs/research/2026-10-05",
-      "research_document_count": 567,
-      "eligible_observed_units": 11388,
+      "research_document_count": 570,
+      "eligible_observed_units": 11502,
       "input_sha256": {
-        "shot_audit.json": "28df19128ad64218f9c4a3fbd1efc9dd746e94d52e9418df39efecb205c7b8bf",
-        "shots_master.jsonl": "45d22c83ba831e9c99ed0553e92a4134669590c49806d717fd8bc16b88f32f3e"
+        "shot_audit.json": "26a9138561a9abe2953a34f35f8f029c31a59f9af4cb1e2b9ea3bfef102f3560",
+        "shots_master.jsonl": "d9b9982ede0bf244ec4190ea540220fb83339b52f82e8833e4f6300e23b48a8a"
       },
       "source_documents": [
         {
@@ -1535,7 +1536,7 @@
         },
         {
           "name": "36_3D_고유참고_통합색인.md",
-          "sha256": "13af3e942e09cb7bc8eed85a04a05d0616c4f72c6c7aa3794e033655f0292a48"
+          "sha256": "5d47a1dd7e271fe4766e9e30a3efdebc35e70591612b2ba5afe74fb8225ff590"
         },
         {
           "name": "36_StockCake_비누_거품_부드러운제품조형_직접분석.md",
@@ -1986,6 +1987,14 @@
           "sha256": "8ca3cc043cb9bc21ec96991f9bd7d9b8cb05b553b615791ee6ee15dc0fc4a0a2"
         },
         {
+          "name": "540_F58_새_원작_장면분석.md",
+          "sha256": "086a03486cc4c2958fb966e301e3483b2f2283b20a3d28c2e60b12800905f971"
+        },
+        {
+          "name": "541_F58_뷰티_3D_집계.md",
+          "sha256": "bc094d22f4c4515a393d0cdb38c5f0ffefe628325974134a83c3f475f419e15f"
+        },
+        {
           "name": "54_IconScout_귀여운캐릭터_의인화소품_직접분석.md",
           "sha256": "a32c14cd43d7fa13ffc1b69718442c6b940c159b08d4cdfd3072045d130ba510"
         },
@@ -2350,19 +2359,23 @@
           "sha256": "b01e7b6221dbac753c378a7e7034e83185c9f93eca10d3ed921667fde93f6dcf"
         },
         {
-          "name": "reference-index/3d_references_11251_11388.md",
-          "sha256": "94e6eabbbf0c93b30e804c00841c112cc46dd1e54ad8884d1bb564410579f0b2"
+          "name": "reference-index/3d_references_11251_11500.md",
+          "sha256": "399601c41c2124bdeb1b6f96e02a9147fae73bfe2048745ecabc3beeb956661b"
+        },
+        {
+          "name": "reference-index/3d_references_11501_11502.md",
+          "sha256": "113f3a6436c7671714f2788c4966e873c1f598d773cca7c94feef32c88a5c4a6"
         }
       ],
       "files": [
         {
           "path": "data/projects/finfluencer-beauty-etf/audit.json",
-          "sha256": "a08cd77beb6cb841070e2b4eb68419cd41c7e4e8604b255cfcf74eff5a0bed63",
-          "bytes": 1244150
+          "sha256": "030f39c58f316b22c9cae6ea6c29b3c84831f8f6e972e9aabe553e1e990b153c",
+          "bytes": 1254877
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/index.json",
-          "sha256": "f1f40257763e8bbffca7a74a764af258cfa4c566fdcc1a948501fc2e1834dab5",
+          "sha256": "ecb5849b7ef217e56127f5ac5c5b6afe46bd2816295b740b05f1b0e32ed6c155",
           "bytes": 2415
         },
         {
@@ -2422,8 +2435,8 @@
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00012.jsonl",
-          "sha256": "aef6919c70fc8a97a7a7639893de0878c0c283124cd9185938da9f2f8ffa530b",
-          "bytes": 1661942
+          "sha256": "1007f0682f42f57aa99aa8015483898547326b1ac88c37b3f24b44f444f57637",
+          "bytes": 2191692
         },
         {
           "path": "docs/research/2026-10-05/00_포맷분석_종합.md",
@@ -4237,8 +4250,8 @@
         },
         {
           "path": "docs/research/2026-10-05/36_3D_고유참고_통합색인.md",
-          "sha256": "56ee08081a14e5bb99fdca2a0a195e57977bb105a441b5216921b3b9f5ed2637",
-          "bytes": 7820
+          "sha256": "ed919325f638eb7c12a2c22b8d03f606cd3b3e7e96ca5219f5fc1dd53c32db89",
+          "bytes": 7956
         },
         {
           "path": "docs/research/2026-10-05/36_StockCake_비누_거품_부드러운제품조형_직접분석.md",
@@ -4801,6 +4814,16 @@
           "bytes": 20016
         },
         {
+          "path": "docs/research/2026-10-05/540_F58_새_원작_장면분석.md",
+          "sha256": "7f8746a133e3723597abc04c41d047ab23404d0d56eb626eb1360f6e701b81b3",
+          "bytes": 38335
+        },
+        {
+          "path": "docs/research/2026-10-05/541_F58_뷰티_3D_집계.md",
+          "sha256": "2f6ac473185d456c19157550b03ae765b530a5c03f34ff19c2c7e3098452d181",
+          "bytes": 1393
+        },
+        {
           "path": "docs/research/2026-10-05/54_IconScout_귀여운캐릭터_의인화소품_직접분석.md",
           "sha256": "870a321e14d238be1d96edb6373eedf90d358c57e662dcf6f49aaa54ef658773",
           "bytes": 42453
@@ -5251,9 +5274,14 @@
           "bytes": 117292
         },
         {
-          "path": "docs/research/2026-10-05/reference-index/3d_references_11251_11388.md",
-          "sha256": "5cd311e582f7130618df8721cf66ea211a3212681e8e410a6386061517f838bc",
-          "bytes": 58508
+          "path": "docs/research/2026-10-05/reference-index/3d_references_11251_11500.md",
+          "sha256": "d022ffee9f9ac6b1886fb35ab0724461a1cd0ed4a05cc530f39eb092c1cfa475",
+          "bytes": 113286
+        },
+        {
+          "path": "docs/research/2026-10-05/reference-index/3d_references_11501_11502.md",
+          "sha256": "b3c9f258d32fe561d3ae193fda3e5496aac69f7883e29a60d3276d3404f2a1f4",
+          "bytes": 1793
         },
         {
           "path": "docs/research/2026-10-05/shot-counting.md",
