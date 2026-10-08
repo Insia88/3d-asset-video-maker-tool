@@ -7,6 +7,8 @@ PLUS KR·슈카친구들 포맷 분석, 25,000개 참고 수집, Higgsfield 에�
 ## 바로 보기
 
 - [진행 현황과 실제 완료 수](data/projects/finfluencer-beauty-etf/audit.json)
+- [F57 집계 · 고유 3D 참고 11,388개](docs/research/2026-10-05/539_F57_뷰티_3D_집계.md)
+- [F57 새 원작 장면 관찰](docs/research/2026-10-05/538_F57_새_원작_장면분석.md)
 - [F56 집계 · 고유 3D 참고 11,291개](docs/research/2026-10-05/537_F56_뷰티_3D_집계.md)
 - [F56 새 원작 장면 관찰](docs/research/2026-10-05/536_F56_새_원작_장면분석.md)
 - [F55 집계 · 고유 3D 참고 11,169개](docs/research/2026-10-05/535_F55_뷰티_3D_집계.md)
