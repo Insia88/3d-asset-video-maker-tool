@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "project": "finfluencer-beauty-etf",
   "reference_format": "sharded_jsonl",
-  "total_references": 11169,
+  "total_references": 11291,
   "shard_count": 12,
   "max_rows_per_shard": 1000,
   "max_bytes_per_shard": 16777216,
@@ -75,9 +75,9 @@
     },
     {
       "path": "part-00012.jsonl",
-      "rows": 169,
-      "sha256": "4fa9d698dbb196a5ff898a366f741a96e8e4cb75a524a2990ee6dbde28cff295",
-      "bytes": 783012
+      "rows": 291,
+      "sha256": "cc6106e5244753242b79658d68ba460d6b0a88bf62b9e11cb41c2bdff0f3f0fc",
+      "bytes": 1269288
     }
   ]
 }
