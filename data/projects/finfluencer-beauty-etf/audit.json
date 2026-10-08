@@ -3,11 +3,11 @@
   "project": "finfluencer-beauty-etf",
   "snapshot_date": "2026-10-05",
   "target": 25000,
-  "eligible_observed_units": 11745,
-  "exported_references": 11745,
-  "remaining": 13255,
+  "eligible_observed_units": 11737,
+  "exported_references": 11737,
+  "remaining": 13263,
   "classes": {
-    "core3D": 11745
+    "core3D": 11737
   },
   "project_completion_claim": false,
   "reference_format": "sharded_jsonl",
@@ -16,7 +16,7 @@
   "reference_index_selection": {
     "method": "linked_from_current_integrated_index",
     "driver": "36_3D_고유참고_통합색인.md",
-    "driver_sha256": "a682de2c3e71c134703ace05983684fe3ac0facc3298202ce84185f9c9ee2f48",
+    "driver_sha256": "d435c93dee3524557187693d56ecebdb7da4283918b35b70b41d120882307840",
     "selected_documents": [
       "reference-index/3d_references_00001_00250.md",
       "reference-index/3d_references_00251_00500.md",
@@ -64,7 +64,7 @@
       "reference-index/3d_references_10751_11000.md",
       "reference-index/3d_references_11001_11250.md",
       "reference-index/3d_references_11251_11500.md",
-      "reference-index/3d_references_11501_11745.md"
+      "reference-index/3d_references_11501_11737.md"
     ],
     "unlinked_markdown_omitted": 27
   },
@@ -303,18 +303,16 @@
     "references_external_reviewF47A2.jsonl": 2,
     "references_external_reviewF47C4.jsonl": 4,
     "references_external_reviewF481.jsonl": 4,
-    "references_external_reviewF485.jsonl": 1,
     "references_external_reviewF489.jsonl": 3,
     "references_external_reviewF48C4.jsonl": 4,
-    "references_external_reviewF493.jsonl": 1,
     "references_external_reviewF495.jsonl": 1,
-    "references_external_reviewF497.jsonl": 4,
+    "references_external_reviewF497.jsonl": 1,
     "references_external_reviewF499.jsonl": 1,
     "references_external_reviewF49A2.jsonl": 2,
     "references_external_reviewF49B2.jsonl": 2,
     "references_external_reviewF505.jsonl": 3,
     "references_external_reviewF507.jsonl": 8,
-    "references_external_reviewF509.jsonl": 4,
+    "references_external_reviewF509.jsonl": 1,
     "references_external_reviewF50A5.jsonl": 5,
     "references_external_reviewF50C1.jsonl": 1,
     "references_external_reviewF511.jsonl": 1,
@@ -645,8 +643,8 @@
   "original_media_redistributed": false,
   "selection_rule": "Completed master count_eligible=true and canonical_class=core3D only. Near variants, hybrid, 2D and unobserved metadata are excluded.",
   "input_sha256": {
-    "shot_audit.json": "a9cb37e01bfbefe25fa886baa94ad24716c154c6c7a8c30e055fef5da999b71e",
-    "shots_master.jsonl": "c467dfe3830ebad9412b08e470c0f25274c24480a24124a5d4be7523f6652783"
+    "shot_audit.json": "b4a8b9dbd6e40a78cf3a22406545d9ca0ac953d9a88e7c474da9ee0baace6ee9",
+    "shots_master.jsonl": "d8a3183aecadfee1bfeb13d8ed502bde1b422d20f09c5c22fc3904ef313bbbd2"
   },
   "privacy_redactions": {
     "local_artifacts_replaced": 265,
@@ -655,13 +653,13 @@
   "source_audit": {
     "updated_local": "2026-10-08T20:16:39.601492+09:00",
     "target": 25000,
-    "eligible_observed_units": 11745,
-    "remaining": 13255,
+    "eligible_observed_units": 11737,
+    "remaining": 13263,
     "raw_rows": 37168,
-    "excluded_rows": 25423,
-    "observed_sources": 9380,
+    "excluded_rows": 25431,
+    "observed_sources": 9378,
     "classes": {
-      "core3D": 11745
+      "core3D": 11737
     },
     "historical_broad_observed_units": 13722,
     "historical_broad_classes": {
@@ -5812,12 +5810,10 @@
       {
         "file": "references_external_reviewF485.jsonl",
         "raw_rows": 5,
-        "eligible": 1,
-        "excluded": 4,
-        "sources": 1,
-        "classes": {
-          "core3D": 1
-        }
+        "eligible": 0,
+        "excluded": 5,
+        "sources": 0,
+        "classes": {}
       },
       {
         "file": "references_external_reviewF489.jsonl",
@@ -5832,12 +5828,10 @@
       {
         "file": "references_external_reviewF493.jsonl",
         "raw_rows": 9,
-        "eligible": 1,
-        "excluded": 8,
-        "sources": 1,
-        "classes": {
-          "core3D": 1
-        }
+        "eligible": 0,
+        "excluded": 9,
+        "sources": 0,
+        "classes": {}
       },
       {
         "file": "references_external_reviewF495.jsonl",
@@ -5852,11 +5846,11 @@
       {
         "file": "references_external_reviewF497.jsonl",
         "raw_rows": 15,
-        "eligible": 4,
-        "excluded": 11,
+        "eligible": 1,
+        "excluded": 14,
         "sources": 1,
         "classes": {
-          "core3D": 4
+          "core3D": 1
         }
       },
       {
@@ -5900,11 +5894,11 @@
       {
         "file": "references_external_reviewF509.jsonl",
         "raw_rows": 11,
-        "eligible": 4,
-        "excluded": 7,
+        "eligible": 1,
+        "excluded": 10,
         "sources": 1,
         "classes": {
-          "core3D": 4
+          "core3D": 1
         }
       },
       {
@@ -6716,6 +6710,46 @@
       {
         "excluded": "SCV4782484-I001",
         "kept": "SCM4782484-I001"
+      },
+      {
+        "excluded": "F485A0001-I001",
+        "kept": "F441A0001-I002",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F493A0001-I001",
+        "kept": "F433A0001-I008",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F497A0001-I001",
+        "kept": "F409A0001-I015",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F497A0001-I002",
+        "kept": "F409A0001-I001",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F497A0001-I007",
+        "kept": "F409A0001-I006",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F509A0001-I001",
+        "kept": "F457A0001-I004",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F509A0001-I004",
+        "kept": "F457A0001-I005",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
+      },
+      {
+        "excluded": "F509A0001-I010",
+        "kept": "F457A0001-I009",
+        "basis": "Independent full-file SHA, size, and direct bytes equal"
       }
     ],
     "data_quality_notes": [],
@@ -6726,9 +6760,50 @@
       "round": "F60",
       "new_raw": 362,
       "new_selected": 120,
-      "historical_objects_unchanged": 36806,
-      "selected_preserved": 11625,
-      "staging_review_SHA256": "47c9d707883cef67f70464d97f8f34a873876efc2e6ea99dc574793a548ece10"
+      "historical_objects_unchanged": 36798,
+      "selected_preserved": 11617,
+      "staging_review_SHA256": "47c9d707883cef67f70464d97f8f34a873876efc2e6ea99dc574793a548ece10",
+      "historical_rows_preserved_as_v1": 36806,
+      "historical_classification_rows_corrected": 8
+    },
+    "exact_file_correction": {
+      "selection_delta": -8,
+      "merge_map": [
+        {
+          "excluded": "F485A0001-I001",
+          "kept": "F441A0001-I002"
+        },
+        {
+          "excluded": "F493A0001-I001",
+          "kept": "F433A0001-I008"
+        },
+        {
+          "excluded": "F497A0001-I001",
+          "kept": "F409A0001-I015"
+        },
+        {
+          "excluded": "F497A0001-I002",
+          "kept": "F409A0001-I001"
+        },
+        {
+          "excluded": "F497A0001-I007",
+          "kept": "F409A0001-I006"
+        },
+        {
+          "excluded": "F509A0001-I001",
+          "kept": "F457A0001-I004"
+        },
+        {
+          "excluded": "F509A0001-I004",
+          "kept": "F457A0001-I005"
+        },
+        {
+          "excluded": "F509A0001-I010",
+          "kept": "F457A0001-I009"
+        }
+      ],
+      "F60_new_selected_preserved": 120,
+      "prior_original_evidence_preserved": true
     }
   },
   "descriptor_scope_corrections": {
@@ -20207,5 +20282,47 @@
     "new_selected": 120,
     "historical_records_preserved": 11625,
     "basis": "Source whole descriptions retained after independent review and root sameSHA evidence reuse."
+  },
+  "exact_file_correction": {
+    "prior_recorded_total": 11745,
+    "corrected_total": 11737,
+    "selection_delta": -8,
+    "merge_map": [
+      {
+        "excluded": "F485A0001-I001",
+        "kept": "F441A0001-I002"
+      },
+      {
+        "excluded": "F493A0001-I001",
+        "kept": "F433A0001-I008"
+      },
+      {
+        "excluded": "F497A0001-I001",
+        "kept": "F409A0001-I015"
+      },
+      {
+        "excluded": "F497A0001-I002",
+        "kept": "F409A0001-I001"
+      },
+      {
+        "excluded": "F497A0001-I007",
+        "kept": "F409A0001-I006"
+      },
+      {
+        "excluded": "F509A0001-I001",
+        "kept": "F457A0001-I004"
+      },
+      {
+        "excluded": "F509A0001-I004",
+        "kept": "F457A0001-I005"
+      },
+      {
+        "excluded": "F509A0001-I010",
+        "kept": "F457A0001-I009"
+      }
+    ],
+    "F59_corrected_total": 11617,
+    "F60_new_selected_preserved": 120,
+    "scope": "Eight independently verified exact-file duplicates; no new observation or full historical visual reassessment."
   }
 }
