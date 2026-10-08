@@ -4,7 +4,7 @@
     "finfluencer-beauty-etf": {
       "project": "finfluencer-beauty-etf",
       "snapshot_date": "2026-10-05",
-      "exported_at_utc": "2026-10-08T09:10:57+00:00",
+      "exported_at_utc": "2026-10-08T11:20:26+00:00",
       "references": "data/projects/finfluencer-beauty-etf/references/index.json",
       "audit": "data/projects/finfluencer-beauty-etf/audit.json",
       "reference_format": "sharded_jsonl",
@@ -12,7 +12,7 @@
       "reference_index_selection": {
         "method": "linked_from_current_integrated_index",
         "driver": "36_3D_고유참고_통합색인.md",
-        "driver_sha256": "5d47a1dd7e271fe4766e9e30a3efdebc35e70591612b2ba5afe74fb8225ff590",
+        "driver_sha256": "ac95c329a95abf18c0db3983cc37bd400788209adf2b98936203de71e82a2772",
         "selected_documents": [
           "reference-index/3d_references_00001_00250.md",
           "reference-index/3d_references_00251_00500.md",
@@ -60,16 +60,16 @@
           "reference-index/3d_references_10751_11000.md",
           "reference-index/3d_references_11001_11250.md",
           "reference-index/3d_references_11251_11500.md",
-          "reference-index/3d_references_11501_11502.md"
+          "reference-index/3d_references_11501_11625.md"
         ],
-        "unlinked_markdown_omitted": 26
+        "unlinked_markdown_omitted": 27
       },
       "managed_file_cleanup": {
         "mode": "report_only_no_deletion",
         "stale_files": [
           {
-            "path": "docs/research/2026-10-05/reference-index/3d_references_11251_11388.md",
-            "previous_sha256": "5cd311e582f7130618df8721cf66ea211a3212681e8e410a6386061517f838bc",
+            "path": "docs/research/2026-10-05/reference-index/3d_references_11501_11502.md",
+            "previous_sha256": "b3c9f258d32fe561d3ae193fda3e5496aac69f7883e29a60d3276d3404f2a1f4",
             "status": "unchanged_since_previous_snapshot",
             "removal_candidate": true
           }
@@ -79,11 +79,11 @@
         "unsafe_previous_paths_ignored": 0
       },
       "research_directory": "docs/research/2026-10-05",
-      "research_document_count": 570,
-      "eligible_observed_units": 11502,
+      "research_document_count": 572,
+      "eligible_observed_units": 11625,
       "input_sha256": {
-        "shot_audit.json": "26a9138561a9abe2953a34f35f8f029c31a59f9af4cb1e2b9ea3bfef102f3560",
-        "shots_master.jsonl": "d9b9982ede0bf244ec4190ea540220fb83339b52f82e8833e4f6300e23b48a8a"
+        "shot_audit.json": "e1df14e96c799506ebc9697330d255eee7895473e92f33b339e955726c5052e7",
+        "shots_master.jsonl": "cbfa5a4a79908a8248dfb598e29aff0f77d5d7ab72f3f04865a68a637eaf7464"
       },
       "source_documents": [
         {
@@ -1536,7 +1536,7 @@
         },
         {
           "name": "36_3D_고유참고_통합색인.md",
-          "sha256": "5d47a1dd7e271fe4766e9e30a3efdebc35e70591612b2ba5afe74fb8225ff590"
+          "sha256": "ac95c329a95abf18c0db3983cc37bd400788209adf2b98936203de71e82a2772"
         },
         {
           "name": "36_StockCake_비누_거품_부드러운제품조형_직접분석.md",
@@ -1995,6 +1995,14 @@
           "sha256": "bc094d22f4c4515a393d0cdb38c5f0ffefe628325974134a83c3f475f419e15f"
         },
         {
+          "name": "542_F59_새_원작_장면분석.md",
+          "sha256": "ed4065e0cead55ae1252fb9bd5b272ebbf9e2e9a488b8c0a1834b3e66c27dfb7"
+        },
+        {
+          "name": "543_F59_뷰티_3D_집계.md",
+          "sha256": "0f704b2eff8c45a7ee20662e3a681483e2c6968150243342eb5bf46807d42185"
+        },
+        {
           "name": "54_IconScout_귀여운캐릭터_의인화소품_직접분석.md",
           "sha256": "a32c14cd43d7fa13ffc1b69718442c6b940c159b08d4cdfd3072045d130ba510"
         },
@@ -2363,19 +2371,19 @@
           "sha256": "399601c41c2124bdeb1b6f96e02a9147fae73bfe2048745ecabc3beeb956661b"
         },
         {
-          "name": "reference-index/3d_references_11501_11502.md",
-          "sha256": "113f3a6436c7671714f2788c4966e873c1f598d773cca7c94feef32c88a5c4a6"
+          "name": "reference-index/3d_references_11501_11625.md",
+          "sha256": "c1743666e646e2e06a59177aa68cc38c3fd82c26ad17400110cbd880abb575aa"
         }
       ],
       "files": [
         {
           "path": "data/projects/finfluencer-beauty-etf/audit.json",
-          "sha256": "030f39c58f316b22c9cae6ea6c29b3c84831f8f6e972e9aabe553e1e990b153c",
-          "bytes": 1254877
+          "sha256": "84328ec7b67c92a059379e9dbb7cde830077c0c34d09792295800145ec78f94f",
+          "bytes": 1270241
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/index.json",
-          "sha256": "ecb5849b7ef217e56127f5ac5c5b6afe46bd2816295b740b05f1b0e32ed6c155",
+          "sha256": "af263eea1b7061bc78d0f9fe87283df3a3079e638382fc46715e57027a33fd3b",
           "bytes": 2415
         },
         {
@@ -2435,8 +2443,8 @@
         },
         {
           "path": "data/projects/finfluencer-beauty-etf/references/part-00012.jsonl",
-          "sha256": "1007f0682f42f57aa99aa8015483898547326b1ac88c37b3f24b44f444f57637",
-          "bytes": 2191692
+          "sha256": "b3ea34203cfbffa0f106b2334c9155c73bbb9647bcc1bce0f177c961fe62b4f7",
+          "bytes": 2721373
         },
         {
           "path": "docs/research/2026-10-05/00_포맷분석_종합.md",
@@ -4250,7 +4258,7 @@
         },
         {
           "path": "docs/research/2026-10-05/36_3D_고유참고_통합색인.md",
-          "sha256": "ed919325f638eb7c12a2c22b8d03f606cd3b3e7e96ca5219f5fc1dd53c32db89",
+          "sha256": "d02793e6eb0d52cf2d88d78f8a721bccf47f42ffec2c1156ca182fd3514e243d",
           "bytes": 7956
         },
         {
@@ -4824,6 +4832,16 @@
           "bytes": 1393
         },
         {
+          "path": "docs/research/2026-10-05/542_F59_새_원작_장면분석.md",
+          "sha256": "77667f8475e4fa3c910e6fc6a47755a1d9c9a845df48a717c6325712f74268bf",
+          "bytes": 38435
+        },
+        {
+          "path": "docs/research/2026-10-05/543_F59_뷰티_3D_집계.md",
+          "sha256": "2a7dbb4830cbd24cb912b9678336665cf6f4300a87930ada69036e2568280713",
+          "bytes": 1393
+        },
+        {
           "path": "docs/research/2026-10-05/54_IconScout_귀여운캐릭터_의인화소품_직접분석.md",
           "sha256": "870a321e14d238be1d96edb6373eedf90d358c57e662dcf6f49aaa54ef658773",
           "bytes": 42453
@@ -5279,9 +5297,9 @@
           "bytes": 113286
         },
         {
-          "path": "docs/research/2026-10-05/reference-index/3d_references_11501_11502.md",
-          "sha256": "b3c9f258d32fe561d3ae193fda3e5496aac69f7883e29a60d3276d3404f2a1f4",
-          "bytes": 1793
+          "path": "docs/research/2026-10-05/reference-index/3d_references_11501_11625.md",
+          "sha256": "00a19d4dc74200d368b8daff3b3587d4e6cdafa83bbd32e0fad4801a05fc500c",
+          "bytes": 57900
         },
         {
           "path": "docs/research/2026-10-05/shot-counting.md",
